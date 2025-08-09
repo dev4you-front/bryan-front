@@ -5,11 +5,20 @@
   --foreground: #171717;
 }
 
+/* Tailwind v4 inline theme (supported in this template). If your setup warns, it's safe to ignore. */
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+
+  /* Brand colors ported from Symfony Tailwind config */
+  --color-brandblack: #18181b;
+  --color-brandgray: #232323;
+  --color-brandwhite: #ffffff;
+  --color-brandviolet: #9c27b0;
+  --color-brandlavande: #9575cd;
+  --color-brandgraylight: #e5e7eb;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -22,5 +31,54 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Poppins, var(--font-geist-sans), Arial, Helvetica, sans-serif;
 }
+
+/* Utility helpers to mimic a few used classes if Tailwind purge misses them */
+.hamburger { width: 2rem; height: 2rem; position: relative; display: flex; flex-direction: column; justify-content: center; cursor: pointer; z-index: 60; }
+.hamburger-bar { height: 3px; width: 100%; background: var(--color-brandviolet); border-radius: 2px; transition: all 0.3s cubic-bezier(.4,2,.3,1); position: absolute; left: 0; }
+.hamburger-bar:nth-child(1) { top: 6px; }
+.hamburger-bar:nth-child(2) { top: 14px; }
+.hamburger-bar:nth-child(3) { top: 22px; }
+.hamburger.active .hamburger-bar:nth-child(1) { transform: translateY(8px) rotate(45deg); }
+.hamburger.active .hamburger-bar:nth-child(2) { opacity: 0; }
+.hamburger.active .hamburger-bar:nth-child(3) { transform: translateY(-8px) rotate(-45deg); }
+.mobile-menu-overlay { background: rgba(35,35,35,0.96); backdrop-filter: blur(2px); }
+
+/* Carousel buttons and bullets to mimic Twig styles */
+.custom-swiper-arrow {
+  top: 50% !important;
+  width: 64px !important;
+  height: 64px !important;
+  background: transparent !important;
+  color: var(--color-brandviolet) !important;
+  border-radius: 9999px !important;
+  box-shadow: none !important;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  font-size: 3.2rem !important;
+  font-weight: 900;
+  z-index: 10;
+  border: none !important;
+  transition: color 0.2s;
+}
+.custom-swiper-arrow::after {
+  content: "";
+  display: block;
+  width: 0.75em;
+  height: 0.75em;
+  border-top: 0.2em solid #232323;
+  border-right: 0.2em solid #232323;
+  transform: rotate(45deg);
+}
+.swiper-button-prev.custom-swiper-arrow::after { transform: rotate(-135deg); }
+.swiper-button-next.custom-swiper-arrow::after { transform: rotate(45deg); }
+.custom-swiper-pagination { display: flex !important; justify-content: center; gap: 18px; margin-top: 2rem; }
+.custom-swiper-pagination .swiper-pagination-bullet {
+  width: 16px; height: 16px; background: #e5e7eb; opacity: 1; border-radius: 9999px; border: 2px solid var(--color-brandviolet);
+}
+.custom-swiper-pagination .swiper-pagination-bullet-active { background: var(--color-brandviolet); border: 2px solid var(--color-brandviolet); }
+
+/* Footer look parity: thin separator, darker backdrop */
+footer .separator { border-top: 1px solid rgba(156, 39, 176, 0.2); }
