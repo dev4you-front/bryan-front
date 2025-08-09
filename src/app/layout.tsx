@@ -22,6 +22,11 @@ const poppins = Poppins({
 export const metadata: Metadata = {
   title: "Bryan Littré",
   description: "Physiothérapeute • Formateur • Conférencier",
+  icons: {
+    icon: "/next.svg",
+    shortcut: "/next.svg",
+    apple: "/next.svg",
+  },
 };
 
 // Header replaced by SiteHeader component
