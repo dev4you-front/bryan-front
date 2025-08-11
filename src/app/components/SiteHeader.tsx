@@ -13,6 +13,7 @@ function classNames(...classes: Array<string | false | null | undefined>): strin
 export default function SiteHeader(): JSX.Element {
   const pathname = usePathname();
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const dropdownRef = useRef<HTMLDivElement>(null);
   const timeoutRef = useRef<NodeJS.Timeout | null>(null);
 
@@ -45,6 +46,25 @@ export default function SiteHeader(): JSX.Element {
     }, 200);
   };
 
+  const toggleMobileMenu = (): void => {
+    setIsMobileMenuOpen(!isMobileMenuOpen);
+    setIsDropdownOpen(false);
+  };
+
+  const toggleDropdownMobile = (): void => {
+    setIsDropdownOpen(!isDropdownOpen);
+  };
+
+  const closeMobileMenu = (): void => {
+    setIsMobileMenuOpen(false);
+    setIsDropdownOpen(false);
+  };
+
+  useEffect(() => {
+    // Fermer le menu mobile lors du changement de page
+    closeMobileMenu();
+  }, [pathname]);
+
   useEffect(() => {
     return () => {
       if (timeoutRef.current) {
@@ -53,11 +73,13 @@ export default function SiteHeader(): JSX.Element {
     };
   }, []);
 
-  const navLink = (href: string, label: string, isActive?: boolean): JSX.Element => (
+  const navLink = (href: string, label: string, isActive?: boolean, isMobile: boolean = false): JSX.Element => (
     <Link
       href={href}
+      onClick={closeMobileMenu}
       className={classNames(
         "hover:text-brandviolet transition uppercase font-semibold",
+        isMobile && "block w-full text-center py-3 border-b border-gray-600",
         (isActive || pathname === href) && "underline decoration-brandviolet decoration-3 font-bold"
       )}
     >
@@ -66,14 +88,38 @@ export default function SiteHeader(): JSX.Element {
   );
 
   const isFormationActive = formationLinks.some(link => pathname === link.href);
+
   return (
     <header className="bg-brandgray text-brandwhite pt-8">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <nav className="flex justify-between items-center mb-8 relative">
-          <Link href="/" className="text-2xl font-bold tracking-widest text-brandviolet uppercase">
+          {/* Logo - masqué sur mobile */}
+          <Link href="/" className="hidden md:block text-2xl font-bold tracking-widest text-brandviolet uppercase">
             Bryan Littré
           </Link>
-          <div className="flex space-x-8 justify-center flex-1">
+          
+          {/* Menu hamburger - visible uniquement sur mobile */}
+          <button
+            onClick={toggleMobileMenu}
+            className="md:hidden flex flex-col justify-center items-center w-8 h-8 space-y-1"
+            aria-label="Menu"
+          >
+            <span className={classNames(
+              "block w-6 h-0.5 bg-brandwhite transition-transform duration-300",
+              isMobileMenuOpen && "rotate-45 translate-y-2"
+            )}></span>
+            <span className={classNames(
+              "block w-6 h-0.5 bg-brandwhite transition-opacity duration-300",
+              isMobileMenuOpen && "opacity-0"
+            )}></span>
+            <span className={classNames(
+              "block w-6 h-0.5 bg-brandwhite transition-transform duration-300",
+              isMobileMenuOpen && "-rotate-45 -translate-y-2"
+            )}></span>
+          </button>
+
+          {/* Navigation desktop */}
+          <div className="hidden md:flex space-x-8 justify-center flex-1">
             {navLink("/", "ACCUEIL")}
             
             <div 
@@ -123,7 +169,61 @@ export default function SiteHeader(): JSX.Element {
             
             {navLink("/blog", "BLOG")}
               </div>
+
+          {/* Spacer pour centrer le hamburger sur mobile */}
+          <div className="md:hidden w-8"></div>
         </nav>
+
+        {/* Menu mobile */}
+        {isMobileMenuOpen && (
+          <div className="md:hidden absolute left-0 right-0 bg-brandgray border-t border-gray-600 z-40">
+            <div className="px-4 py-2">
+              {navLink("/", "ACCUEIL", false, true)}
+              
+              {/* Menu formations mobile */}
+              <div className="border-b border-gray-600">
+                <button
+                  onClick={toggleDropdownMobile}
+                  className={classNames(
+                    "block w-full text-center py-3 hover:text-brandviolet transition uppercase font-semibold",
+                    isFormationActive && "underline decoration-brandviolet decoration-3 font-bold"
+                  )}
+                >
+                  MES FORMATIONS
+                  <svg 
+                    className="inline-block ml-1 w-3 h-3 transition-transform duration-200" 
+                    style={{ transform: isDropdownOpen ? 'rotate(180deg)' : 'rotate(0deg)' }}
+                    fill="currentColor" 
+                    viewBox="0 0 20 20"
+                  >
+                    <path fillRule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clipRule="evenodd" />
+                  </svg>
+                </button>
+                
+                {isDropdownOpen && (
+                  <div className="bg-gray-700 rounded-lg mx-2 mb-2">
+                    {formationLinks.map((link) => (
+                      <Link
+                        key={link.href}
+                        href={link.href}
+                        onClick={closeMobileMenu}
+                        className={classNames(
+                          "block px-4 py-3 text-sm hover:bg-brandviolet hover:text-white transition uppercase font-semibold text-center",
+                          pathname === link.href && "bg-brandviolet text-white"
+                        )}
+                      >
+                        {link.label}
+                      </Link>
+                    ))}
+                  </div>
+                )}
+              </div>
+              
+              {navLink("/blog", "BLOG", false, true)}
+            </div>
+          </div>
+        )}
+
         <h1 className="text-4xl md:text-5xl font-extrabold mb-4 tracking-tight uppercase text-brandwhite drop-shadow-lg">
           {headerTitle}
         </h1>
