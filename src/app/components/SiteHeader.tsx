@@ -73,7 +73,7 @@ export default function SiteHeader(): JSX.Element {
           <Link href="/" className="text-2xl font-bold tracking-widest text-brandviolet uppercase">
             Bryan Littré
           </Link>
-          <div className="flex space-x-8">
+          <div className="flex space-x-8 justify-center flex-1">
             {navLink("/", "ACCUEIL")}
             
             <div 
