@@ -75,7 +75,7 @@ export default function RootLayout({ children }: Readonly<RootLayoutProps>): JSX
         <main className="pb-12 mt-[-1px]">
           {children}
         </main>
-        <div className="bg-[#E0E0E0]">
+        <div className="bg-[#E0E0E0] mb-[-1px]">
           <svg viewBox="0 0 1440 100" xmlns="http://www.w3.org/2000/svg" className="w-full block">
             <defs>
               <linearGradient id="sw-gradient-1" x1="0" x2="0" y1="1" y2="0">
@@ -85,9 +85,7 @@ export default function RootLayout({ children }: Readonly<RootLayoutProps>): JSX
             <path fill="url(#sw-gradient-1)" d="M0,40 C320,20 420,80 640,60 C860,40 960,20 1180,40 C1400,60 1400,40 1440,40 L1440,100 L0,100 Z"></path>
           </svg>
         </div>
-        <div className="mt-[-1px]">
-          <Footer />
-        </div>
+        <Footer />
       </body>
     </html>
   );
