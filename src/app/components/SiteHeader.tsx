@@ -67,7 +67,11 @@ export default function SiteHeader(): JSX.Element {
           </button>
           {/* Desktop menu */}
           <div className="hidden md:flex space-x-6">
-            {navLinks.map((link) => navLink(link.href, link.label))}
+            {navLinks.map((link) => (
+              <div key={link.href}>
+                {navLink(link.href, link.label)}
+              </div>
+            ))}
           </div>
           {/* Mobile overlay */}
           {open && (
@@ -76,7 +80,11 @@ export default function SiteHeader(): JSX.Element {
               onClick={(): void => setOpen(false)}
             >
               <nav className="space-y-8 text-center">
-                {navLinks.map((link) => navLink(link.href, link.label))}
+                {navLinks.map((link) => (
+                  <div key={link.href}>
+                    {navLink(link.href, link.label)}
+                  </div>
+                ))}
               </nav>
             </div>
           )}
