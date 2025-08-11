@@ -54,7 +54,7 @@ function Footer(): JSX.Element {
             <p className="text-brandgraylight">Restez informé de nos dernières formations</p>
           </div>
         </div>
-        <div className="mt-4 pt-4 border-t border-brandviolet/20 text-center text-brandgraylight">
+        <div className="mt-8 pt-8 border-t border-brandviolet/20 text-center text-brandgraylight">
           © {new Date().getFullYear()} Bryan Littré. Tous droits réservés. Site réalisé par {" "}
           <a href="https://dev4you.fr" className="text-brandviolet hover:text-pink-400 transition">DEV4YOU</a>
         </div>
