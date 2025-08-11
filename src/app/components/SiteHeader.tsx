@@ -49,7 +49,11 @@ export default function SiteHeader(): JSX.Element {
           <Link href="/" className="text-2xl font-bold tracking-widest text-brandviolet uppercase">
             Bryan Littré
           </Link>
-              navLink(link.href!, link.label)
+          <div className="flex space-x-8">
+            {navLinks.map((link) => (
+              <div key={link.href}>
+                {navLink(link.href!, link.label)}
+              </div>
             ))}
           </div>
         </nav>
