@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { useMemo, useState, useRef } from "react";
+import { useMemo } from "react";
 import { usePathname } from "next/navigation";
 import { NavLinkConfig } from "@/types";
 
@@ -12,8 +12,6 @@ function classNames(...classes: Array<string | false | null | undefined>): strin
 
 export default function SiteHeader(): JSX.Element {
   const pathname = usePathname();
-  const [isFormationsDropdownOpen, setIsFormationsDropdownOpen] = useState(false);
-  const closeDropdownTimeoutRef = useRef<NodeJS.Timeout | null>(null);
 
   const headerTitle = useMemo((): string => {
     if (pathname === "/") return "ACCUEIL";
@@ -26,35 +24,11 @@ export default function SiteHeader(): JSX.Element {
 
   const navLinks: NavLinkConfig[] = [
     { href: "/", label: "ACCUEIL" },
-    { 
-      label: "MES FORMATIONS",
-      subLinks: [
-        { href: "/formations-sport", label: "COMMENT PRENDRE EN CHARGE LES LÉSIONS DES ISCHIO-JAMBIERS" },
-        { href: "/formations-neuro", label: "TROUBLES NEUROLOGIQUES" },
-        { href: "/formations-vasculaire", label: "TROUBLES VASCULAIRES" },
-      ]
-    },
+    { href: "/formations-sport", label: "FORMATIONS SPORT" },
+    { href: "/formations-neuro", label: "FORMATIONS NEURO" },
+    { href: "/formations-vasculaire", label: "FORMATIONS VASCULAIRE" },
     { href: "/blog", label: "BLOG" },
   ];
-
-  const isFormationActive = pathname.startsWith("/formations-");
-
-  const handleMouseEnterDropdown = (): void => {
-    // Annuler le timeout de fermeture s'il existe
-    if (closeDropdownTimeoutRef.current) {
-      clearTimeout(closeDropdownTimeoutRef.current);
-      closeDropdownTimeoutRef.current = null;
-    }
-    setIsFormationsDropdownOpen(true);
-  };
-
-  const handleMouseLeaveDropdown = (): void => {
-    // Programmer la fermeture avec un délai
-    closeDropdownTimeoutRef.current = setTimeout(() => {
-      setIsFormationsDropdownOpen(false);
-      closeDropdownTimeoutRef.current = null;
-    }, 200); // 200ms de délai
-  };
 
   const navLink = (href: string, label: string, isActive?: boolean): JSX.Element => (
     <Link
@@ -75,47 +49,7 @@ export default function SiteHeader(): JSX.Element {
           <Link href="/" className="text-2xl font-bold tracking-widest text-brandviolet uppercase">
             Bryan Littré
           </Link>
-          
-          {/* Navigation menu - centered */}
-          <div className="absolute left-1/2 transform -translate-x-1/2 flex space-x-8">
-            {navLinks.map((link) => (
-              <div key={link.href || link.label}>
-                {link.subLinks ? (
-                  <div 
-                    className="relative"
-                    onMouseEnter={handleMouseEnterDropdown}
-                    onMouseLeave={handleMouseLeaveDropdown}
-                  >
-                    <button
-                      className={classNames(
-                        "hover:text-brandviolet transition uppercase font-semibold flex items-center gap-1",
-                        isFormationActive && "underline decoration-brandviolet decoration-3 font-bold"
-                      )}
-                    >
-                      {link.label}
-                      <span className="ml-1">▼</span>
-                    </button>
-                    {isFormationsDropdownOpen && (
-                      <div className="absolute top-full left-0 mt-2 w-130 bg-white rounded-lg shadow-lg border border-gray-200 py-2 z-50">
-                        {link.subLinks.map((subLink) => (
-                          <Link
-                            key={subLink.href}
-                            href={subLink.href!}
-                            className={classNames(
-                              "block px-4 py-3 text-sm text-gray-700 hover:bg-gray-100 hover:text-brandviolet transition uppercase font-semibold",
-                              pathname === subLink.href && "bg-gray-100 text-brandviolet font-bold"
-                            )}
-                          >
-                            {subLink.label}
-                          </Link>
-                        ))}
-                      </div>
-                    )}
-                  </div>
-                ) : (
-                  navLink(link.href!, link.label)
-                )}
-              </div>
+              navLink(link.href!, link.label)
             ))}
           </div>
         </nav>
