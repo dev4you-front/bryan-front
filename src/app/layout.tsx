@@ -70,9 +70,9 @@ interface RootLayoutProps {
 export default function RootLayout({ children }: Readonly<RootLayoutProps>): JSX.Element {
   return (
     <html lang="fr">
-      <body className={`${geistSans.variable} ${geistMono.variable} ${poppins.variable} antialiased bg-[#E0E0E0]`}>
+      <body className={`${geistSans.variable} ${geistMono.variable} ${poppins.variable} antialiased bg-[#E0E0E0] flex flex-col min-h-screen`}>
         <SiteHeader />
-        <main className="pb-12 mt-[-1px]">
+        <main className="pb-12 mt-[-1px] flex-grow bg-[#E0E0E0]">
           {children}
         </main>
         <div className="bg-[#E0E0E0] mb-[-1px]">
