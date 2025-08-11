@@ -28,6 +28,12 @@ export interface NavLinkProps {
   onClick?: () => void;
 }
 
+export interface NavLinkConfig {
+  href?: string;
+  label: string;
+  subLinks?: NavLinkConfig[];
+}
+
 export interface SiteMetadata {
   title: string;
   description: string;

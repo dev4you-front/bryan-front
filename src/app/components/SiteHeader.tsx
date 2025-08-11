@@ -3,25 +3,22 @@
 import Link from "next/link";
 import { useMemo, useState } from "react";
 import { usePathname } from "next/navigation";
+import { NavLinkConfig } from "@/types";
 
 function classNames(...classes: Array<string | false | null | undefined>): string {
   return classes.filter(Boolean).join(" ");
 }
 
-interface NavLinkConfig {
-  href: string;
-  label: string;
-}
 
 export default function SiteHeader(): JSX.Element {
   const pathname = usePathname();
   const [open, setOpen] = useState(false);
+  const [isFormationsDropdownOpen, setIsFormationsDropdownOpen] = useState(false);
+  const [isMobileFormationsDropdownOpen, setIsMobileFormationsDropdownOpen] = useState(false);
 
   const headerTitle = useMemo((): string => {
     if (pathname === "/") return "ACCUEIL";
-    if (pathname.startsWith("/formations-sport")) return "ISCHIO ET SPRINT";
-    if (pathname.startsWith("/formations-neuro")) return "TROUBLES NEUROLOGIQUES";
-    if (pathname.startsWith("/formations-vasculaire")) return "TROUBLES VASCULAIRES";
+    if (pathname.startsWith("/formations-")) return "MES FORMATIONS";
     if (pathname.startsWith("/blog")) return "BLOG";
     return "";
   }, [pathname]);
@@ -30,17 +27,25 @@ export default function SiteHeader(): JSX.Element {
 
   const navLinks: NavLinkConfig[] = [
     { href: "/", label: "ACCUEIL" },
-    { href: "/formations-sport", label: "ISCHIO ET SPRINT" },
-    { href: "/formations-neuro", label: "TROUBLES NEUROLOGIQUES" },
-    { href: "/formations-vasculaire", label: "TROUBLES VASCULAIRES" },
+    { 
+      label: "MES FORMATIONS",
+      subLinks: [
+        { href: "/formations-sport", label: "ISCHIO ET SPRINT" },
+        { href: "/formations-neuro", label: "TROUBLES NEUROLOGIQUES" },
+        { href: "/formations-vasculaire", label: "TROUBLES VASCULAIRES" },
+      ]
+    },
+    { href: "/blog", label: "BLOG" },
   ];
 
-  const navLink = (href: string, label: string): JSX.Element => (
+  const isFormationActive = pathname.startsWith("/formations-");
+
+  const navLink = (href: string, label: string, isActive?: boolean): JSX.Element => (
     <Link
       href={href}
       className={classNames(
         "hover:text-brandviolet transition uppercase font-semibold",
-        pathname === href && "underline decoration-brandviolet decoration-3 font-bold"
+        (isActive || pathname === href) && "underline decoration-brandviolet decoration-3 font-bold"
       )}
       onClick={(): void => setOpen(false)}
     >
@@ -68,8 +73,52 @@ export default function SiteHeader(): JSX.Element {
           {/* Desktop menu */}
           <div className="hidden md:flex space-x-6">
             {navLinks.map((link) => (
-              <div key={link.href}>
-                {navLink(link.href, link.label)}
+              <div key={link.href || link.label}>
+                {link.subLinks ? (
+                  <div 
+                    className="relative"
+                    onMouseEnter={(): void => setIsFormationsDropdownOpen(true)}
+                    onMouseLeave={(): void => setIsFormationsDropdownOpen(false)}
+                  >
+                    <button
+                      className={classNames(
+                        "hover:text-brandviolet transition uppercase font-semibold flex items-center gap-1",
+                        isFormationActive && "underline decoration-brandviolet decoration-3 font-bold"
+                      )}
+                    >
+                      {link.label}
+                      <svg 
+                        className={classNames(
+                          "w-4 h-4 transition-transform",
+                          isFormationsDropdownOpen && "rotate-180"
+                        )} 
+                        fill="none" 
+                        stroke="currentColor" 
+                        viewBox="0 0 24 24"
+                      >
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                      </svg>
+                    </button>
+                    {isFormationsDropdownOpen && (
+                      <div className="absolute top-full left-0 mt-2 w-64 bg-white rounded-lg shadow-lg border border-gray-200 py-2 z-50">
+                        {link.subLinks.map((subLink) => (
+                          <Link
+                            key={subLink.href}
+                            href={subLink.href!}
+                            className={classNames(
+                              "block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-brandviolet transition uppercase font-semibold",
+                              pathname === subLink.href && "bg-gray-100 text-brandviolet font-bold"
+                            )}
+                          >
+                            {subLink.label}
+                          </Link>
+                        ))}
+                      </div>
+                    )}
+                  </div>
+                ) : (
+                  navLink(link.href!, link.label)
+                )}
               </div>
             ))}
           </div>
@@ -81,8 +130,31 @@ export default function SiteHeader(): JSX.Element {
             >
               <nav className="space-y-8 text-center">
                 {navLinks.map((link) => (
-                  <div key={link.href}>
-                    {navLink(link.href, link.label)}
+                  <div key={link.href || link.label}>
+                    {link.subLinks ? (
+                      <div>
+                        <button
+                          className={classNames(
+                            "hover:text-brandviolet transition uppercase font-semibold",
+                            isFormationActive && "underline decoration-brandviolet decoration-3 font-bold"
+                          )}
+                          onClick={(): void => setIsMobileFormationsDropdownOpen(!isMobileFormationsDropdownOpen)}
+                        >
+                          {link.label}
+                        </button>
+                        {isMobileFormationsDropdownOpen && (
+                          <div className="mt-4 space-y-4">
+                            {link.subLinks.map((subLink) => (
+                              <div key={subLink.href}>
+                                {navLink(subLink.href!, subLink.label)}
+                              </div>
+                            ))}
+                          </div>
+                        )}
+                      </div>
+                    ) : (
+                      navLink(link.href!, link.label)
+                    )}
                   </div>
                 ))}
               </nav>
