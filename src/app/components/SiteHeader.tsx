@@ -78,7 +78,7 @@ export default function SiteHeader(): JSX.Element {
                       <span className="ml-1">▼</span>
                     </button>
                     {isFormationsDropdownOpen && (
-                      <div className="absolute top-full left-0 mt-2 w-80 bg-white rounded-lg shadow-lg border border-gray-200 py-2 z-50">
+                      <div className="absolute top-full left-0 mt-2 w-100 bg-white rounded-lg shadow-lg border border-gray-200 py-2 z-50">
                         {link.subLinks.map((subLink) => (
                           <Link
                             key={subLink.href}
