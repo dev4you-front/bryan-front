@@ -26,7 +26,7 @@ export default function SiteHeader(): JSX.Element {
   const waveColor: string = pathname === "/" ? "#ffffff" : "#E0E0E0";
 
   const formationLinks = [
-    { href: "/formations-sport", label: "COMMENT PRENDRE EN CHARGE LES LESIONS DES ISCHIO-JAMBIERS ?" },
+    { href: "/formations-sport", label: "COMMENT PRENDRE EN CHARGE LES LÉSIONS DES ISCHIO-JAMBIERS ?" },
     { href: "/formations-neuro", label: "TROUBLES NEUROLOGIQUES EN MSK : Réussir son bilan pour réussir son traitement" },
     { href: "/formations-vasculaire", label: "TROUBLES VASCULAIRES EN MSK : Trier pour savoir quand traiter" },
   ];
