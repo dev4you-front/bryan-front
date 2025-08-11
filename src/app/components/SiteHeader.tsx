@@ -26,7 +26,7 @@ export default function SiteHeader(): JSX.Element {
   const waveColor: string = pathname === "/" ? "#ffffff" : "#E0E0E0";
 
   const formationLinks = [
-    { href: "/formations-sport", label: "FORMATIONS SPORT" },
+    { href: "/formations-sport", label: "COMMENT PRENDRE EN CHARGE LES LESIONS DES ISCHIO-JAMBIERS ?" },
     { href: "/formations-neuro", label: "FORMATIONS NEURO" },
     { href: "/formations-vasculaire", label: "FORMATIONS VASCULAIRE" },
   ];
@@ -101,7 +101,7 @@ export default function SiteHeader(): JSX.Element {
               
               {isDropdownOpen && (
                 <div 
-                  className="absolute top-full left-0 w-64 bg-white rounded-lg shadow-lg border border-gray-200 py-2 z-50"
+                  className="absolute top-full left-0 w-96 bg-white rounded-lg shadow-lg border border-gray-200 py-2 z-50"
                   onMouseEnter={handleMouseEnterDropdown}
                   onMouseLeave={handleMouseLeaveDropdown}
                 >
@@ -110,7 +110,7 @@ export default function SiteHeader(): JSX.Element {
                       key={link.href}
                       href={link.href}
                       className={classNames(
-                        "block px-4 py-2 text-gray-800 hover:bg-brandviolet hover:text-white transition uppercase font-semibold text-sm",
+                        "block px-4 py-2 text-gray-800 hover:bg-brandviolet hover:text-white transition uppercase font-semibold text-xs whitespace-nowrap",
                         pathname === link.href && "bg-brandviolet text-white"
                       )}
                     >
