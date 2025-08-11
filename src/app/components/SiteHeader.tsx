@@ -58,8 +58,8 @@ export default function SiteHeader(): JSX.Element {
             Bryan Littré
           </Link>
           
-          {/* Navigation menu */}
-          <div className="flex space-x-8">
+          {/* Navigation menu - centered */}
+          <div className="absolute left-1/2 transform -translate-x-1/2 flex space-x-8">
             {navLinks.map((link) => (
               <div key={link.href || link.label}>
                 {link.subLinks ? (
