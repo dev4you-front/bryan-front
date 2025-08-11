@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { useMemo, useState } from "react";
+import { useMemo, useState, useRef } from "react";
 import { usePathname } from "next/navigation";
 import { NavLinkConfig } from "@/types";
 
@@ -13,6 +13,7 @@ function classNames(...classes: Array<string | false | null | undefined>): strin
 export default function SiteHeader(): JSX.Element {
   const pathname = usePathname();
   const [isFormationsDropdownOpen, setIsFormationsDropdownOpen] = useState(false);
+  const closeDropdownTimeoutRef = useRef<NodeJS.Timeout | null>(null);
 
   const headerTitle = useMemo((): string => {
     if (pathname === "/") return "ACCUEIL";
@@ -37,6 +38,23 @@ export default function SiteHeader(): JSX.Element {
   ];
 
   const isFormationActive = pathname.startsWith("/formations-");
+
+  const handleMouseEnterDropdown = (): void => {
+    // Annuler le timeout de fermeture s'il existe
+    if (closeDropdownTimeoutRef.current) {
+      clearTimeout(closeDropdownTimeoutRef.current);
+      closeDropdownTimeoutRef.current = null;
+    }
+    setIsFormationsDropdownOpen(true);
+  };
+
+  const handleMouseLeaveDropdown = (): void => {
+    // Programmer la fermeture avec un délai
+    closeDropdownTimeoutRef.current = setTimeout(() => {
+      setIsFormationsDropdownOpen(false);
+      closeDropdownTimeoutRef.current = null;
+    }, 200); // 200ms de délai
+  };
 
   const navLink = (href: string, label: string, isActive?: boolean): JSX.Element => (
     <Link
@@ -65,8 +83,8 @@ export default function SiteHeader(): JSX.Element {
                 {link.subLinks ? (
                   <div 
                     className="relative"
-                    onMouseEnter={(): void => setIsFormationsDropdownOpen(true)}
-                    onMouseLeave={(): void => setIsFormationsDropdownOpen(false)}
+                    onMouseEnter={handleMouseEnterDropdown}
+                    onMouseLeave={handleMouseLeaveDropdown}
                   >
                     <button
                       className={classNames(
