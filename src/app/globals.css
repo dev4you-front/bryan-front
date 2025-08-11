@@ -34,17 +34,6 @@ body {
   font-family: Poppins, var(--font-geist-sans), Arial, Helvetica, sans-serif;
 }
 
-/* Utility helpers to mimic a few used classes if Tailwind purge misses them */
-.hamburger { width: 2rem; height: 2rem; position: relative; display: flex; flex-direction: column; justify-content: center; cursor: pointer; z-index: 60; }
-.hamburger-bar { height: 3px; width: 100%; background: var(--color-brandviolet); border-radius: 2px; transition: all 0.3s cubic-bezier(.4,2,.3,1); position: absolute; left: 0; }
-.hamburger-bar:nth-child(1) { top: 6px; }
-.hamburger-bar:nth-child(2) { top: 14px; }
-.hamburger-bar:nth-child(3) { top: 22px; }
-.hamburger.active .hamburger-bar:nth-child(1) { transform: translateY(8px) rotate(45deg); }
-.hamburger.active .hamburger-bar:nth-child(2) { opacity: 0; }
-.hamburger.active .hamburger-bar:nth-child(3) { transform: translateY(-8px) rotate(-45deg); }
-.mobile-menu-overlay { background: rgba(35,35,35,0.96); backdrop-filter: blur(2px); }
-
 /* Carousel buttons and bullets to mimic Twig styles */
 .custom-swiper-arrow {
   top: 50% !important;

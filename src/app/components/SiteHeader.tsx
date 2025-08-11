@@ -12,9 +12,7 @@ function classNames(...classes: Array<string | false | null | undefined>): strin
 
 export default function SiteHeader(): JSX.Element {
   const pathname = usePathname();
-  const [open, setOpen] = useState(false);
   const [isFormationsDropdownOpen, setIsFormationsDropdownOpen] = useState(false);
-  const [isMobileFormationsDropdownOpen, setIsMobileFormationsDropdownOpen] = useState(false);
 
   const headerTitle = useMemo((): string => {
     if (pathname === "/") return "ACCUEIL";
@@ -47,7 +45,6 @@ export default function SiteHeader(): JSX.Element {
         "hover:text-brandviolet transition uppercase font-semibold",
         (isActive || pathname === href) && "underline decoration-brandviolet decoration-3 font-bold"
       )}
-      onClick={(): void => setOpen(false)}
     >
       {label}
     </Link>
@@ -60,18 +57,9 @@ export default function SiteHeader(): JSX.Element {
           <Link href="/" className="text-2xl font-bold tracking-widest text-brandviolet uppercase">
             Bryan Littré
           </Link>
-          {/* Hamburger */}
-          <button
-            aria-label="Ouvrir le menu"
-            className={classNames("hamburger md:hidden", open && "active")}
-            onClick={(): void => setOpen((v: boolean) => !v)}
-          >
-            <div className="hamburger-bar" />
-            <div className="hamburger-bar" />
-            <div className="hamburger-bar" />
-          </button>
-          {/* Desktop menu */}
-          <div className="hidden md:flex space-x-6">
+          
+          {/* Navigation menu */}
+          <div className="flex space-x-8">
             {navLinks.map((link) => (
               <div key={link.href || link.label}>
                 {link.subLinks ? (
@@ -87,26 +75,16 @@ export default function SiteHeader(): JSX.Element {
                       )}
                     >
                       {link.label}
-                      <svg 
-                        className={classNames(
-                          "w-4 h-4 transition-transform",
-                          isFormationsDropdownOpen && "rotate-180"
-                        )} 
-                        fill="none" 
-                        stroke="currentColor" 
-                        viewBox="0 0 24 24"
-                      >
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-                      </svg>
+                      <span className="ml-1">▼</span>
                     </button>
                     {isFormationsDropdownOpen && (
-                      <div className="absolute top-full left-0 mt-2 w-64 bg-white rounded-lg shadow-lg border border-gray-200 py-2 z-50">
+                      <div className="absolute top-full left-0 mt-2 w-56 bg-white rounded-lg shadow-lg border border-gray-200 py-2 z-50">
                         {link.subLinks.map((subLink) => (
                           <Link
                             key={subLink.href}
                             href={subLink.href!}
                             className={classNames(
-                              "block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-brandviolet transition uppercase font-semibold",
+                              "block px-4 py-3 text-sm text-gray-700 hover:bg-gray-100 hover:text-brandviolet transition uppercase font-semibold",
                               pathname === subLink.href && "bg-gray-100 text-brandviolet font-bold"
                             )}
                           >
@@ -122,44 +100,6 @@ export default function SiteHeader(): JSX.Element {
               </div>
             ))}
           </div>
-          {/* Mobile overlay */}
-          {open && (
-            <div
-              className="fixed inset-0 z-50 flex items-center justify-center mobile-menu-overlay"
-              onClick={(): void => setOpen(false)}
-            >
-              <nav className="space-y-8 text-center">
-                {navLinks.map((link) => (
-                  <div key={link.href || link.label}>
-                    {link.subLinks ? (
-                      <div>
-                        <button
-                          className={classNames(
-                            "hover:text-brandviolet transition uppercase font-semibold",
-                            isFormationActive && "underline decoration-brandviolet decoration-3 font-bold"
-                          )}
-                          onClick={(): void => setIsMobileFormationsDropdownOpen(!isMobileFormationsDropdownOpen)}
-                        >
-                          {link.label}
-                        </button>
-                        {isMobileFormationsDropdownOpen && (
-                          <div className="mt-4 space-y-4">
-                            {link.subLinks.map((subLink) => (
-                              <div key={subLink.href}>
-                                {navLink(subLink.href!, subLink.label)}
-                              </div>
-                            ))}
-                          </div>
-                        )}
-                      </div>
-                    ) : (
-                      navLink(link.href!, link.label)
-                    )}
-                  </div>
-                ))}
-              </nav>
-            </div>
-          )}
         </nav>
         <h1 className="text-4xl md:text-5xl font-extrabold mb-4 tracking-tight uppercase text-brandwhite drop-shadow-lg">
           {headerTitle}
