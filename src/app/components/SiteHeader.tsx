@@ -101,7 +101,7 @@ export default function SiteHeader(): JSX.Element {
               
               {isDropdownOpen && (
                 <div 
-                  className="absolute top-full left-0 w-[545x] bg-white rounded-lg shadow-lg border border-gray-200 py-2 z-50"
+                  className="absolute top-full left-0 w-[542x] bg-white rounded-lg shadow-lg border border-gray-200 py-2 z-50"
                   onMouseEnter={handleMouseEnterDropdown}
                   onMouseLeave={handleMouseLeaveDropdown}
                 >
