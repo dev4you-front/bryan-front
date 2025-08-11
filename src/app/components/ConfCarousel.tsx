@@ -1,14 +1,17 @@
 "use client";
 
 import { useState } from "react";
+import { ConfItem } from "@/types";
 
-export type ConfItem = { src: string; title: string };
+interface ConfCarouselProps {
+  items: ConfItem[];
+}
 
-export default function ConfCarousel({ items }: { items: ConfItem[] }) {
+export default function ConfCarousel({ items }: ConfCarouselProps): JSX.Element {
   const [index, setIndex] = useState(0);
 
-  const goPrev = () => setIndex((i) => (i - 1 + items.length) % items.length);
-  const goNext = () => setIndex((i) => (i + 1) % items.length);
+  const goPrev = (): void => setIndex((i: number) => (i - 1 + items.length) % items.length);
+  const goNext = (): void => setIndex((i: number) => (i + 1) % items.length);
 
   return (
     <div className="relative flex justify-center items-center w-full my-12">
@@ -50,7 +53,7 @@ export default function ConfCarousel({ items }: { items: ConfItem[] }) {
             className={
               "swiper-pagination-bullet" + (i === index ? " swiper-pagination-bullet-active" : "")
             }
-            onClick={() => setIndex(i)}
+            onClick={(): void => setIndex(i)}
           />
         ))}
       </div>

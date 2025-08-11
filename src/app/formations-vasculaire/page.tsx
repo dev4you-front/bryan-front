@@ -1,5 +1,7 @@
-export default function FormationsVasculaire() {
-  const formations = [
+import { Formation } from "@/types";
+
+export default function FormationsVasculaire(): JSX.Element {
+  const formations: Formation[] = [
     {
       title: "Troubles vasculaires : Trier pour savoir quand traiter !",
       description:
@@ -11,7 +13,7 @@ export default function FormationsVasculaire() {
   return (
     <section className="py-12 bg-[#E0E0E0]">
       <div className="max-w-5xl mx-auto px-6 space-y-16">
-        {formations.map((formation, idx) => (
+        {formations.map((formation: Formation, idx: number) => (
           <div
             key={idx}
             className="bg-white rounded-2xl shadow-lg p-8 flex flex-col items-center transform transition duration-300 hover:scale-105 hover:shadow-2xl"

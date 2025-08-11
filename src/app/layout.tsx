@@ -3,6 +3,7 @@ import { Geist, Geist_Mono, Poppins } from "next/font/google";
 import "./globals.css";
 import { ReactNode } from "react";
 import SiteHeader from "./components/SiteHeader";
+import { SiteMetadata } from "@/types";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -19,7 +20,7 @@ const poppins = Poppins({
   subsets: ["latin"],
   weight: ["400", "600", "700"],
 });
-export const metadata: Metadata = {
+export const metadata: SiteMetadata & Metadata = {
   title: "Bryan Littré",
   description: "Physiothérapeute • Formateur • Conférencier",
   icons: {
@@ -31,7 +32,7 @@ export const metadata: Metadata = {
 
 // Header replaced by SiteHeader component
 
-function Footer() {
+function Footer(): JSX.Element {
   return (
     <footer className="bg-brandgray text-brandwhite pb-4">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -62,7 +63,11 @@ function Footer() {
   );
 }
 
-export default function RootLayout({ children }: Readonly<{ children: ReactNode }>) {
+interface RootLayoutProps {
+  children: ReactNode;
+}
+
+export default function RootLayout({ children }: Readonly<RootLayoutProps>): JSX.Element {
   return (
     <html lang="fr">
       <body className={`${geistSans.variable} ${geistMono.variable} ${poppins.variable} antialiased bg-[#E0E0E0]`}>

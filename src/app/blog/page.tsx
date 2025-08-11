@@ -1,13 +1,6 @@
-type Article = {
-  title: string;
-  image: string;
-  excerpt: string;
-  date: string;
-  author: string;
-  link: string;
-};
+import { Article } from "@/types";
 
-export default function Blog() {
+export default function Blog(): JSX.Element {
   const articles: Article[] = [
     {
       title: "Pourquoi la prévention des blessures est essentielle ?",
@@ -43,7 +36,7 @@ export default function Blog() {
       <div className="max-w-7xl mx-auto px-6">
         <h1 className="text-3xl font-extrabold uppercase tracking-wide mb-8">Blog</h1>
         <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
-          {articles.map((a, idx) => (
+          {articles.map((a: Article, idx: number) => (
             <article key={idx} className="bg-white rounded-xl shadow overflow-hidden flex flex-col">
               <img src={a.image} alt="" className="w-full h-48 object-cover" />
               <div className="p-6 flex-1 flex flex-col">
