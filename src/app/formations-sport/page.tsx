@@ -3,7 +3,7 @@ import { Formation } from "@/types";
 export default function FormationsSport(): JSX.Element {
   const formations: Formation[] = [
     {
-      title: "Prise en charge des lésions des ischio-jambiers en cabinet",
+      title: "Comment prendre en charge les lésions des ischio-jambiers",
       description:
         "Formation avec conférences et podcast sur les pathologies sportives des ischio-jambiers.",
       video: "https://www.youtube.com/embed/QPdA4npgKck",

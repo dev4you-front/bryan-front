@@ -28,7 +28,7 @@ export default function SiteHeader(): JSX.Element {
     { 
       label: "MES FORMATIONS",
       subLinks: [
-        { href: "/formations-sport", label: "ISCHIO ET SPRINT" },
+        { href: "/formations-sport", label: "COMMENT PRENDRE EN CHARGE LES LÉSIONS DES ISCHIO-JAMBIERS" },
         { href: "/formations-neuro", label: "TROUBLES NEUROLOGIQUES" },
         { href: "/formations-vasculaire", label: "TROUBLES VASCULAIRES" },
       ]
