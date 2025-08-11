@@ -75,7 +75,7 @@ export default function RootLayout({ children }: Readonly<RootLayoutProps>): JSX
         <main className="pb-12 bg-[#E0E0E0]">
           {children}
         </main>
-        <div className="bg-[#E0E0E0]">
+        <div className="bg-brandgray">
           <svg viewBox="0 0 1440 100" xmlns="http://www.w3.org/2000/svg" className="w-full block">
             <defs>
               <linearGradient id="sw-gradient-1" x1="0" x2="0" y1="1" y2="0">
