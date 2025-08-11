@@ -19,7 +19,7 @@ export default function SiteHeader(): JSX.Element {
 
   const headerTitle = useMemo((): string => {
     if (pathname === "/") return "ACCUEIL";
-    if (pathname.startsWith("/formations-sport")) return "PATHOLOGIES SPORTIVES ET SPRINT";
+    if (pathname.startsWith("/formations-sport")) return "ISCHIO ET SPRINT";
     if (pathname.startsWith("/formations-neuro")) return "TROUBLES NEUROLOGIQUES";
     if (pathname.startsWith("/formations-vasculaire")) return "TROUBLES VASCULAIRES";
     if (pathname.startsWith("/blog")) return "BLOG";
@@ -30,7 +30,7 @@ export default function SiteHeader(): JSX.Element {
 
   const navLinks: NavLinkConfig[] = [
     { href: "/", label: "ACCUEIL" },
-    { href: "/formations-sport", label: "PATHOLOGIES SPORTIVES ET SPRINT" },
+    { href: "/formations-sport", label: "ISCHIO ET SPRINT" },
     { href: "/formations-neuro", label: "TROUBLES NEUROLOGIQUES" },
     { href: "/formations-vasculaire", label: "TROUBLES VASCULAIRES" },
   ];
