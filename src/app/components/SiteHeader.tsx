@@ -27,8 +27,8 @@ export default function SiteHeader(): JSX.Element {
 
   const formationLinks = [
     { href: "/formations-sport", label: "COMMENT PRENDRE EN CHARGE LES LESIONS DES ISCHIO-JAMBIERS ?" },
-    { href: "/formations-neuro", label: "FORMATIONS NEURO" },
-    { href: "/formations-vasculaire", label: "FORMATIONS VASCULAIRE" },
+    { href: "/formations-neuro", label: "TROUBLES NEUROLOGIQUES : REUSSIR SON BILAN ET SON DIAGNOSTIQUE" },
+    { href: "/formations-vasculaire", label: "TROUBLES VASCULAIRES: RAISONNER PAR ELIMINATION ET AVOIR LE MEILLEUR BILAN" },
   ];
 
   const handleMouseEnterDropdown = (): void => {
