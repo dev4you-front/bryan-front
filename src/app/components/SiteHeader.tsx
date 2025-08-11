@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { useMemo } from "react";
+import { useMemo, useState, useRef, useEffect } from "react";
 import { usePathname } from "next/navigation";
 import { NavLinkConfig } from "@/types";
 
@@ -12,6 +12,9 @@ function classNames(...classes: Array<string | false | null | undefined>): strin
 
 export default function SiteHeader(): JSX.Element {
   const pathname = usePathname();
+  const [isDropdownOpen, setIsDropdownOpen] = useState(false);
+  const dropdownRef = useRef<HTMLDivElement>(null);
+  const timeoutRef = useRef<NodeJS.Timeout | null>(null);
 
   const headerTitle = useMemo((): string => {
     if (pathname === "/") return "ACCUEIL";
@@ -22,13 +25,33 @@ export default function SiteHeader(): JSX.Element {
 
   const waveColor: string = pathname === "/" ? "#ffffff" : "#E0E0E0";
 
-  const navLinks: NavLinkConfig[] = [
-    { href: "/", label: "ACCUEIL" },
+  const formationLinks = [
     { href: "/formations-sport", label: "FORMATIONS SPORT" },
     { href: "/formations-neuro", label: "FORMATIONS NEURO" },
     { href: "/formations-vasculaire", label: "FORMATIONS VASCULAIRE" },
-    { href: "/blog", label: "BLOG" },
   ];
+
+  const handleMouseEnterDropdown = (): void => {
+    if (timeoutRef.current) {
+      clearTimeout(timeoutRef.current);
+      timeoutRef.current = null;
+    }
+    setIsDropdownOpen(true);
+  };
+
+  const handleMouseLeaveDropdown = (): void => {
+    timeoutRef.current = setTimeout(() => {
+      setIsDropdownOpen(false);
+    }, 200);
+  };
+
+  useEffect(() => {
+    return () => {
+      if (timeoutRef.current) {
+        clearTimeout(timeoutRef.current);
+      }
+    };
+  }, []);
 
   const navLink = (href: string, label: string, isActive?: boolean): JSX.Element => (
     <Link
@@ -42,6 +65,7 @@ export default function SiteHeader(): JSX.Element {
     </Link>
   );
 
+  const isFormationActive = formationLinks.some(link => pathname === link.href);
   return (
     <header className="bg-brandgray text-brandwhite pt-8">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -50,12 +74,47 @@ export default function SiteHeader(): JSX.Element {
             Bryan Littré
           </Link>
           <div className="flex space-x-8">
-            {navLinks.map((link) => (
-              <div key={link.href}>
-                {navLink(link.href!, link.label)}
+            {navLink("/", "ACCUEIL")}
+            
+            <div 
+              className="relative"
+              ref={dropdownRef}
+              onMouseEnter={handleMouseEnterDropdown}
+              onMouseLeave={handleMouseLeaveDropdown}
+            >
+              <button
+                className={classNames(
+                  "hover:text-brandviolet transition uppercase font-semibold",
+                  isFormationActive && "underline decoration-brandviolet decoration-3 font-bold"
+                )}
+              >
+                MES FORMATIONS
+              </button>
+              
+              {isDropdownOpen && (
+                <div 
+                  className="absolute top-full left-0 w-64 bg-white rounded-lg shadow-lg border border-gray-200 py-2 z-50"
+                  onMouseEnter={handleMouseEnterDropdown}
+                  onMouseLeave={handleMouseLeaveDropdown}
+                >
+                  {formationLinks.map((link) => (
+                    <Link
+                      key={link.href}
+                      href={link.href}
+                      className={classNames(
+                        "block px-4 py-2 text-gray-800 hover:bg-brandviolet hover:text-white transition uppercase font-semibold text-sm",
+                        pathname === link.href && "bg-brandviolet text-white"
+                      )}
+                    >
+                      {link.label}
+                    </Link>
+                  ))}
+                </div>
+              )}
+            </div>
+            
+            {navLink("/blog", "BLOG")}
               </div>
-            ))}
-          </div>
         </nav>
         <h1 className="text-4xl md:text-5xl font-extrabold mb-4 tracking-tight uppercase text-brandwhite drop-shadow-lg">
           {headerTitle}
