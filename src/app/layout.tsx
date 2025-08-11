@@ -72,7 +72,7 @@ export default function RootLayout({ children }: Readonly<RootLayoutProps>): JSX
     <html lang="fr">
       <body className={`${geistSans.variable} ${geistMono.variable} ${poppins.variable} antialiased bg-[#E0E0E0]`}>
         <SiteHeader />
-        <main className="pb-12 bg-[#E0E0E0]">
+        <main className="pb-12 mt-[-1px]">
           {children}
         </main>
         <div className="bg-[#E0E0E0] mb-[-1px]">
