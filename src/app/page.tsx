@@ -4,21 +4,21 @@ import { ConfItem } from "@/types";
 export default function Home(): JSX.Element {
   const items: ConfItem[] = [
     {
-      src: "https://www.youtube.com/embed/O0bjv3zgy2Q",
+      src: "https://www.youtube-nocookie.com/embed/O0bjv3zgy2Q",
       title:
         "Bryan LITTRE et Matthieu GONZALES BANDRES - Les blessures en course et réflexion autour d'une étude",
     },
     {
-      src: "https://www.youtube.com/embed/VVLn86-t-Sg",
+      src: "https://www.youtube-nocookie.com/embed/VVLn86-t-Sg",
       title: "Récidives dans le sport : à qui la faute ? Bryan LITTRÉ // Conférence SPO",
     },
     {
-      src: "https://www.youtube.com/embed/E4kTrmriU64",
+      src: "https://www.youtube-nocookie.com/embed/E4kTrmriU64",
       title:
         "Gaetan HENRY et Bryan LITTRE - Retour au sport et lésions sportives du membre inférieur. CIFEPK 2022",
     },
     {
-      src: "https://www.youtube.com/embed/QPdA4npgKck",
+      src: "https://www.youtube-nocookie.com/embed/QPdA4npgKck",
       title: "Bryan Littré, Kiné du sport - Comment ne plus se BLESSER aux ISCHIOS",
     },
   ];
