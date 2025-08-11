@@ -23,7 +23,7 @@ export default function ConfCarousel({ items }: ConfCarouselProps): JSX.Element 
       />
 
       {/* Slide */}
-      <div className="w-full max-w-2xl mx-auto">
+      <div className="w-full mx-auto">
         <div className="flex flex-col items-center">
           <div className="w-full aspect-video rounded-xl shadow mb-4 overflow-hidden">
             <iframe
