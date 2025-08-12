@@ -3,14 +3,13 @@
 import Link from "next/link";
 import { useMemo, useState, useRef, useEffect } from "react";
 import { usePathname } from "next/navigation";
-import { NavLinkConfig } from "@/types";
 
 function classNames(...classes: Array<string | false | null | undefined>): string {
   return classes.filter(Boolean).join(" ");
 }
 
 
-export default function SiteHeader(): JSX.Element {
+export default function SiteHeader() {
   const pathname = usePathname();
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -73,7 +72,7 @@ export default function SiteHeader(): JSX.Element {
     };
   }, []);
 
-  const navLink = (href: string, label: string, isActive?: boolean, isMobile: boolean = false): JSX.Element => (
+  const navLink = (href: string, label: string, isActive?: boolean, isMobile: boolean = false) => (
     <Link
       href={href}
       onClick={closeMobileMenu}

@@ -1,6 +1,6 @@
 import { Article } from "@/types";
 
-export default function Blog(): JSX.Element {
+export default function Blog() {
   const articles: Article[] = [
     {
       title: "Pourquoi la prévention des blessures est essentielle ?",

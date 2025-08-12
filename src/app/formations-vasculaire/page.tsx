@@ -1,6 +1,6 @@
 import { Formation } from "@/types";
 
-export default function FormationsVasculaire(): JSX.Element {
+export default function FormationsVasculaire() {
   const formations: Formation[] = [
     {
       title: "Troubles vasculaires : Trier pour savoir quand traiter !",

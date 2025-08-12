@@ -1,6 +1,6 @@
 import { Formation } from "@/types";
 
-export default function FormationsSport(): JSX.Element {
+export default function FormationsSport() {
   const formations: Formation[] = [
     {
       title: "Comment prendre en charge les lésions des ischio-jambiers",

@@ -1,6 +1,6 @@
 import { Formation } from "@/types";
 
-export default function FormationsNeuro(): JSX.Element {
+export default function FormationsNeuro() {
   const formations: Formation[] = [
     {
       title: "Troubles neurologiques en musculo-squelettique",

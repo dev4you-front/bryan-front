@@ -7,7 +7,7 @@ interface ConfCarouselProps {
   items: ConfItem[];
 }
 
-export default function ConfCarousel({ items }: ConfCarouselProps): JSX.Element {
+export default function ConfCarousel({ items }: ConfCarouselProps) {
   const [index, setIndex] = useState(0);
 
   const goPrev = (): void => setIndex((i: number) => (i - 1 + items.length) % items.length);

@@ -1,7 +1,7 @@
 import ConfCarousel from "./components/ConfCarousel";
 import { ConfItem } from "@/types";
 
-export default function Home(): JSX.Element {
+export default function Home() {
   const items: ConfItem[] = [
     {
       src: "https://www.youtube-nocookie.com/embed/O0bjv3zgy2Q",

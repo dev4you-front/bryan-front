@@ -32,7 +32,7 @@ export const metadata: SiteMetadata & Metadata = {
 
 // Header replaced by SiteHeader component
 
-function Footer(): JSX.Element {
+function Footer() {
   return (
     <footer className="bg-brandgray text-brandwhite pb-4">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -84,7 +84,7 @@ interface RootLayoutProps {
   children: ReactNode;
 }
 
-export default function RootLayout({ children }: Readonly<RootLayoutProps>): JSX.Element {
+export default function RootLayout({ children }: Readonly<RootLayoutProps>) {
   return (
     <html lang="fr">
       <body className={`${geistSans.variable} ${geistMono.variable} ${poppins.variable} antialiased bg-[#E0E0E0] flex flex-col min-h-screen overflow-x-hidden`}>
