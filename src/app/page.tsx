@@ -51,7 +51,7 @@ export default function Home() {
             </h2>
             <div className="bg-white rounded-2xl shadow-lg p-0 md:p-8">
               <iframe
-                src="https://physiomaps.com/?courseIds=67f1cef01ca87268403e1183,67f1cefa1ca87268403e11a3&no_header=true"
+                src="https://physiomaps.com/?no_header=true"
                 width="100%"
                 height="600"
                 style={{ border: "none", borderRadius: 12 }}
