@@ -28,6 +28,8 @@
 
 <p style="text-align: justify;"><span style="font-weight: 400;">En termes de coûts pour la sécurité sociale, le prix de remboursement d'une opération par le régime de sécurité sociale est de 162€ en moyenne, comprenant acte chirurgical (104€) et anesthésie (58€). Cependant les dépassements d'honoraires semblent fréquents, ce qui impacte directement le budget des patients ainsi que celui des mutuelles. Dans le n°1043 de décembre 2009, Le Particulier publie les dépassements d'honoraires pratiqués dans les principales cliniques françaises pour les actes chirurgicaux les plus fréquents, dont le SCC. Cette étude est effectuée sur 153 zones géographiques différentes. Il semblerait qu'en 2009, 62% des opérations liées au SCC donnent lieu à des dépassements d'honoraires entre 49 et 542€.</span></p>
 
+<p style="text-align: justify;"><img decoding="async" class="alignnone wp-image-2159 " src="https://www.kinefact.com/wp-content/uploads/2021/01/4-e1611871404660-300x196.png" alt="" width="511" height="334" srcset="https://www.kinefact.com/wp-content/uploads/2021/01/4-e1611871404660-300x196.png 300w, https://www.kinefact.com/wp-content/uploads/2021/01/4-e1611871404660-1024x669.png 1024w, https://www.kinefact.com/wp-content/uploads/2021/01/4-e1611871404660-768x502.png 768w, https://www.kinefact.com/wp-content/uploads/2021/01/4-e1611871404660.png 1094w" sizes="(max-width: 511px) 100vw, 511px"></p>
+
 <p style="text-align: justify;"><span style="font-weight: 400;">A ces coûts, s'ajoutent évidemment les coûts proportionnels aux journées d'arrêt de travail des gens opérés, qui varie entre 30 et 44 jours ainsi que le coût des évaluations par électroneuromyogramme (ENMG), les infiltrations si le patient en a eu auparavant, les actes masso-kinésithérapiques post-chirurgicaux (lorsqu'il y a des complications que les kinés doivent prendre en charge comme les SDRC ou les lésions nerveuses), les journées et nuitées sur place etc …</span></p>
 
 <p style="text-align: justify;"><span style="font-weight: 400;">Une étude plus approfondie des coûts de la prise en charge française d'un SCC, par Tuppin et al (2008), montre que : « Le coût des interventions pris en charge par l'ensemble des régimes d'assurance maladie en 2008 était de 108 millions d'euros. Pour les personnes âgées de 18 à 59 ans primo-opérés au second semestre 2008, 875 707 journées d'arrêt de travail ont été indemnisées soit 31,7 millions d'euros pour un semestre pour le seul régime général, dont 52 % pour le risque accident du travail/maladie professionnelle (AT/MP), soit 16,6 millions d'euros. Le coût des journées indemnisées pour les durées d'arrêt supérieures à 56 jours était de 22,6 millions d'euros, dont 14,3 millions d'euros pour le risque AT/MP. Par extrapolation sur un an, à l'ensemble des personnes opérées en 2008 et affiliées au seul régime général, le coût global des arrêts de travail était donc respectivement de l'ordre de 81 millions d'euros, dont 42 millions pour le risque AT/MP et, pour les arrêts supérieurs à 56 jours, il était de 58 millions d'euros, dont 37 millions d'euros pour le risque AT/MP ».</span></p>
@@ -35,6 +37,15 @@
 <p style="text-align: justify;"><span style="font-weight: 400;">108+81 = 189 M € et cela uniquement pour la sécurité sociale. Donc aux organismes de mutuelle : vous aussi cela peut vous intéresser de lire tout ce billet jusqu'à la fin.</span></p>
 
 <p style="text-align: justify;"><span style="font-weight: 400;">Ce qui semble surprenant par contre c'est que pour une incidence et une prévalence similaire observée par les systèmes de santé, en Angleterre le taux d'opération est très en deçà du taux de SCC opérés en France ( -30% d'opérations pour chaque cas observé par la NHS en United Kingdom vs 70 % d'opérations pour chaque cas observé par la sécurité sociale en France)</span></p>
+
+<p style="text-align: justify;"><img loading="lazy" decoding="async" class="alignnone wp-image-2158 " src="https://www.kinefact.com/wp-content/uploads/2021/01/3-e1611871521419-300x235.png" alt="" width="460" height="360" srcset="https://www.kinefact.com/wp-content/uploads/2021/01/3-e1611871521419-300x235.png 300w, https://www.kinefact.com/wp-content/uploads/2021/01/3-e1611871521419-768x602.png 768w, https://www.kinefact.com/wp-content/uploads/2021/01/3-e1611871521419.png 998w" sizes="auto, (max-width: 460px) 100vw, 460px"> <img loading="lazy" decoding="async" class="alignnone wp-image-2157 " src="https://www.kinefact.com/wp-content/uploads/2021/01/2-e1611871570844-300x235.png" alt="" width="474" height="371" srcset="https://www.kinefact.com/wp-content/uploads/2021/01/2-e1611871570844-300x235.png 300w, https://www.kinefact.com/wp-content/uploads/2021/01/2-e1611871570844-768x603.png 768w, https://www.kinefact.com/wp-content/uploads/2021/01/2-e1611871570844.png 1003w" sizes="auto, (max-width: 474px) 100vw, 474px"></p>
+
+<div style="width: 480px;" class="wp-video">
+<video class="wp-video-shortcode" width="480" height="480" preload="metadata" controls>
+<source type="video/mp4" src="https://www.kinefact.com/wp-content/uploads/2021/01/Booba-Je-Ne-Compwends-Pas.mp4">
+<a href="https://www.kinefact.com/wp-content/uploads/2021/01/Booba-Je-Ne-Compwends-Pas.mp4">https://www.kinefact.com/wp-content/uploads/2021/01/Booba-Je-Ne-Compwends-Pas.mp4</a>
+</video>
+</div>
 
 <p style="text-align: justify;"><span style="font-weight: 400;">Peut-être avons-nous le coup de bistouri facile ? L'accessibilité des soins est facilitée en France ? L'Angleterre incorpore les physiothérapeutes dans le parcours de soin ? Peu importe la ou les justifications derrière ces données, nous pouvons constater que la prise en charge de ce trouble est extrêmement coûteuse en France. Nous explorerons la partie économique plus en détail lorsque nous verrons que nous les kinésithérapeutes, pouvons faire économiser des dizaines de millions d'euros à la sécurité sociale.</span></p>
 
@@ -46,6 +57,8 @@
 
 <p style="text-align: justify;"><span style="font-weight: 400;">Afin d'illustrer mon propos voici un tableau montrant les diagnostics différentiels auxquels penser lorsque nous sommes face à des douleurs similaires au SCC ou similaires à des sciatalgies.</span></p>
 
+<p style="text-align: justify;"><img loading="lazy" decoding="async" class="alignnone wp-image-2160 " src="https://www.kinefact.com/wp-content/uploads/2021/01/5-e1611871812377-300x154.png" alt="" width="686" height="352" srcset="https://www.kinefact.com/wp-content/uploads/2021/01/5-e1611871812377-300x154.png 300w, https://www.kinefact.com/wp-content/uploads/2021/01/5-e1611871812377-1024x526.png 1024w, https://www.kinefact.com/wp-content/uploads/2021/01/5-e1611871812377-768x395.png 768w, https://www.kinefact.com/wp-content/uploads/2021/01/5-e1611871812377.png 1027w" sizes="auto, (max-width: 686px) 100vw, 686px"></p>
+
 <p style="text-align: justify;"><span style="font-weight: 400;">Toutes ces atteintes peuvent mimer une simple mononeuropathie compressive au niveau du poignet, pourtant vous réalisez bien qu'un SCC lié à une sclérose en plaque est différent d'un SCC lié à une compression. Grâce à l'étude du diabète et de ses conséquences, nous avons des données nous permettant de dire que des différences se retrouvent au sein de la physiopathologie, de la validité des examens cliniques diagnostics comme l'échographie ou dans le potentiel de récupération suite à une opération, entre un SCC idiopathique compressif ou un SCC secondaire à un diabète</span></p>
 
 <p style="text-align: justify;"><span style="font-weight: 400;">Dit autrement, un SCC secondaire à un diabète, un SCC lié à une sténose vasculaire, un SCC idiopathique ou un SCC lié à des troubles thyroïdiens … </span><b>NE SE VALENT PAS</b><span style="font-weight: 400;">. Et ce au niveau du diagnostic, du pronostic et quelques fois au niveau du traitement le plus efficient permettant de gérer ce trouble. Certaines atteintes amenant à un SCC génèrent une altération métabolique ou des systèmes vasculaires et/ou nerveux, qui s'exprimera en SCC ( neuropathie dégénérative centrale, diabète, troubles thyroïdiens, intoxication médicamenteuses / pathologie de surcharge ou trop de contraintes au niveau du poignet ).</span></p>
@@ -55,6 +68,15 @@
 <p style="text-align: justify;"><span style="font-weight: 400;">De ce fait, certains auteurs et chercheurs émettent un doute justifiable quant à l'importance et l'utilité de l'opération pour bon nombre de patients.</span></p>
 
 <p style="text-align: justify;"><span style="font-weight: 400;">Voici dans les tableaux ci-dessous, les différences histologiques observées lors de biopsies chez des patients atteints de SCC selon leur pathologie sous-jacente.</span></p>
+
+<p style="text-align: justify;"><img loading="lazy" decoding="async" class="alignnone wp-image-2161 size-medium" src="https://www.kinefact.com/wp-content/uploads/2021/01/6-e1611872590593-300x68.png" alt="" width="300" height="68" srcset="https://www.kinefact.com/wp-content/uploads/2021/01/6-e1611872590593-300x68.png 300w, https://www.kinefact.com/wp-content/uploads/2021/01/6-e1611872590593-1024x233.png 1024w, https://www.kinefact.com/wp-content/uploads/2021/01/6-e1611872590593-768x175.png 768w, https://www.kinefact.com/wp-content/uploads/2021/01/6-e1611872590593.png 1200w" sizes="auto, (max-width: 300px) 100vw, 300px"> <img loading="lazy" decoding="async" class="alignnone wp-image-2162 " src="https://www.kinefact.com/wp-content/uploads/2021/01/7-e1611872621327-300x162.png" alt="" width="431" height="233" srcset="https://www.kinefact.com/wp-content/uploads/2021/01/7-e1611872621327-300x162.png 300w, https://www.kinefact.com/wp-content/uploads/2021/01/7-e1611872621327-768x416.png 768w, https://www.kinefact.com/wp-content/uploads/2021/01/7-e1611872621327.png 863w" sizes="auto, (max-width: 431px) 100vw, 431px"></p>
+
+<div style="width: 480px;" class="wp-video">
+<video class="wp-video-shortcode" width="480" height="662" loop="1" autoplay="1" preload="auto" controls>
+<source type="video/mp4" src="https://www.kinefact.com/wp-content/uploads/2021/01/giphy-26.mp4">
+<a href="https://www.kinefact.com/wp-content/uploads/2021/01/giphy-26.mp4">https://www.kinefact.com/wp-content/uploads/2021/01/giphy-26.mp4</a>
+</video>
+</div>
 
 <p style="text-align: justify;"><span style="font-weight: 400;">De ces observations et suite à des biopsies, on observe qu'une partie de la population semble avoir des prédispositions à avoir des troubles vasculaires et nerveux. Par exemple, l'analyse des nerfs interosseux postérieurs chez des patients diabétiques ayant un SCC avec ou sans polyneuropathies, ainsi que chez des patients ayant un SCC idiopathique, comparativement à un groupe contrôle n'ayant pas de SCC (Thomsen et al en 2009) :</span></p>
 
@@ -75,6 +97,8 @@
 
 <p style="text-align: justify;"><span style="font-weight: 400;">Car rien ne prouve que la « compression des tendons par l'acromion » soit un facteur prédominant dans les problèmes d'épaules, comme ce qu'a émis comme hypothèse Neer en 1972.</span></p>
 
+<p style="text-align: justify;"><img loading="lazy" decoding="async" class="alignnone wp-image-2188" src="https://www.kinefact.com/wp-content/uploads/2021/01/131220134_10223764337797221_402545105681142598_o-300x300.jpg" alt="" width="439" height="439" srcset="https://www.kinefact.com/wp-content/uploads/2021/01/131220134_10223764337797221_402545105681142598_o-300x300.jpg 300w, https://www.kinefact.com/wp-content/uploads/2021/01/131220134_10223764337797221_402545105681142598_o-1024x1024.jpg 1024w, https://www.kinefact.com/wp-content/uploads/2021/01/131220134_10223764337797221_402545105681142598_o-150x150.jpg 150w, https://www.kinefact.com/wp-content/uploads/2021/01/131220134_10223764337797221_402545105681142598_o-768x768.jpg 768w, https://www.kinefact.com/wp-content/uploads/2021/01/131220134_10223764337797221_402545105681142598_o-400x400.jpg 400w, https://www.kinefact.com/wp-content/uploads/2021/01/131220134_10223764337797221_402545105681142598_o.jpg 1440w" sizes="auto, (max-width: 439px) 100vw, 439px"></p>
+
 <p style="text-align: justify;"><span style="font-weight: 400;">Il en est de même pour le SCC et les données cliniques nous montrent que la chirurgie n'est pas la meilleure solution dans toutes les circonstances (vous le verrez dans la dernière partie de ce billet).</span></p>
 
 <p style="text-align: justify;"><span style="font-weight: 400;">Voici un exemple marquant qui je l'espère vous fera prendre conscience de l'importance de ne pas sauter sur l'occasion pour se faire opérer, car le problème n'est pas tout le temps localisé au poignet.</span></p>
@@ -82,6 +106,8 @@
 <p style="text-align: justify;"><span style="font-weight: 400;">C'est l'histoire de l'amputation des doigts d'une patiente italienne suite à une erreur diagnostique.</span></p>
 
 <p style="text-align: justify;"><span style="font-weight: 400;">En effet, cette patiente a eu une occlusion de son artère humérale suite à la position opératoire pour un SCC. Sauf que cette patiente avait en réalité une côte cervicale supplémentaire amenant à une sténose de l'artère subclavière. Cette sténose vasculaire a amené à un SCC qui n'est qu'une traduction clinique. Le problème n'était absolument pas au niveau du poignet et cette patiente a eu une opération pour libération de son nerf médian au niveau de son canal carpien. Comme les symptômes se sont aggravés elle est retournée aux urgences ils l'ont ensuite opéré pour sa sténose vasculaire humérale amenant à une nécrose de ses doigts, une résection d'une côte accessoire supplémentaire et une amputation.</span></p>
+
+<p style="text-align: justify;"><img loading="lazy" decoding="async" class="alignnone wp-image-2163" src="https://www.kinefact.com/wp-content/uploads/2021/01/8-300x214.png" alt="" width="487" height="347" srcset="https://www.kinefact.com/wp-content/uploads/2021/01/8-300x214.png 300w, https://www.kinefact.com/wp-content/uploads/2021/01/8-768x548.png 768w, https://www.kinefact.com/wp-content/uploads/2021/01/8.png 888w" sizes="auto, (max-width: 487px) 100vw, 487px"> <img loading="lazy" decoding="async" class="alignnone wp-image-2164 " src="https://www.kinefact.com/wp-content/uploads/2021/01/9-e1611872785791-300x251.png" alt="" width="416" height="348" srcset="https://www.kinefact.com/wp-content/uploads/2021/01/9-e1611872785791-300x251.png 300w, https://www.kinefact.com/wp-content/uploads/2021/01/9-e1611872785791.png 655w" sizes="auto, (max-width: 416px) 100vw, 416px"></p>
 
 <p style="text-align: justify;"><span style="font-weight: 400;">Aurions-nous pu éviter ce drame ? Peut-être mais nous reviendrons dans un prochain billet sur les troubles vasculaires.</span></p>
 
@@ -97,6 +123,8 @@
 
 <p style="text-align: justify;"><span style="font-size: 18pt; color: #00ccff;"><strong>Le SCC Classique</strong></span></p>
 
+<p><img loading="lazy" decoding="async" class="alignnone wp-image-2191" src="https://www.kinefact.com/wp-content/uploads/2021/01/fb-1547612196-300x158.jpg" alt="" width="553" height="291" srcset="https://www.kinefact.com/wp-content/uploads/2021/01/fb-1547612196-300x158.jpg 300w, https://www.kinefact.com/wp-content/uploads/2021/01/fb-1547612196-1024x538.jpg 1024w, https://www.kinefact.com/wp-content/uploads/2021/01/fb-1547612196-768x403.jpg 768w, https://www.kinefact.com/wp-content/uploads/2021/01/fb-1547612196.jpg 1200w" sizes="auto, (max-width: 553px) 100vw, 553px"></p>
+
 <p style="text-align: justify;"><span style="font-weight: 400;">Nous observons bien sûr une augmentation de la pression intra canalaire chez de nombreux patients atteints de SCC idiopathiques lorsque les autres atteintes sont écartées. Cette augmentation de pression est retrouvée au repos, ainsi que lors des activités nécessitant des mouvements de la main. Elle peut en partie s'expliquer par de la fibrose non inflammatoire, menant à une perte de mobilité transversale du nerf lors des mouvements. Étant donné qu'il y a moins de mouvement, la pression augmente. Cependant c'est la pression intra-neurale qui est la plus corrélée avec une altération de la fonction nerveuse lors d'une neuropathie compressive, et non la pression au sein du canal carpien.</span></p>
 
 <p style="text-align: justify;"><span style="font-weight: 400;">L'augmentation de pression agit comme une force compressive qui induit une ischémie neurale, et en élevant la pression cela cause des altérations de la pression au sein des capillaires, des œdèmes et des obstructions du système artériel du nerf .</span></p>
@@ -104,6 +132,13 @@
 <p style="text-align: justify;"><span style="font-weight: 400;">L'opération est utile et diminue grandement la pression intra-canalaire, il est donc compréhensible que l'opération soit recommandée lorsque nous avons en tête que la pression intra-canalaire est le mécanisme principal dans l'apparition et le maintien du SCC. Cependant, les dernières données cliniques en lien avec le SCC semblent montrer que le traitement chirurgical n'est pas meilleur que le traitement kiné, qui lui ne semble pas diminuer la pression intra canalaire…</span></p>
 
 <p style="text-align: justify;"><span style="font-weight: 400;">Nous en reparlerons plus tard dans les détails, mais bonne nouvelle pour les patients: pas besoin de se faire opérer constamment et d'autres solutions existent! Bonne nouvelle pour les médecins vous pouvez prescrire un traitement efficace avant une opération qui coûte un peu plus chère à la sécurité sociale et montre des effets secondaires rares mais dramatiques. Bonne nouvelle pour les kinés, vous pouvez aider des patients qui ont eu jusqu'à maintenant des solutions encore trop peu adaptées au plus grand nombre. Bonne nouvelle pour les chirurgiens, vous pourrez prendre plus de vacances.</span></p>
+
+<div style="width: 480px;" class="wp-video">
+<video class="wp-video-shortcode" width="480" height="312" loop="1" autoplay="1" preload="auto" controls>
+<source type="video/mp4" src="https://www.kinefact.com/wp-content/uploads/2021/01/giphy-12.mp4">
+<a href="https://www.kinefact.com/wp-content/uploads/2021/01/giphy-12.mp4">https://www.kinefact.com/wp-content/uploads/2021/01/giphy-12.mp4</a>
+</video>
+</div>
 
 <p style="text-align: justify;"><span style="font-weight: 400;">Le traitement conservateur est indiqué dans les cas du SCC avant la prise en charge chirurgicale par l' « American Academy of Orthopeadic Surgeon ». Cependant la prise en charge par un physiothérapeute (nos homologues) semble ne pas être dans les mœurs des prescripteurs, en France ou à l'étranger. Dans une étude prospective canadienne, Rodney Li Pi Shan et al (2016) montre que chez les cliniciens réalisant le diagnostic par ENMG d'un SCC, « en ce qui concerne le traitement, 99% recommanderaient le port d'une attelle dans les cas de SCC léger. Chez les cas de SCC modéré, l'attelle était recommandée par 91% des cliniciens et 68% considéraient également référer le patient en chirurgie. Dans les cas de SCC sévères, la plupart recommandaient la chirurgie (93%) ». En aucun cas la prise en charge par un physiothérapeute n'est évoquée alors que le SCC fait partie des troubles neuro-musculosquelettiques</span></p>
 
@@ -124,6 +159,13 @@
 
 <p style="text-align: justify;"><span style="font-weight: 400;">Donner seulement le résultat de cette revue systématique avec méta-analyse ne suffit pas, et je vous encourage à analyser les données plus en profondeur comme l'a fait celle faite par Rahman Shiri et al.</span></p>
 
+<div style="width: 480px;" class="wp-video">
+<video class="wp-video-shortcode" width="480" height="480" loop="1" autoplay="1" preload="auto" controls>
+<source type="video/mp4" src="https://www.kinefact.com/wp-content/uploads/2021/01/giphy-21.mp4">
+<a href="https://www.kinefact.com/wp-content/uploads/2021/01/giphy-21.mp4">https://www.kinefact.com/wp-content/uploads/2021/01/giphy-21.mp4</a>
+</video>
+</div>
+
 <p style="text-align: justify;"><span style="font-weight: 400;">En effet, selon l'analyse de Mediouni et al, nous ne retrouvons pas de corrélation entre exposition à un ordinateur et SCC au sein d'une population générale. Cependant la population étudiée n'a pas subi un ajustement des facteurs de risques identifiés comme tels.</span></p>
 
 <p style="text-align: justify;"><span style="font-weight: 400;">Voici un exemple : les jeunes utilisent plus l'ordinateur que les personnes âgées et les personnes âgées montrent plus de SCC que les jeunes. Mais au vu des connaissances actuelles sur la physiopathologie du SCC, nous savons qu'il y a une installation lente et progressive de ce syndrome. Il faudrait donc comparer les jeunes ayant une exposition à l'ordinateur intense comparativement à d'autres jeunes. Revenons à notre cas : Les personnes sur les chantiers font partie de la population générale et subissent des contraintes nettement supérieures sur leurs poignets comparativement aux gens travaillant au bureau, ce qui amène à exclure un facteur spécifique à la population de personnes travaillant en bureau.</span></p>
@@ -142,11 +184,20 @@
 <li><span style="font-weight: 400;">Une corrélation avec le nombre d'heures par jour sur un ordinateur et le SCC</span></li>
 </ul>
 
+<p><img loading="lazy" decoding="async" class="alignnone wp-image-2166 " src="https://www.kinefact.com/wp-content/uploads/2021/01/92-e1611873019111-300x294.png" alt="" width="488" height="478" srcset="https://www.kinefact.com/wp-content/uploads/2021/01/92-e1611873019111-300x294.png 300w, https://www.kinefact.com/wp-content/uploads/2021/01/92-e1611873019111.png 577w" sizes="auto, (max-width: 488px) 100vw, 488px"></p>
+
 <p style="text-align: justify;"><span style="font-weight: 400;">Si nous extrapolons cette donnée, cela peut largement nous expliquer ce qui est observé par la communauté eSport. En effet le volume d'effort subi par ces athlètes est largement au-delà des sollicitations que peuvent subir les employés de bureau et de nombreux SCC sont énoncés.</span></p>
 
 <p style="text-align: justify;"><span style="font-weight: 400;">Comme nous le verrons plus loin dans le billet, la kinésithérapie semble au moins aussi efficace que la chirurgie dans la prise en charge de ce problème. La chirurgie ne sera pas la solution de choix pour ce sous-groupe de patients car régulièrement les patients ont une perte de force significative au niveau de leur main ou poignet suite à un acte chirurgical. Le kinésithérapeute est donc le thérapeute de choix pour aider les Athlètes eSport, en plus de savoir prendre en charge des lombalgies pour lesquelles ces athlètes peuvent se plaindre.</span></p>
 
 <p style="text-align: justify;"><span style="font-weight: 400;">J'ai déjà pu mettre en avant dans mon billet sur les lésions des IJ chez les sportifs que nous pouvons amener à moins de blessures, et par effet domino plus de victoires par équipe, peut être que nous pouvons aider ces athlètes également cela reste à vérifier dans de futures études.</span></p>
+
+<div style="width: 480px;" class="wp-video">
+<video class="wp-video-shortcode" width="480" height="270" loop="1" autoplay="1" preload="auto" controls>
+<source type="video/mp4" src="https://www.kinefact.com/wp-content/uploads/2021/01/gaming.mp4">
+<a href="https://www.kinefact.com/wp-content/uploads/2021/01/gaming.mp4">https://www.kinefact.com/wp-content/uploads/2021/01/gaming.mp4</a>
+</video>
+</div>
 
 <p style="text-align: justify;"><span style="font-weight: 400;">Deux études longitudinales viennent nous apporter d'autres éléments permettant de mieux comprendre les SCC</span></p>
 
@@ -155,6 +206,8 @@
 <p style="text-align: justify;"><span style="font-weight: 400;">Avant le début de l'étude 3/11 ont signifié avoir eu déjà dans leur vie des paresthésies dans leur main dominante. Durant l'étude et à la fin de la saison, ce nombre est passé à 8 puis est redescendu à 2 sur 9 lors du suivi quelques semaines plus tard, car 2 des participants n'ont pas renvoyé le questionnaire de suivi.</span></p>
 
 <p style="text-align: justify;"><span style="font-weight: 400;">Malgré le faible nombre de participants, nous observons des changements détectables significatifs dans la conduction nerveuse de chaque patient (courbes ci-dessous). Ces modifications semblent directement liées à l'effort, la charge et l'intensité du travail effectué pendant l'étude.</span></p>
+
+<p style="text-align: justify;"><img loading="lazy" decoding="async" class="alignnone wp-image-2167 " src="https://www.kinefact.com/wp-content/uploads/2021/01/93-e1611873233392-300x108.png" alt="" width="564" height="203" srcset="https://www.kinefact.com/wp-content/uploads/2021/01/93-e1611873233392-300x108.png 300w, https://www.kinefact.com/wp-content/uploads/2021/01/93-e1611873233392-768x277.png 768w, https://www.kinefact.com/wp-content/uploads/2021/01/93-e1611873233392.png 898w" sizes="auto, (max-width: 564px) 100vw, 564px"></p>
 
 <p style="text-align: justify;"><span style="font-weight: 400;">Le niveau d'activité mesuré pour les saisonniers est considéré comme moyen, il semble correspondre au niveau de contraintes que subissent des peintres par exemple. Le niveau d'activité de la main est évalué à 7/10 selon the American Conference of Governmental Industrial Hygienists' scale</span></p>
 
@@ -174,11 +227,15 @@
 <li><span style="font-weight: 400;">L'âge, le sexe et l'IMC semblent également des facteurs prédictifs mais selon la catégorie de SCC et le stade de gravité, les corrélations varient.</span></li>
 </ul>
 
+<p style="text-align: justify;"><img loading="lazy" decoding="async" class="alignnone wp-image-2168 " src="https://www.kinefact.com/wp-content/uploads/2021/01/94-e1611873341391-300x193.png" alt="" width="505" height="325" srcset="https://www.kinefact.com/wp-content/uploads/2021/01/94-e1611873341391-300x193.png 300w, https://www.kinefact.com/wp-content/uploads/2021/01/94-e1611873341391-768x493.png 768w, https://www.kinefact.com/wp-content/uploads/2021/01/94-e1611873341391.png 802w" sizes="auto, (max-width: 505px) 100vw, 505px"></p>
+
 <p style="text-align: justify;"><span style="font-weight: 400;">Cette étude énonce assez bien ses limites ainsi que les précautions liées à l'interprétation de leurs données au bout des 10 années de suivi il y a des perdus de vue. Durant l'étude certaines entreprises ont stoppé leur partenariat avec les chercheurs, certaines personnes ont changé de travail ou de domiciliation… De plus, dans ce modèle aux multiples variables, d'autres facteurs personnels ou génétiques n'ont pas été inclus. L'inclusion d'autres facteurs pourrait en effet diminuer la part de ceux analysés. Je vous invite à lire ces deux études qui sont vraiment bien décrites.</span></p>
 
 <p style="text-align: justify;"><span style="font-weight: 400;">Selon certains auteurs, l'accumulation de plusieurs facteurs de risque augmenterait le risque d'apparition du SCC, car rendant le tissu nerveux plus facilement irritable.</span></p>
 
 <p style="text-align: justify;"><span style="font-weight: 400;">Le tissu nerveux peut être sensibilisé par plusieurs types de stimulations et plus il est irrité plus il devient irritable. Ces stimulations peuvent être d'ordre mécanique ou métabolique. Nous parlons donc ici de « multiple crush syndrom »</span></p>
+
+<p><img loading="lazy" decoding="async" class="alignnone wp-image-2169 " src="https://www.kinefact.com/wp-content/uploads/2021/01/95-e1611873405557-300x56.png" alt="" width="745" height="139" srcset="https://www.kinefact.com/wp-content/uploads/2021/01/95-e1611873405557-300x56.png 300w, https://www.kinefact.com/wp-content/uploads/2021/01/95-e1611873405557-1024x192.png 1024w, https://www.kinefact.com/wp-content/uploads/2021/01/95-e1611873405557-768x144.png 768w, https://www.kinefact.com/wp-content/uploads/2021/01/95-e1611873405557.png 1459w" sizes="auto, (max-width: 745px) 100vw, 745px"></p>
 
 <p style="text-align: justify;"><span style="font-weight: 400;">Une équipe française s'est intéressée à la prévalence des SCC dans le milieu agricole. Ils ont décidé de faire plusieurs groupes en lien avec leur exposition biomécanique de l' exposition aux neurotoxiques durant leur travail. Cette étude nous apprend que sur les 711 hommes du milieu agricole :</span></p>
 
@@ -187,6 +244,10 @@
 <li><span style="font-weight: 400;">La prévalence était la plus grande chez les co-exposés aux agents chimiques neurotoxiques et aux contraintes biomécaniques élevées</span></li>
 <li><span style="font-weight: 400;">L'association entre la co-exposition et le SCC était statistiquement significative après ajustement des facteurs de risque individuels et médicaux du SCC, avec un odds-ratio plus élevé pour le groupe co-exposé ( OR=3,3 [ 0,8 ; 14,1 ] )</span></li>
 </ul>
+
+<p><img loading="lazy" decoding="async" class="alignnone wp-image-2170 " src="https://www.kinefact.com/wp-content/uploads/2021/01/96-e1611873482670-300x175.png" alt="" width="393" height="229" srcset="https://www.kinefact.com/wp-content/uploads/2021/01/96-e1611873482670-300x175.png 300w, https://www.kinefact.com/wp-content/uploads/2021/01/96-e1611873482670.png 498w" sizes="auto, (max-width: 393px) 100vw, 393px"></p>
+
+<p><img loading="lazy" decoding="async" class="alignnone wp-image-2171 " src="https://www.kinefact.com/wp-content/uploads/2021/01/97-e1611873538286-300x149.png" alt="" width="453" height="225" srcset="https://www.kinefact.com/wp-content/uploads/2021/01/97-e1611873538286-300x149.png 300w, https://www.kinefact.com/wp-content/uploads/2021/01/97-e1611873538286.png 488w" sizes="auto, (max-width: 453px) 100vw, 453px"></p>
 
 <p style="text-align: justify;"><span style="font-weight: 400;">Cette étude est une de celles illustrant le concept de multiple crush syndrom.</span></p>
 
@@ -207,6 +268,8 @@
 <li><span style="font-weight: 400;">Plus l'atteinte est longue, plus la probabilité d'avoir un SCC bilatéral est grande.</span></li>
 </ul>
 
-<p style="text-align: justify;">POUR LA PARTIE 1 cliquez <span style="color: #0000ff;"><a style="color: #0000ff;" href="/blog/syndrome-canal-carpien-bases-comprehension">ICI</a></span></p>
+<hr>
 
-<p style="text-align: justify;">POUR LA PARTIE 3 cliquez <a href="/blog/syndrome-canal-carpien-parcours-soin"><span style="color: #0000ff;">ICI</span></a></p>
+<p>POUR LA PARTIE 1 cliquez <span style="color: #0000ff;"><a style="color: #0000ff;" href="/blog/syndrome-canal-carpien-bases-comprehension">ICI</a></span></p>
+
+<p>POUR LA PARTIE 3 cliquez <a href="/blog/syndrome-canal-carpien-parcours-soin"><span style="color: #0000ff;">ICI</span></a></p>
