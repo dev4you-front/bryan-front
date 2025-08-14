@@ -20,7 +20,7 @@ export const blogArticles: Article[] = [
     contentPath: 'blog-posts/syndrome-canal-carpien-bases-comprehension.md',
   },
   {
-    title: "Syndrome du canal carpien, pourquoi sommes-nous négligés du parcours de soin ?",
+    title: "Le syndrome du canal carpien : régler au mieux le problème. 3/3",
     image: "https://www.kinefact.com/wp-content/uploads/2021/01/canal-carpien.png",
     excerpt: "Par Bryan Littré, remerciements et aide à la relecture : Marguerite Dontenwille, Robin Vervaeke, Marie Akrich, Antoine Massuleau, Benjamin Heng",
     date: "2024-05-27",
