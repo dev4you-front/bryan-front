@@ -14,7 +14,7 @@ export default function SiteHeader() {
 
   const headerTitle = useMemo((): string => {
     if (pathname === "/") return "ACCUEIL";
-    if (pathname.startsWith("/formations-")) return "MES FORMATIONS";
+    if (pathname.startsWith("/formations/")) return "MES FORMATIONS";
     if (pathname.startsWith("/blog")) return "BLOG";
     return "";
   }, [pathname]);
@@ -22,9 +22,9 @@ export default function SiteHeader() {
   const waveColor: string = pathname === "/" ? "#ffffff" : "#E0E0E0";
 
   const formationLinks = [
-    { href: "/formations-sport", label: "COMMENT PRENDRE EN CHARGE LES LÉSIONS DES ISCHIO-JAMBIERS ?" },
-    { href: "/formations-neuro", label: "TROUBLES NEUROLOGIQUES EN MSK : Réussir son bilan pour réussir son traitement" },
-    { href: "/formations-vasculaire", label: "TROUBLES VASCULAIRES EN MSK : Trier pour savoir quand traiter" },
+    { href: "/formations/sport", label: "COMMENT PRENDRE EN CHARGE LES LÉSIONS DES ISCHIO-JAMBIERS ?" },
+    { href: "/formations/neuro", label: "TROUBLES NEUROLOGIQUES EN MSK : Réussir son bilan pour réussir son traitement" },
+    { href: "/formations/vasculaire", label: "TROUBLES VASCULAIRES EN MSK : Trier pour savoir quand traiter" },
   ];
 
   const handleMouseEnterDropdown = (): void => {
