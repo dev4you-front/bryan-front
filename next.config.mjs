@@ -1,13 +1,5 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  webpack: (config) => {
-    // Permettre l'import de fichiers .md comme texte brut
-    config.module.rules.push({
-      test: /\.md$/,
-      type: 'asset/source',
-    });
-    return config;
-  },
   images: {
     remotePatterns: [
       {

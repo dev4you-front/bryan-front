@@ -1,6 +1,5 @@
 import { notFound } from "next/navigation";
-import { blogArticles, getArticleBySlug } from "@/data/blogArticles";
-import { loadBlogContent } from "@/utils/blogLoader";
+import { blogArticles } from "@/data/blogArticles";
 import ClientFormattedDate from "@/app/components/ClientFormattedDate";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
@@ -22,26 +21,13 @@ export async function generateStaticParams() {
 
 export default async function BlogArticlePage({ params }: BlogArticlePageProps) {
   const resolvedParams = await params;
-  const slug = resolvedParams.slug;
-  
-  // Récupérer les métadonnées de l'article
-  const articleMeta = getArticleBySlug(slug);
-  
-  if (!articleMeta) {
-    notFound();
-  }
-  
-  // Charger le contenu complet à la demande
-  let content: string;
-  try {
-    content = await loadBlogContent(slug);
-  } catch (error) {
-    console.error('Erreur lors du chargement du contenu:', error);
-    notFound();
-  }
+  const article = blogArticles.find(
+    (a) => a.link === `/blog/${resolvedParams.slug}`
+  );
 
-  // Reconstituer l'objet article complet
-  const article = { ...articleMeta, content };
+  if (!article) {
+    notFound();
+  }
 
   return (
     <SectionWrapper maxWidth="4xl">
