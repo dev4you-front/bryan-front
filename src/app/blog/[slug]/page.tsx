@@ -1,6 +1,9 @@
 import { notFound } from "next/navigation";
 import { blogArticles } from "@/data/blogArticles";
 import ClientFormattedDate from "@/app/components/ClientFormattedDate";
+import ReactMarkdown from "react-markdown";
+import remarkGfm from "remark-gfm";
+import rehypeRaw from "rehype-raw";
 
 interface BlogArticlePageProps {
   params: {
@@ -46,10 +49,14 @@ export default async function BlogArticlePage({ params }: BlogArticlePageProps) 
           </div>
 
           {/* Contenu de l'article */}
-          <div 
-            className="prose prose-lg max-w-none article-content"
-            dangerouslySetInnerHTML={{ __html: article.content }}
-          />
+          <div className="prose prose-lg max-w-none article-content">
+            <ReactMarkdown
+              remarkPlugins={[remarkGfm]}
+              rehypePlugins={[rehypeRaw]}
+            >
+              {article.content}
+            </ReactMarkdown>
+          </div>
 
           {/* Navigation de retour */}
           <div className="mt-12 pt-8 border-t border-gray-200">
