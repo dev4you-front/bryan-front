@@ -4,6 +4,7 @@ import ClientFormattedDate from "@/app/components/ClientFormattedDate";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 import rehypeRaw from "rehype-raw";
+import Image from "next/image";
 
 interface BlogArticlePageProps {
   params: {
@@ -41,9 +42,11 @@ export default async function BlogArticlePage({ params }: BlogArticlePageProps) 
                 Publié le <ClientFormattedDate date={article.date} /> par {article.author}
               </span>
             </div>
-            <img 
+            <Image 
               src={article.image} 
               alt={article.title}
+              width={400}
+              height={300}
               className="w-full max-w-md mx-auto rounded-lg shadow-md mb-6"
             />
           </div>

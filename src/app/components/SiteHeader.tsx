@@ -3,11 +3,7 @@
 import Link from "next/link";
 import { useMemo, useState, useRef, useEffect } from "react";
 import { usePathname } from "next/navigation";
-
-function classNames(...classes: Array<string | false | null | undefined>): string {
-  return classes.filter(Boolean).join(" ");
-}
-
+import { classNames } from "@/utils/helpers";
 
 export default function SiteHeader() {
   const pathname = usePathname();

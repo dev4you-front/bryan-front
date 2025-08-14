@@ -1,5 +1,6 @@
 import { blogArticles } from "@/data/blogArticles";
 import ClientFormattedDate from "@/app/components/ClientFormattedDate";
+import Image from "next/image";
 
 export default function Blog() {
   return (
@@ -13,7 +14,13 @@ export default function Blog() {
             {blogArticles.map((a, idx: number) => (
               <article key={idx} className="bg-white rounded-xl shadow-md border border-gray-100 overflow-hidden flex flex-col transform transition duration-300 hover:scale-[1.02] hover:shadow-xl hover:border-brandviolet/20">
                 <div className="relative overflow-hidden">
-                  <img src={a.image} alt="" className="w-full h-44 object-cover transition duration-300 hover:scale-105" />
+                  <Image 
+                    src={a.image} 
+                    alt={a.title}
+                    width={400}
+                    height={176}
+                    className="w-full h-44 object-cover transition duration-300 hover:scale-105"
+                  />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent opacity-0 hover:opacity-100 transition-opacity duration-300"></div>
                 </div>
                 <div className="p-5 flex-1 flex flex-col">
