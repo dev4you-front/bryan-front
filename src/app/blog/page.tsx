@@ -24,7 +24,7 @@ export default function Blog() {
                 <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent opacity-0 hover:opacity-100 transition-opacity duration-300"></div>
               </div>
               <div className="p-5 flex-1 flex flex-col">
-                <h3 className="text-lg font-bold mb-3 text-gray-900 line-clamp-2 leading-tight">{a.title}</h3>
+                <h3 className="text-lg font-bold mb-3 text-gray-900 leading-tight">{a.title}</h3>
                 <p className="text-gray-600 text-sm mb-4 flex-1 line-clamp-3 leading-relaxed">{a.excerpt.substring(0, 120)}...</p>
                 <div className="flex items-center justify-between text-xs text-gray-500 mb-4 pt-2 border-t border-gray-100">
                   <span className="font-medium text-brandviolet">{a.author}</span>
