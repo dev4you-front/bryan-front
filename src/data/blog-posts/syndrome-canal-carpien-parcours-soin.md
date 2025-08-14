@@ -1,4 +1,4 @@
-# Syndrome du canal carpien : régler au mieux le problème. 3/
+# Syndrome du canal carpien, pourquoi sommes-nous négligés du parcours de soin ?
 
 <p style="text-align: justify;"><span style="color: #00ccff;"><strong><span style="font-size: 24pt;">Syndrome du canal carpien, pourquoi sommes-nous négligés du parcours de soin ?&nbsp;</span></strong></span></p>
 <p style="text-align: justify;"><span style="font-weight: 400;">Par Bryan Littré, remerciements et aide à la relecture : </span><b>Marguerite Dontenwille, Robin Vervaeke, Marie Akrich, Antoine Massuleau, Benjamin Heng</b></p>
