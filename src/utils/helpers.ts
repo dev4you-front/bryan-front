@@ -8,7 +8,7 @@
 export function classNames(...classes: Array<string | false | null | undefined>): string {
   return classes.filter(Boolean).join(" ");
 }
-
+ 
 /**
  * Formate une date en format français
  * @param date - Date à formater
