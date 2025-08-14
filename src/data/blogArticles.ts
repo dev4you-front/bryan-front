@@ -859,3 +859,579 @@ Les connaissances actuelles concernant les mononeuropathies compressives, nous m
 <p style="text-align: justify;">POUR LA PARTIE 2 cliquez <span style="color: #0000ff;"><strong><a style="color: #0000ff;" href="https://www.kinefact.com/?p=2108&amp;preview=true">ICI</a></strong></span></p>`
   }
 ];
+  {
+    title: "Les lésions aiguës des ischio-jambiers : un problème dont il faut s'occuper",
+    image: "https://www.kinefact.com/wp-content/uploads/2020/07/usp_nfl__washington_redskins_at_philadelphia_eagle_59932360-scaled.jpg",
+    excerpt: "Cette série d'articles explore la prise en charge des lésions des ischio-jambiers, blessure la plus fréquente dans de nombreux sports. De l'évaluation clinique aux protocoles de rééducation, découvrez les dernières données scientifiques pour optimiser votre pratique.",
+    date: "2020-08-01",
+    author: "Bryan Littré",
+    link: "/blog/lesions-ischio-jambiers-probleme",
+    content: `<p style="text-align: justify;"><span style="font-weight: 400;">Cette série d'articles a été élaborée pendant le confinement (ça peut avoir du bon)</span></p>
+
+<p style="text-align: justify;"><span style="font-weight: 400;">Le but de ce travail est d'apporter des éléments de la littérature sur une pathologie courante, évaluée comme étant la blessure la plus fréquente dans de nombreux sports. Le format de ces billets de blog se rapproche d'une </span><i><span style="font-weight: 400;">critical review,</span></i><span style="font-weight: 400;"> où les sources seront énoncées afin que chaque lecteur puisse apprécier de lui-même les subtilités de cette prise en charge complexe.&nbsp;</span></p>
+
+<p style="text-align: justify;"><span style="font-weight: 400;">Ayant joué quelques années au football américain au Flash de la Courneuve, cette période de ma vie a été entaché de blessures comprenant 2 lésions aiguës aux ischio-jambiers, le sujet m'a donc intéressé. Même après le diplôme je n'avais pas les connaissances nécessaire, c'est pour cela que je tiens à partager avec vous quelques données. Aide à la relecture : <strong>Marguerite Dontenwille, Robin Vervaeke, Joshua Lavallée</strong></span></p>
+
+<p style="text-align: justify;"><span style="font-size: 14pt; color: #3366ff;"><strong>Bonne lecture !&nbsp;</strong></span></p>
+
+<p style="text-align: justify;"><span style="font-weight: 400;">Durant les pré-saisons de la Ligue Nationale de Football américain (NFL)&nbsp; les lésions « musculaires » comptent pour environ 50% des blessures rencontrées. Au sein de ce groupe de blessures, les lésions aux ischio-jambiers ont la plus grande incidence et prévalence. Ces données sont également concordantes avec ce qui est observé dans le football (</span><i><span style="font-weight: 400;">soccer</span></i><span style="font-weight: 400;">). De ce fait, le traitement et la prévention de ces blessures, semblent être essentiels à maîtriser.&nbsp;</span></p>
+
+<p style="text-align: justify;"><span style="font-weight: 400; font-size: 8pt; color: #3366ff;">Feeley, B. T., Kennelly, S., Barnes, R. P., Muller, M. S., Kelly, B. T., Rodeo, S. A., &amp; Warren, R. F. (2008). Epidemiology of National Football League training camp injuries from 1998 to 2007. American Journal of Sports Medicine, 36(8), 1597–1603</span></p>
+
+<p style="text-align: justify;"><span style="font-weight: 400; font-size: 8pt; color: #3366ff;">Ekstrand, J., Walden, M., &amp; Hagglund, M. (2016). Hamstring injuries have increased by 4% annually in men's professional football, since 2001: A 13-year longitudinal analysis of the UEFA Elite Club injury study. British Journal of Sports Medicine, 50(12), 731–737</span></p>
+
+<p style="text-align: justify;"><span style="font-weight: 400; font-size: 8pt;">Sommaire :&nbsp;</span></p>
+
+<ul style="text-align: justify;">
+<li><span style="font-size: 8pt;"><strong>La prescription en France</strong></span></li>
+<li><span style="font-size: 8pt;"><strong>Quelle formulation choisir ?&nbsp;</strong></span></li>
+<li><span style="font-size: 8pt;"><strong>L'impact sportif et financier</strong></span></li>
+<li><span style="font-size: 8pt;"><strong>LE patient type ?&nbsp;</strong></span>
+<ul>
+<li><span style="font-size: 8pt;"><strong><i>Stretching type</i></strong></span></li>
+<li><span style="font-size: 8pt;"><strong><i>Sprinting type</i></strong></span></li>
+</ul>
+</li>
+<li><span style="font-size: 8pt;"><strong>Que faire face à une suspicion de lésion ? Diagnostic différentiel et tests cliniques</strong></span></li>
+<li><span style="font-size: 8pt;"><strong>Les particularités de l'avulsion et de la rupture complète</strong></span></li>
+<li><span style="font-size: 8pt;"><strong>La lésion classique aiguë des IJ : prédiction et pronostic</strong></span></li>
+<li><span style="font-size: 8pt;"><strong>La prise en charge de A à Z : les principes</strong></span></li>
+<li><span style="font-weight: 400; font-size: 8pt;">La prise en charge de A à Z : quelques subtilités&nbsp;</span></li>
+<li><span style="font-weight: 400; font-size: 8pt;">Rééducation précoce</span></li>
+<li><span style="font-weight: 400; font-size: 8pt;">Quelques conséquences et facteurs de risques</span></li>
+<li><span style="font-weight: 400; font-size: 8pt;">Modification de l'architecture et de l'activation des IJ, que faire ?&nbsp;</span></li>
+<li><span style="font-weight: 400; font-size: 8pt;">Les exercices en fin d'amplitude</span></li>
+<li><span style="font-weight: 400; font-size: 8pt;">Une rééducation avec ou sans douleur, même combat ?&nbsp;</span></li>
+<li><span style="font-weight: 400; font-size: 8pt;">Progresser en algorithme plutôt qu'en protocole, pour un soin individualisé.</span></li>
+<li><span style="font-weight: 400; font-size: 8pt;">Prescrire des exercices à mes patients, oui mais lesquels ?&nbsp;</span></li>
+<li><span style="font-weight: 400; font-size: 8pt;">La prise de décision du retour au sport, plus complexe qu'il n'y paraît</span></li>
+<li><span style="font-weight: 400; font-size: 8pt;">La prévention avant / pendant / après la blessure</span></li>
+</ul>
+
+<p style="text-align: justify;"><span style="font-size: 14pt; color: #3366ff;"><b>LA PRESCRIPTION EN FRANCE</b></span></p>
+
+<p style="text-align: justify;"><img decoding="async" class="alignnone wp-image-1607" src="https://www.kinefact.com/wp-content/uploads/2020/07/page_7.jpg" alt="" width="425" height="741"></p>
+
+<p style="text-align: justify;"><span style="font-weight: 400;">Après que de nombreux patients au cabinet soient venus avec des diagnostics de « claquage », « élongation », « déchirure musculaire ». Je me suis rendu compte de plusieurs choses : la majeure partie du temps ils avaient reçu des conseils inadaptés, des anciennes prises en charges non-optimales ou des ordonnances proposant des soins de faible valeur ajoutée et encore quand le diagnostic était le bon, ce qui était rarement le cas.</span></p>
+
+<p style="text-align: justify;"><span style="font-weight: 400; font-size: 8pt; color: #3366ff;">Elshaug, A. G., McWilliams, J. M., &amp; Landon, B. E. (2013). The Value of Low-Value Lists. JAMA, 309(8), 775</span></p>
+
+<p style="text-align: justify;"><span style="font-weight: 400; font-size: 8pt; color: #3366ff;">Limiting Low-Value Care by "Choosing Wisely." (2014). Virtual Mentor, 16(2), 131–134.</span></p>
+
+<p style="text-align: justify;"><span style="font-weight: 400;">D'après certaines études françaises, la plupart du temps nous ne recevons qu'une proportion faible de prescriptions médicales pour ce type d'atteintes (à tort). Estelle Renuy a pu le mettre en évidence en 2016 dans sa thèse : </span><i><span style="font-weight: 400;">La prise en charge des lésions musculaires aiguës en médecine générale : évaluation des pratiques professionnelles</span></i><span style="font-weight: 400;"> ; questionnaire adressé aux médecins militaires. Cette donnée indique qu'une majorité de patients ayant ce type d'atteintes ne bénéficient pas des soins adéquats selon la volonté du prescripteur, ou de sa connaissance dans le domaine.</span></p>
+
+<p style="text-align: justify;"><span style="font-weight: 400;">Ce que nous apprend son étude : « 136 médecins ont répondu à la question 15. La kinésithérapie est prescrite de manière systématique par 18,4% des médecins des forces et en fonction de la gravité par 59.6% des médecins interrogés (les critères évaluant les stades de gravité avancés par les médecins français ne correspondent pas aux stades de gravité communément acceptés et utilisés par la communauté scientifique experte dans le domaine). Les médecins ayant une formation complémentaire en médecine du sport prescrivent un peu plus facilement de la kinésithérapie de manière systématique </span><b>(21% VS 14.5%)</b><span style="font-weight: 400;"> que leurs confrères ne s'étant pas formés dans le domaine »</span></p>
+
+<p style="text-align: justify;"><span style="font-weight: 400;">21% de prescription reste toujours un chiffre relativement faible au vu du risque de récidives très élevé. Si nous devions faire une comparaison, c'est comme si après une première luxation d'épaule, seulement quelques patients recevaient une rééducation alors que le risque de récidives est élevé, ce ne serait pas adapté et acceptable.</span></p>
+
+<p style="text-align: justify;"><span style="font-weight: 400;">De plus, même si une prescription est faite pour ces patients, il est de notre ressort de fournir le traitement le plus adapté, et il ne faut pas s'attendre à obtenir une prescription décrivant les traitements à suivre selon les meilleurs évidences disponibles. Les médecins l'avouent eux même, ils « manquent de formation » sur ce sujet, comme a pu le mettre en évidence Saïd El Bakali dans sa thèse : </span><i><span style="font-weight: 400;">Prise en charge thérapeutique des lésions musculaires aigües intrinsèques : Evaluation des pratiques professionnelles auprès de 321 médecins généralistes de la région Nord-Pas-de-Calais et proposition d'un protocole thérapeutique.</span></i><span style="font-weight: 400;">&nbsp; De ce fait, nous ne pouvons jeter l'opprobre sur des professionnels de santé dont la formation semble souffrir de certaines lacunes.</span></p>
+
+<p style="text-align: justify;"><span style="font-weight: 400;"><img loading="lazy" decoding="async" class="alignnone wp-image-1610" src="https://www.kinefact.com/wp-content/uploads/2020/07/prescription-2-e1594296815918-300x156.png" alt="" width="592" height="308" srcset="https://www.kinefact.com/wp-content/uploads/2020/07/prescription-2-e1594296815918-300x156.png 300w, https://www.kinefact.com/wp-content/uploads/2020/07/prescription-2-e1594296815918-768x398.png 768w, https://www.kinefact.com/wp-content/uploads/2020/07/prescription-2-e1594296815918.png 926w" sizes="auto, (max-width: 592px) 100vw, 592px"></span></p>
+
+<p style="text-align: justify;"><span style="font-weight: 400;"><img loading="lazy" decoding="async" class="alignnone wp-image-1609" src="https://www.kinefact.com/wp-content/uploads/2020/07/prescription-1-e1594298620145-300x180.png" alt="" width="742" height="445" srcset="https://www.kinefact.com/wp-content/uploads/2020/07/prescription-1-e1594298620145-300x180.png 300w, https://www.kinefact.com/wp-content/uploads/2020/07/prescription-1-e1594298620145-768x460.png 768w, https://www.kinefact.com/wp-content/uploads/2020/07/prescription-1-e1594298620145.png 945w" sizes="auto, (max-width: 742px) 100vw, 742px"></span></p>
+
+<p style="text-align: justify;"><span style="font-weight: 400;">&nbsp;</span></p>
+
+<p style="text-align: justify;"><span style="font-weight: 400;">Ces deux thèses sont très intéressantes concernant la vision qu'ont les médecins français de nos pratiques, car ils prescrivent rarement de la kinésithérapie en première intention.</span></p>
+
+<ul style="text-align: justify;">
+<li><span style="font-weight: 400;">33% (106/321) des médecins jugeaient la circulation de l'information entre le kinésithérapeute et le médecin peu satisfaisante et 11% (38/321), pas satisfaisante.</span></li>
+<li><span style="font-weight: 400;">L'absence totale de circulation de l'information était relevée par 31% (101/321) des médecins interrogés.</span></li>
+<li><span style="font-weight: 400;">Les ultrasons, les massages et les étirements sont jugés aidants alors que toutes les données sérieuses montrent le contraire sur la récupération, ces pratiques seraient mêmes déconseillées par tous les plus grands experts dans le domaine comme traitement initial. Il est peut-être de notre ressort d'éduquer les autres professions sur la prise en charge optimale.</span></li>
+<li><span style="font-weight: 400;">On est peut-être un peu négligés non ?&nbsp;</span></li>
+</ul>
+
+<div style="width: 480px;" class="wp-video">
+<video class="wp-video-shortcode" width="480" height="278" loop="1" autoplay="1" preload="metadata" src="https://www.kinefact.com/wp-content/uploads/2020/07/giphy-ertz.mp4" style="width: 480px; height: 278px;">
+<source type="video/mp4" src="https://www.kinefact.com/wp-content/uploads/2020/07/giphy-ertz.mp4">
+</video>
+</div>
+
+<p style="text-align: justify;"><span style="font-weight: 400;">De ce fait, il est de notre devoir de propager un discours cohérent aux prescripteurs composé de ce qui se fait de mieux à ce jour à l'international et pour le bien-être des patients atteints de ces affections.&nbsp;</span></p>
+
+<p style="text-align: justify;"><span style="font-size: 14pt; color: #3366ff;"><b>QUELLE FORMULATION CHOISIR</b></span></p>
+
+<p style="text-align: justify;"><span style="font-weight: 400;">Il serait préférable que nous puissions parler un langage commun. Les termes sont très différents et génèrent plusieurs connotations pouvant altérer la compréhension de la réalité. Dis autrement, devons-nous utiliser les mêmes termes que les commentateurs TV du dimanche soir ? Si non, par quels termes les plus représentatifs du réel devons-nous les remplacer pour discuter entre professionnels ?&nbsp;</span></p>
+
+<p style="text-align: justify;"><span style="font-weight: 400;">Lors de ce type de blessure, l'atteinte n'est pas que musculaire. La "déchirure musculaire" pourrait donc n'être pas assez précis. En effet, nous pouvons retrouver chez ces patients des atteintes structurelles du tissu conjonctif, des atteintes du muscle (plutôt rare), ainsi que des atteintes au niveau de la jonction entre le muscle et le tissu conjonctif. D'après la revue de Wilke et al 2019, nous retrouvons plus de lésion à la jonction entre le muscle et le tendon, atteignant le tissu conjonctif. Les auteurs préconisent donc de changer le terme en : "</span><i><span style="font-weight: 400;">myocollagenous strain injury"</span></i><span style="font-weight: 400;"> ou en français lésion myo-collagénique (LMC). Si nous voulons être précis, il est recommandé par les auteurs de parler de lésions aigües myo-collagéniques des ischio-jambiers.&nbsp;</span></p>
+
+<p style="text-align: justify;"><span style="font-weight: 400; font-size: 8pt; color: #3366ff;">WILKE, Jan, HESPANHOL, Luiz, et BEHRENS, Martin. Is It All About the Fascia? A Systematic Review and Meta-analysis of the Prevalence of Extramuscular Connective Tissue Lesions in Muscle Strain Injury. Orthopaedic Journal of Sports Medicine, 2019, vol. 7, no 12, p. 2325967119888500.</span></p>
+
+<p style="text-align: justify;"><span style="font-weight: 400;">Ces figures en </span><i><span style="font-weight: 400;">forest plot</span></i><span style="font-weight: 400;"> représentent la distribution des types de tissus atteint lors d'une lésion aiguë myo-collagénique </span><i><span style="font-weight: 400;">(myo-collagenous strain injury)</span></i></p>
+
+<p style="text-align: justify;"><img loading="lazy" decoding="async" class="alignnone wp-image-1613" src="https://www.kinefact.com/wp-content/uploads/2020/07/forest-plot-1-e1594298359490-300x206.png" alt="" width="518" height="356" srcset="https://www.kinefact.com/wp-content/uploads/2020/07/forest-plot-1-e1594298359490-300x206.png 300w, https://www.kinefact.com/wp-content/uploads/2020/07/forest-plot-1-e1594298359490-1024x704.png 1024w, https://www.kinefact.com/wp-content/uploads/2020/07/forest-plot-1-e1594298359490-768x528.png 768w, https://www.kinefact.com/wp-content/uploads/2020/07/forest-plot-1-e1594298359490.png 1032w" sizes="auto, (max-width: 518px) 100vw, 518px"></p>
+
+<p style="text-align: justify;"><img loading="lazy" decoding="async" class="alignnone wp-image-1614" src="https://www.kinefact.com/wp-content/uploads/2020/07/forest-plot-2-e1594298480643-259x300.png" alt="" width="582" height="674" srcset="https://www.kinefact.com/wp-content/uploads/2020/07/forest-plot-2-e1594298480643-259x300.png 259w, https://www.kinefact.com/wp-content/uploads/2020/07/forest-plot-2-e1594298480643.png 720w" sizes="auto, (max-width: 582px) 100vw, 582px"></p>
+
+<p style="text-align: justify;"><span style="font-weight: 400;">Différents tissus atteints, pour différents processus de guérison. Ces </span><i><span style="font-weight: 400;">forest-plot </span></i><span style="font-weight: 400;">nous montrent pourquoi nous ne pouvons parler ni de lésions musculaires, ni de lésions&nbsp; myo-fasciales, ni de lésions myo-tendineuses, car cela ne représente pas toute la variété d'atteintes présentes et observées.&nbsp;</span></p>
+
+<p style="text-align: justify;"><span style="font-weight: 400;">La classification d'Andrivet (1968) : "claquage, élongation ou déchirure", a pu être utile par le passé, mais maintenant nous avons des classifications plus précises et plus utiles. Malheureusement cette classification ne nous informe ni sur le tissu atteint, ni sur les mécanismes mis en jeu, ni sur le pronostic du patient a priori. Nous reviendrons plus tard sur les moyens de classer les patients grâce à l'imagerie ou aux signes cliniques.&nbsp;</span></p>
+
+<p style="text-align: justify;"><span style="font-weight: 400;">Cependant, nous pouvons continuer à parler comme des commentateurs TV car on sait à peu près que l'on parle de la même chose : un blessure à la face postérieure de cuisse suivant un certain schéma lésionnel, majoritairement lié à un effort excentrique intense.</span></p>
+
+<p style="text-align: justify;"><span style="font-weight: 400;">Ces termes semblent donc regrouper plusieurs entités différentes pouvant répondre différemment à la contrainte selon le tissu lésé, mais le terme le plus adapté serait "lésion aiguë myo-collagénique" des ischio-jambiers si nous devions parler entre professionnels. Je trouve ce terme trop long et lourd à la lecture, j'espère que vous ne m'en voudrez pas que je parles de lésions aux ischio-jambiers (IJ)</span></p>
+
+<div style="width: 480px;" class="wp-video">
+<video class="wp-video-shortcode" width="480" height="480" loop="1" autoplay="1" preload="auto" src="https://www.kinefact.com/wp-content/uploads/2020/07/giphy-wink.mp4" style="width: 480px; height: 480px;">
+<source type="video/mp4" src="https://www.kinefact.com/wp-content/uploads/2020/07/giphy-wink.mp4">
+</video>
+</div>
+
+<p style="text-align: justify;"><span style="font-size: 14pt; color: #3366ff;"><b>IMPACT SPORTIF ET FINANCIER</b></span></p>
+
+<p style="text-align: justify;"><span style="font-weight: 400;"> <img loading="lazy" decoding="async" class="alignnone wp-image-1617" src="https://www.kinefact.com/wp-content/uploads/2020/07/manu-300x169.jpg" alt="" width="625" height="352" srcset="https://www.kinefact.com/wp-content/uploads/2020/07/manu-300x169.jpg 300w, https://www.kinefact.com/wp-content/uploads/2020/07/manu.jpg 620w" sizes="auto, (max-width: 625px) 100vw, 625px"></span></p>
+
+<p style="text-align: justify;"><span style="font-weight: 400;">Les lésions aux IJ sont très fréquentes dans le sport professionnel et amateur. Elles sont les blessures les </span><b>PLUS FRÉQUENTES</b><span style="font-weight: 400;"> au football (soccer) et au football australien. Cette blessure fait également partie des plus fréquentes au football américain et au rugby. Les lésions musculaires toutes confondues représentent au moins un tiers des lésions musculo-squelettiques chez les joueurs professionnels de football.</span></p>
+
+<p style="text-align: justify;"><img loading="lazy" decoding="async" class="alignnone wp-image-1618" src="https://www.kinefact.com/wp-content/uploads/2020/07/stats-e1594299285664-300x251.png" alt="" width="602" height="504" srcset="https://www.kinefact.com/wp-content/uploads/2020/07/stats-e1594299285664-300x251.png 300w, https://www.kinefact.com/wp-content/uploads/2020/07/stats-e1594299285664-1024x856.png 1024w, https://www.kinefact.com/wp-content/uploads/2020/07/stats-e1594299285664-768x642.png 768w, https://www.kinefact.com/wp-content/uploads/2020/07/stats-e1594299285664.png 1056w" sizes="auto, (max-width: 602px) 100vw, 602px"></p>
+
+<p style="text-align: justify;"><span style="font-weight: 400; font-size: 8pt; color: #3366ff;">Ingham, S. J. M., Ramos, L. A., Abdalla, R. J., Stilhano, R. S., &amp; de Carvalho, R. T. (2017). Epidemiology and Clinical Features of Muscle Injuries. Muscle Injuries in Sport Athletes, 59–66. doi:10.1007/978-3-319-43344-8_4</span></p>
+
+<p style="text-align: justify;"><span style="font-weight: 400; font-size: 8pt; color: #3366ff;">Roe, M., Murphy, J. C., Gissane, C., &amp; Blake, C. Hamstring Injuries in Elite Gaelic Football: An Eight Year Prospective Investigation.</span></p>
+
+<p style="text-align: justify;"><span style="font-weight: 400; font-size: 8pt; color: #3366ff;">Edouard, P., Serra, J. M., Hertert, P., Cugy, E., Morel, N., Prevost, M., &amp; Depiesse, F. (2016). Athletic injury prevention: Epidemiology of injuries during the French Elite championships. Annals of physical and rehabilitation medicine, 59, e21.</span></p>
+
+<p style="text-align: justify;"><span style="font-weight: 400; font-size: 8pt; color: #3366ff;">Jones, A., Jones, G., Greig, N., Bower, P., Brown, J., Hind, K., &amp; Francis, P. (2019). Epidemiology of injury in English Professional Football players: A cohort study. Physical therapy in sport, 35, 18-22.</span></p>
+
+<p style="text-align: justify;"><span style="font-weight: 400; font-size: 8pt; color: #3366ff;">EKSTRAND, Jan, KRUTSCH, Werner, SPRECO, Armin, et al. Time before return to play for the most common injuries in professional football: a 16-year follow-up of the UEFA Elite Club Injury Study. British journal of sports medicine, 2020, vol. 54, no 7, p. 421-426.</span></p>
+
+<p style="text-align: justify;"><span style="font-weight: 400; font-size: 8pt; color: #3366ff;">Engebretsen L, Soligard T, Steffen K, Alonso JM, Aubry M, Budgett R, et al. (2013) Sports injuries and illnesses during the London Summer Olympic Games 2012. Br J Sports Med 47:407-414</span></p>
+
+<p style="text-align: justify;"><span style="font-weight: 400;">Toutes les données convergent vers ce même constat : cette blessure est un fléau qui fait perdre beaucoup de temps de terrain aux joueurs, beaucoup d'argent aux club touchés, montre un taux de récidives très élevé, et le risque d'événements traumatiques est plus élevé durant les matchs comparativement aux entraînements. Il semblerait même que ces blessures aient un impact négatif sur les victoires du club en championnat.</span></p>
+
+<p style="text-align: justify;"><span style="font-weight: 400;">Par ailleurs, le muscle biceps fémoral et la jonction myotendineuse (tous muscles confondus) étaient les localisations les plus fréquemment touchées, comme montré au sein de l'étude d'Ekstrand et al. : 84 % d'atteinte du chef long du biceps fémoral, 56 % d'atteinte de la jonction myo-tendineuse, et 17 à 27 % d'atteinte de la jonction myo-aponévrotique</span></p>
+
+<p style="text-align: justify;"><span style="font-weight: 400;">Williams&nbsp; et al, concluent que : « Ces résultats soulignent le rôle important que jouent le staff médical, la rééducation et les préparateurs physiques afin d'améliorer la disponibilité des joueurs pour augmenter les chances de succès de l'équipe.&nbsp;</span></p>
+
+<p style="text-align: justify;"><span style="font-weight: 400;">▸ Ayant connaissance de l'association négative entre les blessures et la réussite de l'équipe, il serait peut-être utile de tenter de communiquer sur la mise en place de programmes de prévention des blessures au sein de ce cadre sportif d'élite (par exemple, aux entraîneurs et aux autres professionnels).</span></p>
+
+<p style="text-align: justify;"><span style="font-weight: 400;">▸ Entraîneurs, personnels médicaux, de réadaptation, et personnels de conditionnement devrait s'efforcer de travailler ensemble dans un mode interdisciplinaire afin de prévenir les blessures.</span></p>
+
+<p style="text-align: justify;"><span style="font-weight: 400;">Il existe beaucoup de problématiques liées à cette blessure, que ce soit dans la prise en charge, la qualité des soins administrés, le délai de retour au sport mais surtout les récidives.</span></p>
+
+<p style="text-align: justify;"><span style="font-weight: 400; font-size: 8pt; color: #3366ff;">WANGENSTEEN, Arnlaug, TOL, Johannes L., WITVROUW, Erik, et al. Hamstring reinjuries occur at the same location and early after return to sport: a descriptive study of MRI-confirmed reinjuries. The American journal of sports medicine, 2016, vol. 44, no 8, p. 2112-2121.</span></p>
+
+<p style="text-align: justify;"><span style="font-weight: 400; font-size: 8pt; color: #3366ff;">WILLIAMS, Sean, TREWARTHA, Grant, KEMP, Simon PT, et al. Time loss injuries compromise team success in Elite Rugby Union: a 7-year prospective study. British journal of sports medicine, 2016, vol. 50, no 11, p. 651-656.</span></p>
+
+<p style="text-align: justify;"><span style="font-weight: 400; font-size: 8pt; color: #3366ff;">EKSTRAND, Jan, LEE, Justin C., et HEALY, Jeremiah C. MRI findings and return to play in football: a prospective analysis of 255 hamstring injuries in the UEFA Elite Club Injury Study. British journal of sports medicine, 2016, vol. 50, no 12, p. 738-743.</span></p>
+
+<p style="text-align: justify;"><span style="font-weight: 400;">Nous pouvons conclure au vu de ces données que nous avons un rôle prépondérant dans l'identification du problème, le pronostic, la prise en charge, la prévention, le retour à la compétition, la santé des athlètes et par extension de l'équipe.</span></p>
+
+<p style="text-align: justify;"><span style="font-weight: 400;">Si vous voulez renégocier vos salaires dites juste aux clubs et fédérations qu'on fait gagner des sous, ou du moins on diminue les pertes financières et sportives.</span></p>
+
+<div style="width: 480px;" class="wp-video">
+<video class="wp-video-shortcode" width="480" height="264" loop="1" autoplay="1" preload="auto" src="https://www.kinefact.com/wp-content/uploads/2020/07/giphy-smart.mp4" style="width: 480px; height: 264px;">
+<source type="video/mp4" src="https://www.kinefact.com/wp-content/uploads/2020/07/giphy-smart.mp4">
+</video>
+</div>
+
+<p style="text-align: justify;"><span style="font-size: 14pt; color: #3366ff;"><b>LE PATIENT TYPE</b></span></p>
+
+<p style="text-align: justify;"><span style="font-weight: 400;">Il existe majoritairement 2 mécanismes lésionnels qui sont différents et correspondent à des lésions dites «&nbsp;intrinsèques&nbsp;». La blessure survient donc sans force extérieure. L'autre catégorie est la lésion «&nbsp;extrinsèque&nbsp;» que peut provoquer un adversaire (contusion, lacération). Ne nous intéresserons qu'à la première catégorie, car la deuxième dépend de facteurs non maîtrisables, et que les lésions intrinsèques sont les plus fréquentes.</span></p>
+
+<p style="text-align: justify;"><span style="font-weight: 400;">Au sein des lésions intrinsèques, 2 mécanismes principaux existent.</span></p>
+
+<p style="text-align: justify;"><span style="color: #3366ff;"><b><i>Stretching type</i></b></span></p>
+
+<p style="text-align: justify;"><span style="font-weight: 400;">Le premier le « </span><i><span style="font-weight: 400;">stretching type/overstretching</span></i><span style="font-weight: 400;"> », par coup de pied « </span><i><span style="font-weight: 400;">kicking</span></i><span style="font-weight: 400;"> » ou étirement lent « </span><i><span style="font-weight: 400;">slow stretching</span></i><span style="font-weight: 400;"> »&nbsp;</span></p>
+
+<div style="width: 294px;" class="wp-video">
+<video class="wp-video-shortcode" width="294" height="240" loop="1" preload="auto" src="https://www.kinefact.com/wp-content/uploads/2020/07/claquage-du-siecle-pour-un-danseur.mp4" style="width: 294px; height: 240px;">
+<source type="video/mp4" src="https://www.kinefact.com/wp-content/uploads/2020/07/claquage-du-siecle-pour-un-danseur.mp4">
+</video>
+</div>
+
+<p style="text-align: justify;"><span style="font-weight: 400;">(Avez-vous entendu la détonation ?)</span></p>
+
+<p style="text-align: justify;"><span style="font-weight: 400;">Ce mécanisme lésionnel est le second plus fréquent provoquant des lésions aux IJ.</span></p>
+
+<p style="text-align: justify;"><span style="font-weight: 400; color: #3366ff; font-size: 8pt;">WOODS, Carol, HAWKINS, R., HULSE, M., et al. The Football Association Medical Research Programme: an audit of injuries in professional football—analysis of preseason injuries. British journal of sports medicine, 2002, vol. 36, no 6, p. 436-441.</span></p>
+
+<p style="text-align: justify;"><span style="font-weight: 400;">Ce type d'atteinte semble avoir des particularités spécifiques selon l'étude de Carl Askling qui a étudié les danseurs s'étant blessé.</span></p>
+
+<p style="text-align: justify;"><span style="font-weight: 400; font-size: 8pt; color: #3366ff;">ASKLING, Carl M., TENGVAR, Magnus, SAARTOK, Tönu, et al. Acute first-time hamstring strains during slow-speed stretching: clinical, magnetic resonance imaging, and recovery characteristics. The American journal of sports medicine, 2007, vol. 35, no 10, p. 1716-1724.</span></p>
+
+<p style="text-align: justify;"><span style="font-weight: 400;">Au sein de son étude, les athlètes touchés se sont blessés en réalisant des écarts, des stretchings lents ou à haute vélocité. La majorité d'entre eux ont entendu une détonation ( « pop ») qui a pu parfois être entendu par leurs camarades. Ils n'ont pas tous eu des douleurs directement après l'événement traumatique.</span></p>
+
+<p style="text-align: justify;"><span style="font-weight: 400;">Les zones anatomiques les plus touchées sont les jonctions myo-tendineuses des muscles semi-membraneux et carré fémoral (87% pour le semi-membraneux), proche de leur insertion proximale. Donc deux zones pour le prix d'une blessure la plupart du temps. Plus rarement et dans un tiers des cas, le grand adducteur pouvait être touché.</span></p>
+
+<p style="text-align: justify;"><span style="font-weight: 400;">Ce qui était également intéressant c'est que 2 jours après leur blessure, on demandait aux athlètes dans combien de temps est-ce qu'ils pensaient pouvoir reprendre le sport à leur niveau initial. Leur réponse oscillait entre 1 et 2 semaines. Ce qu'ils ne savaient pas et ce que nous apprend cette étude, c'est que le délai moyen de retour à la compétition avec un niveau similaire à celui avant l'événement traumatique oscillait entre 30 et 76 semaines. 50 semaines en moyenne pour récupérer un niveau de sport similaire à la période avant la lésion. Environ la moitié des athlètes ont décidé de stopper leur carrière en partie à cause de douleurs récurrentes liées à ce traumatisme initial dans les 2 premières années post-lésion ( 63 semaines de rééducation en moyenne ). La moitié des participants de l'étude avaient un sentiment d'insécurité, et ressentaient des gênes à la palpation ou à l'étirement à la fin de la période de suivi.</span></p>
+
+<p style="text-align: justify;"><span style="font-weight: 400; color: #3366ff; font-size: 8pt;">ASKLING, Carl M., TENGVAR, Magnus, SAARTOK, Tonu, et al. Proximal hamstring strains of stretching type in different sports: injury situations, clinical and magnetic resonance imaging characteristics, and return to sport. The American journal of sports medicine, 2008, vol. 36, no 9, p. 1799-1804.</span></p>
+
+<p style="text-align: justify;"><span style="font-weight: 400;">Il convient donc d'informer correctement le patient et les différents staffs sur la potentielle longue absence de l'athlète, s'ils espèrent un retour à la compétition au niveau pré-lésionnel.</span></p>
+
+<p style="text-align: justify;"><span style="font-weight: 400;">Ils concluent dans leur étude que la mise en évidence de ce type d'atteinte et de ce mécanisme est possible pour un clinicien rigoureux qui prendra en compte le mécanisme lésionnel, la palpation à l'examen clinique (production de douleur intense pas plus de 2-4cm autour de l'insertion proximale de ces muscles) pouvant être complétés par un IRM. Il est également de notre devoir de prévenir le patient que la reprise sera plus longue qu'il ne le pense.</span></p>
+
+<p style="text-align: justify;"><span style="color: #3366ff;"><b><i>Sprinting type</i></b></span></p>
+
+<p style="text-align: justify;"><span style="font-weight: 400;">Le second mécanisme lésionnel est le « </span><i><span style="font-weight: 400;">sprinting type</span></i><span style="font-weight: 400;"> »</span></p>
+
+<div style="width: 480px;" class="wp-video">
+<video class="wp-video-shortcode" width="480" height="270" loop="1" autoplay="1" preload="auto" src="https://www.kinefact.com/wp-content/uploads/2020/07/giphy-injury.mp4" style="width: 480px; height: 270px;">
+<source type="video/mp4" src="https://www.kinefact.com/wp-content/uploads/2020/07/giphy-injury.mp4">
+</video>
+</div>
+
+<p style="text-align: justify;"><span style="font-weight: 400;">Ce mécanisme est le plus fréquent engendrant des lésions aux IJ :</span></p>
+
+<div style="width: 1280px;" class="wp-video">
+<video class="wp-video-shortcode" width="1280" height="720" loop="1" preload="auto" src="https://www.kinefact.com/wp-content/uploads/2020/08/Usain-Bolt-se-blesse-en-pleine-course-durant-son-dernier-4x100m-Hommes.mp4" style="width: 700px; height: 393.75px;">
+<source type="video/mp4" src="https://www.kinefact.com/wp-content/uploads/2020/08/Usain-Bolt-se-blesse-en-pleine-course-durant-son-dernier-4x100m-Hommes.mp4">
+</video>
+</div>
+
+<p style="text-align: justify;"><span style="font-weight: 400; color: #3366ff; font-size: 8pt;">LIU, Hui, GARRETT, William E., MOORMAN, Claude T., et al. Injury rate, mechanism, and risk factors of hamstring strain injuries in sports: a review of the literature. Journal of Sport and Health Science, 2012, vol. 1, no 2, p. 92-101.</span></p>
+
+<p style="text-align: justify;"><span style="font-weight: 400;">Comme le précédent mécanisme, on en ressort certaines particularités. La longue portion du biceps fémoral est le plus souvent touchée, 84% du temps d'après l'étude de Ekstrand et al en 2016. Le taux de récidive était de 18%, mais peut aller jusqu'à un tiers selon les cohortes. Les sites les plus touchés étaient la jonction myo-tendineuse puis myo-aponévrotique.&nbsp;</span></p>
+
+<p style="text-align: justify;"><span style="font-weight: 400;">Ekstrand et al en 2016 nous montrent, grâce au suivi de 7 ans sur 46 équipes de football européen, que cette blessure est la plus fréquente. Elle représente 14% des blessures entre 2001 et 2017. Le mécanisme de blessure en sprint semble également amener à une récupération plus rapide que le mécanisme en étirement, environ 3 à 4 semaines de réhabilitation avant la reprise des matchs (pour des pros bien encadrés et cela peut être plus long selon ce que l'on pourrait trouver à l'IRM). Cela ne veut pas dire que le sportif retrouve ses performances d'avant la blessure, juste qu'il valide les critères de retour au sport. Ces données sont valables pour des lésions de grade 1 et 2 objectivables par IRM selon la classification et le grade utilisés dans cette étude.</span></p>
+
+<p style="text-align: justify;"><span style="font-weight: 400; color: #3366ff; font-size: 8pt;">EKSTRAND, Jan, LEE, Justin C., et HEALY, Jeremiah C. MRI findings and return to play in football: a prospective analysis of 255 hamstring injuries in the UEFA Elite Club Injury Study. British journal of sports medicine, 2016, vol. 50, no 12, p. 738-743.</span></p>
+
+<p style="text-align: justify;"><span style="color: #3366ff; font-size: 8pt;"><span style="font-weight: 400;">Ekstrand J, Hägglund M, Waldén M. Epidemiology of muscle injuries in professional </span><span style="font-weight: 400;">football (soccer). Am J Sports Med 2011;39:1226–32.</span></span></p>
+
+<p style="text-align: justify;"><span style="color: #00ff00;">Ce ne sont pas les seuls mécanismes pouvant amener à une lésion des IJ, cependant ce sont les plus fréquents. au cabinet par exemple un patient ouvreur en escalade s'est fait une lésion aux IJ sur une prise talon, d'autres patients sur une réception de Dunk, d'autres sur un accélération de quelques pas. La lésion n'arrive pas qu'à haute vélocité.</span></p>
+
+<p style="text-align: justify;"><span style="font-size: 14pt; color: #3366ff;"><b>QUE FAIRE FACE À UNE SUSPICION DE LÉSION ?</b></span></p>
+
+<p style="text-align: justify;"><img loading="lazy" decoding="async" class="alignnone wp-image-1657" src="https://www.kinefact.com/wp-content/uploads/2020/07/web1_120758655-222976ba9a164c999b4d1713baa4eadc-300x200.jpg" alt="" width="560" height="373" srcset="https://www.kinefact.com/wp-content/uploads/2020/07/web1_120758655-222976ba9a164c999b4d1713baa4eadc-300x200.jpg 300w, https://www.kinefact.com/wp-content/uploads/2020/07/web1_120758655-222976ba9a164c999b4d1713baa4eadc.jpg 640w" sizes="auto, (max-width: 560px) 100vw, 560px"></p>
+
+<p style="text-align: justify;"><span style="font-weight: 400;">Les lésions aux IJ ne sont pas une entité homogène. Les facteurs de risques sont multiples et les causes de survenues multifactorielles, de plus comme nous l'avons vu plus haut le pronostic peut être dépendant du mécanisme lésionnel.</span></p>
+
+<p style="text-align: justify;"><span style="font-weight: 400;">D'autres entités peuvent mimer cliniquement une lésion aux IJ :</span></p>
+
+<ul style="text-align: justify;">
+<li><span style="font-weight: 400;">les séquelles d'anciennes lésions</span></li>
+<li><span style="font-weight: 400;">les séquelles d'anciennes lésions impliquant le nerf sciatique</span></li>
+<li><span style="font-weight: 400;">les tendinopathies des ischio-jambiers (apparition insidieuse)</span></li>
+<li><span style="font-weight: 400;">les lésions traumatiques, les récidives traumatiques avec fractures, arrachements / avulsions de la tubérosité ischiatique ou non</span></li>
+</ul>
+
+<p style="text-align: justify;"><span style="font-weight: 400;">Il est important de pouvoir différencier ces entités car nous pourrions ne pas nous attendre aux mêmes résultats selon le traitement choisi. La durée de prise en charge pourrait également être impactée, comme nous l'avons vu plus tôt. Quand penser lésion aux ischio-jambiers pour une lésion traumatique ?&nbsp;</span></p>
+
+<p style="text-align: justify;"><span style="font-weight: 400;">Lorsque le patient décrit des douleurs à la face postérieure de cuisse suite à un mécanisme lésionnel d'étirement (flexion de hanche + extension de genou), ou de contraction intense des muscles ischio-jambiers, comme lors des sprints ou d'un coup de pied, une traction intense au ski nautique, un tacle glissé etc …</span></p>
+
+<p style="text-align: justify;"><span style="font-weight: 400;">Même si l'anamnèse effectue la majeure partie du travail dans la détection d'une lésion traumatique, comment continuer nos investigations ? C'est plutôt simple, nous recherchons à reproduire les douleurs du patient dans ces paramètres : étirement passif (élévation jambe tendue) en flexion de hanche et extension de genou, et/ou étirement actif des ischio-jambiers, et/ou contraction isométrique en flexion de hanche genou à 90°, et/ou contraction isométrique en flexion de hanche et extension de genou.</span></p>
+
+<p style="text-align: justify;"><span style="font-weight: 400;">Un autre test est décrit, il se nomme « </span><i><span style="font-weight: 400;">taking off the shoe</span></i><span style="font-weight: 400;"> ». En french : vous demandez au patient de retirer la chaussure de sa jambe symptomatique avec la jambe saine comme ci-dessous</span></p>
+
+<p style="text-align: justify;"><img loading="lazy" decoding="async" class="alignnone wp-image-1651 size-medium" src="https://www.kinefact.com/wp-content/uploads/2020/07/20130501-212613-e1594306351796-185x300.jpg" alt="" width="185" height="300" srcset="https://www.kinefact.com/wp-content/uploads/2020/07/20130501-212613-e1594306351796-185x300.jpg 185w, https://www.kinefact.com/wp-content/uploads/2020/07/20130501-212613-e1594306351796-633x1024.jpg 633w, https://www.kinefact.com/wp-content/uploads/2020/07/20130501-212613-e1594306351796.jpg 738w" sizes="auto, (max-width: 185px) 100vw, 185px"></p>
+
+<p style="text-align: justify;"><img loading="lazy" decoding="async" class="alignnone wp-image-1655" src="https://www.kinefact.com/wp-content/uploads/2020/07/ishoi-e1594307312933-300x239.png" alt="" width="500" height="398" srcset="https://www.kinefact.com/wp-content/uploads/2020/07/ishoi-e1594307312933-300x239.png 300w, https://www.kinefact.com/wp-content/uploads/2020/07/ishoi-e1594307312933-1024x816.png 1024w, https://www.kinefact.com/wp-content/uploads/2020/07/ishoi-e1594307312933-768x612.png 768w, https://www.kinefact.com/wp-content/uploads/2020/07/ishoi-e1594307312933.png 1084w" sizes="auto, (max-width: 500px) 100vw, 500px"></p>
+
+<p style="text-align: justify;"><span style="font-weight: 400;">D'autres éléments viennent augmenter la probabilité que notre patient se trouve dans ce genre de situation : avoir entendu un « pop » ou un claquement durant le mécanisme (vous souvenez-vous de la détonation chez le danseur ?), sensation de chaleur et/ou de spasmes intenses au niveau des ischio-jambiers.</span></p>
+
+<p style="text-align: justify;"><span style="font-weight: 400; color: #3366ff; font-size: 8pt;">Reiman MP, Loudon JK, Goode AP. Diagnostic accuracy of clinical tests for assessment of hamstring injury: a systematic review. J Orthop Sports Phys Ther. 2013;43(4):223–31.</span></p>
+
+<p style="text-align: justify;"><span style="color: #3366ff; font-size: 8pt;"><span style="font-weight: 400;">Ishøi, L., Krommes, K., Husted, R. S., Juhl, C. B., &amp; Thorborg, K. (2020). Diagnosis, prevention and treatment of common lower extremity muscle injuries in sport–grading the evidence: a statement paper commissioned by the Danish Society of Sports Physical Therapy (DSSF). </span><i><span style="font-weight: 400;">British Journal of Sports Medicine</span></i><span style="font-weight: 400;">.</span></span></p>
+
+<p style="text-align: justify;"><span style="font-size: 14pt; color: #3366ff;"><b>L'AVULSION ET LA RUPTURE COMPLÈTE PROXIMALE DES ISCHIO-JAMBIERS</b></span></p>
+
+<p style="text-align: justify;"><span style="font-weight: 400;">Certains éléments cliniques nous amènent à prendre plus de précautions dans la prise en charge de ces patients. En effet, lorsqu'un hématome massif est présent, il semble important d'essayer d'exclure une rupture complète ou une avulsion des tendons proximaux des muscles IJ, par une imagerie.&nbsp;</span></p>
+
+<p style="text-align: justify;"><img loading="lazy" decoding="async" class="alignnone size-medium wp-image-1649" src="https://www.kinefact.com/wp-content/uploads/2020/07/proximalhamstringinjury-300x250.jpg" alt="" width="300" height="250" srcset="https://www.kinefact.com/wp-content/uploads/2020/07/proximalhamstringinjury-300x250.jpg 300w, https://www.kinefact.com/wp-content/uploads/2020/07/proximalhamstringinjury.jpg 500w" sizes="auto, (max-width: 300px) 100vw, 300px"></p>
+
+<p style="text-align: justify;"><span style="font-weight: 400;">Cet élément clinique est à compléter avec la palpation, où le but est d'évaluer si nous retrouvons une zone « creuse », liée à une rétraction des tissus proches de l'insertion proximale des ischio-jambiers. On peut également voir une proéminence au niveau du corps musculaire, liée à la rétractation des tissus. Nous pouvons également compléter l'examen clinique avec une contraction résistée des IJ, où une très forte faiblesse sera retrouvée. Ces tests sont donc à effectuer des deux côtés afin de pouvoir comparer les réponses du patient.</span></p>
+
+<p style="text-align: justify;"><span style="font-weight: 400;">Il est essentiel de pouvoir identifier ces signes cliniques afin de pouvoir référer le patient vers une IRM et/ou une opération. Il existe des critères permettant d'orienter vers une opération plutôt qu'un traitement conservateur. Parmi ces critères nous pouvons retrouver :</span></p>
+
+<ul style="text-align: justify;">
+<li><span style="font-weight: 400;">Le nombre de tendons impliqués</span></li>
+<li><span style="font-weight: 400;">Le degré de rétraction musculaire</span></li>
+<li><span style="font-weight: 400;">Le niveau d'activité sportive du patient avant lésion.</span></li>
+</ul>
+
+<p style="text-align: justify;"><span style="font-weight: 400;">Le choix de l'IRM n'est pas anodin et est préféré à l'échographie car elle permet de mettre en évidence le nombre de tendons impliqués dans la blessure, ce qui impactera le planning chirurgical. L'IRM permet également d'anticiper de probables gestes chirurgicaux sur le nerf sciatique. Ceci a été démontré par Wilson et al. en 2017, qui ont créé l'échelle suivante : « </span><i><span style="font-weight: 400;">Sciatic Nerve Dissection Scale based </span></i><span style="font-weight: 400;">» afin d'identifier par imagerie des éléments prédictifs de difficulté opératoire liés à une neurolyse.</span></p>
+
+<p style="text-align: justify;"><span style="font-weight: 400; color: #3366ff; font-size: 8pt;">Wilson TJ, Spinner RJ, Mohan R, et al. Sciatic Nerve Injury After Proximal Hamstring Avulsion and Repair. Orthop J Sport Med 2017; 5: 232596711771368</span></p>
+
+<p style="text-align: justify;"><span style="font-weight: 400;">Il semblerait que l'opération précoce accompagnée de rééducation soit le traitement de choix lors de ce type d'atteinte, alors que la rééducation seule montre des effets médiocres. L'opération semble également bénéfique dans la gestion des séquelles, pour des patients ayant eu des avulsions plus anciennes. Souvent une neurolyse est effectuée car le nerf sciatique pouvait être mis en jeu dans les troubles du patient.</span></p>
+
+<p style="text-align: justify;"><span style="font-weight: 400; font-size: 8pt; color: #3366ff;">WOOD, David G., PACKHAM, Iain, TRIKHA, S. Paul, et al. Avulsion of the proximal hamstring origin. JBJS, 2008, vol. 90, no 11, p. 2365-2374.</span></p>
+
+<p style="text-align: justify;"><span style="font-weight: 400;">Une revue a tenté d'analyser si le traitement chirurgical est le traitement de choix dans les avulsions et les ruptures complètes proximales des IJ</span></p>
+
+<p style="text-align: justify;"><span style="font-weight: 400; color: #3366ff; font-size: 8pt;">COUGHLIN, Ryan P., KAY, Jeffrey, SHANMUGARAJ, Ajaykumar, et al. Return to Sport After Surgical Management of Proximal Hamstring Avulsions: A Systematic Review and Meta-analysis. Clinical journal of sport medicine: official journal of the Canadian Academy of Sport Medicine, 2018.</span></p>
+
+<p style="text-align: justify;"><span style="font-weight: 400;">La revue de Coughlin et al 2018&nbsp; a intégré 21 études pour un total de 846 patients atteints d'avulsions complètes, partielles, ou chroniques de la partie proximale des ischio-jambiers, ayant évalué le temps de retour au sport après blessure en lien avec la prise en charge chirurgicale.</span></p>
+
+<p style="text-align: justify;"><span style="font-weight: 400;">Parmi ces études :</span></p>
+
+<ul style="text-align: justify;">
+<li><span style="font-weight: 400;">2 études prospectives comparatives</span></li>
+<li><span style="font-weight: 400;">2 études rétrospectives comparatives</span></li>
+<li><span style="font-weight: 400;">8 études de cas prospectives</span></li>
+<li><span style="font-weight: 400;">9 études de cas rétrospectives</span></li>
+</ul>
+
+<p style="text-align: justify;"><span style="font-weight: 400;">Les activités semblant amener le plus d'avulsions sont le ski nautique, suivi du rugby ou football américain, du foot, puis suivent les arts martiaux, la danse etc …</span></p>
+
+<p style="text-align: justify;"><span style="font-weight: 400;">Sur 12 études le précisant, 87% des athlètes touchés ont pu retrouver une activité sportive. Sur 16 études le précisant, 76.1% des personnes sont retournés à un niveau de sport équivalent à la période précédant la lésion. Toutes les autres données nous montrent que plus des trois quarts des patients ont pu reprendre une activité au niveau observé avant la lésion, que ce soit après une atteinte traumatique récente ou une atteinte ancienne, nécessitant la chirurgie. Formulé différemment, plus des trois quarts des personnes et athlètes opérés pour une avulsion semblent reprendre une activité sportive comme observée avant l'événement traumatique, au bout de 6 mois en moyenne.</span></p>
+
+<p style="text-align: justify;"><span style="font-weight: 400;">Cependant, nous observons des résultats conflictuels concernant la comparaison des critères de jugement pour la prise en charge chirurgicale d'une avulsion récente ou ancienne. Van der Made et al ne trouvent pas de différences significatives entre les groupes (</span><i><span style="font-weight: 400;">acute VS chronic</span></i><span style="font-weight: 400;">) vis-à-vis de la force des IJ, même lorsque qu'il y avait une différence au niveau de la rétraction musculaire. Bodendofer et al ont trouvé que les avulsions récentes opérées amènent à une meilleure satisfaction des patients post-traitement, une meilleure force, ainsi que moins de douleurs durant la position assise prolongée, comparativement au groupe de patients qui se sont fait opérer de manière tardive (</span><i><span style="font-weight: 400;">chronic</span></i><span style="font-weight: 400;">).</span></p>
+
+<p style="text-align: justify;"><span style="font-weight: 400;">Il existe de nombreuses divergences dans l'évaluation du retour au sport entre les différents groupes (</span><i><span style="font-weight: 400;">acute VS chronic</span></i><span style="font-weight: 400;">). Tout d'abord les définitions d'un patient ayant une opération tardive étaient très différentes. En effet, dans certaines études, on parlait de plus de 4 semaines post lésion et parfois de 3 mois après la lésion, ce qui a fortement influencé les critères de jugement de ce groupe. Par exemple, Barnett et coll montrent que seulement 60% de patients retournent au sport après lésion, pour un délai moyen de 18 mois avant l'opération. D'autres études montrent que lorsque le délai avant opération est allongé ; les patients montrent de moins bons résultats aux critères de jugement étudiés (délai de reprise, douleurs au quotidien …)</span></p>
+
+<p style="text-align: justify;"><span style="font-weight: 400; font-size: 8pt; color: #3366ff;">van derMade AD, Reurink G,Gouttebarge V, et al.Outcome after surgical repair of proximal hamstring avulsions: a systematic review. Am J Sports Med. 2015;43:2841–2851.</span></p>
+
+<p style="text-align: justify;"><span style="font-weight: 400; font-size: 8pt; color: #3366ff;">Bodendorfer BM, Curley AJ, Kotler JA, et al. Outcomes after operative and nonoperative treatment of proximal hamstring avulsions: a systematic review and meta-analysis. Am J Sports Med. 2018;46:2798–2808.</span></p>
+
+<p style="text-align: justify;"><span style="font-weight: 400;">Du fait du design et des qualités méthodologiques de ces études, il reste difficile de conclure de manière absolue concernant la prise en charge chirurgicale précoce. Cependant, toutes les connaissances produites à ce jour nous orientent vers un traitement chirurgical précoce plus efficace qu'un traitement conservateur, et plus efficace qu'un traitement chirurgical tardif.</span></p>
+
+<p style="text-align: justify;"><span style="font-weight: 400;">Selon certains auteurs : « Lorsque les avulsions des ischio-jambiers sont rapidement prises en charge, la restauration de l'anatomie est considérablement plus facile comparativement à l'opération en phase chronique, car les muscles peuvent être mobilisés et qu'il n'y a pas ou peu d'adhérences. »</span></p>
+
+<p style="text-align: justify;"><span style="font-weight: 400;">Cependant, une autre donnée extrêmement intéressante vient s'ajouter afin de mieux comprendre les subtilités de cette atteinte. Chahal et al ont montré que, bien qu'ayant de bons résultats fonctionnels, des taux de satisfaction élevés et d'excellents taux de guérison à l'IRM après une réparation chirurgicale, 45 % ne sont pas revenus à leur niveau d'activité antérieur.</span></p>
+
+<p style="text-align: justify;"><span style="font-weight: 400;">Le retour au sport est multifactoriel, et selon plusieurs études la kinésiophobie a été désignée comme l'une des raisons de la baisse des performances après chirurgie. Il est important de noter qu'aucune des études utilisées n'a évalué les facteurs psychosociaux, et donc le manque de confiance et la crainte d'une nouvelle blessure étaient probablement sous-estimés.</span></p>
+
+<p style="text-align: justify;"><span style="font-weight: 400; color: #3366ff; font-size: 8pt;">Chahal J, Bush-Joseph CA, Chow A, et al. Clinical and magnetic resonance imaging outcomes after surgical repair of complete proximal hamstring ruptures: does the tendon heal? Am J Sports Med. 2012;40: 2325–2330</span></p>
+
+<p style="text-align: justify;"><span style="font-weight: 400; color: #3366ff; font-size: 8pt;">Cohen SB, Rangavajjula A, Vyas D, et al. Functional results and outcomes after repair of proximal hamstring avulsions. Am J Sports Med. 2012;40: 2092–2098</span></p>
+
+<p style="text-align: justify;"><span style="font-weight: 400; color: #3366ff; font-size: 8pt;">Skaara HE, Moksnes H, Frihagen F, et al. Self-reported and performance based functional outcomes after surgical repair of proximal hamstring avulsions. Am J Sports Med. 2013;41:2577–2584.</span></p>
+
+<p style="text-align: justify;"><span style="font-weight: 400;">Si cela intéresse certains étudiants ou thérapeutes voulant un outil d'évaluation de la fonction, le PHAT (</span><i><span style="font-weight: 400;">Perth Hamstring Assessement Tool</span></i><span style="font-weight: 400;">), était l'un de ceux les plus utilisés.</span></p>
+
+<p style="text-align: justify;"><img loading="lazy" decoding="async" class="alignnone wp-image-1648" src="https://www.kinefact.com/wp-content/uploads/2020/07/phast-e1594305877607-236x300.jpg" alt="" width="374" height="475" srcset="https://www.kinefact.com/wp-content/uploads/2020/07/phast-e1594305877607-236x300.jpg 236w, https://www.kinefact.com/wp-content/uploads/2020/07/phast-e1594305877607-806x1024.jpg 806w, https://www.kinefact.com/wp-content/uploads/2020/07/phast-e1594305877607-768x975.jpg 768w, https://www.kinefact.com/wp-content/uploads/2020/07/phast-e1594305877607.jpg 852w" sizes="auto, (max-width: 374px) 100vw, 374px"></p>
+
+<p style="text-align: justify;"><span style="color: #3366ff; font-size: 8pt;"><span style="font-weight: 400;">BLAKENEY, William G., ZILKO, Simon R., EDMONSTON, Steven J., et al. A prospective evaluation of proximal hamstring tendon avulsions: improved functional outcomes following surgical repair. Knee Surgery, Sports Traumatology, Arthroscopy, 2017, vol. 25, no 6, p. 1943-1950</span><span style="font-weight: 400;">.</span></span></p>
+
+<p style="text-align: justify;"><span style="font-weight: 400;">Certains auteurs se sont intéressés aux possibles facteurs prédictifs médiateurs de résultats fonctionnels suite à une opération. Selon eux, AUCUN des éléments suivants, ne semblent être prédictifs d'un moins bon ou d'un meilleur pronostic : âge, sexe, poids, comorbidités, niveau d'activité, grade de lésion, niveau d'activité physique, opération par endoscopie ou à ciel ouvert, fumeur, diabète.</span></p>
+
+<p style="text-align: justify;"><span style="font-weight: 400; font-size: 8pt; color: #3366ff;">BOWMAN, Eric N., MARSHALL, Nathan E., GERHARDT, Michael B., et al. Predictors of clinical outcomes after proximal hamstring repair. Orthopaedic journal of sports medicine, 2019, vol. 7, no 2, p. 2325967118823712.</span></p>
+
+<p style="text-align: justify;"><span style="font-weight: 400;">Une étude épidémiologique récente (Irger et al 2019.) a analysé 263 cas de patients pour lesquels l'opération était effectuée. Ils arrivent à la conclusion que :</span></p>
+
+<ul style="text-align: justify;">
+<li><span style="font-weight: 400;">Le grade de lésion ne semble pas prédictif.</span></li>
+<li><span style="font-weight: 400;">La majorité des patients semblent avoir les trois tendons touchés.</span></li>
+<li><span style="font-weight: 400;">5% des patients semblent avoir le nerf sciatique en souffrance avant l'opération.</span></li>
+<li><span style="font-weight: 400;">La majorité des hommes se sont blessés durant des activités sportives et avaient la trentaine.</span></li>
+<li><span style="font-weight: 400;">La majorité des femmes se sont blessées durant les activités de la vie quotidienne et semblent plus âgées.</span></li>
+<li><span style="font-weight: 400;">Cette atteinte semble rarement présente chez les jeunes de moins de 30 ans.</span></li>
+</ul>
+
+<p style="text-align: justify;"><span style="font-weight: 400; color: #3366ff; font-size: 8pt;">IRGER, Markus, WILLINGER, Lukas, LACHETA, Lucca, et al. Proximal hamstring tendon avulsion injuries occur predominately in middle-aged patients with distinct gender differences: epidemiologic analysis of 263 surgically treated cases. Knee Surgery, Sports Traumatology, Arthroscopy, 2019, p. 1-9.</span></p>
+
+<p style="text-align: justify;"><span style="font-weight: 400;">Concernant la prise en charge de ce type d'atteinte, les protocoles post-opératoires divergent grandement. Nous retrouvons par exemple 13/21 études incluant un temps de décharge à l'aide de béquilles pour le membre opéré (donc 8/21 en charge post-op immédiate). Ce temps post-opératoire variait entre 2 semaines (4/13) et 6 semaines (9/13).&nbsp; 12 études sur les 21 comportaient dans leur protocole la mise en place d'attelles de genou articulées, alors que 3 autres proposaient une orthèse hanche/genou.</span></p>
+
+<p style="text-align: justify;"><span style="font-weight: 400; font-size: 8pt; color: #3366ff;">COUGHLIN, Ryan P., KAY, Jeffrey, SHANMUGARAJ, Ajaykumar, et al. Return to Sport After Surgical Management of Proximal Hamstring Avulsions: A Systematic Review and Meta-analysis. Clinical journal of sport medicine: official journal of the Canadian Academy of Sport Medicine, 2018.</span></p>
+
+<p style="text-align: justify;"><span style="font-weight: 400;">Au sein des études la prise en charge est très disparate selon les personnes, les services, les croyances des thérapeutes et les consignes post-opératoires (qu'elles soient justifiées ou non). Cependant, il semblerait que le délai moyen de retour au sport soit compris entre 6 et 9 mois post-opératoire.</span></p>
+
+<p style="text-align: justify;"><span style="font-weight: 400; font-size: 8pt; color: #3366ff;">PASIC, Nicholas, GIFFIN, J. Robert, et DEGEN, Ryan M. Practice patterns for the treatment of acute proximal hamstring ruptures. The Physician and Sportsmedicine, 2020, vol. 48, no 1, p. 116-122.</span></p>
+
+<p style="text-align: justify;"><span style="font-size: 8pt; color: #3366ff;"><span style="font-weight: 400;">LIGHTSEY, Harry M., KANTROWITZ, David E., SWINDELL, Hasani W., et al. Variability of United States online rehabilitation protocols for proximal hamstring tendon repair. Orthopaedic journal of sports medicine, 2018, vol. 6, no 2, p. 2325967118755116</span><span style="font-weight: 400;">.</span></span></p>
+
+<p style="text-align: justify;"><img loading="lazy" decoding="async" class="alignnone wp-image-1645" src="https://www.kinefact.com/wp-content/uploads/2020/07/pratique-3-e1594305136497-300x158.png" alt="" width="607" height="319" srcset="https://www.kinefact.com/wp-content/uploads/2020/07/pratique-3-e1594305136497-300x158.png 300w, https://www.kinefact.com/wp-content/uploads/2020/07/pratique-3-e1594305136497-1024x538.png 1024w, https://www.kinefact.com/wp-content/uploads/2020/07/pratique-3-e1594305136497-768x404.png 768w, https://www.kinefact.com/wp-content/uploads/2020/07/pratique-3-e1594305136497.png 1296w" sizes="auto, (max-width: 607px) 100vw, 607px"> <img loading="lazy" decoding="async" class="alignnone wp-image-1644" src="https://www.kinefact.com/wp-content/uploads/2020/07/pratique-2-e1594305109414-300x118.png" alt="" width="600" height="236" srcset="https://www.kinefact.com/wp-content/uploads/2020/07/pratique-2-e1594305109414-300x118.png 300w, https://www.kinefact.com/wp-content/uploads/2020/07/pratique-2-e1594305109414-1024x403.png 1024w, https://www.kinefact.com/wp-content/uploads/2020/07/pratique-2-e1594305109414-768x302.png 768w, https://www.kinefact.com/wp-content/uploads/2020/07/pratique-2-e1594305109414.png 1281w" sizes="auto, (max-width: 600px) 100vw, 600px"> <img loading="lazy" decoding="async" class="alignnone wp-image-1646" src="https://www.kinefact.com/wp-content/uploads/2020/07/pratique-e1594305169998-300x124.png" alt="" width="605" height="250" srcset="https://www.kinefact.com/wp-content/uploads/2020/07/pratique-e1594305169998-300x124.png 300w, https://www.kinefact.com/wp-content/uploads/2020/07/pratique-e1594305169998-1024x422.png 1024w, https://www.kinefact.com/wp-content/uploads/2020/07/pratique-e1594305169998-768x316.png 768w, https://www.kinefact.com/wp-content/uploads/2020/07/pratique-e1594305169998.png 1291w" sizes="auto, (max-width: 605px) 100vw, 605px"></p>
+
+<p style="text-align: justify;"><span style="font-weight: 400;">Cependant, une rééducation précoce sans attelle, avec l'appui complet autorisé post-opératoire, semble tout aussi bien convenir à ce type de patients. Dans l'étude rétrospective de Léger-St-Jean et al&nbsp; 2018, comprenant 38 patients interviewés par téléphone, les consignes post-op étaient :</span></p>
+
+<ul style="text-align: justify;">
+<li><span style="font-weight: 400;">L'amplitude de hanche et de genou étaient celles décidées et tolérées par les patients</span></li>
+<li><span style="font-weight: 400;">Autorisation d'utiliser les béquilles comme bon leur semblait</span></li>
+<li><span style="font-weight: 400;">Il n'était pas recommandé de marcher rapidement pendant les 6 premières semaines</span></li>
+<li><span style="font-weight: 400;">La rééducation a formellement commencé au bout de 12 semaines post-op (sans interdiction d'aller voir un kinésithérapeute durant les 12 premières semaines)</span></li>
+</ul>
+
+<p style="text-align: justify;"><span style="font-weight: 400;">De plus, les résultats de cette étude semblent en accord avec le corpus de preuves actuelles :&nbsp;</span></p>
+
+<ul style="text-align: justify;">
+<li><span style="font-weight: 400;">Le groupe de patients opérés rapidement semble avoir de meilleurs résultats fonctionnels que les les&nbsp; patients opérés tardivement (&gt;4 semaines) de manière statistiquement significative</span></li>
+</ul>
+
+<p style="text-align: justify;"><img loading="lazy" decoding="async" class="alignnone wp-image-1642" src="https://www.kinefact.com/wp-content/uploads/2020/07/outcomes-e1594304778559-300x60.png" alt="" width="565" height="113" srcset="https://www.kinefact.com/wp-content/uploads/2020/07/outcomes-e1594304778559-300x60.png 300w, https://www.kinefact.com/wp-content/uploads/2020/07/outcomes-e1594304778559-1024x206.png 1024w, https://www.kinefact.com/wp-content/uploads/2020/07/outcomes-e1594304778559-768x154.png 768w, https://www.kinefact.com/wp-content/uploads/2020/07/outcomes-e1594304778559.png 1036w" sizes="auto, (max-width: 565px) 100vw, 565px"></p>
+
+<ul style="text-align: justify;">
+<li><span style="font-weight: 400;">Malgré les années qui ont suivi l'opération, certains se plaignent encore de douleur/gênes minimes. Les patients qui se plaignent le plus de douleurs sont les patients opérés tardivement.</span></li>
+<li><span style="font-weight: 400;">Concernant le taux de rechute, nous retrouvons 4% soit 2 patients qui étaient dans le groupe de patients ayant subi une opération tardive (rechute à 5 semaines pour l'un et 10 pour l'autre). Lors de la rechute les patients ont signifié avoir entendu un « pop ».</span></li>
+<li><span style="font-weight: 400;">Le protocole de réhabilitation a été suivi d'après les recommandations de bonnes pratiques élaboré par Carl Askling et son équipe en 2015. (on reviendra plus tard sur la prise en charge et les types d'exercices que vous pouvez intégrer et ceux qu'il faut que vous intégriez dans votre pratique)</span></li>
+</ul>
+
+<p style="text-align: justify;"><span style="font-weight: 400; font-size: 8pt; color: #3366ff;">Cohen SB, Rangavajjula A, Vyas D, Bradley JP (2012) Functional results and outcomes after repair of proximal hamstring avulsions. Am J Sports Med 40:2092–2098</span></p>
+
+<p style="text-align: justify;"><span style="font-weight: 400; font-size: 8pt; color: #3366ff;">van der Made AD, Reurink G, Gouttebarge V, Tol JL, Kerkhoffs GM (2015) Outcome after surgical repair of proximal hamstring avulsions: a systematic review. Am J Sports Med 43:2841–2851</span></p>
+
+<p style="text-align: justify;"><span style="font-weight: 400; font-size: 8pt; color: #3366ff;">Askling CM, Koulouris G, Saartok T, Werner S, Best TM (2013) Total proximal hamstring ruptures: clinical and MRI aspects including guidelines for postoperative rehabilitation. Knee Surg Sports Traumatol Arthrosc 21:515–533</span></p>
+
+<p style="text-align: justify;"><span style="font-weight: 400;">Au vu de la qualité méthodologique retrouvée au sein de cette étude, les conclusions et résultats doivent être pris avec précaution. Parmi les faiblesses de cette étude, nous retrouvons: le fait qu'elle soit rétrospective, le temps de retour au sport qui n'a pas été évalué, ni le niveau de sport retrouvé, le faible nombre de patients. De plus, il pourrait y avoir un biais dans la sélection des patients du groupe « chronique » du fait de leur plus grande sédentarité avant l'intervention, la multiplicité des critères de jugement peut amener à une inflation du risque alpha (voir ce qu'est l'inflation du risque alpha avec l'infographie de</span> <i><span style="font-weight: 400;">Le temps d'un lapin</span></i><span style="font-weight: 400;">)</span></p>
+
+<p style="text-align: justify;"><img loading="lazy" decoding="async" class="alignnone wp-image-1634" src="https://www.kinefact.com/wp-content/uploads/2020/07/Partie_2-e1594303780309-300x230.png" alt="" width="402" height="308" srcset="https://www.kinefact.com/wp-content/uploads/2020/07/Partie_2-e1594303780309-300x230.png 300w, https://www.kinefact.com/wp-content/uploads/2020/07/Partie_2-e1594303780309.png 348w" sizes="auto, (max-width: 402px) 100vw, 402px"> &nbsp;<img loading="lazy" decoding="async" class="alignnone wp-image-1639" src="https://www.kinefact.com/wp-content/uploads/2020/07/biais-2-e1594304258445-300x258.png" alt="" width="402" height="346" srcset="https://www.kinefact.com/wp-content/uploads/2020/07/biais-2-e1594304258445-300x258.png 300w, https://www.kinefact.com/wp-content/uploads/2020/07/biais-2-e1594304258445-768x661.png 768w, https://www.kinefact.com/wp-content/uploads/2020/07/biais-2-e1594304258445.png 892w" sizes="auto, (max-width: 402px) 100vw, 402px"></p>
+
+<p style="text-align: justify;"><span style="font-weight: 400;">MAIS cette étude vient étayer le fait que nous ne sommes pas plus dangereux en autorisant l'appui complet en sortie de bloc, et qu'il ne semble pas nécessaire de porter une attelle non plus. Cela&nbsp; reste est en accord avec le corpus de données disponibles sur le sujet.</span></p>
+
+<p style="text-align: justify;"><span style="font-weight: 400;">Du coup, pourquoi proposer une attelle et ne pas autoriser l'appui complet post-opératoire ? Avant 2015, il semblerait que le principe de précaution sans données pertinentes soit la seule raison qui explique de telles consignes post-opératoires. A partir de 2015, une donnée biomécanique s'intéressant à une réparation des ischio-jambiers proximaux est apparue. Harvey et al. ont démontré une augmentation de la taille de la lésion au niveau des agrafes/attaches avec une charge cyclique lorsque la flexion de la hanche augmente vers 90° de flexion. Ils ont donc recommandé de ne pas plier la hanche au-dessus de 90° et proposent donc de prescrire des attelles suite à l'intervention. Le gros problème est que les charges cycliques appliquées étaient basées sur les valeurs calculées pour le SPRINT (Schache et al 2012) plutôt que pour la marche lente comme le recommande l'étude de Léger-St-Jean.</span></p>
+
+<p style="text-align: justify;"><span style="font-weight: 400; font-size: 8pt; color: #3366ff;">Harvey MA, Singh H, Obopilwe E, Charette R, Miller S (2015) Proximal hamstring repair strength: a biomechanical analysis at 3 hip flexion angles. Orthop J Sports Med 3:2325967115576910</span></p>
+
+<p style="text-align: justify;"><span style="font-weight: 400; font-size: 8pt; color: #3366ff;">Schache AG, Dorn TW, Blanch PD, Brown NA, Pandy MG (2012) Mechanics of the human hamstring muscles during sprinting. Med Sci Sports Exerc 44:647–65</span></p>
+
+<p style="text-align: justify;"><span style="font-weight: 400; font-size: 8pt; color: #3366ff;">LÉGER-ST-JEAN, Benjamin, GORICA, Zylyftar, MAGNUSSEN, Robert A., et al. Accelerated rehabilitation results in good outcomes following acute repair of proximal hamstring ruptures. Knee Surgery, Sports Traumatology, Arthroscopy, 2019, vol. 27, no 10, p. 3121-3124.</span></p>
+
+<p style="text-align: justify;"><span style="font-weight: 400;">Cet exemple illustre qu'il faut également remettre en question sainement, comme l'ont fait l'équipe de Léger-St-Jean, les recommandations, surtout lorsqu'elles se basent sur des suppositions ou sont des extrapolations d'études biomécaniques.&nbsp;</span></p>
+
+<p style="text-align: justify;"><span style="font-weight: 400;">Message aux étudiants en plein mémoire : faites attention aux recommandations, lorsque vous sourcez vos mémoires par "recommandations HAS", posez-vous la question de la pertinence de la recommandation ; est-ce une recommandation liée à un principe de précaution ? Les données biomécaniques sur lesquelles se basent les recommandations sont-elles celles analysées/applicables ? Les recommandations se basent-elles sur une étude permettant de répondre à la question posée ? Donc si je vous ai en soutenance de mémoire et que je retrouve «&nbsp;recommandation HAS&nbsp;» … préparez-vous à ce que je vous cherche sur ce point.&nbsp;</span></p>
+
+<p style="text-align: justify;"><span style="font-weight: 400;">La prise en charge chirurgicale semble également adaptée à une avulsion incomplète des ischio-jambiers.&nbsp;</span></p>
+
+<p style="text-align: justify;"><span style="font-weight: 400; font-size: 8pt; color: #3366ff;">KAYANI, Babar, AYUOB, Atif, BEGUM, Fahima, et al. Surgical Management of Chronic Incomplete Proximal Hamstring Avulsion Injuries. The American Journal of Sports Medicine, 2020, p. 0363546520908819</span></p>
+
+<p style="text-align: justify;"><span style="font-size: 14pt; color: #3366ff;"><b>LA LÉSION AIGUË CLASSIQUE DES IJ : PRÉDICTION ET PRONOSTIC</b></span></p>
+
+<p style="text-align: justify;"><span style="font-weight: 400;">Afin de développer la prise en charge des lésions des IJ (hors avulsions), nous allons tout d'abord explorer les facteurs pronostiques les prises en charges reconnues comme optimales, le monitoring par la douleur, parler des subtilités de ce type d'atteinte ainsi que du haut taux de récidives, des critères de retour au sport, et pour terminer de la prévention primaire/secondaire/tertiaire.</span></p>
+
+<p style="text-align: justify;"><span style="font-weight: 400;">Après avoir présenté la rupture complète et l'avulsion qui bénéficieraient d'une intervention chirurgicale précoce, passons à la prise en charge kinésithérapique des lésions des IJ « classiques ». Une fois donc que vous avez pu exclure la rupture complète ou l'avulsion, au besoin d'imageries si vous êtes dans le doute, il nous reste peu de possibilités sur le diagnostic. Comme dit précédemment, l'histoire du patient et les circonstances d'arrivée font la majeure partie du travail.</span></p>
+
+<p style="text-align: justify;"><img loading="lazy" decoding="async" class="alignnone wp-image-1633" src="https://www.kinefact.com/wp-content/uploads/2020/07/factors-e1594303599450-300x286.png" alt="" width="499" height="476" srcset="https://www.kinefact.com/wp-content/uploads/2020/07/factors-e1594303599450-300x286.png 300w, https://www.kinefact.com/wp-content/uploads/2020/07/factors-e1594303599450.png 710w" sizes="auto, (max-width: 499px) 100vw, 499px"></p>
+
+<p style="text-align: justify;"><span style="font-weight: 400;">Un pronostic de retour sur le terrain fiable et reproductible offre un potentiel d'optimisation de la prise en charge, en lien avec les attentes du patient et les exigences sportives. La rééducation peut ainsi être ajustée. Il n'y a cependant que peu de preuves d'association entre le temps de récupération et les mesures d'examen physique. Concernant les facteurs pronostiques que nous connaissons et qui peuvent modifier négativement le délai de retour au sport pour nos patients :</span></p>
+
+<ul style="text-align: justify;">
+<li><i><span style="font-weight: 400;">Sprinting</span></i><span style="font-weight: 400;"> ou </span><i><span style="font-weight: 400;">Stretching</span></i><span style="font-weight: 400;">? (Mécanisme lésionnel en étirement = moins bon pronostic)</span></li>
+<li><span style="font-weight: 400;">Antécédents de lésions aux IJ</span></li>
+<li><span style="font-weight: 400;">La présence de douleur pendant une flexion de tronc et une extension active de genou</span></li>
+<li><span style="font-weight: 400;">La douleur initiale lors de la lésion mesurée sur une EVA (si &gt;5.5 alors temps prolongé)</span></li>
+<li><span style="font-weight: 400;">Douleur pendant les activités de la vie courante &gt; 3 jours</span></li>
+<li><span style="font-weight: 400;">La présence de douleur pendant une flexion active de genou en isométrique à 15°</span></li>
+<li><span style="font-weight: 400;">Première consultation plus de 1 semaine après le traumatisme</span></li>
+<li><span style="font-weight: 400;">Marcher sans douleur après un jour (les joueurs mettant plus d'un jour pour marcher sans douleur avaient 4 fois plus de chance d'obtenir un retour au sport plus long que 3 semaines)</span></li>
+<li><span style="font-weight: 400;">Douleur à la palpation à l'insertion proximale (plus c'est proche de l'insertion plus cela semble être un facteur de retour au sport plus lointain)</span></li>
+</ul>
+
+<p style="text-align: justify;"><span style="font-weight: 400;">Il convient de souligner qu'il existe une grande hétérogénéité entre les études qui ont évalué ces facteurs de risque. Il existe des résultats conflictuels lors de l'analyse de plusieurs autres paramètres. En effet, certaines études de meilleure qualité méthodologique que des études antérieures, invalident l'identification de certains facteurs de risque. D'autres études réalisent une analyse multivariée, alors que l'étude antérieure analysant le même facteur ne l'a pas réalisée. Parfois c'est le nombre trop peu important de patients qui ne nous permet pas de conclure.</span></p>
+
+<p style="text-align: justify;"><span style="font-weight: 400; font-size: 8pt; color: #3366ff;">Fournier-Farley, Camille, Martin Lamontagne, Patrick Gendron, and Dany H. Gagnon. «&nbsp;Determinants of return to play after the nonoperative management of hamstring injuries in athletes: a systematic review.&nbsp;» The American journal of sports medicine 44, no. 8 (2016): 2166-2172.</span></p>
+
+<p style="text-align: justify;"><span style="font-weight: 400; font-size: 8pt; color: #3366ff;">Warren P, Gabbe BJ, Schneider-Kolsky M, Bennell KL. Clinical predictors of time to return to competition and of recurrence following hamstring strain in elite Australian footballers. Br J Sports Med 2010;44:415-9</span></p>
+
+<p style="text-align: justify;"><span style="font-weight: 400; font-size: 8pt; color: #3366ff;">THORBORG, Kristian, OPAR, David, et SHIELD, Anthony. Prevention and Rehabilitation of Hamstring Injuries. 2020.</span></p>
+
+<p style="text-align: justify;"><img loading="lazy" decoding="async" class="alignnone wp-image-1631" src="https://www.kinefact.com/wp-content/uploads/2020/07/jozy-altidore-usa-300x225.jpg" alt="" width="571" height="428" srcset="https://www.kinefact.com/wp-content/uploads/2020/07/jozy-altidore-usa-300x225.jpg 300w, https://www.kinefact.com/wp-content/uploads/2020/07/jozy-altidore-usa.jpg 640w" sizes="auto, (max-width: 571px) 100vw, 571px"></p>
+
+<p style="text-align: justify;"><span style="font-weight: 400;">Les facteurs pour lesquels il n'y a pas de preuves ou des preuves contradictoires ne sont pas présentés. Le type de sport pratiqué, le mécanisme lésionnel, la prise en charge en kinésithérapie, l'âge, les récidives, l'examen physique, la définition du retour à l'entraînement ou sur terrain et la conception de l'étude ont tous une influence sur les résultats.&nbsp;</span></p>
+
+<p style="text-align: justify;"><span style="font-weight: 400;">Une autre limite que l'on peut mentionner est que ces facteurs n'expliquent qu'une petite partie de la variation dans le temps par rapport au retour sur le terrain. Il existe peut-être encore de nombreuses variables inconnues qui pourraient jouer un rôle plus important dans l'estimation du temps de récupération. Toutes les variables qui sont décrites ci-dessus (au sein de la figure au dessus </span><i><span style="font-weight: 400;">time to RTS after injury</span></i><span style="font-weight: 400;">) ne pourraient expliquer que 20 à 50 % de la variation du temps total de récupération. Par conséquent, les recherches disponibles actuellement ne nous permettent pas de fournir une estimation précise de la prédiction du temps de convalescence pour l'athlète (n=1).</span></p>
+
+<p style="text-align: justify;"><span style="font-weight: 400;">Il n'est pas surprenant de n'obtenir aucunes données solides et reproductibles nous permettant d'avoir un pronostic précis, alors que la mesure d'éléments cliniques se fait à un seul moment post-lésionnel et non en plusieurs points temporels, qui permettraient d'apprécier l'évolution. Les paramètres mesurés à un instant T ne vont pas refléter l'évolution du patient, son investissement, les possibles rechutes, le temps investi dans sa rééducation, sa motivation et sa crainte à retourner sur le terrain…</span></p>
+
+<p style="text-align: justify;"><span style="font-weight: 400;">Il semblerait qu'il soit plus intéressant d'évaluer nos patients sur le long cours. Pour ce type d'atteinte, il faudrait 10 variables spécifiques, prises à 7 jours d'intervalles. Un groupe de chercheurs/cliniciens a réussi à développer un modèle où ces 10 variables de l'évaluation de suivi expliquent 97 % de la variance, ce qui a pu permettre de prévoir la durée de la prise en charge avec une précision de ±5 jours.</span></p>
+
+<p style="text-align: justify;"><span style="font-weight: 400;">Cela semble être une aide clinique prédictive extrêmement puissante et précise. Pourquoi le conditionnel me diriez-vous ? Car afin que soit validée cette aide, il faudrait que d'autres cohortes d'athlètes (si possible dans différents sports) soient également évaluées en plus de celle présente dans l'étude.</span></p>
+
+<p style="text-align: justify;"><span style="font-weight: 400;">Les caractéristiques associées au retour au temps de jeu étaient :</span></p>
+
+<p style="text-align: justify;"><span style="font-weight: 400;">▸ Douleur maximale signalée au moment de la blessure, retard dans le début de la rééducation.</span></p>
+
+<p style="text-align: justify;"><span style="font-weight: 400;">▸ Temps nécessaire pour marcher sans douleur (nombre de jours).</span></p>
+
+<p style="text-align: justify;"><span style="font-weight: 400;">▸ Jouer au football </span><i><span style="font-weight: 400;">yes/no</span></i></p>
+
+<p style="text-align: justify;"><span style="font-weight: 400;">▸ Évolution de la douleur au cours du test de résistance excentrique (genou à 45°) sur la première semaine.</span></p>
+
+<p style="text-align: justify;"><span style="font-weight: 400;">▸ Douleur lors de l'épreuve de contraction maximale isométrique en décubitus hanche à 90° genou à 90° et au pont fessier sur une jambe au 7e jour.</span></p>
+
+<p style="text-align: justify;"><span style="font-weight: 400;">▸ Intensité maximale de force des Ischio-Jambiers en décubitus dorsal hanche à 90° et genou à 90° au 7e jour exprimée en pourcentage la jambe non-blessée.</span></p>
+
+<p style="text-align: justify;"><span style="font-weight: 400;">▸ Force pendant les tests de contraction isométrique (dynamomètre) en procubitus au jour 1.</span></p>
+
+<p style="text-align: justify;"><span style="font-weight: 400;">▸ Force maximale développée à l'appareil isocinétique lors de la flexion du genou de la jambe non blessée (% par rapport à la jambe saine).[ rappelons que ces paramètres sont dépendant de la force angulaire développée par le patient, donc le degré d'amplitude.</span></p>
+
+<p style="text-align: justify;"><span style="font-weight: 400;">Ces manœuvres sont recommandées afin de faire le suivi de nos patients et peuvent nous aider à évaluer leur évolution.</span></p>
+
+<div style="width: 640px;" class="wp-video">
+<video class="wp-video-shortcode" width="640" height="352" preload="metadata" src="https://www.kinefact.com/wp-content/uploads/2020/07/Hamstring.-Player-ready-to-return-to-play-Initial-and-follow-up-examination-guide-youMpgun.com_.mp4" style="width: 640px; height: 352px;">
+<source type="video/mp4" src="https://www.kinefact.com/wp-content/uploads/2020/07/Hamstring.-Player-ready-to-return-to-play-Initial-and-follow-up-examination-guide-youMpgun.com_.mp4">
+</video>
+</div>
+
+<p style="text-align: justify;"><img loading="lazy" decoding="async" class="alignnone wp-image-1630 size-medium" src="https://www.kinefact.com/wp-content/uploads/2020/07/predict-e1594303335869-300x227.png" alt="" width="300" height="227" srcset="https://www.kinefact.com/wp-content/uploads/2020/07/predict-e1594303335869-300x227.png 300w, https://www.kinefact.com/wp-content/uploads/2020/07/predict-e1594303335869.png 656w" sizes="auto, (max-width: 300px) 100vw, 300px"></p>
+
+<p style="text-align: justify;"><span style="font-weight: 400;">Si vous voulez voir les manœuvres d'évaluation, voici ce lien contient un support vidéo montrant comment évaluer un patient, ainsi qu'un tableau excel réalisant le calcul de prédiction de retour au sport avec les 10 paramètres cliniques :&nbsp;</span></p>
+
+<p style="text-align: justify;"><a href="https://bjsm.bmj.com/content/suppl/2016/02/03/bjsports-2015-095073.DC1"><span style="font-weight: 400; color: #00ff00;">&nbsp;https://bjsm.bmj.com/content/suppl/2016/02/03/bjsports-2015-095073.DC1</span></a></p>
+
+<p style="text-align: justify;"><span style="font-weight: 400; color: #3366ff; font-size: 8pt;">Jacobsen P, Witvrouw E, Muxart P, Tol JL, Whiteley R. A combination of initial and follow-up physiotherapist examination predicts physician-determined time to return to play after hamstring injury, with no added value of MRI. Br J Sports Med. 2016;50(7):431–9.</span></p>
+
+<p style="text-align: justify;"><span style="font-weight: 400; color: #3366ff; font-size: 8pt;">SCHUT, Lotte, WANGENSTEEN, Arnlaug, MAASKANT, Jolanda, et al. Can clinical evaluation predict return to sport after acute hamstring injuries? A systematic review. Sports medicine, 2017, vol. 47, no 6, p. 1123-1144.</span></p>
+
+<p style="text-align: justify;"><span style="font-weight: 400; font-size: 8pt; color: #3366ff;">WANGENSTEEN, Arnlaug. Acute hamstring injuries: diagnosis and prognosis. 2018.</span></p>
+
+<p style="text-align: justify;"><span style="font-weight: 400; font-size: 8pt; color: #3366ff;">WHITELEY, Rod, VAN DYK, Nicol, WANGENSTEEN, Arnlaug, et al. Clinical implications from daily physiotherapy examination of 131 acute hamstring injuries and their association with running speed and rehabilitation progression. British journal of sports medicine, 2018, vol. 52, no 5, p. 303-310.</span></p>
+
+<p style="text-align: justify;"><span style="font-weight: 400;">Jusqu'en 2015, il était compliqué de faire une prédiction fiable quant au retour sur le terrain des athlètes blessés à l'aide de l'imagerie médicale.</span></p>
+
+<p style="text-align: justify;"><span style="font-weight: 400; font-size: 8pt; color: #3366ff;">Reurink G, Brilman EG, de Vos RJ, et al. Magnetic resonance imaging in acute hamstring injury: can we provide a return to play prognosis? Sports Med 2015;45:133–46.</span></p>
+
+<p style="text-align: justify;"><span style="font-weight: 400; font-size: 8pt; color: #3366ff;">Petersen J, Thorborg K, Nielsen MB, et al. The diagnostic and prognostic value of ultrasonography in soccer players with acute hamstring injuries. Am J Sports Med 2014;42:399–404</span></p>
+
+<p style="text-align: justify;"><span style="font-weight: 400;">La littérature récente suggère que des degrés plus élevés de l'atteinte du tendon intramusculaire (TI), démontrée par IRM, entraînent un retour sur le terrain plus long après une blessure aiguë aux Ischio-Jambiers. Pourtant, les études précédentes qui mettaient en doute la valeur de l'IRM pour l'étude des blessures aux Ischio-Jambiers n'ont pas réussi à reconnaître ce sous-groupe dans les analyses.</span></p>
+
+<p style="text-align: justify;"><span style="font-weight: 400;">Eggleston et al, dans leur étude rétrospective IRM de 2020 sur 6 saisons sportives, ont décidé de s'intéresser au tendon intramusculaire (TI) d'une équipe de football australien. Le tendon intramusculaire est défini comme la portion tendineuse interne où sont directement rattachées des fibres musculaires. Les lésions au niveau du tendon libre font parties des critères de non-inclusion.</span></p>
+
+<p style="text-align: justify;"><img loading="lazy" decoding="async" class="alignnone size-medium wp-image-1628" src="https://www.kinefact.com/wp-content/uploads/2020/07/IMT-e1594302676253-300x140.png" alt="" width="300" height="140" srcset="https://www.kinefact.com/wp-content/uploads/2020/07/IMT-e1594302676253-300x140.png 300w, https://www.kinefact.com/wp-content/uploads/2020/07/IMT-e1594302676253.png 658w" sizes="auto, (max-width: 300px) 100vw, 300px"></p>
+
+<p style="text-align: justify;"><span style="font-weight: 400;">Leur hypothèse de départ est que lors de ce type de blessure, si celle-ci se trouve sur sur la partie la plus proximale, ou si le degré de sévérité de l'atteinte du tendon intramusculaire est élevé, alors le temps de retour sur le terrain (RTP= </span><i><span style="font-weight: 400;">return to play</span></i><span style="font-weight: 400;">) se retrouverait allongé.</span></p>
+
+<p style="text-align: justify;"><span style="font-weight: 400;">Au total, ils ont pu analyser 41 blessures aux IJ entrant dans leurs critères d'inclusion sur 24 athlètes. Pour chaque blessure, les caractéristiques observées à l'IRM ont été classifiées selon les standards&nbsp; BAMIC (</span><i><span style="font-weight: 400;">British Athletics Muscle Injury Classification</span></i><span style="font-weight: 400;">) comparativement à la classification de Peetrons. Les auteurs ont également proposé une classification simplifiée constituée de&nbsp; 4 grades de sévérité (MR0 MR1 MR2 MR3)</span></p>
+
+<p style="text-align: justify;"><span style="font-weight: 400; color: #3366ff; font-size: 8pt;">Eggleston, L., McMeniman, M., &amp; Engstrom, C. (2020). High‐Grade Intramuscular Tendon Disruption in Acute Hamstring Injury and Return to Play in Australian Football Players. Scandinavian Journal of Medicine &amp; Science in Sports.</span></p>
+
+<p style="text-align: justify;"><span style="color: #3366ff; font-size: 8pt;"><span style="font-weight: 400;">Pollock N, James SL, Lee JC, Chakraverty R. British athletics muscle injury classification: a </span><span style="font-weight: 400;">new grading system. Br J Sports Med. 2014;48(18):1347-1351.</span></span></p>
+
+<p style="text-align: justify;"><img loading="lazy" decoding="async" class="alignnone wp-image-1626" src="https://www.kinefact.com/wp-content/uploads/2020/07/MRI-e1594301916156-300x198.png" alt="" width="566" height="374" srcset="https://www.kinefact.com/wp-content/uploads/2020/07/MRI-e1594301916156-300x198.png 300w, https://www.kinefact.com/wp-content/uploads/2020/07/MRI-e1594301916156-768x507.png 768w, https://www.kinefact.com/wp-content/uploads/2020/07/MRI-e1594301916156.png 878w" sizes="auto, (max-width: 566px) 100vw, 566px"></p>
+
+<p style="text-align: justify;"><span style="font-weight: 400;">Quels-sont les résultats et que retenir de cette étude :</span></p>
+
+<ul style="text-align: justify;">
+<li><span style="font-weight: 400;">Les classifications BAMIC et de Peetrons ne permettent pas à ce jour d'obtenir un pronostic précis concernant le retour sur le terrain lors des atteintes des Ischio-Jambiers et plus particulièrement l'atteinte du TI.</span></li>
+<li><span style="font-weight: 400;">La classification simplifiée qu'ils ont proposé semble plus prédictive de retour sur le terrain. Après un ajustement statistique (correction de Bonferroni), ils ont trouvé des différences statistiquement significatives entre les groupes MR1/MR2, MR2/MR3, MR1/MR3.</span></li>
+<li><span style="font-weight: 400;">Le délai de retour sur le terrain semble plus long pour les patients ayant eu une lésion de haut grade de leur TI (MR3)</span></li>
+<li><span style="font-weight: 400;">Le délai de retour sur le terrain semble plus court pour les patients ayant eu une lésion classifiée par le premier grade de gravité (MR0). Un IRM négatif pourrait donc être un facteur pronostic extrêmement puissant.</span></li>
+<li><span style="font-weight: 400;">L'analyse du TI lors d'une IRM semble être un critère de choix afin d'obtenir un délai moyen de retour au sport. Ce paramètre devrait être intégré dans de futures études et dans la pratique des radiologues ou des staffs sportifs.</span></li>
+<li><span style="font-weight: 400;">Pour toutes les futures études interventionnelles,&nbsp; il serait essentiel de vérifier les critères d'inclusion des patients selon cette classification</span></li>
+</ul>
+
+<p style="text-align: justify;"><img loading="lazy" decoding="async" class="alignnone wp-image-1752" src="https://www.kinefact.com/wp-content/uploads/2020/07/MR123-e1595237773380-300x294.png" alt="" width="469" height="460" srcset="https://www.kinefact.com/wp-content/uploads/2020/07/MR123-e1595237773380-300x294.png 300w, https://www.kinefact.com/wp-content/uploads/2020/07/MR123-e1595237773380-768x751.png 768w, https://www.kinefact.com/wp-content/uploads/2020/07/MR123-e1595237773380.png 878w" sizes="auto, (max-width: 469px) 100vw, 469px"></p>
+
+<p style="text-align: justify;"><span style="font-weight: 400; color: #00ff00;">Un des problèmes des études interventionnelles, est que la randomisation ne prend pas particulièrement compte de ces critères et souvent les critères à l'imagerie sont différents selon les classifications (tips pour les étudiants en plein mémoire)</span></p>
+
+<p style="text-align: justify;"><span style="font-size: 14pt; color: #3366ff;"><b>PRISE EN CHARGE DE A à Z : Les principes</b></span></p>
+
+<p style="text-align: justify;"><span style="font-weight: 400;">Après avoir analysé comment identifier ces patients, après avoir essayé d'avoir une idée de la durée de la prise en charge, attaquons-nous maintenant au traitement dans les grandes lignes, avant de voir les détails et les subtilités de la prise en charge.</span></p>
+
+<ul style="text-align: justify;">
+<li><span style="font-weight: 400;">Le traitement de choix dans cette blessure est un travail actif</span></li>
+<li><span style="font-weight: 400;">La prise en charge se doit d'être progressive et pourra suivre certaines étapes selon les phases de reconstruction du tissu et les possibilités du patient.</span></li>
+<li><span style="font-weight: 400;">Les tissus lésés doivent être stimulés le plus tôt possible</span></li>
+<li><span style="font-weight: 400;">Le massage et les étirements ne sont pas une priorité si vous voulez que la qualité des tissus de votre patient change, mais rien ne vous empêche de les utiliser pour soulager le patient</span></li>
+<li><span style="font-weight: 400;">Vous avez un patient dans les mains, pas seulement un tissu lésé. Le patient devra reprendre confiance en ses capacités et vous devrez l'aider.</span></li>
+<li><span style="font-weight: 400;">Le patient doit se confronter aux contraintes sportives avant de reprendre ses activités</span></li>
+<li><span style="font-weight: 400;">La récidive est une part importante du problème</span></li>
+<li><span style="font-weight: 400;">Chaud ou froid en aiguë ? Tout dépend du grade de lésion, dans quel but, à quel moment. Pour plus de renseignements et des arguments en faveur de ce traitement nous vous recommandons l'excellent travail de Arnaud Bruchard et Grégory Visery :&nbsp;&nbsp;</span></li>
+</ul>
+
+<p style="text-align: justify;"><a href="https://issuu.com/kinesport/docs/froid"><span style="font-weight: 400;">https://issuu.com/kinesport/docs/froid</span></a></p>
+
+<ul style="text-align: justify;">
+<li><span style="font-weight: 400;">Laisser le temps au tissu de se reconstruire et de s'adapter. Le but n'est pas uniquement d'aller le plus vite possible, mais également de retrouver des capacités antérieures à la blessure, et d'être le plus sécuritaire possible.</span></li>
+</ul>
+
+<p style="text-align: justify;"><span style="color: #ff0000; font-size: 14pt;"><b>FIN PARTIE 1/4</b></span></p>
+
+<p><a href="https://www.kinefact.com/troubles-musculo-squelettiques/sport/les-lesions-aigues-des-ischio-jambiers-comprendre-et-optimiser-la-prise-en-charge/">PARTIE 2&nbsp;</a></p>
+
+<p><a href="https://www.kinefact.com/troubles-musculo-squelettiques/sport/les-lesions-aigues-des-ischio-jambiers-quels-exercices-pour-mon-patient-et-comment-decider-du-retour-au-sport/">PARTIE 3&nbsp;</a></p>
+
+<p><a href="https://www.kinefact.com/troubles-musculo-squelettiques/sport/les-lesions-aigues-des-ischio-jambiers-prevenir-plutot-que-guerir/">PARTIE 4&nbsp;</a></p>
+
+<p style="text-align: justify;">Merci d'avoir tenu jusque la fin de cet article et à la prochaine pour une analyse plus poussée concernant la prise en charge de la lésion aux IJ.</p>
+
+<div style="width: 480px;" class="wp-video">
+<video class="wp-video-shortcode" width="480" height="292" loop="1" autoplay="1" preload="auto" src="https://www.kinefact.com/wp-content/uploads/2020/07/giphy-merci.mp4" style="width: 480px; height: 292px;">
+<source type="video/mp4" src="https://www.kinefact.com/wp-content/uploads/2020/07/giphy-merci.mp4">
+</video>
+</div>
+
+<div class="printfriendly pf-button pf-button-content pf-alignleft"><a href="#" rel="nofollow" onclick="window.print(); return false;" title="Printer Friendly, PDF &amp; Email"><img decoding="async" class="pf-button-img" src="https://cdn.printfriendly.com/buttons/printfriendly-button.png" alt="Print Friendly, PDF &amp; Email" style="width: 112px;height: 24px;"></a></div>`
+  }
