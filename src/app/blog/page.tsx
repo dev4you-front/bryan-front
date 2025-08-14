@@ -6,7 +6,7 @@ export default function Blog() {
       title: "Pourquoi la prévention des blessures est essentielle ?",
       image: "/images/article.png",
       excerpt:
-        "Découvrez pourquoi la prévention est la clé pour les sportifs et comment l’intégrer dans votre pratique.",
+        "Découvrez pourquoi la prévention est la clé pour les sportifs et comment l'intégrer dans votre pratique.",
       date: "2024-05-01",
       author: "Bryan Littré",
       link: "#",
@@ -53,10 +53,6 @@ export default function Blog() {
               </article>
             ))}
           </div>
-        </div>
-              </div>
-            </article>
-          ))}
         </div>
       </div>
     </section>
