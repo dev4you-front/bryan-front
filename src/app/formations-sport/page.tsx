@@ -22,7 +22,7 @@ export default function FormationsSport() {
               {formation.title}
             </h2>
             <p className="text-lg text-gray-700 mb-6 text-center">{formation.description}</p>
-            <div className="w-full max-w-2xl mb-6">
+            <div className="w-full max-w-4xl mb-6">
               <div className="w-full rounded-xl shadow aspect-video overflow-hidden">
                 <iframe
                   src={formation.video}
