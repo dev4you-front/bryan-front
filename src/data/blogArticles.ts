@@ -37,4 +37,13 @@ export const blogArticles: Article[] = [
     link: "/blog/syndrome-canal-carpien-parcours-soin",
     contentPath: 'blog-posts/syndrome-canal-carpien-parcours-soin.md',
   },
+  {
+    title: "Les lésions aiguës des ischio-jambiers : un problème dont il faut s'occuper",
+    image: "https://www.kinefact.com/wp-content/uploads/2020/07/usp_nfl__washington_redskins_at_philadelphia_eagle_59932360-scaled.jpg",
+    excerpt: "Cette série d'articles a été élaborée pendant le confinement (ça peut avoir du bon). Le but de ce travail est d'apporter des éléments de la littérature sur une pathologie courante, évaluée comme étant la blessure la plus fréquente dans de nombreux sports.",
+    date: "2020-08-01",
+    author: "Bryan Littré",
+    link: "/blog/lesions-ischio-jambiers",
+    contentPath: 'blog-posts/lesions-ischio-jambiers.md',
+  },
 ];
