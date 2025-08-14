@@ -2,15 +2,6 @@ import { Article } from "@/types";
 
 export const blogArticles: Article[] = [
   {
-    title: "Syndrome du canal carpien, quelques bases de compréhension. 1/3",
-    image: "https://www.kinefact.com/wp-content/uploads/2021/01/grossesse-4-remedes-naturels-contre-le-syndrome-du-canal-carpien-quand-on-est-enceinte.jpeg",
-    excerpt: "Le syndrome du canal carpien est une atteinte autour de laquelle beaucoup de croyances existent. Cette première partie pose les bases épistémiques pour mieux comprendre ce syndrome.",
-    date: "2021-02-13",
-    author: "Bryan Littré",
-    link: "/blog/syndrome-canal-carpien-bases-comprehension",
-    contentPath: 'blog-posts/syndrome-canal-carpien-bases-comprehension.md',
-  },
-  {
     title: "En fait, comment ça marche un étirement ?",
     image: "https://www.kinefact.com/wp-content/uploads/2019/10/cat-814952_1920.jpg",
     excerpt: "Dans l'article précédent, Bryan Littre nous a présenté les différentes théories pouvant expliquer les gains obtenus par les diverses techniques d'étirement, en s'appuyant notamment sur les travaux de Moltubakk. Dans l'article du jour, on va regarder comment la littérature peut nous aider à trancher en faveur de l'une ou de l'autre. En conclusion, Bryan raconte comment la connaissance de ces données très théoriques a un réel impact sur sa pratique.",
@@ -531,4 +522,13 @@ Du coup, pourquoi nous, kinésithérapeutes, sommes-nous négligés du parcours 
 
 Merci à vous d'avoir lu cette série de billets jusqu\'au bout, je ne peux que vous encourager à partager cet article si vous pensez qu'il peut faire changer la prise en charge de ce trouble, en espérant que des retombées positives se fassent pour notre profession mais surtout pour les patients, car si les autorités de santé françaises se penchent sur les données : **LA KINÉSITHÉRAPIE EST ESSENTIELLE**.`
   }
+  {
+    title: "Syndrome du canal carpien, quelques bases de compréhension. 1/3",
+    image: "https://www.kinefact.com/wp-content/uploads/2021/01/grossesse-4-remedes-naturels-contre-le-syndrome-du-canal-carpien-quand-on-est-enceinte.jpeg",
+    excerpt: "Le syndrome du canal carpien est une atteinte autour de laquelle beaucoup de croyances existent, au même titre que la plupart des névralgies. Cette série d'articles fait une mise à jour détaillée autour du syndrome du canal carpien.",
+    date: "2021-02-13",
+    author: "Bryan Littré",
+    link: "/blog/syndrome-canal-carpien-bases-comprehension",
+    contentPath: 'blog-posts/syndrome-canal-carpien-bases-comprehension.md',
+  },
 ];
