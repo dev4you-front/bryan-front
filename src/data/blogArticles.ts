@@ -8,8 +8,8 @@ export const blogArticles: Article[] = [
     date: "2019-10-04",
     author: "Bryan Littré",
     link: "/blog/comment-ca-marche-un-etirement",
-    contentPath: "blog-posts/troubles-neurologiques-msk.md"
-Cette conclusion semble se faire pour toutes les modalités d'étirements. De plus, les modalités analysées semblent plus contraignantes et intenses que des étirements qui pourraient être réalisés par nos patients lors de nos séances. Par conséquent, sans de nouvelles preuves (mais en faut il encore ?), nous ne pouvons pas à ce jour continuer à affirmer que les étirements semblent agir en allongeant la fibre musculaire, que l'amplitude articulaire se gagne grâce à une modification des fascias, à la modification du collagène, ou à des modifications macroscopiques de la morphologie ou de la propriété musculaire/tendineuse.
+    contentPath: "blog-posts/troubles-neurologiques-msk.md",
+    content: `Cette conclusion semble se faire pour toutes les modalités d'étirements. De plus, les modalités analysées semblent plus contraignantes et intenses que des étirements qui pourraient être réalisés par nos patients lors de nos séances. Par conséquent, sans de nouvelles preuves (mais en faut il encore ?), nous ne pouvons pas à ce jour continuer à affirmer que les étirements semblent agir en allongeant la fibre musculaire, que l\'amplitude articulaire se gagne grâce à une modification des fascias, à la modification du collagène, ou à des modifications macroscopiques de la morphologie ou de la propriété musculaire/tendineuse.
 
 <img decoding="async" class="alignright" style="font-family: georgia, palatino, serif;" src="https://www.kinefact.com/wp-content/uploads/photo-gallery/Infographie_7_faits_sur_les_fascias_(2).png?bwg=1537700644" width="426" height="603">
 
@@ -51,13 +51,13 @@ Concernant la comparaison inter-groupe, on observe une différence statistiqueme
   <a href="https://www.kinefact.com/wp-content/uploads/2019/09/EAvvfw2.mp4">https://www.kinefact.com/wp-content/uploads/2019/09/EAvvfw2.mp4</a>
 </video>
 
-Les principales conclusions de cette étude montrent qu'en engageant l'inhibition endogène nociceptive après l'étirement, on obtient une différence statistiquement significative inter-groupe concernant l'augmentation de l'amplitude de mouvement de l'extension passive du genou et une modification intra-groupe sur la résistance passive mesurée en fin d'amplitude. Cependant nous n'observons pas de modification apparente de l'activité musculaire.
+Les principales conclusions de cette étude montrent qu'en engageant l\'inhibition endogène nociceptive après l'étirement, on obtient une différence statistiquement significative inter-groupe concernant l\'augmentation de l'amplitude de mouvement de l\'extension passive du genou et une modification intra-groupe sur la résistance passive mesurée en fin d'amplitude. Cependant nous n\'observons pas de modification apparente de l'activité musculaire.
 
-Bishop & George (2017) ont montré que l'amplitude du mouvement était associée à une sensibilité moyenne à la douleur ce qui indique que la perception sensorielle peut être un mécanisme important pendant l'étirement. Toutefois, ils n'ont pas été en mesure d'exclure d'éventuels changements au sein de l'activité musculaire en raison d'une absence d'électromyogramme. Les résultats actuels corroborent les constatations antérieures indiquant qu'une augmentation de la tolérance à l'étirement à la suite d'un étirement n'est pas liée à une réduction de l'activité musculaire, impliquant des mécanismes autres que les mécanismes intrinsèques liés aux propriétés mécaniques du complexe muscle-tendon.
+Bishop & George (2017) ont montré que l'amplitude du mouvement était associée à une sensibilité moyenne à la douleur ce qui indique que la perception sensorielle peut être un mécanisme important pendant l\'étirement. Toutefois, ils n'ont pas été en mesure d\'exclure d'éventuels changements au sein de l\'activité musculaire en raison d'une absence d\'électromyogramme. Les résultats actuels corroborent les constatations antérieures indiquant qu'une augmentation de la tolérance à l\'étirement à la suite d'un étirement n\'est pas liée à une réduction de l'activité musculaire, impliquant des mécanismes autres que les mécanismes intrinsèques liés aux propriétés mécaniques du complexe muscle-tendon.
 
-Ces données peuvent impliquer que l'augmentation de l'amplitude passive sans douleur que l'on voit ici est liée à un déplacement vers le haut du seuil de tolérance à l'étirement. Les résultats actuels indiquent donc que la douleur perçue joue un rôle important dans l'amplitude des mouvements à la suite d'un étirement.
+Ces données peuvent impliquer que l'augmentation de l\'amplitude passive sans douleur que l'on voit ici est liée à un déplacement vers le haut du seuil de tolérance à l\'étirement. Les résultats actuels indiquent donc que la douleur perçue joue un rôle important dans l'amplitude des mouvements à la suite d\'un étirement.
 
-Du coup la balance penche clairement en faveur d'une adaptation du système nerveux que du système musculo-tendineux, sans pour autant valider toutes les idées de la théorie neurosensorielle. Nous serions plus dans une modification du seuil de tolérance à l'étirement que dans une modification du réflexe myotatique.
+Du coup la balance penche clairement en faveur d'une adaptation du système nerveux que du système musculo-tendineux, sans pour autant valider toutes les idées de la théorie neurosensorielle. Nous serions plus dans une modification du seuil de tolérance à l\'étirement que dans une modification du réflexe myotatique.
 
 <img loading="lazy" decoding="async" class="aligncenter wp-image-669 size-large" src="https://www.kinefact.com/wp-content/uploads/2019/10/Implications-pratiques.1-1024x512.png" alt="Implications pratiques" width="1024" height="512" srcset="https://www.kinefact.com/wp-content/uploads/2019/10/Implications-pratiques.1.png 1024w, https://www.kinefact.com/wp-content/uploads/2019/10/Implications-pratiques.1-300x150.png 300w, https://www.kinefact.com/wp-content/uploads/2019/10/Implications-pratiques.1-768x384.png 768w" sizes="auto, (max-width: 1024px) 100vw, 1024px">
 
@@ -119,8 +119,7 @@ J'espère que ce billet vous a appris quelque chose, vous a intéressés et surt
 - Potier TG, Alexander CM, Seynnes OR. Effects of eccentric strength training on biceps femoris muscle architecture and knee joint range of movement. Eur J Appl Physiol 2009: 105: 939–944.
 - Sharifnezhad A, Marzilger R, Arampatzis A. Effects of load magnitude, muscle length and velocity during eccentric chronic loading on the vastus lateralis muscle. J Exp Biol 2014: 217: 2726–2733.
 - McMahon GE, Morse CI, Burden A, Winwood K, Onambele GL. Impact of range of motion during ecologically valid resistance training protocols on muscle size, subcutaneous fat, and strength. J Strength Cond Res 2014: 28: 245–255.
-- Støve, Morten Pallisgaard, Rogerio Pessoto Hirata, and Thorvaldur Skuli Palsson. « Muscle stretching–the potential role of endogenous pain inhibitory modulation on stretch tolerance. » *Scandinavian journal of pain* 19.2 (2019): 415-422.
-`,
+- Støve, Morten Pallisgaard, Rogerio Pessoto Hirata, and Thorvaldur Skuli Palsson. « Muscle stretching–the potential role of endogenous pain inhibitory modulation on stretch tolerance. » *Scandinavian journal of pain* 19.2 (2019): 415-422.`
   },
   {
     title: "Syndrome du canal carpien, quelques bases de compréhension. 1/3", 
@@ -150,17 +149,17 @@ Je tiens juste à préciser que les problèmes nerveux font partie d'un de mes d
 
 En 1997, un groupe de travail français a tenté de définir le syndrome du canal carpien (SCC)
 
-« *Pour le groupe de travail, le syndrome du canal carpien est l'ensemble des symptômes ressentis par le patient et des signes constatés par le médecin. Plusieurs facteurs, imparfaitement définis, interviendraient dans les contraintes subies par le nerf médian dans la traversée du canal carpien (compressions, tractions ou autres). À côté de la compression chronique du nerf médian au niveau du canal carpien, il existe également des formes rares : compressions isolées de la branche motrice (transligamentaires) et compressions aiguës. Lorsque aucune cause n'est retrouvée, le syndrome du canal carpien est dit « idiopathique » (cas le plus fréquent). – Les critères cliniques ne sont pas pathognomoniques mais sont souvent évocateurs du syndrome du canal carpien. Il existe des critères électromyographiques pathognomoniques, mais inconstamment présents. L'aspect macroscopique per-opératoire est souvent normal, sauf dans les formes sévères. Il n'y a pas de signe anatomo-pathologique pathognomonique du syndrome du canal carpien.* »
+« *Pour le groupe de travail, le syndrome du canal carpien est l'ensemble des symptômes ressentis par le patient et des signes constatés par le médecin. Plusieurs facteurs, imparfaitement définis, interviendraient dans les contraintes subies par le nerf médian dans la traversée du canal carpien (compressions, tractions ou autres). À côté de la compression chronique du nerf médian au niveau du canal carpien, il existe également des formes rares : compressions isolées de la branche motrice (transligamentaires) et compressions aiguës. Lorsque aucune cause n\'est retrouvée, le syndrome du canal carpien est dit « idiopathique » (cas le plus fréquent). – Les critères cliniques ne sont pas pathognomoniques mais sont souvent évocateurs du syndrome du canal carpien. Il existe des critères électromyographiques pathognomoniques, mais inconstamment présents. L'aspect macroscopique per-opératoire est souvent normal, sauf dans les formes sévères. Il n\'y a pas de signe anatomo-pathologique pathognomonique du syndrome du canal carpien.* »
 
-*Agence Nationale d'Accréditation et d'Evaluation en Santé. (1997). Stratégie des examens paracliniques et des indications thérapeutiques dans le syndrome du canal carpien. Recommandations et références médicales, 201-13.*
+*Agence Nationale d'Accréditation et d\'Evaluation en Santé. (1997). Stratégie des examens paracliniques et des indications thérapeutiques dans le syndrome du canal carpien. Recommandations et références médicales, 201-13.*
 
-Cette définition est à mon sens l'une des plus juste et adaptée au vu des données de l'époque. Ce groupe semblait tout à fait comprendre ce qu'était un syndrome du canal carpien. En effet, même si nous pourrions croire que c'est simple de créer cette définition, il y a des subtilités extrêmement importantes pouvant amener à des erreurs de compréhension de ce que sont les neuropathies et les névralgies, et ces erreurs ont été faites durant les dernières recommandations HAS de 2012.
+Cette définition est à mon sens l'une des plus juste et adaptée au vu des données de l\'époque. Ce groupe semblait tout à fait comprendre ce qu'était un syndrome du canal carpien. En effet, même si nous pourrions croire que c\'est simple de créer cette définition, il y a des subtilités extrêmement importantes pouvant amener à des erreurs de compréhension de ce que sont les neuropathies et les névralgies, et ces erreurs ont été faites durant les dernières recommandations HAS de 2012.
 
 <video width="640" height="490" loop autoplay muted>
   <source src="https://www.kinefact.com/wp-content/uploads/2021/01/sEP-YkAuT6W7l5SL.mp4" type="video/mp4">
 </video>
 
-## Ce n'est qu'un syndrome
+## Ce n'est qu\'un syndrome
 
 Voici ma définition du syndrome du canal carpien : Les SCC correspondent à une plainte se présentant au moins par des douleurs neuropathiques ou des névralgies et/ou neuropathies en regard du territoire du nerf médian, à partir du canal carpien, accompagnées plus ou moins d'acroparesthésies nocturnes. Cette description est à la fois la plus large et la plus précise.
 
@@ -168,13 +167,13 @@ La simple notion de syndrome est problématique car fourre-tout. A la fois elle 
 
 Explorons les notions de **maladie**, **syndrome** et **symptôme** à travers l'épistémologie afin de comprendre toute la subtilité du propos. Nous avons donc besoin de définitions.
 
-L'épistémologie est une branche de la philosophie qui a pour objet l'étude critique des postulats, conclusions et méthodes d'une science particulière, considérée du point de vue de son évolution afin d'en déterminer l'origine logique, la valeur et la portée scientifique et philosophique (cf. philosophie* des sciences, empirisme* logique).
+L'épistémologie est une branche de la philosophie qui a pour objet l\'étude critique des postulats, conclusions et méthodes d'une science particulière, considérée du point de vue de son évolution afin d\'en déterminer l'origine logique, la valeur et la portée scientifique et philosophique (cf. philosophie* des sciences, empirisme* logique).
 
 Diagnostic : l'origine étymologique du mot "*diagnostic*" nous vient du grec DIA – « séparément » et GIGNOSKEIN « savoir, percevoir, penser, juger »
 
-Un diagnostic, c'est donc l'art d'identifier une maladie d'après ses signes, ses symptômes. Cela peut être définie également comme une conclusion, généralement prospective, faisant suite à l'examen analytique d'une situation souvent jugée critique ou complexe.
+Un diagnostic, c'est donc l\'art d'identifier une maladie d\'après ses signes, ses symptômes. Cela peut être définie également comme une conclusion, généralement prospective, faisant suite à l'examen analytique d\'une situation souvent jugée critique ou complexe.
 
-Qu'est ce qu'un symptôme ? Un symptôme est la manifestation spontanée d'un état ou d'une maladie permettant de la déceler, qui est perçue subjectivement par le sujet ou constatée objectivement par un observateur.
+Qu'est ce qu\'un symptôme ? Un symptôme est la manifestation spontanée d'un état ou d\'une maladie permettant de la déceler, qui est perçue subjectivement par le sujet ou constatée objectivement par un observateur.
 
 Je vous propose un petit exemple :
 
@@ -186,37 +185,37 @@ Je vous propose un petit exemple :
 - une sensation de faiblesse,
 - des troubles de l'humeur (tristesse, agressivité ou euphorie).
 
-Sont les symptômes de l'hypoglycémie. Cependant, pour une même atteinte / maladie, les signes et symptômes peuvent totalement devenir différents selon la durée de l'atteinte et selon le niveau d'atteinte. Par exemple lorsque l'hypoglycémie perdure, une neuroglucopénie peut être observée.
+Sont les symptômes de l'hypoglycémie. Cependant, pour une même atteinte / maladie, les signes et symptômes peuvent totalement devenir différents selon la durée de l\'atteinte et selon le niveau d'atteinte. Par exemple lorsque l\'hypoglycémie perdure, une neuroglucopénie peut être observée.
 
-La neuroglucopénie : elle peut produire une variété d'effets et symptômes survenant pour un seuil glycémique inférieur à 0,50 gl·-1 : sensation de malaise avec asthénie importante, troubles de la concentration intellectuelle, sensation de dérobement des jambes, paresthésie des extrémités, céphalées, impressions vertigineuses, troubles psychiatriques, multiples et trompeurs (confusion aiguë, agitation, troubles de l'humeur et du comportement, état pseudo-ébrieux…), troubles neurologiques sévères (crises convulsives généralisées ou localisées), troubles moteurs déficitaires, troubles visuels à type de diplopie ou de vision trouble.
+La neuroglucopénie : elle peut produire une variété d'effets et symptômes survenant pour un seuil glycémique inférieur à 0,50 gl·-1 : sensation de malaise avec asthénie importante, troubles de la concentration intellectuelle, sensation de dérobement des jambes, paresthésie des extrémités, céphalées, impressions vertigineuses, troubles psychiatriques, multiples et trompeurs (confusion aiguë, agitation, troubles de l\'humeur et du comportement, état pseudo-ébrieux…), troubles neurologiques sévères (crises convulsives généralisées ou localisées), troubles moteurs déficitaires, troubles visuels à type de diplopie ou de vision trouble.
 
 L'hypoglycémie sévère durable (glycémie inférieure à 0,20 gl·-1 pendant plus de deux heures) peut induire une nécrose cellulaire responsable de séquelles.
 
-Certains médicaments produisent une hypoglycémie, c'est notamment le cas des médicaments anti- diabétiques, comme l'insuline et certains antidiabétiques oraux chez les sujets diabétiques. D'autres médicaments peuvent être mis en cause, comme l'aspirine (essentiellement chez le nourrisson et le petit enfant, à très forte dose), anti-inflammatoires non stéroïdiens, et quinidine.
+Certains médicaments produisent une hypoglycémie, c'est notamment le cas des médicaments anti- diabétiques, comme l\'insuline et certains antidiabétiques oraux chez les sujets diabétiques. D'autres médicaments peuvent être mis en cause, comme l\'aspirine (essentiellement chez le nourrisson et le petit enfant, à très forte dose), anti-inflammatoires non stéroïdiens, et quinidine.
 
-Les hypoglycémies ont plusieurs catégories de causes : soit un excès d'insuline ; soit un défaut de production de glucose. L'excès d'insuline peut être endogène, lié à un surdosage, le plus souvent tumoral, par une tumeur du pancréas, l'insulinome, une tumeur rare, moins d'un cas pour un million d'individus par an. L'hypoglycémie se rapproche de ce que l'on nomme un syndrome.
+Les hypoglycémies ont plusieurs catégories de causes : soit un excès d'insuline ; soit un défaut de production de glucose. L\'excès d'insuline peut être endogène, lié à un surdosage, le plus souvent tumoral, par une tumeur du pancréas, l\'insulinome, une tumeur rare, moins d'un cas pour un million d\'individus par an. L'hypoglycémie se rapproche de ce que l\'on nomme un syndrome.
 
 [Hypoglycémie — Wikipédia (wikipedia.org)](https://fr.wikipedia.org/wiki/Hypoglyc%C3%A9mie)
 
-J'espère que vous vous rendez bien compte que pour traiter une hypoglycémie par tumeur du pancréas , ou une parce que Jean-Michel JeNeDéjeunePas fait un petit malaise dans le RER B à 8h04, ne se règlent pas de la même manière ? Bah c'est pareil pour le « syndrome » du canal carpien.
+J'espère que vous vous rendez bien compte que pour traiter une hypoglycémie par tumeur du pancréas , ou une parce que Jean-Michel JeNeDéjeunePas fait un petit malaise dans le RER B à 8h04, ne se règlent pas de la même manière ? Bah c\'est pareil pour le « syndrome » du canal carpien.
 
 La subtilité la plus importante pour nous reste la distinction entre syndrome et maladie.
 
 ### Syndrome
 
-MÉD., PATHOL. Ensemble de signes, de symptômes, de modifications morphologiques, fonctionnelles ou biochimiques de l'organisme, d'apparence parfois disparate mais formant une entité reconnaissable qui, sans présager obligatoirement des causes de ces manifestations, permettent d'orienter le diagnostic.
+MÉD., PATHOL. Ensemble de signes, de symptômes, de modifications morphologiques, fonctionnelles ou biochimiques de l'organisme, d\'apparence parfois disparate mais formant une entité reconnaissable qui, sans présager obligatoirement des causes de ces manifestations, permettent d'orienter le diagnostic.
 
 *https://www.cnrtl.fr/definition/syndrome*
 
 ### Maladie
 
-[Chez l'homme] Altération de l'état de santé se manifestant par un ensemble de signes et de symptômes perceptibles directement ou non, correspondant à des troubles généraux ou localisés, fonctionnels ou lésionnels, dus à des causes internes ou externes et comportant une évolution.
+[Chez l'homme] Altération de l\'état de santé se manifestant par un ensemble de signes et de symptômes perceptibles directement ou non, correspondant à des troubles généraux ou localisés, fonctionnels ou lésionnels, dus à des causes internes ou externes et comportant une évolution.
 
 *https://www.cnrtl.fr/definition/maladie#*
 
-Pour partir sur de bonnes bases, il est nécessaire de connaître la signification première de ces deux termes, afin de mieux comprendre ce qui se cache derrière. La maladie est une altération ou un trouble d'un organisme vivant. Elle est forcément pathologique. Le syndrome, lui, est un ensemble de symptômes ou de signes cliniques, peut-être pathogène ou non, contrairement à la maladie qui l'est obligatoirement.
+Pour partir sur de bonnes bases, il est nécessaire de connaître la signification première de ces deux termes, afin de mieux comprendre ce qui se cache derrière. La maladie est une altération ou un trouble d'un organisme vivant. Elle est forcément pathologique. Le syndrome, lui, est un ensemble de symptômes ou de signes cliniques, peut-être pathogène ou non, contrairement à la maladie qui l\'est obligatoirement.
 
-Le patient peut présenter ces symptômes lorsqu'il a une maladie, ou bien lorsqu'il présente des écarts par rapport à la norme. Une maladie est un état pathologique, qui peut avoir plusieurs symptômes. Un syndrome est assez imprécis pour pouvoir intégrer plusieurs diagnostics plus ou moins précis. Et c'est là toute la différence entre les deux termes. Néanmoins, beaucoup de maladies portent le nom de syndrome, comme on peut le voir plus bas. Le syndrome peut aussi être le signe d'une maladie. D'autres fois, il peut être la conséquence.
+Le patient peut présenter ces symptômes lorsqu'il a une maladie, ou bien lorsqu\'il présente des écarts par rapport à la norme. Une maladie est un état pathologique, qui peut avoir plusieurs symptômes. Un syndrome est assez imprécis pour pouvoir intégrer plusieurs diagnostics plus ou moins précis. Et c'est là toute la différence entre les deux termes. Néanmoins, beaucoup de maladies portent le nom de syndrome, comme on peut le voir plus bas. Le syndrome peut aussi être le signe d\'une maladie. D'autres fois, il peut être la conséquence.
 
 <img src="https://www.kinefact.com/wp-content/uploads/2021/01/1-e1611870736468.png" alt="Syndrome méningé" width="370" height="138">
 
@@ -232,20 +231,20 @@ Le diagnostic d'une maladie est donc bien différent du syndrome qui est rattach
   <source src="https://www.kinefact.com/wp-content/uploads/2021/01/giphy-4.mp4" type="video/mp4">
 </video>
 
-Les diagnostics peuvent se préciser uniquement s'ils se détachent des autres atteintes au sein d'un syndrome. On parlera ici de diagnostic différentiel MAIS si un syndrome est émis ou mis en évidence, alors le niveau de vigilance devrait être augmenté afin de trier les différentes maladies ou les différentes causes pouvant amener à ce syndrome. La recherche de « causes » est utile uniquement pour des aspects prescriptifs, donc si un traitement adapté à la condition existe et se montre plus efficient ou pertinent. Voici deux exemples différents afin d'illustrer mon propos : le traitement semble identique si un patient est atteint d'un syndrome fémoro patellaire ou d'une tendinopathie patellaire, par contre il peut être différent si il présente un syndrome de traversé thoraco-brachiale suite à une radiculalgie ou suite un une tumeur de l'apex pulmonaire ou Pancoast Tobias.
+Les diagnostics peuvent se préciser uniquement s'ils se détachent des autres atteintes au sein d\'un syndrome. On parlera ici de diagnostic différentiel MAIS si un syndrome est émis ou mis en évidence, alors le niveau de vigilance devrait être augmenté afin de trier les différentes maladies ou les différentes causes pouvant amener à ce syndrome. La recherche de « causes » est utile uniquement pour des aspects prescriptifs, donc si un traitement adapté à la condition existe et se montre plus efficient ou pertinent. Voici deux exemples différents afin d'illustrer mon propos : le traitement semble identique si un patient est atteint d\'un syndrome fémoro patellaire ou d'une tendinopathie patellaire, par contre il peut être différent si il présente un syndrome de traversé thoraco-brachiale suite à une radiculalgie ou suite un une tumeur de l\'apex pulmonaire ou Pancoast Tobias.
 
-Le diagnostic différentiel est une méthode permettant de différencier une maladie parmi d'autres qui présentent des symptômes proches ou similaires. Ce processus vise à établir un diagnostic plus sûr via une approche méthodique qui prend en considération tant les éléments permettant d'exclure une maladie que ceux permettant de la confirmer. Le diagnostic différentiel peut aboutir à plusieurs hypothèses impossibles à départager à un instant donné, mais qui seront infirmées ou confirmées au cours du temps ou à l'aide d'examens complémentaires.
+Le diagnostic différentiel est une méthode permettant de différencier une maladie parmi d'autres qui présentent des symptômes proches ou similaires. Ce processus vise à établir un diagnostic plus sûr via une approche méthodique qui prend en considération tant les éléments permettant d\'exclure une maladie que ceux permettant de la confirmer. Le diagnostic différentiel peut aboutir à plusieurs hypothèses impossibles à départager à un instant donné, mais qui seront infirmées ou confirmées au cours du temps ou à l'aide d\'examens complémentaires.
 
 *http://www.chu-rouen.fr/page/diagnostic-differentiel*
 
-Le SYNDROME du canal carpien (SCC) est donc un label, s'exprimant cliniquement d'une manière +/- distincte mais pouvant intégrer une population hétérogène. Ce label a des impacts sociologiques, de reconnaissance, permet de pouvoir ajuster des traitements et d'obtenir un pronostic, des démarches administratives ou des thérapeutiques plus efficaces.
+Le SYNDROME du canal carpien (SCC) est donc un label, s'exprimant cliniquement d\'une manière +/- distincte mais pouvant intégrer une population hétérogène. Ce label a des impacts sociologiques, de reconnaissance, permet de pouvoir ajuster des traitements et d'obtenir un pronostic, des démarches administratives ou des thérapeutiques plus efficaces.
 
 Le syndrome du canal carpien n'est donc pas forcément une mononeuropathie compressive au niveau du poignet. Le groupe de patients ayant un SCC contient un nombre de patients ayant une mononeuropathie compressive au niveau du poignet, mais également des gens ayant des troubles vasculaires, des troubles neurologiques autres …
 
 Les définitions de l'incidence et de la prévalence vont nous être utiles pour la suite voici donc leur définition classiquement admise :
 
-- L'incidence mesure le nombre de nouveaux cas d'une maladie pendant une période de référence, souvent un an. De manière plus précise, l'incidence est la proportion des individus atteints par une maladie donnée par référence au nombre total de sujets présents dans la population étudiée, non malades au début de l'étude, et cela pendant une période donnée.
-- La prévalence est une mesure de l'état de santé d'une population à un instant donné, pour un problème sanitaire donné. Tout comme un sondage d'opinion, c'est une photographie instantanée, qui ne vaut que pour l'instant étudié. La prévalence d'une affection est calculée en rapportant à la population globale le nombre de malades présents dans cette population, qu'il s'agisse de nouveaux ou d'anciens cas. La prévalence est une proportion, en règle générale exprimée par un pourcentage. C'est un rapport du nombre de cas d'un trouble morbide à l'effectif total d'une population, sans distinction entre les cas nouveaux et les cas anciens, à un moment ou pendant une période donnée.
+- L'incidence mesure le nombre de nouveaux cas d\'une maladie pendant une période de référence, souvent un an. De manière plus précise, l'incidence est la proportion des individus atteints par une maladie donnée par référence au nombre total de sujets présents dans la population étudiée, non malades au début de l\'étude, et cela pendant une période donnée.
+- La prévalence est une mesure de l'état de santé d\'une population à un instant donné, pour un problème sanitaire donné. Tout comme un sondage d'opinion, c\'est une photographie instantanée, qui ne vaut que pour l'instant étudié. La prévalence d\'une affection est calculée en rapportant à la population globale le nombre de malades présents dans cette population, qu'il s\'agisse de nouveaux ou d'anciens cas. La prévalence est une proportion, en règle générale exprimée par un pourcentage. C\'est un rapport du nombre de cas d'un trouble morbide à l\'effectif total d'une population, sans distinction entre les cas nouveaux et les cas anciens, à un moment ou pendant une période donnée.
 
 *https://fr.wikipedia.org/wiki/Incidence_(%C3%A9pid%C3%A9miologie)*
 
@@ -258,7 +257,7 @@ Les définitions de l'incidence et de la prévalence vont nous être utiles pour
 Voici la fin de la première partie, permettant de mettre un socle commun pour la suite. Les articles 2 puis 3 explorerons avec finesse les données acquises sur le SCC ainsi que son traitement optimal en kinésithérapie. Sommes-nous légitimes à prendre en charge cette atteinte ?
 
 **POUR LA PARTIE 2** cliquez [ICI](https://www.kinefact.com/?p=2108&preview=true)
-`,
+`
   },
   {
     title: "Syndrome du canal carpien, pourquoi sommes-nous négligés du parcours de soin ? 2/3",
@@ -323,9 +322,9 @@ Ce qui semble surprenant par contre c'est que pour une incidence et une prévale
   <source src="https://www.kinefact.com/wp-content/uploads/2021/01/Booba-Je-Ne-Compwends-Pas.mp4" type="video/mp4">
 </video>
 
-Peut-être avons-nous le coup de bistouri facile ? L'accessibilité des soins est facilitée en France ? L'Angleterre incorpore les physiothérapeutes dans le parcours de soin ? Peu importe la ou les justifications derrière ces données, nous pouvons constater que la prise en charge de ce trouble est extrêmement coûteuse en France. Nous explorerons la partie économique plus en détail lorsque nous verrons que nous les kinésithérapeutes, pouvons faire économiser des dizaines de millions d'euros à la sécurité sociale.
+Peut-être avons-nous le coup de bistouri facile ? L'accessibilité des soins est facilitée en France ? L\'Angleterre incorpore les physiothérapeutes dans le parcours de soin ? Peu importe la ou les justifications derrière ces données, nous pouvons constater que la prise en charge de ce trouble est extrêmement coûteuse en France. Nous explorerons la partie économique plus en détail lorsque nous verrons que nous les kinésithérapeutes, pouvons faire économiser des dizaines de millions d'euros à la sécurité sociale.
 
-La prise en charge du SCC dépend grandement de comment nous comprenons ce trouble et l'idée que l'on a de ce dernier. Cependant une image erronée du trouble peut amener à des réponses inadaptées au niveau des soins proposés.
+La prise en charge du SCC dépend grandement de comment nous comprenons ce trouble et l'idée que l\'on a de ce dernier. Cependant une image erronée du trouble peut amener à des réponses inadaptées au niveau des soins proposés.
 
 ## Le SCC, est-ce une compression ?
 
@@ -359,14 +358,14 @@ Voici dans les tableaux ci-dessous, les différences histologiques observées lo
   <source src="https://www.kinefact.com/wp-content/uploads/2021/01/giphy-26.mp4" type="video/mp4">
 </video>
 
-De ces observations et suite à des biopsies, on observe qu'une partie de la population semble avoir des prédispositions à avoir des troubles vasculaires et nerveux. Par exemple, l'analyse des nerfs interosseux postérieurs chez des patients diabétiques ayant un SCC avec ou sans polyneuropathies, ainsi que chez des patients ayant un SCC idiopathique, comparativement à un groupe contrôle n'ayant pas de SCC (Thomsen et al en 2009) :
+De ces observations et suite à des biopsies, on observe qu'une partie de la population semble avoir des prédispositions à avoir des troubles vasculaires et nerveux. Par exemple, l\'analyse des nerfs interosseux postérieurs chez des patients diabétiques ayant un SCC avec ou sans polyneuropathies, ainsi que chez des patients ayant un SCC idiopathique, comparativement à un groupe contrôle n'ayant pas de SCC (Thomsen et al en 2009) :
 
 - Des différences dans la densité des fibres myélinisées
 - Des différences dans la densité des capillaires sanguins
 
-Les auteurs énoncent qu'il existe un rôle important de prédispositions génétiques dans l'apparition des neuropathies et des névralgies.
+Les auteurs énoncent qu'il existe un rôle important de prédispositions génétiques dans l\'apparition des neuropathies et des névralgies.
 
-Cela est également confirmé par d'autres données qui s'intéressent à l'expression des facteurs de croissance nerveuse, vasculaire, collagénique.
+Cela est également confirmé par d'autres données qui s\'intéressent à l'expression des facteurs de croissance nerveuse, vasculaire, collagénique.
 
 *THOMSEN, Niels OB, MOJADDIDI, Moaz, MALIK, Rayaz A., et al. Reduced myelinated nerve fibre and endoneurial capillary densities in the forearm of diabetic and non-diabetic patients with carpal tunnel syndrome. Acta neuropathologica, 2009, vol. 118, no 6, p. 785-791.*
 
@@ -374,11 +373,11 @@ Cela est également confirmé par d'autres données qui s'intéressent à l'expr
 
 Nous devrions donc parler DES SCC plutôt que DU SCC car ce terme regroupe une multitude de diagnostics et de causes sous-jacentes bien différents.
 
-Un SCC n'est donc pas qu'une mononeuropathie compressive du nerf médian au niveau du carpe, comme ce que laisse penser le terme employé usuellement. Si vous vous demandez pourquoi autant entrer dans les détails pour ce type d'atteinte, c'est parce que : mieux nous connaissons ce problème, mieux nous pouvons traiter précisément ce problème. Un SCC lié à un trouble thyroïdien pourrait probablement plus bénéficier d'une infiltration au vu des données préliminaires qu'un SCC lié à une surcharge mécanique dû à l'activité, mais ce n'est qu'une supposition et il faudrait pouvoir vérifier cela en réalisant une stratification et des ECR selon les sous-groupes identifiables.
+Un SCC n'est donc pas qu\'une mononeuropathie compressive du nerf médian au niveau du carpe, comme ce que laisse penser le terme employé usuellement. Si vous vous demandez pourquoi autant entrer dans les détails pour ce type d'atteinte, c\'est parce que : mieux nous connaissons ce problème, mieux nous pouvons traiter précisément ce problème. Un SCC lié à un trouble thyroïdien pourrait probablement plus bénéficier d'une infiltration au vu des données préliminaires qu\'un SCC lié à une surcharge mécanique dû à l'activité, mais ce n\'est qu'une supposition et il faudrait pouvoir vérifier cela en réalisant une stratification et des ECR selon les sous-groupes identifiables.
 
-Si je devais faire un parallèle avec une appellation qui a été remise en question : le conflit sous-acromial, dont la meilleure compréhension du problème nous amène à nous rendre compte qu'une acromioplastie n'est pas la meilleure solution pour des douleurs dans la région de l'épaule.
+Si je devais faire un parallèle avec une appellation qui a été remise en question : le conflit sous-acromial, dont la meilleure compréhension du problème nous amène à nous rendre compte qu'une acromioplastie n\'est pas la meilleure solution pour des douleurs dans la région de l'épaule.
 
-Car rien ne prouve que la « compression des tendons par l'acromion » soit un facteur prédominant dans les problèmes d'épaules, comme ce qu'a émis comme hypothèse Neer en 1972.
+Car rien ne prouve que la « compression des tendons par l'acromion » soit un facteur prédominant dans les problèmes d\'épaules, comme ce qu'a émis comme hypothèse Neer en 1972.
 
 <img src="https://www.kinefact.com/wp-content/uploads/2021/01/131220134_10223764337797221_402545105681142598_o.jpg" alt="Meme épaule" width="439" height="439">
 
@@ -432,9 +431,9 @@ Nous en reparlerons plus tard dans les détails, mais bonne nouvelle pour les pa
   <source src="https://www.kinefact.com/wp-content/uploads/2021/01/giphy-12.mp4" type="video/mp4">
 </video>
 
-Le traitement conservateur est indiqué dans les cas du SCC avant la prise en charge chirurgicale par l' « American Academy of Orthopeadic Surgeon ». Cependant la prise en charge par un physiothérapeute (nos homologues) semble ne pas être dans les mœurs des prescripteurs, en France ou à l'étranger. Dans une étude prospective canadienne, Rodney Li Pi Shan et al (2016) montre que chez les cliniciens réalisant le diagnostic par ENMG d'un SCC, « en ce qui concerne le traitement, 99% recommanderaient le port d'une attelle dans les cas de SCC léger. Chez les cas de SCC modéré, l'attelle était recommandée par 91% des cliniciens et 68% considéraient également référer le patient en chirurgie. Dans les cas de SCC sévères, la plupart recommandaient la chirurgie (93%) ». En aucun cas la prise en charge par un physiothérapeute n'est évoquée alors que le SCC fait partie des troubles neuro-musculosquelettiques
+Le traitement conservateur est indiqué dans les cas du SCC avant la prise en charge chirurgicale par l' « American Academy of Orthopeadic Surgeon ». Cependant la prise en charge par un physiothérapeute (nos homologues) semble ne pas être dans les mœurs des prescripteurs, en France ou à l\'étranger. Dans une étude prospective canadienne, Rodney Li Pi Shan et al (2016) montre que chez les cliniciens réalisant le diagnostic par ENMG d'un SCC, « en ce qui concerne le traitement, 99% recommanderaient le port d\'une attelle dans les cas de SCC léger. Chez les cas de SCC modéré, l'attelle était recommandée par 91% des cliniciens et 68% considéraient également référer le patient en chirurgie. Dans les cas de SCC sévères, la plupart recommandaient la chirurgie (93%) ». En aucun cas la prise en charge par un physiothérapeute n\'est évoquée alors que le SCC fait partie des troubles neuro-musculosquelettiques
 
-De cette connotation de syndrome compressif, découle en partie cette absence des physiothérapeutes dans le parcours de soin. En effet, à quoi pourraient servir les kinésithérapeutes alors que c'est un problème de contenant-contenu et que seul la chirurgie peut permettre d'étendre le contenu.
+De cette connotation de syndrome compressif, découle en partie cette absence des physiothérapeutes dans le parcours de soin. En effet, à quoi pourraient servir les kinésithérapeutes alors que c'est un problème de contenant-contenu et que seul la chirurgie peut permettre d\'étendre le contenu.
 
 *American Academy of Orthopaedic Surgeons. Management of Carpal Tunnel Syndrome Evidence-Based Clinical Practice Guideline. www.aaos.org/ctsguideline. Published February 29, 2016.*
 
@@ -447,7 +446,7 @@ Parmi les facteurs de risque menant à l'apparition du SCC, certains sont contr�
 - Il existe une association positive entre répétition de mouvements et SCC avec un haut niveau de preuve
 - Il existe une association positive entre la force utilisée lors des manœuvres et le SCC avec un haut niveau de preuve
 - Une exposition combinant ces deux paramètres est également associée à l'augmentation du risque de SCC avec un haut niveau de preuve
-- Concernant les vibrations ainsi que les positions en fin d'amplitude du poignet, l'association n'est pas franche et les résultats sont hétérogènes. En effet les auteurs énoncent qu'il pourrait y avoir un effet dose-réponse (durée d'exposition / fréquence de vibration)
+- Concernant les vibrations ainsi que les positions en fin d'amplitude du poignet, l\'association n'est pas franche et les résultats sont hétérogènes. En effet les auteurs énoncent qu\'il pourrait y avoir un effet dose-réponse (durée d'exposition / fréquence de vibration)
 
 *KOZAK, Agnessa, SCHEDLBAUER, Grita, WIRTH, Tanja, et al. Association between work-related biomechanical risk factors and the occurrence of carpal tunnel syndrome: an overview of systematic reviews and a meta-analysis of current research. BMC musculoskeletal disorders, 2015, vol. 16, no 1, p. 1-19.*
 
@@ -458,44 +457,47 @@ Dans la revue systématique avec méta-analyse de Médiouni et al, les auteurs n
 Donner seulement le résultat de cette revue systématique avec méta-analyse ne suffit pas, et je vous encourage à analyser les données plus en profondeur comme l'a fait celle faite par Rahman Shiri et al.
 
     contentPath: "blog-posts/troubles-vasculaires-msk.md"
-Le niveau d'activité mesuré pour les saisonniers est considéré comme moyen, il semble correspondre au niveau de contraintes que subissent des peintres par exemple. Le niveau d'activité de la main est évalué à 7/10 selon *the American Conference of Governmental Industrial Hygienists' scale*
+Le niveau d'activité mesuré pour les saisonniers est considéré comme moyen, il semble correspondre au niveau de contraintes que subissent des peintres par exemple. Le niveau d\'activité de la main est évalué à 7/10 selon *the American Conference of Governmental Industrial Hygienists' scale*
 
 *TABATABAEIFAR, Sorosh, SVENDSEN, Susanne Wulff, JOHNSEN, Birger, et al. Reversible median nerve impairment after three weeks of repetitive work. Scandinavian Journal of Work, Environment & Health, 2017, p. 163-170.*
 
-Cette première étude nous montre qu'après un travail intensif de seulement 22 jours, nous observons une altération de la conduction nerveuse, signe d'une neuropathie. Nous observons également que cette neuropathie est réversible et transitoire (avec l'arrêt de l'activité). Cette neuropathie transitoire indique que d'autres mécanismes que la démyélinisation et la dégénération axonale puissent jouer un rôle dans les neuropathies ainsi que les douleurs neuropathiques.
+Cette première étude nous montre qu'après un travail intensif de seulement 22 jours, nous observons une altération de la conduction nerveuse, signe d\'une neuropathie. Nous observons également que cette neuropathie est réversible et transitoire (avec l'arrêt de l\'activité). Cette neuropathie transitoire indique que d'autres mécanismes que la démyélinisation et la dégénération axonale puissent jouer un rôle dans les neuropathies ainsi que les douleurs neuropathiques.
 
-Si l'on rapporte cette donnée à cette étude française : *Les patients opérés d'un syndrome du canal carpien ont-ils un moins bon pronostic professionnel en cas de déclaration en maladie professionnelle ?*, il n'est pas étonnant que les SCC liés au travail aient un moins bon pronostic si la charge et le niveau d'effort est élevé et constant, cela va irrémédiablement altérer les conditions d'adaptation du tissu nerveux, et cela indépendamment d'une quelconque indemnisation mise en jeu. Donc peut être facteur de risque et facteur pronostic ?
+Si l'on rapporte cette donnée à cette étude française : *Les patients opérés d\'un syndrome du canal carpien ont-ils un moins bon pronostic professionnel en cas de déclaration en maladie professionnelle ?*, il n'est pas étonnant que les SCC liés au travail aient un moins bon pronostic si la charge et le niveau d\'effort est élevé et constant, cela va irrémédiablement altérer les conditions d'adaptation du tissu nerveux, et cela indépendamment d\'une quelconque indemnisation mise en jeu. Donc peut être facteur de risque et facteur pronostic ?
 
-    contentPath: "blog-posts/lesions-ischio-jambiers.md"
+    contentPath: "blog-posts/lesions-ischio-jambiers.md"`
   },
   {
     title: "Le syndrome du canal carpien : régler au mieux le problème. 3/3",
     image: "https://www.kinefact.com/wp-content/uploads/2021/01/canal-carpien.png",
     excerpt: "Comment ne pas rater une neuropathie au cabinet et pourquoi la kinésithérapie devrait être au centre du parcours de soin du syndrome du canal carpien. Une analyse complète des données scientifiques actuelles.",
-    contentPath: "blog-posts/syndrome-canal-carpien-parcours-soin.md"
-Ces dernières données montrent que le traitement effectué par les kinésithérapeutes est au moins aussi efficace que le traitement chirurgical, pas plus efficace. Cependant il manque l'analyse de l'aspect économique.
+    date: "2021-02-26",
+    author: "Bryan Littré",
+    link: "/blog/syndrome-canal-carpien-traitement-partie-3",
+    contentPath: "blog-posts/syndrome-canal-carpien-parcours-soin.md",
+    content: `Ces dernières données montrent que le traitement effectué par les kinésithérapeutes est au moins aussi efficace que le traitement chirurgical, pas plus efficace. Cependant il manque l'analyse de l\'aspect économique.
 
-Fernandez De Las Penas a encore une fois effectué une étude sur le SCC et cette fois-ci il a analysé et comparé le coût d'un traitement conservateur et d'un traitement chirurgical.
+Fernandez De Las Penas a encore une fois effectué une étude sur le SCC et cette fois-ci il a analysé et comparé le coût d'un traitement conservateur et d\'un traitement chirurgical.
 
 Cette analyse économique montre un coût de prise en charge nettement moins élevé pour le groupe bénéficiant de la kinésithérapie que le groupe bénéficiant de la chirurgie. Le groupe bénéficiant de la kinésithérapie montre également moins de jours d'arrêt.
 
-La kinésithérapie semble plus intéressante que la chirurgie dans la prise en charge de la plupart des SCC idiopathiques grâce à l'analyse des coûts ainsi que l'analyse du ratio bénéfice/risque, alors qu'en terme d'efficacité aucune des deux méthodes ne semble être supérieure à l'autre sur le long terme.
+La kinésithérapie semble plus intéressante que la chirurgie dans la prise en charge de la plupart des SCC idiopathiques grâce à l'analyse des coûts ainsi que l\'analyse du ratio bénéfice/risque, alors qu'en terme d\'efficacité aucune des deux méthodes ne semble être supérieure à l'autre sur le long terme.
 
 ## LA KINÉSITHÉRAPIE OUI MAIS LAQUELLE ? ET COMMENT CELA FONCTIONNE
 
 Dans cette partie décortiquons quel traitement a été efficace pour les patients atteints de SCC et nous explorons comment ce traitement fonctionne, quels éléments montrent qu'il fonctionne.
 
-Je ne transmets ici QUE LES DONNÉES AYANT DÉMONTRÉ UNE RÉELLE EFFICACITÉ PROPRE et je me refuse de donner tous les "tips" cliniques que j'ai car certains peuvent ne pas être adaptées à vos patients.
+Je ne transmets ici QUE LES DONNÉES AYANT DÉMONTRÉ UNE RÉELLE EFFICACITÉ PROPRE et je me refuse de donner tous les "tips\" cliniques que j'ai car certains peuvent ne pas être adaptées à vos patients.
 
 Voici la description de la thérapie manuelle utilisée dans les études de FDLP afin d'aider les patients atteints de SCC idiopathiques. La base des traitements de kinésithérapie présentée ici est appelée « Neurodynamique ».
 
-La neurodynamique est un concept qui étudie les relations entre la mécanique et la physiologie du système nerveux. Elle permettrait selon les principaux auteurs, d'« évaluer et de traiter des états douloureux où l'intégrité physique du système nerveux est en cause. Il ne s'agit pas d'une méthode censée remplacer les techniques manuelles employées habituellement, mais plutôt d'un adjuvant qui permet de mesurer le degré d'implication du système nerveux dans les problèmes et de proposer le traitement le plus adéquat ».
+La neurodynamique est un concept qui étudie les relations entre la mécanique et la physiologie du système nerveux. Elle permettrait selon les principaux auteurs, d'« évaluer et de traiter des états douloureux où l\'intégrité physique du système nerveux est en cause. Il ne s'agit pas d\'une méthode censée remplacer les techniques manuelles employées habituellement, mais plutôt d'un adjuvant qui permet de mesurer le degré d\'implication du système nerveux dans les problèmes et de proposer le traitement le plus adéquat ».
 
 ### Pourquoi ça fonctionne et comment ça fonctionne
 
 Voici les effets démontrés des mobilisations neurales (neuroglissements et/ou neurotensions) sur le système nerveux :
 
-- Diminution de l'inflammation et de l'activation des cellules gliales dans le système nerveux central
+- Diminution de l'inflammation et de l\'activation des cellules gliales dans le système nerveux central
 - Améliore les conditions du milieu pour une meilleure régénération nerveuse
 - Diminue les allodynies et est suivi par une baisse de la production de cytokines inflammatoires
 - Amélioration de la perfusion nerveuse post-manœuvre
@@ -506,11 +508,11 @@ Voici les effets démontrés des mobilisations neurales (neuroglissements et/ou 
 
 ## Récapitulatif du problème actuel et conclusion
 
-En 2008, l'incidence des interventions pour une libération du nerf médian (personnes âgées de plus de 20 ans) en France métropolitaine était de 2,7/1000, soit 141 268 interventions chez 127 269 personnes. La disparité départementale est « significativement et positivement associée à la densité départementale de chirurgiens pratiquant ces interventions, la part des ouvriers, la part des emplois dans l'industrie et négativement aux densités de kinésithérapeutes, de rhumatologues et de généralistes ».
+En 2008, l'incidence des interventions pour une libération du nerf médian (personnes âgées de plus de 20 ans) en France métropolitaine était de 2,7/1000, soit 141 268 interventions chez 127 269 personnes. La disparité départementale est « significativement et positivement associée à la densité départementale de chirurgiens pratiquant ces interventions, la part des ouvriers, la part des emplois dans l\'industrie et négativement aux densités de kinésithérapeutes, de rhumatologues et de généralistes ».
 
-Notre objectif en tant que collectivité est d'améliorer la qualité des soins, individualiser les soins, minimiser les risques et diminuer les coûts de soin sans altération de sa qualité. Les recommandations de bonne pratique devraient donc s'ajuster sur les données actuelles et les kinésithérapeutes devraient se trouver au centre du parcours de soin du patient (triage/intervention conservatrice).
+Notre objectif en tant que collectivité est d'améliorer la qualité des soins, individualiser les soins, minimiser les risques et diminuer les coûts de soin sans altération de sa qualité. Les recommandations de bonne pratique devraient donc s\'ajuster sur les données actuelles et les kinésithérapeutes devraient se trouver au centre du parcours de soin du patient (triage/intervention conservatrice).
 
-La chirurgie ne devrait être proposée qu'en cas de SCC spécifique ou lorsqu'un traitement conservateur **bien réalisé** a été proposé. Les prescripteurs devraient en être informés afin que les patients puissent en bénéficier, les traitements avec une faible valeur ajoutée devraient être remplacés par ceux présentant une haute valeur ajoutée.
+La chirurgie ne devrait être proposée qu'en cas de SCC spécifique ou lorsqu\'un traitement conservateur **bien réalisé** a été proposé. Les prescripteurs devraient en être informés afin que les patients puissent en bénéficier, les traitements avec une faible valeur ajoutée devraient être remplacés par ceux présentant une haute valeur ajoutée.
 
 Cependant il faudrait aussi que les kinésithérapeutes acquièrent les connaissances ainsi que les compétences permettant de prendre en charge ce trouble, connaître les différents diagnostics différentiels, les facteurs de risque afin de proposer des soins ayant une haute valeur ajoutée.
 
@@ -518,6 +520,6 @@ En effet, la kinésithérapie bien menée semble moins chère, au moins aussi ef
 
 Du coup, pourquoi nous, kinésithérapeutes, sommes-nous négligés du parcours de soin des personnes atteintes du syndrome du canal carpien ?
 
-Merci à vous d'avoir lu cette série de billets jusqu'au bout, je ne peux que vous encourager à partager cet article si vous pensez qu'il peut faire changer la prise en charge de ce trouble, en espérant que des retombées positives se fassent pour notre profession mais surtout pour les patients, car si les autorités de santé françaises se penchent sur les données : **LA KINÉSITHÉRAPIE EST ESSENTIELLE**.`
+Merci à vous d'avoir lu cette série de billets jusqu\'au bout, je ne peux que vous encourager à partager cet article si vous pensez qu'il peut faire changer la prise en charge de ce trouble, en espérant que des retombées positives se fassent pour notre profession mais surtout pour les patients, car si les autorités de santé françaises se penchent sur les données : **LA KINÉSITHÉRAPIE EST ESSENTIELLE**.`
   }
 ];
