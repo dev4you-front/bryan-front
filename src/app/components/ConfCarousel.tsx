@@ -19,11 +19,11 @@ export default function ConfCarousel({ items }: ConfCarouselProps) {
       <div className="hidden md:block relative">
         <button
           aria-label="Précédent"
-          className="swiper-button-prev custom-swiper-arrow absolute -left-12 top-1/3 -translate-y-1/2 z-20"
+          className="swiper-button-prev custom-swiper-arrow absolute left-0 top-1/3 -translate-y-1/2 z-20"
           onClick={goPrev}
         />
         
-        <div className="w-full mx-auto">
+        <div className="w-full mx-auto px-12">
           <div className="flex flex-col items-center">
             <div className="w-full aspect-video rounded-xl shadow mb-4 overflow-hidden">
               <iframe
@@ -39,7 +39,7 @@ export default function ConfCarousel({ items }: ConfCarouselProps) {
         
         <button
           aria-label="Suivant"
-          className="swiper-button-next custom-swiper-arrow absolute -right-12 top-1/3 -translate-y-1/2 z-20"
+          className="swiper-button-next custom-swiper-arrow absolute right-0 top-1/3 -translate-y-1/2 z-20"
           onClick={goNext}
         />
       </div>
