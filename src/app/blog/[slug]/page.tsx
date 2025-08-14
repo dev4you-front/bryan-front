@@ -29,6 +29,9 @@ export default async function BlogArticlePage({ params }: BlogArticlePageProps) 
     notFound();
   }
 
+  // Chargement dynamique du contenu de l'article
+  const { default: content } = await import(article.contentPath);
+
   return (
     <SectionWrapper maxWidth="4xl">
       <div className="bg-white rounded-2xl shadow-lg p-8">
@@ -57,7 +60,7 @@ export default async function BlogArticlePage({ params }: BlogArticlePageProps) 
             remarkPlugins={[remarkGfm]}
             rehypePlugins={[rehypeRaw]}
           >
-            {article.content}
+            {content}
           </ReactMarkdown>
         </div>
 
