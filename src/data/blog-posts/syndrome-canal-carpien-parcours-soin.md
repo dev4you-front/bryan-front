@@ -1,6 +1,5 @@
 # Syndrome du canal carpien, pourquoi sommes-nous négligés du parcours de soin ? 
 
-<p style="text-align: justify;"><span style="color: #00ccff;"><strong><span style="font-size: 24pt;">Syndrome du canal carpien, pourquoi sommes-nous négligés du parcours de soin ?&nbsp;</span></strong></span></p>
 <p style="text-align: justify;"><span style="font-weight: 400;">Par Bryan Littré, remerciements et aide à la relecture : </span><b>Marguerite Dontenwille, Robin Vervaeke, Marie Akrich, Antoine Massuleau, Benjamin Heng</b></p>
 <p style="text-align: justify;"><span style="font-size: 18pt; color: #00ccff;"><b>Comment </b><del><b>ne pas</b></del><b> rater une neuropathie au cabinet</b></span></p>
 
