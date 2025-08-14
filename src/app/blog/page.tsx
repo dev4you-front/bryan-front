@@ -1,5 +1,4 @@
 import { blogArticles } from "@/data/blogArticles";
-import ClientDateFormatter from "@/app/components/ClientDateFormatter";
 
 export default function Blog() {
   return (
@@ -22,7 +21,10 @@ export default function Blog() {
                   <div className="flex items-center justify-between text-xs text-gray-500 mb-4 pt-2 border-t border-gray-100">
                     <span className="font-medium text-brandviolet">{a.author}</span>
                     <span>
-                      <ClientDateFormatter date={a.date} format="monthYear" />
+                    {new Date(a.date).toLocaleDateString('fr-FR', {
+                      month: 'long',
+                      year: 'numeric'
+                    })}
                     </span>
                   </div>
                   <a href={a.link} className="inline-flex items-center justify-center mt-auto bg-brandviolet text-white font-semibold py-2.5 px-4 rounded-lg hover:bg-purple-600 transition-colors duration-200 text-sm">

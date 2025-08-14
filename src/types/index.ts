@@ -12,7 +12,6 @@ export interface Article {
   date: string;
   author: string;
   link: string;
-  contentType?: "html" | "markdown";
   content: string;
 }
 

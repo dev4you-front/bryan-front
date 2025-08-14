@@ -1,102 +1,5 @@
 import { Article } from "@/types";
 
-// Article converti du HTML vers Markdown
-const etirementMarkdown = `# En fait, comment ça marche un étirement ?
-
-L'étirement est une pratique courante dans le monde du sport et de la rééducation, mais son mécanisme d'action reste souvent mal compris. Cet article explore les bases scientifiques de l'étirement et ses effets sur les tissus musculaires.
-
-## Les mécanismes physiologiques
-
-### 1. Effets sur le tissu conjonctif
-
-L'étirement agit principalement sur le **tissu conjonctif** qui entoure et traverse le muscle. Ce tissu, composé de collagène et d'élastine, possède des propriétés viscoélastiques qui lui permettent de s'adapter aux contraintes mécaniques.
-
-### 2. Réponse neurologique
-
-Le système nerveux joue un rôle crucial dans la réponse à l'étirement :
-
-- **Réflexe myotatique** : Protection contre l'étirement excessif
-- **Inhibition réciproque** : Relaxation du muscle antagoniste
-- **Adaptation du système nerveux central** : Modification de la tolérance à l'étirement
-
-## Types d'étirements et leurs effets
-
-### Étirement statique
-
-L'étirement statique consiste à maintenir une position d'étirement pendant une durée déterminée (généralement 15 à 60 secondes).
-
-**Effets observés :**
-- Augmentation temporaire de l'amplitude articulaire
-- Modification de la tolérance à l'étirement
-- Effets limités sur la longueur réelle du muscle
-
-### Étirement dynamique
-
-L'étirement dynamique implique des mouvements contrôlés dans l'amplitude articulaire disponible.
-
-**Avantages :**
-- Préparation à l'activité physique
-- Maintien de la température corporelle
-- Activation du système nerveux
-
-## Ce que dit la recherche
-
-Les études récentes remettent en question certaines idées reçues sur l'étirement :
-
-> "L'augmentation d'amplitude observée après étirement est principalement due à une modification de la tolérance à l'étirement plutôt qu'à un changement structurel du muscle." - Weppler & Magnusson, 2010
-
-### Points clés de la littérature scientifique :
-
-1. **Pas d'allongement permanent** : Les études ne montrent pas d'allongement structurel durable du muscle après étirement
-2. **Tolérance modifiée** : L'amélioration de l'amplitude est principalement neurologique
-3. **Effets temporaires** : Les bénéfices sur l'amplitude disparaissent rapidement sans pratique régulière
-
-## Applications pratiques
-
-### Pour le sportif
-
-- **Avant l'effort** : Privilégier les étirements dynamiques
-- **Après l'effort** : Les étirements statiques peuvent être bénéfiques pour la récupération
-- **Objectif performance** : L'étirement n'améliore pas directement la performance
-
-### Pour le patient
-
-- **Raideur articulaire** : L'étirement peut améliorer la mobilité fonctionnelle
-- **Douleur** : Effets variables selon le contexte
-- **Rééducation** : Intégrer dans un programme global
-
-## Recommandations pratiques
-
-### Paramètres optimaux
-
-- **Durée** : 15 à 60 secondes par étirement
-- **Fréquence** : 2 à 4 fois par semaine minimum
-- **Intensité** : Sensation d'étirement sans douleur
-- **Progression** : Augmentation graduelle de l'amplitude
-
-### Précautions
-
-- Éviter les étirements sur muscle lésé
-- Respecter les limites physiologiques
-- Adapter selon le contexte (sport, rééducation, bien-être)
-
-## Conclusion
-
-L'étirement reste un outil utile dans l'arsenal du thérapeute et de l'entraîneur, mais ses mécanismes d'action sont plus complexes qu'initialement pensé. La compréhension de ces mécanismes permet une utilisation plus rationnelle et efficace de cette technique.
-
-L'approche moderne de l'étirement privilégie :
-- Une vision **fonctionnelle** plutôt que purement mécanique
-- L'intégration dans un **programme global**
-- L'adaptation aux **objectifs spécifiques** du patient ou de l'athlète
-
----
-
-**Références principales :**
-
-Weppler, C. H., & Magnusson, S. P. (2010). Increasing muscle extensibility: a matter of increasing length or modifying sensation? *Physical Therapy*, 90(3), 438-449.
-
-Freitas, S. R., & Mil-Homens, P. (2015). Effect of 8-week high-intensity stretching training on biceps femoris architecture. *Journal of Strength and Conditioning Research*, 29(6), 1737-1740.`;
-
 export const blogArticles: Article[] = [
   {
     title: "La biomécanique des étirements ?",
@@ -156,8 +59,118 @@ export const blogArticles: Article[] = [
           <p style="text-align: justify;"><span style="font-family: georgia, palatino, serif;"><br>
           L'amplitude articulaire (Range of Motion : ROM) n'est pas adaptée, car elle ne permet pas de trancher quant à l'implication des théories sur les études. <strong>Cependant, nous sommes sûrs d'une chose : faire des assouplissements permet d'obtenir un gain d'amplitude.</strong></span></p>
           <p style="text-align: justify;">Concernant la théorie neuro-sensorielle, l'ENMG serait pertinent afin d'évaluer uniquement l'existence d'un changement au sein du réflexe myotatique. Il permettrait également de vérifier l'état contractile du muscle étudié tout le long d'un étirement. Ce critère ne permet malheureusement pas d'analyser la tolérance à l'étirement.</p>
-    contentType: "markdown",
-    content: etirementMarkdown
+          <p style="text-align: justify;"><span style="font-family: georgia, palatino, serif;"><br>
+          Afin d'étayer ce propos, intéressons-nous à quelques études. La revue de Bonser, Hancock et coll. a proposé la problématique : « <i>Dans une population active, quel-est l'effet de la mobilisation neurodynamique par rapport à l'étirement ou la facilitation proprioceptive neuromusculaire (PNF ou contracté relâché) ? »<br>
+          </i>Celle-ci a pu extraire trois études, 1 comparative et 2 essais contrôlés randomisés. Si je me base sur ses critères pour faire une revue en 2019, une dernière étude vient étoffer les données existantes. Voici ce qui ressort selon chaque étude :<i> </i></span></p>
+          <ul style="text-align: justify;">
+          <li><span style="font-family: georgia, palatino, serif;">Pour Castellote-Caballero et al, il y a une supériorité des manœuvres neurodynamiques comparativement à un étirement statique concernant l'amplitude articulaire des membres inférieurs (souplesse des ischio-jambiers). Cette étude était la plus rigoureuse méthodologiquement ainsi que celle ayant la puissance statistique la plus importante. Cela est lié en partie au nombre important de patients présents au sein de l'étude.</span></li>
+          <li><span style="font-family: georgia, palatino, serif;">Pour Pagare et al, il n'y a aucune différence concernant le gain d'amplitude entre les manœuvres neurodynamiques et l'étirement statique.</span></li>
+          <li><span style="font-family: georgia, palatino, serif;">Pour Vidhi et al, c'est le mystère. Cette étude comparative (qui est la moins rigoureuse méthodologiquement) a comparé les manœuvres neurodynamiques au contracté relâché. Entre les conclusions de l'étude et ce que l'on trouve dans les tableaux il y a un gra<span style="font-size: 14pt;">a</span><span style="font-size: 18pt;">a<span style="font-size: 14pt;">a</span></span>and écart. Ils annoncent que le contracté relâché est meilleur alors que les chiffres au sein des résultats sont en faveur des manœuvres neurodynamiques. Il m'est donc impossible de conclure concernant cette étude. </span><span style="font-family: georgia, palatino, serif; font-size: 12pt;">Je me demande d'ailleurs ce que quelqu'un d'autre pourrait conclure de cette étude sans demander les résultats directement à l'équipe en question.</span></li>
+          <li><span style="font-family: georgia, palatino, serif;">Une dernière étude peut venir se greffer à cette revue, celle de Adel Rashad Amed et al 2016. Les auteurs observent un gain d'amplitude articulaire au sein des deux groupes, avec une supériorité statistiquement significative pour le groupe recevant les mobilisations neurodynamiques, comparativement au groupe recevant l'étirement statique. Mais la différence est seulement de 4°.</span></li>
+          </ul>
+          <p style="text-align: justify;"><span style="font-family: georgia, palatino, serif;">Il existe donc des preuves de grade B, que les neuro-glissements semblent au moins aussi performants que les techniques d'étirements traditionnelles afin d'obtenir un gain d'amplitude articulaire. Les patients manquant de souplesse au niveau des ischio-jambiers pourraient donc bénéficier de ces manœuvres à visée de gain d'amplitude articulaire.</span></p>
+          <p style="text-align: justify;"><img loading="lazy" decoding="async" class=" wp-image-588 alignright" style="color: #1d2129; font-family: georgia, palatino, serif;" src="https://www.kinefact.com/wp-content/uploads/2019/08/fluage-300x126.png" alt="" width="412" height="173" srcset="https://www.kinefact.com/wp-content/uploads/2019/08/fluage-300x126.png 300w, https://www.kinefact.com/wp-content/uploads/2019/08/fluage.png 566w" sizes="auto, (max-width: 412px) 100vw, 412px"></p>
+          <p style="text-align: justify;"><span style="color: #1d2129; font-family: georgia, palatino, serif;">La neurodynamique étant fortement liée à la tolérance à l'étirement, il est très peu probable que des modifications tissulaires puissent&nbsp;s'opérer avec car la stimulation sur le tissu musculaire en fin d'amplitude active est très (trop) courte. La première limite semble être le système nerveux et si il devait y avoir un effet de fluage, ce ne se passerait pas avec ce genre de stimulations. </span></p>
+          <p style="text-align: justify;"><span style="font-family: georgia, palatino, serif;"><span style="color: #1d2129;">Le gain est-il donc plus lié à une adaptation du système nerveux, ou à une adaptation du système nerveux couplé à la modification des propriétés mécaniques du complexe muscle/tendon ?</span></span></p>
+          <p style="text-align: justify;">Les études sur les animaux indiquent que les muscles sont très adaptables. On observe un gain de l'extensibilité (gain de longueur sur les tissus) en réponse à l'étirement. Toutefois, les essais récents portant sur des sujets sains qui ont été réalisés, indiquent que l'analyse in-vivo ne ne reflète pas l'analyse in-vitro des muscles de petits animaux ou d'humains. (Bjorklund et colL. 2001 ; Folpp et coll. 2006 ; Harvey et coll. 2006 ; Refshauge et coll. 2006)</p>
+          <p style="text-align: justify;"><span style="font-family: georgia, palatino, serif;">Pour nous aider dans l'avancée de cette réflexion, nous allons nous servir d'excellents papiers récents : le premier est la thèse de Marie Moltubakk menée en 2019, le deuxième est une revue systématique avec méta-analyse menée par Freitas et coll. en 2018.</span></p>
+          <p style="text-align: justify;"><span style="font-family: georgia, palatino, serif;">La thèse de M.Moltubakk se base sur 4 articles et études qu'elle a mené avec son équipe.</span></p>
+          <p style="text-align: justify;"><span style="font-family: georgia, palatino, serif;">Voici ce que l'on peut extraire de ces données, ainsi qu'une synthèse d'analyse&nbsp;: </span></p>
+          <blockquote><p><strong><span style="font-family: georgia, palatino, serif;"><span lang="en-US"><br>
+          </span></span></strong><span style="font-family: georgia, palatino, serif;"><span style="font-size: 14pt;"><span style="color: #0070c0;"><span lang="en-US">I. Moltubakk, M. M., Eriksrud, O., Paulsen, G., Seynnes, O. R., &amp; Bojsen-Moller, J. (2016).</span></span></span></span></p>
+          <p><span style="font-size: 14pt;"><strong><span style="color: #0070c0; font-family: georgia, palatino, serif;"><span lang="en-US">Hamstrings functional properties in athletes with high musculo-skeletal flexibility.</span></span></strong></span></p>
+          <p><span style="font-size: 14pt;"><strong><span style="font-family: georgia, palatino, serif;"><span style="color: #0070c0;"><span lang="en-US"><i>Scandinavian Journal of Medicine and Science in Sports, 26</i></span></span><span style="color: #0070c0;"><span lang="en-US">, 659-665.</span></span></span></strong></span></p></blockquote>
+          <p style="text-align: justify;"><span style="font-family: georgia, palatino, serif;">Le premier article a pour but de comparer les propriétés mécaniques et contractiles du complexe muscle-tendon au sein des muscles ischio-jambiers, en passif et en actif, entre une population de danseuses et un groupe contrôle. Voici ce qu'ils arrivent à observer : </span></p>
+          <ul style="text-align: justify;">
+          <li><span style="font-family: georgia, palatino, serif;">Une plus grande flexibilité au sein de la population de danseuses (score de Beighton)</span></li>
+          <li><span style="font-family: georgia, palatino, serif;">Une résistance moins importante à l'étirement passif lors de l'extension du genou pour le groupe expérimental</span></li>
+          <li><span style="font-family: georgia, palatino, serif;">La résistance passive en fin d'extension de genou est similaire pour les deux groupes</span></li>
+          <li><span style="font-family: georgia, palatino, serif;">L'analyse de la force active et de la résistance passive en extension tend à mettre en évidence une amplitude fonctionnelle plus importante concernant le groupe expérimental. La force active peut-être élevée durant une plus large amplitude articulaire. </span></li>
+          </ul>
+          <blockquote><p><span style="color: #0070c0; font-family: georgia, palatino, serif; font-size: 14pt;"><span lang="en-US">II. Moltubakk, M. M., Magulas, M. M., Villars, F. O., Seynnes, O. R., &amp; Bojsen-Moller, J.</span></span></p>
+          <p><strong><span style="color: #0070c0; font-family: georgia, palatino, serif; font-size: 14pt;"><span lang="en-US"> (2018). Specialized properties of the triceps surae muscle-tendon unit in professional </span></span></strong><strong><span style="font-family: georgia, palatino, serif; font-size: 14pt;"><span style="color: #0070c0;"><span lang="en-US">ballet dancers. </span></span></span></strong></p>
+          <p><strong><span style="font-family: georgia, palatino, serif; font-size: 14pt;"><span style="color: #0070c0;"><span lang="en-US"><i>Scandinavian Journal of Medicine and Science in Sports</i></span></span><span style="color: #0070c0;"><span lang="en-US">. </span></span><span style="color: #0070c0;">2018 May 3.</span></span></strong></p></blockquote>
+          <p style="text-align: justify;"><span style="font-family: georgia, palatino, serif;">Le deuxième article a pour but de vérifier s'il existe des différences de propriétés neuromusculaires entre une population pratiquant des étirements régulièrement sur plusieurs années et une autre n'en pratiquant pas.</span></p>
+          <p style="text-align: justify;"><span style="font-family: georgia, palatino, serif;">Ce papier nous permet de mettre en évidence que lorsque l'on compare 2 groupes, l'un contenant des danseurs de ballets (expérimental), et des gens issus de la population active ne faisant pas d'étirements réguliers (contrôle), nous observons : </span></p>
+          <ul style="text-align: justify;">
+          <li><span style="font-family: georgia, palatino, serif;">Une amplitude de cheville plus importante et moins de douleurs ressenties en fin d'amplitude pour le groupe de danseurs de ballet</span></li>
+          <li><span style="font-family: georgia, palatino, serif;">Une longueur et une épaisseur plus importantes des fascicules des muscles gastrocnémiens pour le groupe expérimental, que cela soit au repos ou à l'étirement</span></li>
+          <li><span style="font-family: georgia, palatino, serif;">L'angle de pennation des muscles semble identique au sein des deux populations ciblées</span></li>
+          <li><span style="font-family: georgia, palatino, serif;">Les danseurs tolèrent plus facilement l'étirement lent et passif, cependant en fin d'amplitude, la force passive mesurée et la rigidité sont similaires au sein des muscles des deux groupes (« passive torque and passive joint stiffness ») </span></li>
+          <li><span style="font-family: georgia, palatino, serif;">Tout le long du mouvement d'étirement en passif, on observe une résistance plus importante pour le groupe contrôle (passive torque)</span></li>
+          <li><span style="font-family: georgia, palatino, serif;">Une activité myo-électrique plus faible chez les danseurs que dans le groupe contrôle lors d'un étirement passif</span></li>
+          <li><span style="font-family: georgia, palatino, serif;">La rigidité tendineuse, mesurée à l'élastographe, semble diminuée chez le groupe de danseurs comparativement au groupe contrôle</span></li>
+          </ul>
+          <blockquote><p><span style="color: #0070c0; font-family: georgia, palatino, serif; font-size: 14pt;"><span lang="en-US">III. Moltubakk, M. M., Villars, F. O., Magulas, M. M., Magnusson S. P., Seynnes, O. R., &amp; </span></span><span style="color: #0070c0; font-family: georgia, palatino, serif; font-size: 14pt;"><span lang="en-US">Bojsen-Moller, J. </span></span></p>
+          <p><strong><span style="color: #0070c0; font-family: georgia, palatino, serif; font-size: 14pt;"><span lang="en-US">Altered triceps surae muscle-tendon properties after 6 months of </span></span><span style="color: #0070c0; font-family: georgia, palatino, serif; font-size: 14pt;">unilateral stretching. </span></strong></p></blockquote>
+          <p style="text-align: justify;"><span style="font-family: georgia, palatino, serif;">La troisième expérience est une étude comparative, évaluant l'effet de 6 mois d'étirements unilatéraux du segment jambier postérieur, ainsi que la propriété du complexe muscle-tendon.</span></p>
+          <p style="text-align: justify;"><span style="font-family: georgia, palatino, serif;">Après 24 semaines d'un protocole d'étirements statiques sur une seule jambe (groupe expérimental) Le groupe contrôle est constitué des jambes opposées <u>et ne subit aucune intervention</u>. Les étirements sont reproduits un minimum de 4 fois une minute par jour&nbsp;pour le groupe expérimental : </span></p>
+          <ul style="text-align: justify;">
+          <li><span style="font-family: georgia, palatino, serif;">Suite à l'intervention, on observe une augmentation de l'amplitude de mouvement au sein des deux groupes (majorée dans le groupe expérimental) </span></li>
+          <li><span style="font-family: georgia, palatino, serif;">Aucune modification de la longueur des fascicules des gastrocnemiens médiaux n'est observée en position neutre, aucune modification de la raideur ou de la taille du tendon achilléen (insertion avec les gastrocnémiens) </span></li>
+          <li><span style="font-family: georgia, palatino, serif;">La douleur perçue durant l'étirement passif n'est pas modifiée en fin d'amplitude mais elle l'est durant le mouvement.</span></li>
+          <li><span style="font-family: georgia, palatino, serif;">La force isométrique et concentrique des muscles est restée inchangée peu importe&nbsp;l'angulation de la cheville.</span></li>
+          <li><span style="font-family: georgia, palatino, serif;">Les forces de tension passive semblent diminuées le long du mouvement de dorsiflexion après l'intervention au sein du groupe expérimental.</span></li>
+          <li><span style="font-family: georgia, palatino, serif;">Il est observé une augmentation de l'élongation des fascicules des gastrocnémiens en fin d'amplitude de dorsiflexion<b>, </b><u><b>AU SEIN DES DEUX GROUPES</b></u>, sans différence entre les groupes, après l'intervention.</span></li>
+          </ul>
+          <ul style="text-align: justify;">
+          <li><span style="font-family: georgia, palatino, serif;">En position de dorsiflexion après une stimulation passive, il est observé une augmentation de la longueur du tendon d'Achille (insertion gastrocnémiens et soléaire) au sein des deux groupes avec cependant une supériorité statistiquement significative au sein du groupe expérimental.</span></li>
+          <li><span style="font-family: georgia, palatino, serif;">Une augmentation de l'élongation des fascicules du muscle soléaire pour le groupe expérimental comparativement au groupe contrôle qui n'observe aucune modification après intervention (fin d'amplitude de dorsiflexion)</span></li>
+          </ul>
+          <blockquote><p><span style="font-size: 14pt;"><span style="color: #0070c0; font-family: georgia, palatino, serif;">IV. Moltubakk, M. M., Svensson, R. B., Magnusson S. P., Suetta, C., Raastad, T., Seynnes, O. </span><span style="color: #0070c0; font-family: georgia, palatino, serif;"><span lang="en-US">R., &amp; Bojsen-Moller, J. </span></span></span></p>
+          <p><strong><span style="font-size: 14pt;"><span style="color: #0070c0; font-family: georgia, palatino, serif;"><span lang="en-US">Effects of 6-month stretching training on collagen content of </span></span><span style="color: #0070c0; font-family: georgia, palatino, serif;">the human soleus muscle. </span></span></strong></p></blockquote>
+          <p style="text-align: justify;"><span style="font-family: georgia, palatino, serif;">Ce dernier article est une étude comparative ayant pour but d'évaluer la composition en collagène (tissu conjonctif) au sein des muscles avant puis après une intervention de 6 mois d'étirements réalisés uniquement sur le groupe expérimental. Ce programme est administré sur une jambe, l'autre servant de groupe contrôle : </span></p>
+          <ul style="text-align: justify;">
+          <li><span style="font-family: georgia, palatino, serif;">On observe une amélioration de l'amplitude de la cheville en dorsiflexion pour les deux groupes.</span></li>
+          <li><span style="font-family: georgia, palatino, serif;">L'intensité de la douleur perçue par les sujets semble diminuée du début de l'étirement jusqu'à un certain point.</span></li>
+          <li><span style="font-family: georgia, palatino, serif;">Aucune modification des propriétés morphologiques du tendon d'Achille ou des fascicules des gastrocnemiens n'est observée au sein des deux groupes.</span></li>
+          <li><span style="font-family: georgia, palatino, serif;">Le contenu intra-musculaire en collagène du soléaire ne semble pas être modifié après 24 semaines d'étirements, alors que l'amplitude de mouvement et la résistance passive à l'étirement sont modifiées.</span></li>
+          </ul>
+          <p style="text-align: justify;"><span style="font-family: georgia, palatino, serif;">Récapitulons ainsi ce que ces études ont pu mettre en avant dans les conditions expérimentales décrites : </span></p>
+          <p style="padding-left: 40px; text-align: justify;"><span style="font-family: georgia, palatino, serif;"><span style="color: #0000ff;"><strong>1.</strong> </span>L'amplitude de dorsiflexion de la cheville et de flexion de la hanche étaient plus importantes chez les danseurs de ballet ou gymnastes avec des années d'entraînement d'étirement par rapport aux groupes contrôles. L'amplitude de dorsiflexion de la cheville et d'extension du genou ont augmenté après 8 semaines d'étirement.</span></p>
+          <p style="padding-left: 40px; text-align: justify;"><span style="font-family: georgia, palatino, serif;"><strong><span style="color: #0000ff;">2.</span> </strong>La résistance passive tout le long du mouvement était plus faible chez les gymnastes que chez le groupe contrôle pour l'extension du genou ainsi que la dorsiflexion de la cheville.</span></p>
+          <p style="text-align: justify;"><span style="font-family: georgia, palatino, serif;">La résistance passive de l'articulation de la cheville en position neutre de dorsiflexion – mais pas à l'extension du genou- a été réduite après 24 semaines d'étirement. </span></p>
+          <p style="text-align: justify;"><span style="font-family: georgia, palatino, serif;">La résistance passive en position maximale de l'articulation était similaire entre les danseurs et les groupes témoins, mais a augmenté chez les sujets qui ont subi 24 semaines d'étirements.</span></p>
+          <p style="padding-left: 40px; text-align: justify;"><span style="font-family: georgia, palatino, serif;"><strong><span style="color: #0000ff;">3.</span> </strong>Les amplitudes de l'EMG des triceps suraux à un angle articulaire donné pour la dorsiflexion passive étaient les suivantes&nbsp;: </span></p>
+          <ul style="text-align: justify;">
+          <li><span style="font-family: georgia, palatino, serif;">Plus faibles chez les danseurs de ballet que chez les témoins </span></li>
+          <li><span style="font-family: georgia, palatino, serif;">Les amplitudes de l'EMG ont été réduites chez les sujets ayant subi 24 semaines d'étirements, pour les deux jambes, dont une n'ayant pas subi d'étirements.</span></li>
+          </ul>
+          <p style="padding-left: 40px; text-align: justify;"><span style="font-family: georgia, palatino, serif;"><strong><span style="color: #0000ff;">4.</span></strong> Les danseurs de ballet ont montré une plus grande élongation du muscle gastrocnémien par rapport au groupe contrôle, mais la contribution du muscle par rapport au tendon à l'allongement total du complexe muscle-tendon n'était pas différente du groupe contrôle. </span></p>
+          <p style="text-align: justify;"><span style="font-family: georgia, palatino, serif;">Après 24 semaines d'étirement, l'allongement du muscle et du tendon a augmenté, avec une contribution relative accrue du tendon d'Achille, tant à l'insertion du gastrocnémien qu'au niveau du soléaire.</span></p>
+          <p style="padding-left: 40px; text-align: justify;"><span style="font-family: georgia, palatino, serif;"><strong><span style="color: #0000ff;">5.</span> </strong>Les longueurs de repos des faisceaux musculaires et du tendon d'Achille (insertion des gastrocnémiens) étaient plus étendues pour les danseurs de ballet par rapport au groupe contrôle, mais ni l'architecture musculaire, ni la teneur en collagène intramusculaire, ni la longueur du tendon d'Achille n'ont changé pendant ou après les 24 semaines d'étirements.</span></p>
+          <p style="padding-left: 40px; text-align: justify;"><span style="font-family: georgia, palatino, serif;"><strong><span style="color: #0000ff;">6.</span> </strong>Les étirements semblent impliquer des adaptations neurales qui, sur une période de 24 semaines, ont contribué à des changements bilatéraux dans l'amplitude de dorsiflexion de la cheville, également des propriétés de la dorsiflexion passive (tension passive, amplitude EMG, faisceau, allongement musculaire et tendineux), d'allongement du tendon et de tension passive dans une position neutre donnée (à rappeler qu'une seule jambe subissait des étirements).</span></p>
+          <p style="text-align: justify;"><span style="font-family: Calibri, serif;"><span style="font-family: georgia, palatino, serif;">«&nbsp;Si j'ai choisi d'analyser et de parler des études de Moltubakk, c'est parce que les conditions (protocoles) d'expérimentations sont assez claires et précises pour permettre à de futures équipes de répliquer les études, que les outils d'évaluations font partie des meilleurs au vue des avancées technologiques, et que le temps de traitement est assez long pour mettre en évidence un potentiel effet lié au temps de traitement (permettant potentiellement un effet de fluage). Ces données sont à replacer dans le contexte des autres données existantes sur le sujet.&nbsp;»</span><br>
+          </span></p>
+          <p style="text-align: center;"><a href="https://www.kinefact.com/physiologie/biomecanique-des-etirements-partie-ii/">Vous pouvez lire la partie II ici</a>.</p>
+          <p>&nbsp;</p>
+          <hr>
+          <p><strong><span style="font-family: arial, helvetica, sans-serif; font-size: 12pt;">Bibliographie&nbsp;: </span></strong></p>
+          <p><span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: small;"><span lang="en-US">Michel Coppieters. Validity of neurodynamics tests. </span></span><span style="font-size: small;">Congrès IFOMPT 4-8 Juillet 2016 . Glasgow, Ecosse. </span><span style="font-size: small;"><span lang="en-US">6 Juillet 2016</span></span></span></p>
+          <p><span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: small;"><span lang="en-US">Schmid, Annina B., Louise Hailey, and Brigitte Tampin. «&nbsp;Entrapment neuropathies: challenging common beliefs with novel evidence.&nbsp;» </span></span><span style="font-size: small;"><span lang="en-US"><i>journal of orthopaedic &amp; sports physical therapy</i></span></span><span style="font-size: small;"><span lang="en-US"> 48.2 (2018): 58-62.</span></span></span></p>
+          <p><span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: small;"><span lang="en-US">Hancock, Christy, et al. «&nbsp;Changes in hamstring range of motion following proprioceptive neuromuscular facilitation stretching compared with static stretching: a critically appraised topic.&nbsp;» </span></span><span style="font-size: small;"><span lang="en-US"><i>International Journal of Athletic Therapy and Training</i></span></span><span style="font-size: small;"><span lang="en-US"> 21.5 (2016): 1-7.</span></span></span></p>
+          <p><span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: small;"><span lang="en-US">Castellote-Caballero, Yolanda, et al. «&nbsp;Immediate effects of neurodynamic sliding versus muscle stretching on hamstring flexibility in subjects with short hamstring syndrome.&nbsp;» </span></span><span style="font-size: small;"><span lang="en-US"><i>Journal of sports medicine</i></span></span><span style="font-size: small;"><span lang="en-US"> 2014 (2014).</span></span></span></p>
+          <p><span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: small;"><span lang="en-US">Pagare, Venus K., et al. «&nbsp;Effect of neurodynamic sliding technique versus static stretching on hamstring flexibility in football players with short hamstring syndrome.&nbsp;» </span></span><span style="font-size: small;"><span lang="en-US"><i>Journal of Musculoskeletal Research</i></span></span><span style="font-size: small;"><span lang="en-US"> 17.02 (2014): 1450009.</span></span></span></p>
+          <p><span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: small;"><span lang="en-US">Vidhi, Shah, et al. «&nbsp;Comparison of PNF technique with NDS technique for hamstrings tightness in asymptomatic subjects.&nbsp;» </span></span><span style="font-size: small;"><span lang="en-US"><i>Indian Journal of Physiotherapy and Occupational Therapy</i></span></span><span style="font-size: small;"><span lang="en-US"> 8.3 (2014): 158.</span></span></span></p>
+          <p><span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: small;"><span lang="en-US">Ahmed, Adel Rashad, and Ahmed Fathy Samhan. «&nbsp;Short term effects of neurodynamic stretching and static stretching techniques on hamstring muscle flexibility in healthy male subjects.&nbsp;» </span></span><span style="font-size: small;"><span lang="en-US"><i>Int J Med Res Heal Sci</i></span></span><span style="font-size: small;"><span lang="en-US"> 5.5 (2016): 36-41.</span></span></span></p>
+          <p><span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: small;"><span lang="en-US">Björklund, Martin, Jern Hamberg, and Albert G. Crenshaw. «&nbsp;Sensory adaptation after a 2-week stretching regimen of the rectus femoris muscle.&nbsp;» </span></span><span style="font-size: small;"><span lang="en-US"><i>Archives of physical medicine and rehabilitation</i></span></span><span style="font-size: small;"><span lang="en-US"> 82.9 (2001): 1245-1250.</span></span></span></p>
+          <p><span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: small;"><span lang="en-US">Folpp, Hollie, et al. «&nbsp;Can apparent increases in muscle extensibility with regular stretch be explained by changes in tolerance to stretch?.&nbsp;» </span></span><span style="font-size: small;"><span lang="en-US"><i>Australian Journal of Physiotherapy</i></span></span><span style="font-size: small;"><span lang="en-US"> 52.1 (2006): 45-50.</span></span></span></p>
+          <p><span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: small;"><span lang="en-US">Harvey, Lisa, et al. «&nbsp;Twelve weeks of nightly stretch does not reduce thumb web-space contractures in people with a neurological condition: a randomised controlled trial.&nbsp;» </span></span><span style="font-size: small;"><span lang="en-US"><i>Australian Journal of Physiotherapy</i></span></span><span style="font-size: small;"><span lang="en-US"> 52.4 (2006): 251-258. </span></span></span></p>
+          <p><span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: small;"><span lang="en-US">Refshauge, Kathryn M., et al. «&nbsp;Night splinting does not increase ankle range of motion in people with Charcot-Marie-Tooth disease: a randomised, cross-over trial.&nbsp;» </span></span><span style="font-size: small;"><span lang="en-US"><i>Australian Journal of Physiotherapy</i></span></span><span style="font-size: small;"><span lang="en-US"> 52.3 (2006): 193-199.</span></span></span></p>
+          <p><span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: small;"><span lang="en-US">Moltubakk, Marie Margrete Hveem. «&nbsp;Effects of long-term stretching training on muscle-tendon morphology, mechanics and function.&nbsp;» (2019).</span></span></span></p>
+          <p><span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: small;"><span lang="en-US">Freitas, Sandro R., et al. «&nbsp;Can chronic stretching change the muscle‐tendon mechanical properties? A review.&nbsp;» </span></span><span style="font-size: small;"><span lang="en-US"><i>Scandinavian journal of medicine &amp; science in sports</i></span></span><span style="font-size: small;"><span lang="en-US"> 28.3 (2018): 794-806.</span></span></span></p>
+          <p><span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: small;"><span lang="en-US">Itoi, Eiji, Horng-Chaung Hsu, and Kai-Nan An. «&nbsp;Biomechanical investigation of the glenohumeral joint.&nbsp;» </span></span><span style="font-size: small;"><span lang="en-US"><i>Journal of Shoulder and Elbow Surgery</i></span></span><span style="font-size: small;"><span lang="en-US"> 5.5 (1996): 407-424.</span></span></span></p>
+          <p><span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: small;"><span lang="en-US">Miller, B. F., Olesen, J. L., Hansen, M., Dossing, S., Crameri, R. M., Welling, R. J. et al. </span></span><span style="font-size: small;">(2005). </span><span style="font-size: small;"><span lang="en-US">Coordinated collagen and muscle protein synthesis in human patella tendon and quadriceps muscle after exercise. </span></span><span style="font-size: small;"><span lang="en-US"><i>J.Physiol, 567, </i></span></span><span style="font-size: small;"><span lang="en-US">1021-1033.</span></span></span></p>
+          <p><span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: small;"><span lang="en-US">Holm, L., van, H. G., Rose, A. J., Miller, B. F., Doessing, S., Richter, E. A. et al. </span></span><span style="font-size: small;">(2010). </span><span style="font-size: small;"><span lang="en-US">Contraction intensity and feeding affect collagen and myofibrillar protein synthesis rates differently in human skeletal muscle. </span></span><span style="font-size: small;"><span lang="en-US"><i>Am.J.Physiol Endocrinol.Metab, 298, </i></span></span><span style="font-size: small;"><span lang="en-US">E257-E269.</span></span></span></p>
+          <p><span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: small;"><span lang="en-US">Crameri, R. M., Langberg, H., Teisner, B., Magnusson, P., Schroder, H. D., Olesen, J. L. et al. (2004). Enhanced procollagen processing in skeletal muscle after a single bout of eccentric loading in humans. </span></span><span style="font-size: small;"><span lang="en-US"><i>Matrix Biology, 23, </i></span></span><span style="font-size: small;"><span lang="en-US">259-264.</span></span></span></p>
+          <p><span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: small;"><span lang="en-US">Potier TG, Alexander CM, Seynnes OR. Effects of eccentric strength training on biceps femoris muscle architecture and knee joint range of movement. Eur J Appl Physiol 2009: 105: 939–944.</span></span></span></p>
+          <p><span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: small;"><span lang="en-US">Sharifnezhad A, Marzilger R, Arampatzis A. Effects of load magnitude, muscle length and velocity during eccentric chronic loading on the longitudinal growth of the vastus lateralis muscle. J Exp Biol 2014: 217: 2726–2733.</span></span></span></p>
+          <p><span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: small;"><span lang="en-US">McMahon GE, Morse CI, Burden A, Winwood K, Onambele GL. Impact of range of motion during ecologically valid resistance training protocols on</span></span></span></p>
+          <p><span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: small;"><span lang="en-US">muscle size, subcutaneous fat, and strength. J Strength Cond Res 2014: 28: 245–255.</span></span></span></p>
+          <p><span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: small;"><span lang="en-US">Støve, Morten Pallisgaard, Rogerio Pessoto Hirata, and Thorvaldur Skuli Palsson. «&nbsp;Muscle stretching–the potential role of endogenous pain inhibitory modulation on stretch tolerance.&nbsp;» </span></span><span style="font-size: small;"><i>Scandinavian journal of pain</i></span><span style="font-size: small;"> 19.2 (2019): 415-422.</span></span></p>
+        </div>
+      </div>
+    `
   },
   {
     title: "En fait, comment ça marche un étirement ?",
@@ -191,7 +204,6 @@ export const blogArticles: Article[] = [
       <p style="text-align: justify;"><img decoding="async" class="alignright" style="font-family: georgia, palatino, serif;" src="https://www.kinefact.com/wp-content/uploads/photo-gallery/Infographie_7_faits_sur_les_fascias_(2).png?bwg=1537700644" width="426" height="603"></p>
       <p style="text-align: justify;"><span style="font-family: georgia, palatino, serif;">À noter, au sujet des fascias, qu'un <a href="http://www.lecranien.org/blog/page/fascia-deformations.html?">excellent billet</a> a été fait par Marco Gabutti. Il traite d'une autre croyance répandue (et que je partageais !)&nbsp; : il faudrait plus de 852kg afin de déformer le tissu du fascia plantaire.&nbsp; </span><span style="font-family: georgia, palatino, serif;">Ceci n'est pas plus correct que les idées reçues sur l'étirement et je vous laisse vous intéresser à ces travaux si ce sujet vous intéresse.</span></p>
       <p style="text-align: justify;"><span style="font-family: georgia, palatino, serif;">Yvan Sonjon avait également traduit une infographie de Physio meets Science sur le sujet, qui passe en revue les différentes choses que nous pouvons affirmer sur les fascias (les plus observateurs retrouveront la revue de Chaudhry, que critique pourtant l'article en lien au dessus. Les maths ont visiblement trompé tout le monde !) :&nbsp;<span style="text-decoration: line-through;"><br>
-      )
       </span></span></p>
       <p style="text-align: justify;"><span style="font-family: georgia, palatino, serif;">Si vous pensez que la limitation est liée aux ligaments ou à la capsule, sachez qu'il semblerait qu'il faudrait environ 683kg/cm3 de force afin que puisse apparaître une déformation plastique de la capsule de l'articulation gléno-humérale (Itoi et coll. 1996).</span></p>
       <p style="text-align: justify;"><span style="font-family: georgia, palatino, serif;">Je prends ces résultats avec des pincettes, car je n'ai pas les bases nécessaires en mathématiques et physique des matériaux permettant d'analyser en profondeur cet article, mais Marco pourra nous détromper si nécessaire!</span></p>
@@ -218,7 +230,7 @@ export const blogArticles: Article[] = [
       <p style="text-align: justify;"><span style="font-family: georgia, palatino, serif;">Concernant la comparaison inter-groupe, on observe une différence statistiquement significative en faveur du groupe expérimental uniquement après la phase froide concernant l'amplitude articulaire disponible. Aucune autre différence sur les paramètres étudiés n'est à noter.</span></p>
       <div align="center">
       <div style="width: 576px;" class="wp-video"><!--[if lt IE 9]><script>document.createElement('video');</script><![endif]-->
-      <span class="mejs-offscreen">Lecteur vidéo</span><div id="mep_0" class="mejs-container mejs-container-keyboard-inactive wp-video-shortcode mejs-video" tabindex="0" role="application" aria-label="Lecteur vidéo" style="width: 566.656px; height: 300.052px; min-width: 217px;"><div class="mejs-inner"><div class="mejs-mediaelement"><mediaelementwrapper id="video-624-1"><video class="wp-video-shortcode" id="video-624-1_html5" width="576" height="304" loop="1" autoplay="1" preload="metadata" src="https://www.kinefact.com/wp-content/uploads/2019/09/EAvvfw2.mp4?_=1" style=\"width: 566.656px; height: 300.052px;"><source type=\"video/mp4" src=\"https://www.kinefact.com/wp-content/uploads/2019/09/EAvvfw2.mp4?_=1"><a href=\"https://www.kinefact.com/wp-content/uploads/2019/09/EAvvfw2.mp4">https://www.kinefact.com/wp-content/uploads/2019/09/EAvvfw2.mp4</a></video></mediaelementwrapper></div><div class=\"mejs-layers"><div class=\"mejs-poster mejs-layer" style=\"display: none; width: 100%; height: 100%;"></div><div class=\"mejs-overlay mejs-layer" style=\"width: 100%; height: 100%; display: none;"></div><div class=\"mejs-overlay mejs-layer" style=\"display: none; width: 100%; height: 100%;"></div><div class=\"mejs-overlay mejs-layer mejs-overlay-play" style=\"display: none; width: 100%; height: 100%;"><div class=\"mejs-overlay-button" role=\"button" tabindex="0\" aria-label="Lecture\" aria-pressed="false"></div></div></div><div class="mejs-controls"><div class="mejs-button mejs-playpause-button mejs-play"><button type="button" aria-controls="mep_0" title="Lecture" aria-label="Lecture" tabindex="0"></button></div><div class="mejs-time mejs-currenttime-container" role="timer" aria-live="off"><span class="mejs-currenttime">00:00</span></div><div class="mejs-time-rail"><span class="mejs-time-total mejs-time-slider" role="slider" tabindex="0" aria-label="Curseur de temps" aria-valuemin="0" aria-valuemax="0" aria-valuenow="0" aria-valuetext="00:00"><span class="mejs-time-buffering" style="display: none;"></span><span class="mejs-time-loaded"></span><span class="mejs-time-current" style="transform: scaleX(0);"></span><span class="mejs-time-hovered no-hover"></span><span class="mejs-time-handle" style="transform: translateX(0px);"><span class="mejs-time-handle-content"></span></span><span class="mejs-time-float"><span class="mejs-time-float-current">00:00</span><span class="mejs-time-float-corner"></span></span></span></div><div class="mejs-time mejs-duration-container"><span class="mejs-duration">00:02</span></div><div class="mejs-button mejs-volume-button mejs-mute"><button type="button" aria-controls="mep_0" title="Muet" aria-label="Muet" tabindex="0"></button><a href="javascript:void(0);" class="mejs-volume-slider" aria-label="Curseur de volume" aria-valuemin="0" aria-valuemax="100" role="slider" aria-orientation="vertical" aria-valuenow="80" aria-valuetext="80%"><span class="mejs-offscreen">Utilisez les flèches haut/bas pour augmenter ou diminuer le volume.</span><div class="mejs-volume-total"><div class="mejs-volume-current" style="bottom: 0px; height: 80%;"></div><div class="mejs-volume-handle" style="bottom: 80%; margin-bottom: -3px;"></div></div></a></div><div class="mejs-button mejs-fullscreen-button"><button type="button" aria-controls="mep_0" title="Plein écran" aria-label="Plein écran" tabindex="0"></button></div></div></div></div>
+      <span class="mejs-offscreen">Lecteur vidéo</span><div id="mep_0" class="mejs-container mejs-container-keyboard-inactive wp-video-shortcode mejs-video" tabindex="0" role="application" aria-label="Lecteur vidéo" style="width: 566.656px; height: 300.052px; min-width: 217px;"><div class="mejs-inner"><div class="mejs-mediaelement"><mediaelementwrapper id="video-624-1"><video class="wp-video-shortcode" id="video-624-1_html5" width="576" height="304" loop="1" autoplay="1" preload="metadata" src="https://www.kinefact.com/wp-content/uploads/2019/09/EAvvfw2.mp4?_=1" style="width: 566.656px; height: 300.052px;"><source type="video/mp4" src="https://www.kinefact.com/wp-content/uploads/2019/09/EAvvfw2.mp4?_=1"><a href="https://www.kinefact.com/wp-content/uploads/2019/09/EAvvfw2.mp4">https://www.kinefact.com/wp-content/uploads/2019/09/EAvvfw2.mp4</a></video></mediaelementwrapper></div><div class="mejs-layers"><div class="mejs-poster mejs-layer" style="display: none; width: 100%; height: 100%;"></div><div class="mejs-overlay mejs-layer" style="width: 100%; height: 100%; display: none;"></div><div class="mejs-overlay mejs-layer" style="display: none; width: 100%; height: 100%;"></div><div class="mejs-overlay mejs-layer mejs-overlay-play" style="display: none; width: 100%; height: 100%;"><div class="mejs-overlay-button" role="button" tabindex="0" aria-label="Lecture" aria-pressed="false"></div></div></div><div class="mejs-controls"><div class="mejs-button mejs-playpause-button mejs-play"><button type="button" aria-controls="mep_0" title="Lecture" aria-label="Lecture" tabindex="0"></button></div><div class="mejs-time mejs-currenttime-container" role="timer" aria-live="off"><span class="mejs-currenttime">00:00</span></div><div class="mejs-time-rail"><span class="mejs-time-total mejs-time-slider" role="slider" tabindex="0" aria-label="Curseur de temps" aria-valuemin="0" aria-valuemax="0" aria-valuenow="0" aria-valuetext="00:00"><span class="mejs-time-buffering" style="display: none;"></span><span class="mejs-time-loaded"></span><span class="mejs-time-current" style="transform: scaleX(0);"></span><span class="mejs-time-hovered no-hover"></span><span class="mejs-time-handle" style="transform: translateX(0px);"><span class="mejs-time-handle-content"></span></span><span class="mejs-time-float"><span class="mejs-time-float-current">00:00</span><span class="mejs-time-float-corner"></span></span></span></div><div class="mejs-time mejs-duration-container"><span class="mejs-duration">00:02</span></div><div class="mejs-button mejs-volume-button mejs-mute"><button type="button" aria-controls="mep_0" title="Muet" aria-label="Muet" tabindex="0"></button><a href="javascript:void(0);" class="mejs-volume-slider" aria-label="Curseur de volume" aria-valuemin="0" aria-valuemax="100" role="slider" aria-orientation="vertical" aria-valuenow="80" aria-valuetext="80%"><span class="mejs-offscreen">Utilisez les flèches haut/bas pour augmenter ou diminuer le volume.</span><div class="mejs-volume-total"><div class="mejs-volume-current" style="bottom: 0px; height: 80%;"></div><div class="mejs-volume-handle" style="bottom: 80%; margin-bottom: -3px;"></div></div></a></div><div class="mejs-button mejs-fullscreen-button"><button type="button" aria-controls="mep_0" title="Plein écran" aria-label="Plein écran" tabindex="0"></button></div></div></div></div>
       </div>
       <p style="text-align: justify;"><span style="font-family: georgia, palatino, serif;">Les principales conclusions de cette étude montrent qu'en engageant l'inhibition endogène nociceptive après l'étirement, on obtient une différence statistiquement significative inter-groupe concernant l'augmentation de l'amplitude de mouvement de l'extension passive du genou et une modification intra-groupe sur la résistance passive mesurée en fin d'amplitude. Cependant nous n'observons pas de modification apparente de l'activité musculaire. </span></p>
       <p style="text-align: justify;"><span style="font-family: georgia, palatino, serif;">Bishop &amp; George (2017) ont montré que l'amplitude du mouvement était associée à une sensibilité moyenne à la douleur ce qui indique que la perception sensorielle peut être un mécanisme important pendant l'étirement. Toutefois, ils n'ont pas été en mesure d'exclure d'éventuels changements au sein de l'activité musculaire en raison d'une absence d'électromyogramme. Les résultats actuels corroborent les constatations antérieures indiquant qu'une augmentation de la tolérance à l'étirement à la suite d'un étirement n'est pas liée à une réduction de l'activité musculaire, impliquant des mécanismes autres que les mécanismes intrinsèques liés aux propriétés mécaniques du complexe muscle-tendon. </span></p>
@@ -241,7 +253,6 @@ export const blogArticles: Article[] = [
       <ul style="text-align: justify;">
       <li><span style="font-family: georgia, palatino, serif;">Lutter contre la kinésiophobie et l'anxiété en montrant au patient qu'il pouvait réaliser des tâches complexes qu'il n'osait pas réaliser</span></li>
       <li><span style="font-family: georgia, palatino, serif;">Aider à désensibiliser le système nerveux (grâce à l'EIH : Exercice induce hypoalgesia) </span></li>
-      )
       <li><span style="font-family: georgia, palatino, serif;">Optimiser la cicatrisation ou la capacité d'absorber des contraintes pour un tissu grâce à l'aide de la mécano-transduction </span></li>
       <li><span style="font-family: georgia, palatino, serif;">Donner au patient de nouvelles options afin de réaliser les mouvements </span></li>
       <li><span style="font-family: georgia, palatino, serif;">Améliorer les capacités cardio-vasculaires</span></li>
@@ -278,5 +289,3 @@ export const blogArticles: Article[] = [
     `
   }
 ];
-  }
-]

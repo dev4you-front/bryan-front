@@ -1,7 +1,6 @@
 import { notFound } from "next/navigation";
 import { blogArticles } from "@/data/blogArticles";
-import ClientDateFormatter from "@/app/components/ClientDateFormatter";
-import { markdownToHtml } from "@/utils/markdown";
+import { formatDate } from "@/utils/helpers";
 
 interface BlogArticlePageProps {
   params: {
@@ -25,11 +24,6 @@ export default async function BlogArticlePage({ params }: BlogArticlePageProps) 
     notFound();
   }
 
-  // Convertir le Markdown en HTML si nécessaire
-  const htmlContent = article.contentType === "markdown" 
-    ? await markdownToHtml(article.content)
-    : article.content;
-
   return (
     <section className="py-12 bg-[#E0E0E0]">
       <div className="max-w-4xl mx-auto px-6">
@@ -41,7 +35,7 @@ export default async function BlogArticlePage({ params }: BlogArticlePageProps) 
             </h1>
             <div className="flex items-center text-gray-600 mb-6">
               <span className="text-sm">
-                Publié le <ClientDateFormatter date={article.date} /> par {article.author}
+                Publié le {formatDate(article.date)} par {article.author}
               </span>
             </div>
             <img 
@@ -54,7 +48,7 @@ export default async function BlogArticlePage({ params }: BlogArticlePageProps) 
           {/* Contenu de l'article */}
           <div 
             className="prose prose-lg max-w-none article-content"
-            dangerouslySetInnerHTML={{ __html: htmlContent }}
+            dangerouslySetInnerHTML={{ __html: article.content }}
           />
 
           {/* Navigation de retour */}
