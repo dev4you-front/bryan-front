@@ -155,7 +155,7 @@ J'espère que ce billet vous a appris quelque chose, vous a intéressés et surt
 `,
   },
   {
-    title: "Le syndrome du canal carpien : régler au mieux le problème. 3/3",
+    title: "Syndrome du canal carpien, pourquoi sommes-nous négligés du parcours de soin ?", 
     image: "https://www.kinefact.com/wp-content/uploads/2021/01/grossesse-4-remedes-naturels-contre-le-syndrome-du-canal-carpien-quand-on-est-enceinte.jpeg",
     excerpt: "Avez-vous remarqué ce titre aguicheur ? Malheureusement il est véridique. Le syndrome du canal carpien est une atteinte autour de laquelle beaucoup de croyances existent, au même titre que la plupart des névralgies. Cette série d'articles fait une mise à jour détaillée autour du syndrome du canal carpien.",
     date: "2021-02-13",
