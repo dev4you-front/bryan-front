@@ -20,6 +20,15 @@ export const blogArticles: Article[] = [
     contentPath: 'blog-posts/syndrome-canal-carpien-bases-comprehension.md',
   },
   {
+    title: "Syndrome du canal carpien, pourquoi sommes-nous négligés du parcours de soin ? 2/3",
+    image: "https://www.kinefact.com/wp-content/uploads/2021/01/tumblr_o16n2kBlpX1ta3qyvo1_1280.jpg",
+    excerpt: "Maintenant, nous entrons dans le vif du sujet. Nous allons parler gros sous et crise sanitaire. Les soins pris en charge pour le SCC représentent 2 milliards de dollars dépensés par an depuis 2006 aux USA.",
+    date: "2021-02-19",
+    author: "Bryan Littré",
+    link: "/blog/syndrome-canal-carpien-neglige-parcours-soin",
+    contentPath: 'blog-posts/syndrome-canal-carpien-neglige-parcours-soin.md',
+  },
+  {
     title: "Le syndrome du canal carpien : régler au mieux le problème. 3/3",
     image: "https://www.kinefact.com/wp-content/uploads/2021/01/canal-carpien.png",
     excerpt: "Par Bryan Littré, remerciements et aide à la relecture : Marguerite Dontenwille, Robin Vervaeke, Marie Akrich, Antoine Massuleau, Benjamin Heng",
