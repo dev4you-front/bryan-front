@@ -1,4 +1,4 @@
-# En fait, comment ça marche un étirement ?
+# Biomécanique des étirements – Partie II
 
 <p style="font-size: 10pt;"><b style="font-family: Calibri, serif;">Aide à la relecture : Benjamin Heng, Anthony Halimi, Robin Vervaeke, Elsa Steinbach</b></p>
 
