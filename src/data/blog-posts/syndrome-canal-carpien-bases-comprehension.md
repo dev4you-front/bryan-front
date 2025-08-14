@@ -1,4 +1,4 @@
-# Syndrome du canal carpien, quelques bases de compréhension. 1/3
+# Syndrome du canal carpien, pourquoi sommes-nous négligés du parcours de soin ?
 
 <p style="text-align: justify;"><span style="color: #00ccff;"><strong><span style="font-size: 24pt;">Syndrome du canal carpien, pourquoi sommes-nous négligés du parcours de soin ?&nbsp;</span></strong></span></p>
 
