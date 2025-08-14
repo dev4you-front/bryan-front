@@ -8,12 +8,6 @@ const nextConfig = {
         port: '',
         pathname: '/wp-content/uploads/**',
       },
-      {
-        protocol: 'https',
-        hostname: 'images.pexels.com',
-        port: '',
-        pathname: '/**',
-      },
     ],
   },
   async headers() {
