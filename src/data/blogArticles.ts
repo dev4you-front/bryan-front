@@ -598,7 +598,7 @@ Les connaissances actuelles concernant les mononeuropathies compressives, nous m
 `,
   },
   {
-    title: "Syndrome du canal carpien, pourquoi sommes-nous négligés du parcours de soin ?",
+    title: "Le syndrome du canal carpien : régler au mieux le problème. 3/3",
     image: "https://www.kinefact.com/wp-content/uploads/2021/01/canal-carpien.png",
     excerpt: "Comment ne pas rater une neuropathie au cabinet et pourquoi la kinésithérapie devrait être au centre du parcours de soin du syndrome du canal carpien. Une analyse complète des données scientifiques actuelles.",
     date: "2021-02-26",
