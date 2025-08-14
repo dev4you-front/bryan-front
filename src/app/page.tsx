@@ -1,5 +1,6 @@
 import ConfCarousel from "./components/ConfCarousel";
 import PhysiomapsSection from "./components/PhysiomapsSection";
+import SectionWrapper from "./components/SectionWrapper";
 import { ConfItem } from "@/types";
 import Image from "next/image";
 
@@ -71,13 +72,11 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="py-12 bg-[#E0E0E0]" id="formations">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-center text-2xl md:text-3xl font-extrabold text-gray-900 mb-8 uppercase tracking-wide">Conférences et broadcast</h2>
-          {/* Carousel */}
-          <ConfCarousel items={items} />
-        </div>
-      </section>
+      <SectionWrapper maxWidth="7xl" id="formations">
+        <h2 className="text-center text-2xl md:text-3xl font-extrabold text-gray-900 mb-8 uppercase tracking-wide">Conférences et broadcast</h2>
+        {/* Carousel */}
+        <ConfCarousel items={items} />
+      </SectionWrapper>
     </div>
   );
 }
