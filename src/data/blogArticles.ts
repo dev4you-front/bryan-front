@@ -592,17 +592,176 @@ Les connaissances actuelles concernant les mononeuropathies compressives, nous m
 - La compression détermine la perte de fonction et non la douleur, par conséquent ne pas présager d'une compression sans avoir objectivé une perte de fonction (biopsie, amyotrophie, break tests, tests nerveux par QST ou CST)
 - Plus l'atteinte est longue, plus la probabilité d'avoir un SCC bilatéral est grande.
 
-[Vidéo sur la neuroinflammation](https://www.youtube.com/watch?v=7IWHUWQLqwQ)
-
-*DEC, Pawel et ZYLUK, Andrzej. Bilateral carpal tunnel syndrome–A review. Neurologia i Neurochirurgia Polska, 2018, vol. 52, no 1, p. 79-83.*
-
 *SCHMID, Annina B., FUNDAUN, Joel, et TAMPIN, Brigitte. Entrapment neuropathies: a contemporary approach to pathophysiology, clinical assessment, and management. Pain Reports, 2020, vol. 5, no 4.*
-
----
-
-**POUR LA PARTIE 1** cliquez [ICI](https://www.kinefact.com/?p=2105&preview=true)
 
 **POUR LA PARTIE 3** cliquez [ICI](https://www.kinefact.com/?p=2202&preview=true)
 `,
   },
+  {
+    title: "Syndrome du canal carpien, pourquoi sommes-nous négligés du parcours de soin ?",
+    image: "https://www.kinefact.com/wp-content/uploads/2021/01/canal-carpien.png",
+    excerpt: "Comment ne pas rater une neuropathie au cabinet et pourquoi la kinésithérapie devrait être au centre du parcours de soin du syndrome du canal carpien. Une analyse complète des données scientifiques actuelles.",
+    date: "2021-02-26",
+    author: "Bryan Littré",
+    link: "/blog/syndrome-canal-carpien-parcours-soin",
+    content: `# Syndrome du canal carpien, pourquoi sommes-nous négligés du parcours de soin ?
+
+*Par Bryan Littré, remerciements et aide à la relecture : Marguerite Dontenwille, Robin Vervaeke, Marie Akrich, Antoine Massuleau, Benjamin Heng*
+
+## Comment ne pas rater une neuropathie au cabinet
+
+Nous en avions déjà discuté dans un ancien article qui est toujours d'actualité. Je reviens sur l'évaluation du système nerveux car afin d'établir un diagnostic différentiel, ou évaluer le pronostic du patient, nous nous devons d'effectuer un test neurologique complet et efficace.
+
+L'évaluation du système nerveux est valable pour toute partie du corps. Voici un récapitulatif du matériel nécessaire au cabinet afin de faire cette évaluation ainsi que le type de fibre évalué.
+
+Cependant je vais insister sur certains éléments du test car j'ai pu observer des éléments dans les pratiques communes qui peuvent vous induire en erreur plus qu'autre chose.
+
+L'évaluation du système nerveux est plus rapide et plus simple que vous le croyez encore faut-il le réaliser de manière correcte et comprendre ce que l'on fait. Malheureusement en IFMK je n'ai pas eu la chance d'avoir reçu des connaissances à jour sur ce domaine, voici donc en 2021 les choses à éviter et corriger :
+
+### 1. NE PAS SE SERVIR DE SES MAINS DE THÉRAPEUTE AFIN D'ÉVALUER LA SENSIBILITÉ TACTILE
+
+Pourquoi ? Car le seuil d'activation des grosses fibres évaluées par la discrimination tactile est spécifique à une échelle de pression dans laquelle est inclue le pinceau, le coton mais PAS LES MAINS.
+
+Également car la température et la transmission de chaleur peut activer plein de types de fibres différentes (en gros on n'évalue même pas ce que l'on pense évaluer). **À retenir : n'utilisez pas vos mains pour la sensibilité tactile / Utilisez le matériel adéquat afin d'évaluer la sensibilité tactile.**
+
+### 2. NE PAS FAIRE DE PIC/TOUCHE EN MÊME TEMPS
+
+Pourquoi ? regardons le tableau au-dessus :
+
+- Pic = pin prick qui évalue les fibres Adelta et les fibres C = tact grossier = sensibilité protopathique
+- Touche = light touch qui évalue les grosses fibres Abeta = tact fin = sensibilité épicritique
+
+Aucune information intéressante ne peut sortir d'un pic/touche comme décrit initialement il faut faire l'évaluation de l'un PUIS de l'autre car il n'est pas possible de les croiser, en comparant ce que l'on trouve à l'autre côté pas en les comparant les uns aux autres car ce ne sont pas les mêmes fibres.
+
+**À retenir : effectuer l'évaluation du tact lié aux différentes fibres indépendamment l'un de l'autre.**
+
+### 3. NE PAS OUBLIER QUE LES GROSSES FIBRES NE SONT PAS LES PETITES FIBRES
+
+Cela reprend exactement les deux points précédents mais comme ça c'est peut-être plus clair. Un type de fibres équivaut à un groupe de fonctions nerveuses.
+
+### 4. NE PAS OUBLIER QUE C'EST UN TROUBLE ÉVOLUTIF
+
+Le bilan neurologique de votre patient peut évoluer positivement nous orientant vers un meilleur pronostic mais également négativement nous orientant vers un moins bon pronostic.
+
+Voici un exemple : Mr VA-ALE-MIEU vient lors de la première séance et montre des troubles neurologiques mais lors de sa 5ème séance malgré des douleurs montre une amélioration de sa fonction neurologique => vous êtes dans la bonne direction avec votre traitement.
+
+Un deuxième exemple : Mme VA-ALE-MAL vient lors de votre première séance avec des douleurs neuropathiques sans aucune perte de fonction, cependant lors de votre 5ème séance vous observez des pertes de fonction neurologiques qui se dégradent encore plus lors séances qui suivent => courrier au médecin
+
+### 5. NE PAS OUBLIER LES FACTEURS DE RISQUE, FAVORISANTS, PRÉDISPOSANTS, LES PATTERN PARTICULIERS
+
+Si au cours de l'interrogatoire vous pouvez récolter des informations que vous savez être des éléments en lien avec des neuropathies ou des névralgies : intoxication aux métaux lourds, ATCD de douleurs neuropathiques ou d'atteintes nerveuses, intoxication médicamenteuse, troubles thyroïdiens, diabète, carences, chirurgie bariatrique, DN4 positif, trajet douloureux atypique … Ces éléments vont modifier votre manière d'évaluer le système nerveux, prendre en charge votre patient ou conditionner la communication avec le médecin traitant.
+
+### 6. NE PAS CONFONDRE NEUROPATHIE ET NÉVRALGIE, ZONE DOULOUREUSE ET ZONE DE PERTE DE FONCTION
+
+La différence ? Une neuropathie est la traduction clinique d'une perte de fonction nerveuse. Une névralgie est une douleur en lien avec le système nerveux périphérique. Ces deux domaines d'évaluation du nerf sont souvent en lien mais pas toujours non plus.
+
+**Les tests neurologiques conditionnent la conduite à tenir et prévalent sur les douleurs du patient.**
+
+### 7. NE PAS SURINTERPRÉTER UN TEST NEURODYNAMIQUE
+
+J'ai envie de discuter avec vous d'une subtilité concernant les tests neurodynamiques que vous ferez à vos patients. Cette subtilité va rejoindre le dernier point cité plus haut.
+
+Le test neurodynamique, au niveau diagnostic, s'intéresse uniquement à l'implication de la mécanosensibilité nerveuse au sein des symptômes du patient. pas aux neuropathies même si il y a un fort lien entre névralgie et neuropathie.
+
+## Se servir de l'échographie ?
+
+Nous observons une diminution de la mobilité transversale du nerf médian chez les patients atteints de SCC.
+
+Le syndrome du canal carpien est souvent primitif mais la recherche de cause secondaire ou de facteur anatomique favorisant est l'un des challenges de l'imagerie. Ainsi, on recherchera l'existence d'une ténosynovite des fléchisseurs, d'un épanchement articulaire ou d'une distension kystique arthro-synoviale sur le versant palmaire du carpe pouvant comprimer le nerf médian au sein du canal carpien.
+
+Une méta-analyse conclut en 2013 que l'échographie utilisant la surface de section transversale du nerf médian ne pouvait pas être une alternative à l'ENMG pour le diagnostic du syndrome du canal carpien mais devrait être utilisée en complément.
+
+## Pourquoi l'ENMG n'est pas du tout un gold standard
+
+L'ENMG semble ne pouvoir évaluer que les grosses fibres myélinisées, or elles ne représentent pas la majorité de la composition d'un nerf. En effet pendant longtemps on pensait que les compressions nerveuses n'altéraient que les grosses fibres myélinisées et que c'est la démyélinisation axonale qui provoque la symptomatologie par une inflammation intra-neurale locale. On sait de nos jours que les fibres non myélinisées sont également atteintes et ne doivent pas être exclues de l'évaluation clinique.
+
+L'examen clinique et le diagnostic de patients atteints de neuropathie périphérique devrait donc être basé sur l'interrogatoire du patient ou le test de douleur neuropathique (DN4). Pour un examen clinique, une combinaison de plusieurs tests comprenant l'ULNT, le seuil de douleur à la pression, le seuil douloureux à la chaleur et au froid semblent être des examens cliniques de choix ; ainsi nous aurions une idée plus précise de quelles fibres nerveuses au sein du nerf sont atteintes.
+
+L'ENMG est un excellent outil pour confirmer une neuropathie des grosses fibres ou pour faire du diagnostic différentiel lors d'atteintes nerveuses dégénératives ou pathologies neuro-immune. Il présente par contre des limites, lorsqu'un ENMG est négatif, nous ne pouvons rien dire en dehors du fait que le patient n'a pas de neuropathie des grosses fibres.
+
+## LA KINÉSITHÉRAPIE DÉLAISSÉE POUR LA CHIRURGIE ?
+
+Des référentiels validés par la Haute Autorité de santé (HAS) déterminent désormais, pour 14 situations de rééducation, le nombre de séances de masso-kinésithérapie remboursables sans accord préalable. Pour la prise en charge postopératoire du SCC, des lourdeurs administratives viennent nous faire obstacle. Le plus gros problème est que notre système de santé ne nous reconnaît même pas comme étant un intervenant permettant d'aider ces patients. De plus, d'après la HAS « la rééducation n'est pas nécessaire » post-opératoire ou pré-opératoire.
+
+Vérifions grâce à pubmed :
+
+Dans une étude prospective de Rozmaryn et al (1998), le nombre de mains opérées a diminué de manière statistiquement significative, chez les patients ayant eu une attelle de repos, des anti-inflammatoires, et des exercices de Totten et Hunter (43% d'opérés 4 mois après traitement) comparé à des patients traités quasiment par le même protocole hormis les exercices de Totten et Hunter (71.2% d'opérés).
+
+Dans leur étude contrôlée randomisée, Tal-Akabi et al montrent que les patients ayant participé aux groupes expérimentaux ont moins tendance à se tourner vers la chirurgie. Le groupe expérimental reçoit comme traitement des manœuvres de neuroglissements de type Totten&Hunter.
+
+Une étude plus récente s'est intéressée directement au taux de conversion lié à la rééducation (Lewis et al 2020). Le taux de conversion est le pourcentage de patients qui ne sont pas opérés alors qu'ils étaient sur liste d'attente en vue d'une opération.
+
+Alors que le traitement administré par les kinésithérapeutes lors de cette étude n'est pas le meilleur qui a été évalué sur ces dernières années et que l'adhérence du groupe expérimental est très médiocre voir mauvaise, **41% des patients du groupe expérimental n'ont plus eu besoin de se faire opérer** alors que seul 20% du groupe contrôle n'ont pas eu besoin de se faire opérer.
+
+Dans l'étude de Hamzeh et al 2020, aucun patient n'a eu besoin de recourir à la chirurgie et cela même un an après la fin de leur étude interventionnelle.
+
+Que conclure ? La kiné est utile pour diminuer le taux de personnes ayant besoin de se faire opérer du SCC, mais lorsque l'atteinte est sévère le traitement conservateur semble être peu efficace. Or les neuropathies sont des atteintes évolutives, il semblerait donc que plus la prise en charge est précoce, plus on peut avoir un impact significatif afin de diminuer le nombre de personnes ayant besoin de se faire opérer.
+
+## ET SI LA KINÉSITHÉRAPIE ÉTAIT MEILLEURE QUE LA CHIRURGIE ?
+
+Ne vous inquiétez pas les chirurgiens auront encore du travail, ils sont utiles pour pleins de choses, mais si les recommandations se basent sur les études bien menées, ils auront sûrement des opérations plus stimulantes que des libération de nerf médian.
+
+Voilà ce que disent **TOUTES LES ÉTUDES** comparant le traitement chirurgical au traitement conservateur bien mené pour la prise en charge du SCC.
+
+Les 2 premières études incluent chacune une centaine (100/120) de patients répartis en deux groupes équivalents, ont été menées par Fernandez De Las Penas (FDLP) et al. 2015 puis De Las Penas et al 2017. Ces études comparent la prise en charge par kinésithérapie à une prise en charge chirurgicale. Ces deux études ont une bonne qualité méthodologique notée à 8/10 selon l'échelle PEDro.
+
+L'étude montre après 1 mois de traitement par thérapie manuelle, une amélioration statistiquement significative et une supériorité statistiquement significative, par rapport au groupe contrôle ayant reçu le traitement chirurgical, sur la fonction, la sévérité des symptômes et la force de préhension. Les résultats restent supérieurs de manière statistiquement significative pour le groupe expérimental jusqu'à 3 mois.
+
+Le traitement manuel semble donc aussi efficace et les résultats plus rapides que le traitement chirurgical pour la prise en charge du SCC non sévère chez une population féminine.
+
+### Qu'est-ce que cela donne sur le long terme ?
+
+L'étude de De Las Penas et al 2020 a répondu à cette question, elle est la continuité de l'étude de 2015. Malgré les 3 ans de suivi sans traitement manuel par un kinésithérapeute, les bénéfices ressentis obtenus pendant l'étude sont maintenus sur le long terme.
+
+CE traitement de kinésithérapie semble au moins aussi efficace que la chirurgie dans la prise en charge des patients ayant un SCC.
+
+Au vu de la balance bénéfice/risque, la chirurgie n'est pas la solution la plus recommandée en première intention. On peut dire que l'opération est complémentaire à la kinésithérapie et non l'inverse.
+
+Ces dernières données montrent que le traitement effectué par les kinésithérapeutes est au moins aussi efficace que le traitement chirurgical, pas plus efficace. Cependant il manque l'analyse de l'aspect économique.
+
+Fernandez De Las Penas a encore une fois effectué une étude sur le SCC et cette fois-ci il a analysé et comparé le coût d'un traitement conservateur et d'un traitement chirurgical.
+
+Cette analyse économique montre un coût de prise en charge nettement moins élevé pour le groupe bénéficiant de la kinésithérapie que le groupe bénéficiant de la chirurgie. Le groupe bénéficiant de la kinésithérapie montre également moins de jours d'arrêt.
+
+La kinésithérapie semble plus intéressante que la chirurgie dans la prise en charge de la plupart des SCC idiopathiques grâce à l'analyse des coûts ainsi que l'analyse du ratio bénéfice/risque, alors qu'en terme d'efficacité aucune des deux méthodes ne semble être supérieure à l'autre sur le long terme.
+
+## LA KINÉSITHÉRAPIE OUI MAIS LAQUELLE ? ET COMMENT CELA FONCTIONNE
+
+Dans cette partie décortiquons quel traitement a été efficace pour les patients atteints de SCC et nous explorons comment ce traitement fonctionne, quels éléments montrent qu'il fonctionne.
+
+Je ne transmets ici QUE LES DONNÉES AYANT DÉMONTRÉ UNE RÉELLE EFFICACITÉ PROPRE et je me refuse de donner tous les "tips" cliniques que j'ai car certains peuvent ne pas être adaptées à vos patients.
+
+Voici la description de la thérapie manuelle utilisée dans les études de FDLP afin d'aider les patients atteints de SCC idiopathiques. La base des traitements de kinésithérapie présentée ici est appelée « Neurodynamique ».
+
+La neurodynamique est un concept qui étudie les relations entre la mécanique et la physiologie du système nerveux. Elle permettrait selon les principaux auteurs, d'« évaluer et de traiter des états douloureux où l'intégrité physique du système nerveux est en cause. Il ne s'agit pas d'une méthode censée remplacer les techniques manuelles employées habituellement, mais plutôt d'un adjuvant qui permet de mesurer le degré d'implication du système nerveux dans les problèmes et de proposer le traitement le plus adéquat ».
+
+### Pourquoi ça fonctionne et comment ça fonctionne
+
+Voici les effets démontrés des mobilisations neurales (neuroglissements et/ou neurotensions) sur le système nerveux :
+
+- Diminution de l'inflammation et de l'activation des cellules gliales dans le système nerveux central
+- Améliore les conditions du milieu pour une meilleure régénération nerveuse
+- Diminue les allodynies et est suivi par une baisse de la production de cytokines inflammatoires
+- Amélioration de la perfusion nerveuse post-manœuvre
+- Diminution de l'œdème périneural
+- Gain sur la force et de fonction nerveuse chez des patients atteints de SCC même 6 mois après la fin du traitement
+- L'action de ces manœuvres semble également avoir un impact plus sur la physiologie nerveuse que sur ses propriétés mécaniques
+- Les techniques de mobilisation contribuent à améliorer la vitesse de conduction du nerf et donc améliorent la fonction nerveuse
+
+## Récapitulatif du problème actuel et conclusion
+
+En 2008, l'incidence des interventions pour une libération du nerf médian (personnes âgées de plus de 20 ans) en France métropolitaine était de 2,7/1000, soit 141 268 interventions chez 127 269 personnes. La disparité départementale est « significativement et positivement associée à la densité départementale de chirurgiens pratiquant ces interventions, la part des ouvriers, la part des emplois dans l'industrie et négativement aux densités de kinésithérapeutes, de rhumatologues et de généralistes ».
+
+Notre objectif en tant que collectivité est d'améliorer la qualité des soins, individualiser les soins, minimiser les risques et diminuer les coûts de soin sans altération de sa qualité. Les recommandations de bonne pratique devraient donc s'ajuster sur les données actuelles et les kinésithérapeutes devraient se trouver au centre du parcours de soin du patient (triage/intervention conservatrice).
+
+La chirurgie ne devrait être proposée qu'en cas de SCC spécifique ou lorsqu'un traitement conservateur **bien réalisé** a été proposé. Les prescripteurs devraient en être informés afin que les patients puissent en bénéficier, les traitements avec une faible valeur ajoutée devraient être remplacés par ceux présentant une haute valeur ajoutée.
+
+Cependant il faudrait aussi que les kinésithérapeutes acquièrent les connaissances ainsi que les compétences permettant de prendre en charge ce trouble, connaître les différents diagnostics différentiels, les facteurs de risque afin de proposer des soins ayant une haute valeur ajoutée.
+
+En effet, la kinésithérapie bien menée semble moins chère, au moins aussi efficace, plus sûre que la chirurgie, qui cette dernière a été démontrée comme efficace.
+
+Du coup, pourquoi nous, kinésithérapeutes, sommes-nous négligés du parcours de soin des personnes atteintes du syndrome du canal carpien ?
+
+Merci à vous d'avoir lu cette série de billets jusqu'au bout, je ne peux que vous encourager à partager cet article si vous pensez qu'il peut faire changer la prise en charge de ce trouble, en espérant que des retombées positives se fassent pour notre profession mais surtout pour les patients, car si les autorités de santé françaises se penchent sur les données : **LA KINÉSITHÉRAPIE EST ESSENTIELLE**.`
+  }
 ];
