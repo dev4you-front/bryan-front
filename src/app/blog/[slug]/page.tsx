@@ -1,6 +1,7 @@
 import { notFound } from "next/navigation";
 import { blogArticles } from "@/data/blogArticles";
 import ClientDateFormatter from "@/app/components/ClientDateFormatter";
+import { markdownToHtml } from "@/utils/markdown";
 
 interface BlogArticlePageProps {
   params: {
@@ -23,6 +24,11 @@ export default async function BlogArticlePage({ params }: BlogArticlePageProps) 
   if (!article) {
     notFound();
   }
+
+  // Convertir le Markdown en HTML si nécessaire
+  const htmlContent = article.contentType === "markdown" 
+    ? await markdownToHtml(article.content)
+    : article.content;
 
   return (
     <section className="py-12 bg-[#E0E0E0]">
@@ -48,7 +54,7 @@ export default async function BlogArticlePage({ params }: BlogArticlePageProps) 
           {/* Contenu de l'article */}
           <div 
             className="prose prose-lg max-w-none article-content"
-            dangerouslySetInnerHTML={{ __html: article.content }}
+            dangerouslySetInnerHTML={{ __html: htmlContent }}
           />
 
           {/* Navigation de retour */}
