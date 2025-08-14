@@ -8,21 +8,31 @@ export default function Blog() {
           <h2 className="text-center text-3xl md:text-4xl font-extrabold text-gray-900 mb-6 uppercase tracking-wide">
             Mes Articles
           </h2>
-          <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
+          <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
             {blogArticles.map((a, idx: number) => (
-              <article key={idx} className="bg-gray-50 rounded-xl shadow overflow-hidden flex flex-col transform transition duration-300 hover:scale-105 hover:shadow-xl">
-                <img src={a.image} alt="" className="w-full h-48 object-cover" />
-                <div className="p-6 flex-1 flex flex-col">
-                  <h3 className="text-xl font-bold mb-2 text-gray-900">{a.title}</h3>
-                  <p className="text-gray-700 mb-4 flex-1">{a.excerpt}</p>
-                  <div className="text-sm text-gray-500 mb-4">
+              <article key={idx} className="bg-white rounded-xl shadow-md border border-gray-100 overflow-hidden flex flex-col transform transition duration-300 hover:scale-[1.02] hover:shadow-xl hover:border-brandviolet/20">
+                <div className="relative overflow-hidden">
+                  <img src={a.image} alt="" className="w-full h-44 object-cover transition duration-300 hover:scale-105" />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent opacity-0 hover:opacity-100 transition-opacity duration-300"></div>
+                </div>
+                <div className="p-5 flex-1 flex flex-col">
+                  <h3 className="text-lg font-bold mb-3 text-gray-900 line-clamp-2 leading-tight">{a.title}</h3>
+                  <p className="text-gray-600 text-sm mb-4 flex-1 line-clamp-3 leading-relaxed">{a.excerpt.substring(0, 120)}...</p>
+                  <div className="flex items-center justify-between text-xs text-gray-500 mb-4 pt-2 border-t border-gray-100">
+                    <span className="font-medium text-brandviolet">{a.author}</span>
+                    <span>
                     {new Date(a.date).toLocaleDateString('fr-FR', {
-                      year: 'numeric',
                       month: 'long',
-                      day: 'numeric'
-                    })} — {a.author}
+                      year: 'numeric'
+                    })}
+                    </span>
                   </div>
-                  <a href={a.link} className="inline-block mt-auto text-brandviolet font-semibold hover:text-purple-600 transition">Lire l'article →</a>
+                  <a href={a.link} className="inline-flex items-center justify-center mt-auto bg-brandviolet text-white font-semibold py-2.5 px-4 rounded-lg hover:bg-purple-600 transition-colors duration-200 text-sm">
+                    Lire l'article
+                    <svg className="ml-2 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                    </svg>
+                  </a>
                 </div>
               </article>
             ))}

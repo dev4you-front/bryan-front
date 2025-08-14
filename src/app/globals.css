@@ -141,6 +141,21 @@ footer .separator { border-top: 1px solid rgba(156, 39, 176, 0.2); }
   @apply italic;
 }
 
+/* Utility classes for text truncation */
+.line-clamp-2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.line-clamp-3 {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
 /* Styles spécifiques pour la bibliographie */
 .article-content p:has(> strong > span[style*="font-family: arial"]) {
   @apply text-sm text-gray-600 border-t border-gray-200 pt-4 mt-8;
