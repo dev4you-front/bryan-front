@@ -462,5 +462,319 @@ J'espère que ce billet vous a appris quelque chose, vous a intéressés et surt
 - Sharifnezhad A, Marzilger R, Arampatzis A. Effects of load magnitude, muscle length and velocity during eccentric chronic loading on the longitudinal growth of the vastus lateralis muscle. J Exp Biol 2014: 217: 2726–2733.
 - McMahon GE, Morse CI, Burden A, Winwood K, Onambele GL. Impact of range of motion during ecologically valid resistance training protocols on muscle size, subcutaneous fat, and strength. J Strength Cond Res 2014: 28: 245–255.
 - Støve, Morten Pallisgaard, Rogerio Pessoto Hirata, and Thorvaldur Skuli Palsson. « Muscle stretching–the potential role of endogenous pain inhibitory modulation on stretch tolerance. » *Scandinavian journal of pain* 19.2 (2019): 415-422.`
+  {
+    title: "Syndrome du canal carpien, pourquoi sommes-nous négligés du parcours de soin ? (Partie 2/3)",
+    image: "https://www.kinefact.com/wp-content/uploads/2021/01/tumblr_o16n2kBlpX1ta3qyvo1_1280.jpg",
+    excerpt: "Dans cette deuxième partie, Bryan Littré explore les enjeux économiques et sanitaires du syndrome du canal carpien, analyse les différences entre les systèmes de santé français et anglais, et questionne la place des kinésithérapeutes dans le parcours de soin.",
+    date: "2021-02-19",
+    author: "Bryan Littré",
+    link: "/blog/syndrome-canal-carpien-parcours-soin-partie-2",
+    content: `
+# Syndrome du canal carpien, pourquoi sommes-nous négligés du parcours de soin ? (Partie 2/3)
+
+**Par Bryan Littré, remerciements et aide à la relecture :** Marguerite Dontenwille, Robin Vervaeke, Marie Akrich, Antoine Massuleau, Benjamin Heng
+
+## Un triptyque d'enjeux : sociétal, économique et sanitaire
+
+Maintenant, nous entrons dans le vif du sujet. Nous allons parler gros sous et crise sanitaire.
+
+Les soins pris en charge pour le SCC représentent 2 milliards de dollars dépensés par an depuis 2006 aux USA. Mais on n'a pas élu Donald Trump donc ça coûte moins cher pour nous.
+
+*Stapleton MJ. Occupation and carpal tunnel syndrome. Anz Journal of Surgery. 2006 Jun;76(6):494–496*
+
+Le syndrome du canal carpien représente le syndrome canalaire neurologique le plus fréquemment diagnostiqué. C'est le trouble musculo-squelettique (TMS) le plus fréquent dans la plupart des pays européens, aux États-Unis et au Canada. En France, l'incidence annuelle du diagnostic varie selon les études et les pays, estimée à 3,8 /1000 dans la population générale, elle est de 1 à 2/1000 chez les hommes, 4 à 5/1000 chez les femmes, avec un pic entre 40 et 60 ans. La prévalence du syndrome du canal carpien est de 14 % chez les diabétiques sans polyneuropathie contre 30 % parmi ceux qui présentent une polyneuropathie. L'incidence du syndrome du canal carpien au cours de la grossesse varie selon les études de 7 à 62 % et régresse après l'accouchement dans la majorité des cas.
+
+En 2006, le syndrome du canal carpien constituait 37 % des maladies professionnelles indemnisables au titre du tableau 57 et environ 80 % de la totalité des maladies professionnelles indemnisées.
+
+Dans la population salariée, 4% des femmes et 2,4% des hommes sont concernés, cette proportion double pour les salariés de plus de 50 ans.
+
+La fraction de risque du Syndrome du Canal Carpien attribuable au travail est particulièrement élevée parmi les ouvriers (34%) et les ouvrières (15%).
+
+Les coûts relatifs sont en grande partie liés aux arrêts de travail et à la prise en charge chirurgicale (GHM6 et GHM761).
+
+- Le nombre de nouveaux cas par an est estimé à 0,3% de la population. (200 000 personnes par an )
+- On note une forte hausse de cette incidence depuis les années 90.
+- Il touche plus les femmes que les hommes. On estime actuellement à 141 000 le nombre d'interventions réalisées pour 127 000 patients opérés par an. (2014) Donc 141 000 interventions pour 200 000 nouveaux cas par an.
+- Le syndrome du canal carpien est la 2e pathologie reconnue en maladie professionnelle (après les pathologies de la coiffe des rotateurs) avec, pour le régime général de la sécurité sociale, 12 792 reconnaissances en maladie professionnelle ayant donné lieu à une première indemnisation en 2017. Cependant, la sous-déclaration en maladie professionnelle a été estimée en 2011 à 60 %.
+
+*Sources : [moncanalcarpien.org](http://www.moncanalcarpien.org/1_3_epidemiologie.html), [ameli.fr](https://www.ameli.fr/assure/sante/themes/syndrome-canal-carpien/comprendre-syndrome-canal-carpien), [santepubliquefrance.fr](https://www.santepubliquefrance.fr/maladies-et-traumatismes/maladies-liees-au-travail/troubles-musculo-squelettiques/donnees/syndrome-du-canal-carpien)*
+
+En termes de coûts pour la sécurité sociale, le prix de remboursement d'une opération par le régime de sécurité sociale est de 162€ en moyenne, comprenant acte chirurgical (104€) et anesthésie (58€). Cependant les dépassements d'honoraires semblent fréquents, ce qui impacte directement le budget des patients ainsi que celui des mutuelles. Dans le n°1043 de décembre 2009, Le Particulier publie les dépassements d'honoraires pratiqués dans les principales cliniques françaises pour les actes chirurgicaux les plus fréquents, dont le SCC. Cette étude est effectuée sur 153 zones géographiques différentes. Il semblerait qu'en 2009, 62% des opérations liées au SCC donnent lieu à des dépassements d'honoraires entre 49 et 542€.
+
+*Les vrais tarifs des cliniques. Le Particulier . Décembre 2009. [Consulté le 16/01/2017]. N° 1043.p62-74.*
+
+<img src="https://www.kinefact.com/wp-content/uploads/2021/01/4-e1611871404660.png" alt="Graphique des coûts" width="511" height="334">
+
+A ces coûts, s'ajoutent évidemment les coûts proportionnels aux journées d'arrêt de travail des gens opérés, qui varie entre 30 et 44 jours ainsi que le coût des évaluations par électroneuromyogramme (ENMG), les infiltrations si le patient en a eu auparavant, les actes masso-kinésithérapiques post-chirurgicaux (lorsqu'il y a des complications que les kinés doivent prendre en charge comme les SDRC ou les lésions nerveuses), les journées et nuitées sur place etc …
+
+Une étude plus approfondie des coûts de la prise en charge française d'un SCC, par Tuppin et al (2008), montre que : « Le coût des interventions pris en charge par l'ensemble des régimes d'assurance maladie en 2008 était de 108 millions d'euros. Pour les personnes âgées de 18 à 59 ans primo-opérés au second semestre 2008, 875 707 journées d'arrêt de travail ont été indemnisées soit 31,7 millions d'euros pour un semestre pour le seul régime général, dont 52 % pour le risque accident du travail/maladie professionnelle (AT/MP), soit 16,6 millions d'euros. Le coût des journées indemnisées pour les durées d'arrêt supérieures à 56 jours était de 22,6 millions d'euros, dont 14,3 millions d'euros pour le risque AT/MP. Par extrapolation sur un an, à l'ensemble des personnes opérées en 2008 et affiliées au seul régime général, le coût global des arrêts de travail était donc respectivement de l'ordre de 81 millions d'euros, dont 42 millions pour le risque AT/MP et, pour les arrêts supérieurs à 56 jours, il était de 58 millions d'euros, dont 37 millions d'euros pour le risque AT/MP ».
+
+108+81 = 189 M € et cela uniquement pour la sécurité sociale. Donc aux organismes de mutuelle : vous aussi cela peut vous intéresser de lire tout ce billet jusqu'à la fin.
+
+*Tuppin P, Blotière P-O, Weill A, Ricordeau P, Allemand H. Syndrome du canal carpien opéré en France en 2008 : caractéristiques des malades et de leur prise en charge. Rev Neurol (Paris) 2011;167:905–15.*
+
+*Shan RLP, Nicolle M, Chan M, Ashworth N, White C, Winston P, et al. Electrodiagnostic Testing and Treatment for Carpal Tunnel Syndrome in Canada. Can J Neurol Sci 2016;43:178–82.*
+
+Ce qui semble surprenant par contre c'est que pour une incidence et une prévalence similaire observée par les systèmes de santé, en Angleterre le taux d'opération est très en deçà du taux de SCC opérés en France ( -30% d'opérations pour chaque cas observé par la NHS en United Kingdom vs 70 % d'opérations pour chaque cas observé par la sécurité sociale en France)
+
+<img src="https://www.kinefact.com/wp-content/uploads/2021/01/3-e1611871521419.png" alt="Comparaison UK vs France" width="460" height="360"> <img src="https://www.kinefact.com/wp-content/uploads/2021/01/2-e1611871570844.png" alt="Données France" width="474" height="371">
+
+*BURTON, Claire L., CHEN, Ying, CHESTERTON, Linda S., et al. Trends in the prevalence, incidence and surgical management of carpal tunnel syndrome between 1993 and 2013: an observational analysis of UK primary care records. BMJ open, 2018, vol. 8, no 6, p. e020166.*
+
+<video width="480" height="480" loop autoplay muted>
+  <source src="https://www.kinefact.com/wp-content/uploads/2021/01/Booba-Je-Ne-Compwends-Pas.mp4" type="video/mp4">
+</video>
+
+Peut-être avons-nous le coup de bistouri facile ? L'accessibilité des soins est facilitée en France ? L'Angleterre incorpore les physiothérapeutes dans le parcours de soin ? Peu importe la ou les justifications derrière ces données, nous pouvons constater que la prise en charge de ce trouble est extrêmement coûteuse en France. Nous explorerons la partie économique plus en détail lorsque nous verrons que nous les kinésithérapeutes, pouvons faire économiser des dizaines de millions d'euros à la sécurité sociale.
+
+La prise en charge du SCC dépend grandement de comment nous comprenons ce trouble et l'idée que l'on a de ce dernier. Cependant une image erronée du trouble peut amener à des réponses inadaptées au niveau des soins proposés.
+
+## Le SCC, est-ce une compression ?
+
+En effet, il est pertinent de se demander face à un patient présentant un SCC si celui-ci est secondaire à quelque chose de plus grave.
+
+Afin d'illustrer mon propos voici un tableau montrant les diagnostics différentiels auxquels penser lorsque nous sommes face à des douleurs similaires au SCC ou similaires à des sciatalgies.
+
+<img src="https://www.kinefact.com/wp-content/uploads/2021/01/5-e1611871812377.png" alt="Diagnostics différentiels" width="686" height="352">
+
+Toutes ces atteintes peuvent mimer une simple mononeuropathie compressive au niveau du poignet, pourtant vous réalisez bien qu'un SCC lié à une sclérose en plaque est différent d'un SCC lié à une compression. Grâce à l'étude du diabète et de ses conséquences, nous avons des données nous permettant de dire que des différences se retrouvent au sein de la physiopathologie, de la validité des examens cliniques diagnostics comme l'échographie ou dans le potentiel de récupération suite à une opération, entre un SCC idiopathique compressif ou un SCC secondaire à un diabète
+
+Dit autrement, un SCC secondaire à un diabète, un SCC lié à une sténose vasculaire, un SCC idiopathique ou un SCC lié à des troubles thyroïdiens … **NE SE VALENT PAS**. Et ce au niveau du diagnostic, du pronostic et quelques fois au niveau du traitement le plus efficient permettant de gérer ce trouble. Certaines atteintes amenant à un SCC génèrent une altération métabolique ou des systèmes vasculaires et/ou nerveux, qui s'exprimera en SCC ( neuropathie dégénérative centrale, diabète, troubles thyroïdiens, intoxication médicamenteuses / pathologie de surcharge ou trop de contraintes au niveau du poignet ).
+
+Pourquoi autant de détails ? Car sinon nous n'aurons que des problèmes mal posés et des solutions multiples, ou dit autrement: c'est bien un syndrome qui peut soit rester seulement syndrome et idiopathique, soit être associé à de potentielles maladies bien plus graves à diagnostiquer et/ou si connues à prendre en charge différemment selon le contexte
+
+De ce fait, certains auteurs et chercheurs émettent un doute justifiable quant à l'importance et l'utilité de l'opération pour bon nombre de patients.
+
+Voici dans les tableaux ci-dessous, les différences histologiques observées lors de biopsies chez des patients atteints de SCC selon leur pathologie sous-jacente.
+
+<img src="https://www.kinefact.com/wp-content/uploads/2021/01/6-e1611872590593.png" alt="Tableau histologique 1" width="300" height="68"> <img src="https://www.kinefact.com/wp-content/uploads/2021/01/7-e1611872621327.png" alt="Tableau histologique 2" width="431" height="233">
+
+*TAŞER, Figen, DEĞER, Ayşe Nur, et DEĞER, Hakkı. Comparative histopathological evaluation of patients with diabetes, hypothyroidism and idiopathic carpal tunnel syndrome. 2017.*
+
+*TSAI, Nai-Wen, LEE, Lian-Hui, HUANG, Chi-Ren, et al. The diagnostic value of ultrasonography in carpal tunnel syndrome: a comparison between diabetic and non-diabetic patients. BMC neurology, 2013, vol. 13, no 1, p. 65.*
+
+*CHEN, Jeng, CHANG, Ke-Vin, LOU, Yueh-Ming, et al. Can ultrasound imaging be used for the diagnosis of carpal tunnel syndrome in diabetic patients? A systemic review and network meta-analysis. Journal of neurology, 2020, vol. 267, no 7, p. 1887-1895.*
+
+*THOMSEN, Niels OB et DAHLIN, Lars B. Vibrotactile sense 5 years after carpal tunnel release in people with diabetes: A prospective study with matched controls. Diabetic Medicine, 2020, p. e14453.*
+
+<video width="480" height="662" loop autoplay muted>
+  <source src="https://www.kinefact.com/wp-content/uploads/2021/01/giphy-26.mp4" type="video/mp4">
+</video>
+
+
+De ces observations et suite à des biopsies, on observe qu'une partie de la population semble avoir des prédispositions à avoir des troubles vasculaires et nerveux. Par exemple, l'analyse des nerfs interosseux postérieurs chez des patients diabétiques ayant un SCC avec ou sans polyneuropathies, ainsi que chez des patients ayant un SCC idiopathique, comparativement à un groupe contrôle n'ayant pas de SCC (Thomsen et al en 2009) :
+
+- Des différences dans la densité des fibres myélinisées
+- Des différences dans la densité des capillaires sanguins
+
+Les auteurs énoncent qu'il existe un rôle important de prédispositions génétiques dans l'apparition des neuropathies et des névralgies.
+
+Cela est également confirmé par d'autres données qui s'intéressent à l'expression des facteurs de croissance nerveuse, vasculaire, collagénique.
+
+*THOMSEN, Niels OB, MOJADDIDI, Moaz, MALIK, Rayaz A., et al. Reduced myelinated nerve fibre and endoneurial capillary densities in the forearm of diabetic and non-diabetic patients with carpal tunnel syndrome. Acta neuropathologica, 2009, vol. 118, no 6, p. 785-791.*
+
+*SHARMA, Deepankshi, JAGGI, Amteshwar Singh, et BALI, Anjana. Clinical evidence and mechanisms of growth factors in idiopathic and diabetes-induced carpal tunnel syndrome. European journal of pharmacology, 2018, vol. 837, p. 156-163.*
+
+Nous devrions donc parler DES SCC plutôt que DU SCC car ce terme regroupe une multitude de diagnostics et de causes sous-jacentes bien différents.
+
+Un SCC n'est donc pas qu'une mononeuropathie compressive du nerf médian au niveau du carpe, comme ce que laisse penser le terme employé usuellement. Si vous vous demandez pourquoi autant entrer dans les détails pour ce type d'atteinte, c'est parce que : mieux nous connaissons ce problème, mieux nous pouvons traiter précisément ce problème. Un SCC lié à un trouble thyroïdien pourrait probablement plus bénéficier d'une infiltration au vu des données préliminaires qu'un SCC lié à une surcharge mécanique dû à l'activité, mais ce n'est qu'une supposition et il faudrait pouvoir vérifier cela en réalisant une stratification et des ECR selon les sous-groupes identifiables.
+
+Si je devais faire un parallèle avec une appellation qui a été remise en question : le conflit sous-acromial, dont la meilleure compréhension du problème nous amène à nous rendre compte qu'une acromioplastie n'est pas la meilleure solution pour des douleurs dans la région de l'épaule.
+
+Car rien ne prouve que la « compression des tendons par l'acromion » soit un facteur prédominant dans les problèmes d'épaules, comme ce qu'a émis comme hypothèse Neer en 1972.
+
+<img src="https://www.kinefact.com/wp-content/uploads/2021/01/131220134_10223764337797221_402545105681142598_o.jpg" alt="Meme épaule" width="439" height="439">
+
+Il en est de même pour le SCC et les données cliniques nous montrent que la chirurgie n'est pas la meilleure solution dans toutes les circonstances (vous le verrez dans la dernière partie de ce billet).
+
+Voici un exemple marquant qui je l'espère vous fera prendre conscience de l'importance de ne pas sauter sur l'occasion pour se faire opérer, car le problème n'est pas tout le temps localisé au poignet.
+
+C'est l'histoire de l'amputation des doigts d'une patiente italienne suite à une erreur diagnostique.
+
+En effet, cette patiente a eu une occlusion de son artère humérale suite à la position opératoire pour un SCC. Sauf que cette patiente avait en réalité une côte cervicale supplémentaire amenant à une sténose de l'artère subclavière. Cette sténose vasculaire a amené à un SCC qui n'est qu'une traduction clinique. Le problème n'était absolument pas au niveau du poignet et cette patiente a eu une opération pour libération de son nerf médian au niveau de son canal carpien. Comme les symptômes se sont aggravés elle est retournée aux urgences ils l'ont ensuite opéré pour sa sténose vasculaire humérale amenant à une nécrose de ses doigts, une résection d'une côte accessoire supplémentaire et une amputation.
+
+<img src="https://www.kinefact.com/wp-content/uploads/2021/01/8.png" alt="Cas clinique 1" width="487" height="347"> <img src="https://www.kinefact.com/wp-content/uploads/2021/01/9-e1611872785791.png" alt="Cas clinique 2" width="416" height="348">
+
+Aurions-nous pu éviter ce drame ? Peut-être mais nous reviendrons dans un prochain billet sur les troubles vasculaires.
+
+*TIENGO, Cesare, MONTICELLI, Andrea, BONVINI, Stefano, et al. Critical upper limb ischemia due to brachial tourniquet in misdiagnosed thoracic outlet syndrome after carpal tunnel decompression: a case report. World Journal of Plastic Surgery, 2017, vol. 6, no 3, p. 375.*
+
+En Octobre 2020, j'ai référé en vue d'une angiographie une patiente envoyée par un centre anti-douleur car cliniquement, au vu des connaissances actuelles et les tests cliniques effectués, tout m'orientait vers un trouble vasculaire.
+
+Je ne peux malheureusement pas partager l'audio de son parcours chaotique (fichier audio de +20minutes trop lourd). Cela reste cependant extrêmement intéressant concernant l'errance thérapeutique qu'elle a subi durant 2 longues années, car il y avait également les jeux d'influence entre les différents professionnels de santé qui ne sont pas d'accord entre eux et son ressenti, son expérience personnelle en tant qu'acteur central mais impuissant face à la situation.
+
+Pour l'anecdote c'est la 3ème patiente que je réfère pour une douleur d'épaule/bras en vue d'un examen vasculaire et qui se fait opérer rapidement alors qu'elles étaient toutes en errance thérapeutique et que certains médecins les avaient étiquetés comme ayant une "tendinite", "névralgie cervico-brachiale", ou une "épaule gelée".
+
+Ce 8 Février, j'ai reçu une patiente pour tendinite de Quervain, cependant même si la localisation semblait pertinente ainsi que la manière dont était déclenchée la douleur, la patiente présente une névralgie avec neuropathie ( +hyperalgésie + wind-up + hypoesthésie des petites fibres) . Ce qui m'a permis de le savoir ? Les tests neuro bien menés et les tests neurodynamiques ( que nous verrons dans la 3ème partie). Le traitement pour elle ? Travailler avec des mouvements de nuque semble modifier ses marqueurs de manière importante sans irriter son poignet pour le moment donc on commence par cela et nous verrons l'évolution afin d'ajuster le traitement selon cette patiente.
+
+Que retenir ? Se méfier des « syndromes » en étant rigoureux lors de son examen clinique afin d'exclure les diagnostics pouvant nécessiter une prise en charge spécifique. Améliorer ses connaissances peut permettre d'améliorer le parcours de soin (et surtout éviter de faire des erreurs) des patients ayant des troubles atypiques ou pouvant ressembler à des schémas cliniques flous.
+
+## Le SCC Classique
+
+<img src="https://www.kinefact.com/wp-content/uploads/2021/01/fb-1547612196.jpg" alt="SCC classique" width="553" height="291">
+
+Nous observons bien sûr une augmentation de la pression intra canalaire chez de nombreux patients atteints de SCC idiopathiques lorsque les autres atteintes sont écartées. Cette augmentation de pression est retrouvée au repos, ainsi que lors des activités nécessitant des mouvements de la main. Elle peut en partie s'expliquer par de la fibrose non inflammatoire, menant à une perte de mobilité transversale du nerf lors des mouvements. Étant donné qu'il y a moins de mouvement, la pression augmente. Cependant c'est la pression intra-neurale qui est la plus corrélée avec une altération de la fonction nerveuse lors d'une neuropathie compressive, et non la pression au sein du canal carpien.
+
+*Erel E, Dilley A, Greening J, Morris V, Cohen B, Lynn B. Longitudinal sliding of the median nerve in patients with carpal tunnel syndrome. Journal of Hand Surgery (British and European Volume). 2003;28(5):439-43.*
+
+*AHN, Seong Yeol, HONG, Youn-Ho, KOH, Young Hwan, et al. Pressure measurement in carpal tunnel syndrome: correlation with electrodiagnostic and ultrasonographic findings. Journal of Korean Neurosurgical Society, 2009, vol. 46, no 3, p. 199.*
+
+*GOSS, Ben C. et AGEE, John M. Dynamics of intracarpal tunnel pressure in patients with carpal tunnel syndrome. The Journal of hand surgery, 2010, vol. 35, no 2, p. 197-206.*
+
+*LEE, Ho Jin, KIM, Il Sup, SUNG, Jae Hoon, et al. Intraoperative dynamic pressure measurements in carpal tunnel syndrome: Correlations with clinical signs. Clinical neurology and neurosurgery, 2016, vol. 140, p. 33-37.*
+
+*CORACI, Daniele, SANTILLI, Valter, et PADUA, Luca. Reply to "Intraoperative dynamic pressure measurements in carpal tunnel syndrome: Correlations with clinical signs". Clinical Neurology and Neurosurgery, 2016, vol. 100, no 143, p. 161.*
+
+L'augmentation de pression agit comme une force compressive qui induit une ischémie neurale, et en élevant la pression cela cause des altérations de la pression au sein des capillaires, des œdèmes et des obstructions du système artériel du nerf.
+
+L'opération est utile et diminue grandement la pression intra-canalaire, il est donc compréhensible que l'opération soit recommandée lorsque nous avons en tête que la pression intra-canalaire est le mécanisme principal dans l'apparition et le maintien du SCC. Cependant, les dernières données cliniques en lien avec le SCC semblent montrer que le traitement chirurgical n'est pas meilleur que le traitement kiné, qui lui ne semble pas diminuer la pression intra canalaire…
+
+Nous en reparlerons plus tard dans les détails, mais bonne nouvelle pour les patients: pas besoin de se faire opérer constamment et d'autres solutions existent! Bonne nouvelle pour les médecins vous pouvez prescrire un traitement efficace avant une opération qui coûte un peu plus chère à la sécurité sociale et montre des effets secondaires rares mais dramatiques. Bonne nouvelle pour les kinés, vous pouvez aider des patients qui ont eu jusqu'à maintenant des solutions encore trop peu adaptées au plus grand nombre. Bonne nouvelle pour les chirurgiens, vous pourrez prendre plus de vacances.
+
+<video width="480" height="312" loop autoplay muted>
+  <source src="https://www.kinefact.com/wp-content/uploads/2021/01/giphy-12.mp4" type="video/mp4">
+</video>
+
+Le traitement conservateur est indiqué dans les cas du SCC avant la prise en charge chirurgicale par l' « American Academy of Orthopeadic Surgeon ». Cependant la prise en charge par un physiothérapeute (nos homologues) semble ne pas être dans les mœurs des prescripteurs, en France ou à l'étranger. Dans une étude prospective canadienne, Rodney Li Pi Shan et al (2016) montre que chez les cliniciens réalisant le diagnostic par ENMG d'un SCC, « en ce qui concerne le traitement, 99% recommanderaient le port d'une attelle dans les cas de SCC léger. Chez les cas de SCC modéré, l'attelle était recommandée par 91% des cliniciens et 68% considéraient également référer le patient en chirurgie. Dans les cas de SCC sévères, la plupart recommandaient la chirurgie (93%) ». En aucun cas la prise en charge par un physiothérapeute n'est évoquée alors que le SCC fait partie des troubles neuro-musculosquelettiques
+
+De cette connotation de syndrome compressif, découle en partie cette absence des physiothérapeutes dans le parcours de soin. En effet, à quoi pourraient servir les kinésithérapeutes alors que c'est un problème de contenant-contenu et que seul la chirurgie peut permettre d'étendre le contenu.
+
+*American Academy of Orthopaedic Surgeons. Management of Carpal Tunnel Syndrome Evidence-Based Clinical Practice Guideline. www.aaos.org/ctsguideline. Published February 29, 2016.*
+
+*SHAN, Rodney Li Pi, NICOLLE, Michael, CHAN, Ming, et al. Electrodiagnostic testing and treatment for carpal tunnel syndrome in Canada. Canadian Journal of Neurological Sciences, 2016, vol. 43, no 1, p. 178-182.*
+
+## Quelques Facteurs de risques évitables
+
+Parmi les facteurs de risque menant à l'apparition du SCC, certains sont contrôlables et ils sont majoritairement des facteurs biomécaniques liés au travail. Nous avons pu mettre en évidence grâce à Kozak et al que :
+
+- Il existe une association positive entre répétition de mouvements et SCC avec un haut niveau de preuve
+- Il existe une association positive entre la force utilisée lors des manœuvres et le SCC avec un haut niveau de preuve
+- Une exposition combinant ces deux paramètres est également associée à l'augmentation du risque de SCC avec un haut niveau de preuve
+- Concernant les vibrations ainsi que les positions en fin d'amplitude du poignet, l'association n'est pas franche et les résultats sont hétérogènes. En effet les auteurs énoncent qu'il pourrait y avoir un effet dose-réponse (durée d'exposition / fréquence de vibration)
+
+*KOZAK, Agnessa, SCHEDLBAUER, Grita, WIRTH, Tanja, et al. Association between work-related biomechanical risk factors and the occurrence of carpal tunnel syndrome: an overview of systematic reviews and a meta-analysis of current research. BMC musculoskeletal disorders, 2015, vol. 16, no 1, p. 1-19.*
+
+Dans la revue systématique avec méta-analyse de Médiouni et al, les auteurs ne retrouvent pas de lien entre exposition à l'ordinateur et le SCC.
+
+*MEDIOUNI, Zakia, DE ROQUEMAUREL, Alexis, DUMONTIER, Christian, et al. Is carpal tunnel syndrome related to computer exposure at work? A review and meta-analysis. Journal of occupational and environmental medicine, 2014, vol. 56, no 2, p. 204-208.*
+
+Donner seulement le résultat de cette revue systématique avec méta-analyse ne suffit pas, et je vous encourage à analyser les données plus en profondeur comme l'a fait celle faite par Rahman Shiri et al.
+
+*SHIRI, Rahman et FALAH-HASSANI, Kobra. Computer use and carpal tunnel syndrome: a meta-analysis. Journal of the neurological sciences, 2015, vol. 349, no 1-2, p. 15-19.*
+
+<video width="480" height="480" loop autoplay muted>
+  <source src="https://www.kinefact.com/wp-content/uploads/2021/01/giphy-21.mp4" type="video/mp4">
+</video>
+
+En effet, selon l'analyse de Mediouni et al, nous ne retrouvons pas de corrélation entre exposition à un ordinateur et SCC au sein d'une population générale. Cependant la population étudiée n'a pas subi un ajustement des facteurs de risques identifiés comme tels.
+
+Voici un exemple : les jeunes utilisent plus l'ordinateur que les personnes âgées et les personnes âgées montrent plus de SCC que les jeunes. Mais au vu des connaissances actuelles sur la physiopathologie du SCC, nous savons qu'il y a une installation lente et progressive de ce syndrome. Il faudrait donc comparer les jeunes ayant une exposition à l'ordinateur intense comparativement à d'autres jeunes. Revenons à notre cas : Les personnes sur les chantiers font partie de la population générale et subissent des contraintes nettement supérieures sur leurs poignets comparativement aux gens travaillant au bureau, ce qui amène à exclure un facteur spécifique à la population de personnes travaillant en bureau.
+
+Donc pour tous les étudiants en plein mémoire ou les personnes s'intéressant à la lecture critique d'article, je vous conseille de bien analyser les données dans les détails plutôt que de lire uniquement les résumés.
+
+> **« Clinician who cannot critically read a study is a unprepared as one who cannot do a MSK examination »** *(un mec chauve en formation)*
+
+Lorsque l'on analyse les données plus en détail et en comparant une population d'agents de bureau entre eux nous observons:
+
+- Une corrélation positive entre utilisation de l'ordinateur et SCC
+- Une corrélation positive entre utilisation de la souris et SCC
+- Pas de corrélation positive entre utilisation du clavier et SCC
+- Une corrélation entre le temps d'exposition en années avec le SCC
+- Une corrélation avec le nombre d'heures par jour sur un ordinateur et le SCC
+
+<img src="https://www.kinefact.com/wp-content/uploads/2021/01/92-e1611873019111.png" alt="Corrélations ordinateur" width="488" height="478">
+
+Si nous extrapolons cette donnée, cela peut largement nous expliquer ce qui est observé par la communauté eSport. En effet le volume d'effort subi par ces athlètes est largement au-delà des sollicitations que peuvent subir les employés de bureau et de nombreux SCC sont énoncés.
+
+Comme nous le verrons plus loin dans le billet, la kinésithérapie semble au moins aussi efficace que la chirurgie dans la prise en charge de ce problème. La chirurgie ne sera pas la solution de choix pour ce sous-groupe de patients car régulièrement les patients ont une perte de force significative au niveau de leur main ou poignet suite à un acte chirurgical. Le kinésithérapeute est donc le thérapeute de choix pour aider les Athlètes eSport, en plus de savoir prendre en charge des lombalgies pour lesquelles ces athlètes peuvent se plaindre.
+
+J'ai déjà pu mettre en avant dans mon billet sur les lésions des IJ chez les sportifs que nous pouvons amener à moins de blessures, et par effet domino plus de victoires par équipe, peut être que nous pouvons aider ces athlètes également cela reste à vérifier dans de futures études.
+
+<video width="480" height="270" loop autoplay muted>
+  <source src="https://www.kinefact.com/wp-content/uploads/2021/01/gaming.mp4" type="video/mp4">
+</video>
+
+Deux études longitudinales viennent nous apporter d'autres éléments permettant de mieux comprendre les SCC
+
+La première étude a suivi des saisonniers afin d'évaluer si un travail répétitif et intensif de trois semaines pouvait amener au développement d'une neuropathie du nerf médian. L'évaluation par ENMG a été faite avant, pendant, à la fin et après le travail saisonnier. Ce travail était du « mink skinning » ( en gros écorcher des visons pour leur fourrure … il y en qui travaillent à McDo et d'autres qui préparent de la fourrure ) ils travaillaient par roulement de 7h30 et le nombre moyen de visons « travaillés » était de 109 par heure ( entre 114 et 105 ). Ils travaillèrent 22 jours. Les 11 saisonniers montraient un ENMG normal avant le début de la saison.
+
+Avant le début de l'étude 3/11 ont signifié avoir eu déjà dans leur vie des paresthésies dans leur main dominante. Durant l'étude et à la fin de la saison, ce nombre est passé à 8 puis est redescendu à 2 sur 9 lors du suivi quelques semaines plus tard, car 2 des participants n'ont pas renvoyé le questionnaire de suivi.
+
+Malgré le faible nombre de participants, nous observons des changements détectables significatifs dans la conduction nerveuse de chaque patient (courbes ci-dessous). Ces modifications semblent directement liées à l'effort, la charge et l'intensité du travail effectué pendant l'étude.
+
+<img src="https://www.kinefact.com/wp-content/uploads/2021/01/93-e1611873233392.png" alt="Étude saisonniers" width="564" height="203">
+
+Le niveau d'activité mesuré pour les saisonniers est considéré comme moyen, il semble correspondre au niveau de contraintes que subissent des peintres par exemple. Le niveau d'activité de la main est évalué à 7/10 selon *the American Conference of Governmental Industrial Hygienists' scale*
+
+*TABATABAEIFAR, Sorosh, SVENDSEN, Susanne Wulff, JOHNSEN, Birger, et al. Reversible median nerve impairment after three weeks of repetitive work. Scandinavian Journal of Work, Environment & Health, 2017, p. 163-170.*
+
+Cette première étude nous montre qu'après un travail intensif de seulement 22 jours, nous observons une altération de la conduction nerveuse, signe d'une neuropathie. Nous observons également que cette neuropathie est réversible et transitoire (avec l'arrêt de l'activité). Cette neuropathie transitoire indique que d'autres mécanismes que la démyélinisation et la dégénération axonale puissent jouer un rôle dans les neuropathies ainsi que les douleurs neuropathiques.
+
+Si l'on rapporte cette donnée à cette étude française : *Les patients opérés d'un syndrome du canal carpien ont-ils un moins bon pronostic professionnel en cas de déclaration en maladie professionnelle ?*, il n'est pas étonnant que les SCC liés au travail aient un moins bon pronostic si la charge et le niveau d'effort est élevé et constant, cela va irrémédiablement altérer les conditions d'adaptation du tissu nerveux, et cela indépendamment d'une quelconque indemnisation mise en jeu. Donc peut être facteur de risque et facteur pronostic ?
+
+*Chazelle E, Girault C, Pascual M, Ha C, Garras L, Plaine J, et al. Les patients opérés d'un syndrome du canal carpien ont-ils un moins bon pronostic professionnel en cas de déclaration en maladie professionnelle ? Arch Mal Prof Environ 2016;77:1011.*
+
+Une deuxième étude longitudinale longue de 10 ans s'est intéressée aux nouveaux SCC qui sont survenus dans une population étudiée. Ils ont utilisé une échelle d'évaluation, allant de 0 à 10, du niveau d'activité quotidien : *the American Conference of Governmental Industrial Hygienists (ACGIH)*
+
+Sur les 8883 personnes suivies sur 10 ans, incluses dans l'étude, 431 nouveaux cas de SCC sont apparus, pour 126 avec une altération de la conduction des grosses fibres nerveuses objectivable par ENMG. Petit aparté : un syndrome étant une présentation clinique il n'y a pas à faire de différence et ces 2 catégories sont des SCC, par contre l'altération de la conduction nerveuse est juste un stade de gravité supérieur.
+
+Cette étude nous apprend que :
+
+- 1/3 des cas semblent imputables à l'intensité de l'activité manuelle
+- Le niveau d'activité selon l'ACGIH semble prédictif d'apparition de cas lorsqu'une valeur seuil est dépassée
+- L'âge, le sexe et l'IMC semblent également des facteurs prédictifs mais selon la catégorie de SCC et le stade de gravité, les corrélations varient.
+
+<img src="https://www.kinefact.com/wp-content/uploads/2021/01/94-e1611873341391.png" alt="Étude 10 ans" width="505" height="325">
+
+Cette étude énonce assez bien ses limites ainsi que les précautions liées à l'interprétation de leurs données au bout des 10 années de suivi il y a des perdus de vue. Durant l'étude certaines entreprises ont stoppé leur partenariat avec les chercheurs, certaines personnes ont changé de travail ou de domiciliation… De plus, dans ce modèle aux multiples variables, d'autres facteurs personnels ou génétiques n'ont pas été inclus. L'inclusion d'autres facteurs pourrait en effet diminuer la part de ceux analysés. Je vous invite à lire ces deux études qui sont vraiment bien décrites.
+
+*VIOLANTE, Francesco S., FARIOLI, Andrea, GRAZIOSI, Francesca, et al. Carpal tunnel syndrome and manual work: the OCTOPUS cohort, results of a ten-year longitudinal study. Scandinavian journal of work, environment & health, 2016, p. 280-290.*
+
+Selon certains auteurs, l'accumulation de plusieurs facteurs de risque augmenterait le risque d'apparition du SCC, car rendant le tissu nerveux plus facilement irritable.
+
+Le tissu nerveux peut être sensibilisé par plusieurs types de stimulations et plus il est irrité plus il devient irritable. Ces stimulations peuvent être d'ordre mécanique ou métabolique. Nous parlons donc ici de « multiple crush syndrom »
+
+<img src="https://www.kinefact.com/wp-content/uploads/2021/01/95-e1611873405557.png" alt="Multiple crush syndrome" width="745" height="139">
+
+Une équipe française s'est intéressée à la prévalence des SCC dans le milieu agricole. Ils ont décidé de faire plusieurs groupes en lien avec leur exposition biomécanique de l' exposition aux neurotoxiques durant leur travail. Cette étude nous apprend que sur les 711 hommes du milieu agricole :
+
+- La prévalence différait selon les 4 groupes d'exposition
+- La prévalence était la plus grande chez les co-exposés aux agents chimiques neurotoxiques et aux contraintes biomécaniques élevées
+- L'association entre la co-exposition et le SCC était statistiquement significative après ajustement des facteurs de risque individuels et médicaux du SCC, avec un odds-ratio plus élevé pour le groupe co-exposé ( OR=3,3 [ 0,8 ; 14,1 ] )
+
+<img src="https://www.kinefact.com/wp-content/uploads/2021/01/96-e1611873482670.png" alt="Étude agricole 1" width="393" height="229">
+
+<img src="https://www.kinefact.com/wp-content/uploads/2021/01/97-e1611873538286.png" alt="Étude agricole 2" width="453" height="225">
+
+Cette étude est une de celles illustrant le concept de multiple crush syndrom.
+
+Le SCC n'est pas qu'une simple mononeuropathie compressive
+
+Les causes qui ont fait que la maladie survienne ne sont pas forcément les mêmes qui font que la maladie persiste. C'est ce qui fait que ce n'est pas pertinent TOUT le temps de faire une décompression chirurgicale, car ce qui peut poser problème, c'est la neuroinflammation et nous les kinésithérapeutes pouvons agir dessus.
+
+J'ai déjà pu parler de neuro-inflammation durant des conférences mais là je vais tenter d'aller à l'essentiel. Voici donc une vidéo animée sur le sujet, traduite en français par Clément Noël qui résume plutôt bien le fait qu'une mononeuropathie compressive engendre des troubles à distance ainsi que des douleurs pouvant s'étendre. La vidéo est basée en partie sur les travaux de Annina Schmid
+
+Nous pouvons retrouver des symptômes dans les zones d'irradiation en dehors du nerf concerné, ce qui nous pousserait à étendre l'examen clinique au-delà de la zone d'irradiation du nerf. En effet, il semblerait que l'on retrouve une invasion et une activation des cellules de l'immunité près des ganglions dorsaux rachidiens, ainsi qu'une activation des cellules gliales au sein du système nerveux central. Compte tenu de la proximité des cellules au sein d'un ganglion ou dans la moelle, les messagers chimiques peuvent atteindre des cellules ou des fibres nerveuses saines, et abaisser le seuil de sensibilité. Par conséquent, l'inflammation au sein des ganglions rachidiens est une explication plausible expliquant la propagation des symptômes chez les patients atteints de névralgies, ou de SCC bilatéraux.
+
+Les connaissances actuelles concernant les mononeuropathies compressives, nous montre que :
+
+- Il n'est pas nécessaire d'opérer pour chaque névralgie, SCC ou hernie discale
+- Une plainte de SCC bilatéraux peut se régler par une seule et même opération unilatérale
+- La compression détermine la perte de fonction et non la douleur, par conséquent ne pas présager d'une compression sans avoir objectivé une perte de fonction (biopsie, amyotrophie, break tests, tests nerveux par QST ou CST)
+- Plus l'atteinte est longue, plus la probabilité d'avoir un SCC bilatéral est grande.
+
+[Vidéo sur la neuroinflammation](https://www.youtube.com/watch?v=7IWHUWQLqwQ)
+
+*DEC, Pawel et ZYLUK, Andrzej. Bilateral carpal tunnel syndrome–A review. Neurologia i Neurochirurgia Polska, 2018, vol. 52, no 1, p. 79-83.*
+
+*SCHMID, Annina B., FUNDAUN, Joel, et TAMPIN, Brigitte. Entrapment neuropathies: a contemporary approach to pathophysiology, clinical assessment, and management. Pain Reports, 2020, vol. 5, no 4.*
+
+---
+
+**POUR LA PARTIE 1** cliquez [ICI](https://www.kinefact.com/?p=2105&preview=true)
+
+**POUR LA PARTIE 3** cliquez [ICI](https://www.kinefact.com/?p=2202&preview=true)
+`,
+  },
   }
 ];
