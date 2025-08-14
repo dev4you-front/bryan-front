@@ -21,7 +21,7 @@ export const blogArticles: Article[] = [
   },
   {
     title: "Syndrome du canal carpien, pourquoi sommes-nous négligés du parcours de soin ?",
-    image: "https://www.kinefact.com/wp-content/uploads/2024/05/image-1.png",
+    image: "https://www.kinefact.com/wp-content/uploads/2021/01/canal-carpien.png",
     excerpt: "Par Bryan Littré, remerciements et aide à la relecture : Marguerite Dontenwille, Robin Vervaeke, Marie Akrich, Antoine Massuleau, Benjamin Heng",
     date: "2024-05-27",
     author: "Bryan Littré",
