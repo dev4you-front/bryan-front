@@ -14,9 +14,10 @@ export async function generateStaticParams() {
   }));
 }
 
-export default function BlogArticlePage({ params }: BlogArticlePageProps) {
+export default async function BlogArticlePage({ params }: BlogArticlePageProps) {
+  const resolvedParams = await params;
   const article = blogArticles.find(
-    (a) => a.link === `/blog/${params.slug}`
+    (a) => a.link === `/blog/${resolvedParams.slug}`
   );
 
   if (!article) {
