@@ -1,12 +1,25 @@
+import ConfCarousel from "../components/ConfCarousel";
 import { Formation } from "@/types";
+import { ConfItem } from "@/types";
 
 export default function FormationsVasculaire() {
+  const videos: ConfItem[] = [
+    {
+      src: "https://www.youtube.com/embed/wJkIQ_0tExc",
+      title: "Troubles vasculaires : Trier pour savoir quand traiter ! - Nouvelle présentation",
+    },
+    {
+      src: "https://www.youtube.com/embed/O0bjv3zgy2Q",
+      title: "Bryan LITTRE et Matthieu GONZALES BANDRES - Les blessures en course et réflexion autour d'une étude",
+    },
+  ];
+
   const formations: Formation[] = [
     {
       title: "Troubles vasculaires : Trier pour savoir quand traiter !",
       description:
         "Formation accessible en e-learning sur la plate-forme Physio-learning. Actuellement : V2.",
-      video: "https://www.youtube.com/embed/O0bjv3zgy2Q",
+      video: "", // Vidéo maintenant gérée par le carrousel
     },
   ];
 
@@ -22,16 +35,12 @@ export default function FormationsVasculaire() {
               {formation.title}
             </h2>
             <p className="text-lg text-gray-700 mb-6 text-center">{formation.description}</p>
-            <div className="w-full max-w-2xl mb-6">
-              <div className="w-full rounded-xl shadow aspect-video overflow-hidden">
-                <iframe
-                  src={formation.video}
-                  title={formation.title}
-                  className="w-full h-full"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                />
-              </div>
+            
+            {/* Carrousel de vidéos */}
+            <div className="w-full max-w-4xl mb-6">
+              <ConfCarousel items={videos} />
             </div>
+            
             <div className="mt-8 text-center">
               <a
                 href="https://physio-learning.com/courses/formation-troubles-vasculaires/"
