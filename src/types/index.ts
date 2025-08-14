@@ -12,6 +12,7 @@ export interface Article {
   date: string;
   author: string;
   link: string;
+  content: string;
 }
 
 export interface Formation {
