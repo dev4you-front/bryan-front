@@ -12,7 +12,7 @@ export interface Article {
   date: string;
   author: string;
   link: string;
-  contentPath: string;
+  content: string;
 }
 
 export interface Formation {
