@@ -174,7 +174,7 @@ export const blogArticles: Article[] = [
   },
   {
     title: "En fait, comment ça marche un étirement ?",
-    image: "https://www.kinefact.com/wp-content/uploads/2019/10/Implications-pratiques.1-1024x512.png",
+    image: "https://www.kinefact.com/wp-content/uploads/2019/10/cat-814952_1920.jpg",
     excerpt: "Dans l'article précédent, Bryan Littre nous a présenté les différentes théories pouvant expliquer les gains obtenus par les diverses techniques d'étirement, en s'appuyant notamment sur les travaux de Moltubakk. Dans l'article du jour, on va regarder comment la littérature peut nous aider à trancher en faveur de l'une ou de l'autre. En conclusion, Bryan raconte comment la connaissance de ces données très théoriques a un réel impact sur sa pratique.",
     date: "2019-10-04",
     author: "Bryan Littré",
