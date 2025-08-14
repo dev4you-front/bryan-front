@@ -1,6 +1,6 @@
 import { notFound } from "next/navigation";
 import { blogArticles } from "@/data/blogArticles";
-import { formatDate } from "@/utils/helpers";
+import ClientFormattedDate from "@/app/components/ClientFormattedDate";
 
 interface BlogArticlePageProps {
   params: {
@@ -35,7 +35,7 @@ export default async function BlogArticlePage({ params }: BlogArticlePageProps) 
             </h1>
             <div className="flex items-center text-gray-600 mb-6">
               <span className="text-sm">
-                Publié le {formatDate(article.date)} par {article.author}
+                Publié le <ClientFormattedDate date={article.date} /> par {article.author}
               </span>
             </div>
             <img 
