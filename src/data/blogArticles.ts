@@ -8,39 +8,7 @@ export const blogArticles: Article[] = [
     date: "2019-10-04",
     author: "Bryan Littré",
     link: "/blog/comment-ca-marche-un-etirement",
-    content: `
-# En fait, comment ça marche un étirement ?
-
-**Aide à la relecture : Benjamin Heng, Anthony Halimi, Robin Vervaeke, Elsa Steinbach**
-
-*Dans [l'article précédent](https://www.kinefact.com/physiologie/biomecanique-des-etirements/), Bryan Littre nous a présenté les différentes théories pouvant expliquer les gains obtenus par les diverses techniques d'étirement, en s'appuyant notamment sur les travaux de Moltubakk. Dans l'article du jour, on va regarder comment la littérature peut nous aider à trancher en faveur de l'une ou de l'autre. En conclusion, Bryan raconte comment la connaissance de ces données très théoriques a un réel impact sur sa pratique.*
-
----
-
-La meilleure chose à faire est si possible d'observer ce que disent les dernières revues systématiques sur le sujet. Cela tombe bien car une revue récente (de 2018) faite par Freitas et ses collaborateurs explore l'effet des étirements sur les paramètres évalués par l'équipe de Moltubakk.
-
-Cette revue comporte 26 essais comparatifs , où l'intervention du groupe expérimental correspondait à des étirements (peu importe la modalité) de plus de deux semaines.
-
-Certaines nuances sont à apporter afin d'obtenir une meilleure compréhension de cette revue :
-
-> De nombreux auteurs s'accordent pour dire qu'il y a une probabilité forte que l'effet des étirements soit également dépendant du groupe musculo-tendineux étudié et du temps de mise en œuvre du traitement.
->
-> Les outils de mesure de l'amplitude articulaire peuvent avoir une marge d'erreur non négligeable, certaines données provenant de l'élastographe ou de l'échographe sont parfois inutilisables et souvent les auteurs le signalent en expliquant pourquoi ils ont dû exclure certains patients.
->
-> Les modalités d'étirements (statique, balistique ou autre) varient également selon les études.
-
----
-
-Les conclusions de l'équipe de Freitas suite à cette revue restent cohérentes avec les résultats des études menées par Moltubakk :
-
-- On observe une augmentation de la tolérance à l'étirement au sein des populations que nous étirons
-- L'angle de pennation des fascicules semble inchangé malgré l'augmentation d'amplitude articulaire
-- La taille des fascicules en position anatomique semble inchangée après l'intervention
-- Nous ne pouvons dire s'il existe une modification de la raideur du tissu tendineux après intervention. Elle augmente selon certaines études et diminue selon d'autres
-- La résistance passive mesurée durant les mouvements ne semble pas modifiée.
-
-Leur conclusion finale est la suivante : *« Les interventions d'étirement d'une durée de 3 à 8 semaines ne semblent pas modifier les propriétés du muscle ou du tendon, bien qu'elles augmentent l'extensibilité et la tolérance à une force de traction supérieure. Les adaptations aux protocoles d'étirements chroniques de moins de 8 semaines semblent se produire principalement au niveau sensoriel. »*
-
+    contentPath: "blog-posts/troubles-neurologiques-msk.md"
 Cette conclusion semble se faire pour toutes les modalités d'étirements. De plus, les modalités analysées semblent plus contraignantes et intenses que des étirements qui pourraient être réalisés par nos patients lors de nos séances. Par conséquent, sans de nouvelles preuves (mais en faut il encore ?), nous ne pouvons pas à ce jour continuer à affirmer que les étirements semblent agir en allongeant la fibre musculaire, que l'amplitude articulaire se gagne grâce à une modification des fascias, à la modification du collagène, ou à des modifications macroscopiques de la morphologie ou de la propriété musculaire/tendineuse.
 
 <img decoding="async" class="alignright" style="font-family: georgia, palatino, serif;" src="https://www.kinefact.com/wp-content/uploads/photo-gallery/Infographie_7_faits_sur_les_fascias_(2).png?bwg=1537700644" width="426" height="603">
@@ -489,50 +457,7 @@ Dans la revue systématique avec méta-analyse de Médiouni et al, les auteurs n
 
 Donner seulement le résultat de cette revue systématique avec méta-analyse ne suffit pas, et je vous encourage à analyser les données plus en profondeur comme l'a fait celle faite par Rahman Shiri et al.
 
-*SHIRI, Rahman et FALAH-HASSANI, Kobra. Computer use and carpal tunnel syndrome: a meta-analysis. Journal of the neurological sciences, 2015, vol. 349, no 1-2, p. 15-19.*
-
-<video width="480" height="480" loop autoplay muted>
-  <source src="https://www.kinefact.com/wp-content/uploads/2021/01/giphy-21.mp4" type="video/mp4">
-</video>
-
-En effet, selon l'analyse de Mediouni et al, nous ne retrouvons pas de corrélation entre exposition à un ordinateur et SCC au sein d'une population générale. Cependant la population étudiée n'a pas subi un ajustement des facteurs de risques identifiés comme tels.
-
-Voici un exemple : les jeunes utilisent plus l'ordinateur que les personnes âgées et les personnes âgées montrent plus de SCC que les jeunes. Mais au vu des connaissances actuelles sur la physiopathologie du SCC, nous savons qu'il y a une installation lente et progressive de ce syndrome. Il faudrait donc comparer les jeunes ayant une exposition à l'ordinateur intense comparativement à d'autres jeunes. Revenons à notre cas : Les personnes sur les chantiers font partie de la population générale et subissent des contraintes nettement supérieures sur leurs poignets comparativement aux gens travaillant au bureau, ce qui amène à exclure un facteur spécifique à la population de personnes travaillant en bureau.
-
-Donc pour tous les étudiants en plein mémoire ou les personnes s'intéressant à la lecture critique d'article, je vous conseille de bien analyser les données dans les détails plutôt que de lire uniquement les résumés.
-
-> **« Clinician who cannot critically read a study is a unprepared as one who cannot do a MSK examination »** *(un mec chauve en formation)*
-
-Lorsque l'on analyse les données plus en détail et en comparant une population d'agents de bureau entre eux nous observons:
-
-- Une corrélation positive entre utilisation de l'ordinateur et SCC
-- Une corrélation positive entre utilisation de la souris et SCC
-- Pas de corrélation positive entre utilisation du clavier et SCC
-- Une corrélation entre le temps d'exposition en années avec le SCC
-- Une corrélation avec le nombre d'heures par jour sur un ordinateur et le SCC
-
-<img src="https://www.kinefact.com/wp-content/uploads/2021/01/92-e1611873019111.png" alt="Corrélations ordinateur" width="488" height="478">
-
-Si nous extrapolons cette donnée, cela peut largement nous expliquer ce qui est observé par la communauté eSport. En effet le volume d'effort subi par ces athlètes est largement au-delà des sollicitations que peuvent subir les employés de bureau et de nombreux SCC sont énoncés.
-
-Comme nous le verrons plus loin dans le billet, la kinésithérapie semble au moins aussi efficace que la chirurgie dans la prise en charge de ce problème. La chirurgie ne sera pas la solution de choix pour ce sous-groupe de patients car régulièrement les patients ont une perte de force significative au niveau de leur main ou poignet suite à un acte chirurgical. Le kinésithérapeute est donc le thérapeute de choix pour aider les Athlètes eSport, en plus de savoir prendre en charge des lombalgies pour lesquelles ces athlètes peuvent se plaindre.
-
-J'ai déjà pu mettre en avant dans mon billet sur les lésions des IJ chez les sportifs que nous pouvons amener à moins de blessures, et par effet domino plus de victoires par équipe, peut être que nous pouvons aider ces athlètes également cela reste à vérifier dans de futures études.
-
-<video width="480" height="270" loop autoplay muted>
-  <source src="https://www.kinefact.com/wp-content/uploads/2021/01/gaming.mp4" type="video/mp4">
-</video>
-
-Deux études longitudinales viennent nous apporter d'autres éléments permettant de mieux comprendre les SCC
-
-La première étude a suivi des saisonniers afin d'évaluer si un travail répétitif et intensif de trois semaines pouvait amener au développement d'une neuropathie du nerf médian. L'évaluation par ENMG a été faite avant, pendant, à la fin et après le travail saisonnier. Ce travail était du « mink skinning » ( en gros écorcher des visons pour leur fourrure … il y en qui travaillent à McDo et d'autres qui préparent de la fourrure ) ils travaillaient par roulement de 7h30 et le nombre moyen de visons « travaillés » était de 109 par heure ( entre 114 et 105 ). Ils travaillèrent 22 jours. Les 11 saisonniers montraient un ENMG normal avant le début de la saison.
-
-Avant le début de l'étude 3/11 ont signifié avoir eu déjà dans leur vie des paresthésies dans leur main dominante. Durant l'étude et à la fin de la saison, ce nombre est passé à 8 puis est redescendu à 2 sur 9 lors du suivi quelques semaines plus tard, car 2 des participants n'ont pas renvoyé le questionnaire de suivi.
-
-Malgré le faible nombre de participants, nous observons des changements détectables significatifs dans la conduction nerveuse de chaque patient (courbes ci-dessous). Ces modifications semblent directement liées à l'effort, la charge et l'intensité du travail effectué pendant l'étude.
-
-<img src="https://www.kinefact.com/wp-content/uploads/2021/01/93-e1611873233392.png" alt="Étude saisonniers" width="564" height="203">
-
+    contentPath: "blog-posts/troubles-vasculaires-msk.md"
 Le niveau d'activité mesuré pour les saisonniers est considéré comme moyen, il semble correspondre au niveau de contraintes que subissent des peintres par exemple. Le niveau d'activité de la main est évalué à 7/10 selon *the American Conference of Governmental Industrial Hygienists' scale*
 
 *TABATABAEIFAR, Sorosh, SVENDSEN, Susanne Wulff, JOHNSEN, Birger, et al. Reversible median nerve impairment after three weeks of repetitive work. Scandinavian Journal of Work, Environment & Health, 2017, p. 163-170.*
@@ -541,182 +466,13 @@ Cette première étude nous montre qu'après un travail intensif de seulement 22
 
 Si l'on rapporte cette donnée à cette étude française : *Les patients opérés d'un syndrome du canal carpien ont-ils un moins bon pronostic professionnel en cas de déclaration en maladie professionnelle ?*, il n'est pas étonnant que les SCC liés au travail aient un moins bon pronostic si la charge et le niveau d'effort est élevé et constant, cela va irrémédiablement altérer les conditions d'adaptation du tissu nerveux, et cela indépendamment d'une quelconque indemnisation mise en jeu. Donc peut être facteur de risque et facteur pronostic ?
 
-*Chazelle E, Girault C, Pascual M, Ha C, Garras L, Plaine J, et al. Les patients opérés d'un syndrome du canal carpien ont-ils un moins bon pronostic professionnel en cas de déclaration en maladie professionnelle ? Arch Mal Prof Environ 2016;77:1011.*
-
-Une deuxième étude longitudinale longue de 10 ans s'est intéressée aux nouveaux SCC qui sont survenus dans une population étudiée. Ils ont utilisé une échelle d'évaluation, allant de 0 à 10, du niveau d'activité quotidien : *the American Conference of Governmental Industrial Hygienists (ACGIH)*
-
-Sur les 8883 personnes suivies sur 10 ans, incluses dans l'étude, 431 nouveaux cas de SCC sont apparus, pour 126 avec une altération de la conduction des grosses fibres nerveuses objectivable par ENMG. Petit aparté : un syndrome étant une présentation clinique il n'y a pas à faire de différence et ces 2 catégories sont des SCC, par contre l'altération de la conduction nerveuse est juste un stade de gravité supérieur.
-
-Cette étude nous apprend que :
-
-- 1/3 des cas semblent imputables à l'intensité de l'activité manuelle
-- Le niveau d'activité selon l'ACGIH semble prédictif d'apparition de cas lorsqu'une valeur seuil est dépassée
-- L'âge, le sexe et l'IMC semblent également des facteurs prédictifs mais selon la catégorie de SCC et le stade de gravité, les corrélations varient.
-
-<img src="https://www.kinefact.com/wp-content/uploads/2021/01/94-e1611873341391.png" alt="Étude 10 ans" width="505" height="325">
-
-Cette étude énonce assez bien ses limites ainsi que les précautions liées à l'interprétation de leurs données au bout des 10 années de suivi il y a des perdus de vue. Durant l'étude certaines entreprises ont stoppé leur partenariat avec les chercheurs, certaines personnes ont changé de travail ou de domiciliation… De plus, dans ce modèle aux multiples variables, d'autres facteurs personnels ou génétiques n'ont pas été inclus. L'inclusion d'autres facteurs pourrait en effet diminuer la part de ceux analysés. Je vous invite à lire ces deux études qui sont vraiment bien décrites.
-
-*VIOLANTE, Francesco S., FARIOLI, Andrea, GRAZIOSI, Francesca, et al. Carpal tunnel syndrome and manual work: the OCTOPUS cohort, results of a ten-year longitudinal study. Scandinavian journal of work, environment & health, 2016, p. 280-290.*
-
-Selon certains auteurs, l'accumulation de plusieurs facteurs de risque augmenterait le risque d'apparition du SCC, car rendant le tissu nerveux plus facilement irritable.
-
-Le tissu nerveux peut être sensibilisé par plusieurs types de stimulations et plus il est irrité plus il devient irritable. Ces stimulations peuvent être d'ordre mécanique ou métabolique. Nous parlons donc ici de « multiple crush syndrom »
-
-<img src="https://www.kinefact.com/wp-content/uploads/2021/01/95-e1611873405557.png" alt="Multiple crush syndrome" width="745" height="139">
-
-Une équipe française s'est intéressée à la prévalence des SCC dans le milieu agricole. Ils ont décidé de faire plusieurs groupes en lien avec leur exposition biomécanique de l' exposition aux neurotoxiques durant leur travail. Cette étude nous apprend que sur les 711 hommes du milieu agricole :
-
-- La prévalence différait selon les 4 groupes d'exposition
-- La prévalence était la plus grande chez les co-exposés aux agents chimiques neurotoxiques et aux contraintes biomécaniques élevées
-- L'association entre la co-exposition et le SCC était statistiquement significative après ajustement des facteurs de risque individuels et médicaux du SCC, avec un odds-ratio plus élevé pour le groupe co-exposé ( OR=3,3 [ 0,8 ; 14,1 ] )
-
-<img src="https://www.kinefact.com/wp-content/uploads/2021/01/96-e1611873482670.png" alt="Étude agricole 1" width="393" height="229">
-
-<img src="https://www.kinefact.com/wp-content/uploads/2021/01/97-e1611873538286.png" alt="Étude agricole 2" width="453" height="225">
-
-Cette étude est une de celles illustrant le concept de multiple crush syndrom.
-
-Le SCC n'est pas qu'une simple mononeuropathie compressive
-
-Les causes qui ont fait que la maladie survienne ne sont pas forcément les mêmes qui font que la maladie persiste. C'est ce qui fait que ce n'est pas pertinent TOUT le temps de faire une décompression chirurgicale, car ce qui peut poser problème, c'est la neuroinflammation et nous les kinésithérapeutes pouvons agir dessus.
-
-J'ai déjà pu parler de neuro-inflammation durant des conférences mais là je vais tenter d'aller à l'essentiel. Voici donc une vidéo animée sur le sujet, traduite en français par Clément Noël qui résume plutôt bien le fait qu'une mononeuropathie compressive engendre des troubles à distance ainsi que des douleurs pouvant s'étendre. La vidéo est basée en partie sur les travaux de Annina Schmid
-
-Nous pouvons retrouver des symptômes dans les zones d'irradiation en dehors du nerf concerné, ce qui nous pousserait à étendre l'examen clinique au-delà de la zone d'irradiation du nerf. En effet, il semblerait que l'on retrouve une invasion et une activation des cellules de l'immunité près des ganglions dorsaux rachidiens, ainsi qu'une activation des cellules gliales au sein du système nerveux central. Compte tenu de la proximité des cellules au sein d'un ganglion ou dans la moelle, les messagers chimiques peuvent atteindre des cellules ou des fibres nerveuses saines, et abaisser le seuil de sensibilité. Par conséquent, l'inflammation au sein des ganglions rachidiens est une explication plausible expliquant la propagation des symptômes chez les patients atteints de névralgies, ou de SCC bilatéraux.
-
-Les connaissances actuelles concernant les mononeuropathies compressives, nous montre que :
-
-- Il n'est pas nécessaire d'opérer pour chaque névralgie, SCC ou hernie discale
-- Une plainte de SCC bilatéraux peut se régler par une seule et même opération unilatérale
-- La compression détermine la perte de fonction et non la douleur, par conséquent ne pas présager d'une compression sans avoir objectivé une perte de fonction (biopsie, amyotrophie, break tests, tests nerveux par QST ou CST)
-- Plus l'atteinte est longue, plus la probabilité d'avoir un SCC bilatéral est grande.
-
-*SCHMID, Annina B., FUNDAUN, Joel, et TAMPIN, Brigitte. Entrapment neuropathies: a contemporary approach to pathophysiology, clinical assessment, and management. Pain Reports, 2020, vol. 5, no 4.*
-
-**POUR LA PARTIE 3** cliquez [ICI](https://www.kinefact.com/?p=2202&preview=true)
-`,
+    contentPath: "blog-posts/lesions-ischio-jambiers.md"
   },
   {
     title: "Le syndrome du canal carpien : régler au mieux le problème. 3/3",
     image: "https://www.kinefact.com/wp-content/uploads/2021/01/canal-carpien.png",
     excerpt: "Comment ne pas rater une neuropathie au cabinet et pourquoi la kinésithérapie devrait être au centre du parcours de soin du syndrome du canal carpien. Une analyse complète des données scientifiques actuelles.",
-    date: "2021-02-26",
-    author: "Bryan Littré",
-    link: "/blog/syndrome-canal-carpien-parcours-soin",
-    content: `# Syndrome du canal carpien, pourquoi sommes-nous négligés du parcours de soin ?
-
-*Par Bryan Littré, remerciements et aide à la relecture : Marguerite Dontenwille, Robin Vervaeke, Marie Akrich, Antoine Massuleau, Benjamin Heng*
-
-## Comment ne pas rater une neuropathie au cabinet
-
-Nous en avions déjà discuté dans un ancien article qui est toujours d'actualité. Je reviens sur l'évaluation du système nerveux car afin d'établir un diagnostic différentiel, ou évaluer le pronostic du patient, nous nous devons d'effectuer un test neurologique complet et efficace.
-
-L'évaluation du système nerveux est valable pour toute partie du corps. Voici un récapitulatif du matériel nécessaire au cabinet afin de faire cette évaluation ainsi que le type de fibre évalué.
-
-Cependant je vais insister sur certains éléments du test car j'ai pu observer des éléments dans les pratiques communes qui peuvent vous induire en erreur plus qu'autre chose.
-
-L'évaluation du système nerveux est plus rapide et plus simple que vous le croyez encore faut-il le réaliser de manière correcte et comprendre ce que l'on fait. Malheureusement en IFMK je n'ai pas eu la chance d'avoir reçu des connaissances à jour sur ce domaine, voici donc en 2021 les choses à éviter et corriger :
-
-### 1. NE PAS SE SERVIR DE SES MAINS DE THÉRAPEUTE AFIN D'ÉVALUER LA SENSIBILITÉ TACTILE
-
-Pourquoi ? Car le seuil d'activation des grosses fibres évaluées par la discrimination tactile est spécifique à une échelle de pression dans laquelle est inclue le pinceau, le coton mais PAS LES MAINS.
-
-Également car la température et la transmission de chaleur peut activer plein de types de fibres différentes (en gros on n'évalue même pas ce que l'on pense évaluer). **À retenir : n'utilisez pas vos mains pour la sensibilité tactile / Utilisez le matériel adéquat afin d'évaluer la sensibilité tactile.**
-
-### 2. NE PAS FAIRE DE PIC/TOUCHE EN MÊME TEMPS
-
-Pourquoi ? regardons le tableau au-dessus :
-
-- Pic = pin prick qui évalue les fibres Adelta et les fibres C = tact grossier = sensibilité protopathique
-- Touche = light touch qui évalue les grosses fibres Abeta = tact fin = sensibilité épicritique
-
-Aucune information intéressante ne peut sortir d'un pic/touche comme décrit initialement il faut faire l'évaluation de l'un PUIS de l'autre car il n'est pas possible de les croiser, en comparant ce que l'on trouve à l'autre côté pas en les comparant les uns aux autres car ce ne sont pas les mêmes fibres.
-
-**À retenir : effectuer l'évaluation du tact lié aux différentes fibres indépendamment l'un de l'autre.**
-
-### 3. NE PAS OUBLIER QUE LES GROSSES FIBRES NE SONT PAS LES PETITES FIBRES
-
-Cela reprend exactement les deux points précédents mais comme ça c'est peut-être plus clair. Un type de fibres équivaut à un groupe de fonctions nerveuses.
-
-### 4. NE PAS OUBLIER QUE C'EST UN TROUBLE ÉVOLUTIF
-
-Le bilan neurologique de votre patient peut évoluer positivement nous orientant vers un meilleur pronostic mais également négativement nous orientant vers un moins bon pronostic.
-
-Voici un exemple : Mr VA-ALE-MIEU vient lors de la première séance et montre des troubles neurologiques mais lors de sa 5ème séance malgré des douleurs montre une amélioration de sa fonction neurologique => vous êtes dans la bonne direction avec votre traitement.
-
-Un deuxième exemple : Mme VA-ALE-MAL vient lors de votre première séance avec des douleurs neuropathiques sans aucune perte de fonction, cependant lors de votre 5ème séance vous observez des pertes de fonction neurologiques qui se dégradent encore plus lors séances qui suivent => courrier au médecin
-
-### 5. NE PAS OUBLIER LES FACTEURS DE RISQUE, FAVORISANTS, PRÉDISPOSANTS, LES PATTERN PARTICULIERS
-
-Si au cours de l'interrogatoire vous pouvez récolter des informations que vous savez être des éléments en lien avec des neuropathies ou des névralgies : intoxication aux métaux lourds, ATCD de douleurs neuropathiques ou d'atteintes nerveuses, intoxication médicamenteuse, troubles thyroïdiens, diabète, carences, chirurgie bariatrique, DN4 positif, trajet douloureux atypique … Ces éléments vont modifier votre manière d'évaluer le système nerveux, prendre en charge votre patient ou conditionner la communication avec le médecin traitant.
-
-### 6. NE PAS CONFONDRE NEUROPATHIE ET NÉVRALGIE, ZONE DOULOUREUSE ET ZONE DE PERTE DE FONCTION
-
-La différence ? Une neuropathie est la traduction clinique d'une perte de fonction nerveuse. Une névralgie est une douleur en lien avec le système nerveux périphérique. Ces deux domaines d'évaluation du nerf sont souvent en lien mais pas toujours non plus.
-
-**Les tests neurologiques conditionnent la conduite à tenir et prévalent sur les douleurs du patient.**
-
-### 7. NE PAS SURINTERPRÉTER UN TEST NEURODYNAMIQUE
-
-J'ai envie de discuter avec vous d'une subtilité concernant les tests neurodynamiques que vous ferez à vos patients. Cette subtilité va rejoindre le dernier point cité plus haut.
-
-Le test neurodynamique, au niveau diagnostic, s'intéresse uniquement à l'implication de la mécanosensibilité nerveuse au sein des symptômes du patient. pas aux neuropathies même si il y a un fort lien entre névralgie et neuropathie.
-
-## Se servir de l'échographie ?
-
-Nous observons une diminution de la mobilité transversale du nerf médian chez les patients atteints de SCC.
-
-Le syndrome du canal carpien est souvent primitif mais la recherche de cause secondaire ou de facteur anatomique favorisant est l'un des challenges de l'imagerie. Ainsi, on recherchera l'existence d'une ténosynovite des fléchisseurs, d'un épanchement articulaire ou d'une distension kystique arthro-synoviale sur le versant palmaire du carpe pouvant comprimer le nerf médian au sein du canal carpien.
-
-Une méta-analyse conclut en 2013 que l'échographie utilisant la surface de section transversale du nerf médian ne pouvait pas être une alternative à l'ENMG pour le diagnostic du syndrome du canal carpien mais devrait être utilisée en complément.
-
-## Pourquoi l'ENMG n'est pas du tout un gold standard
-
-L'ENMG semble ne pouvoir évaluer que les grosses fibres myélinisées, or elles ne représentent pas la majorité de la composition d'un nerf. En effet pendant longtemps on pensait que les compressions nerveuses n'altéraient que les grosses fibres myélinisées et que c'est la démyélinisation axonale qui provoque la symptomatologie par une inflammation intra-neurale locale. On sait de nos jours que les fibres non myélinisées sont également atteintes et ne doivent pas être exclues de l'évaluation clinique.
-
-L'examen clinique et le diagnostic de patients atteints de neuropathie périphérique devrait donc être basé sur l'interrogatoire du patient ou le test de douleur neuropathique (DN4). Pour un examen clinique, une combinaison de plusieurs tests comprenant l'ULNT, le seuil de douleur à la pression, le seuil douloureux à la chaleur et au froid semblent être des examens cliniques de choix ; ainsi nous aurions une idée plus précise de quelles fibres nerveuses au sein du nerf sont atteintes.
-
-L'ENMG est un excellent outil pour confirmer une neuropathie des grosses fibres ou pour faire du diagnostic différentiel lors d'atteintes nerveuses dégénératives ou pathologies neuro-immune. Il présente par contre des limites, lorsqu'un ENMG est négatif, nous ne pouvons rien dire en dehors du fait que le patient n'a pas de neuropathie des grosses fibres.
-
-## LA KINÉSITHÉRAPIE DÉLAISSÉE POUR LA CHIRURGIE ?
-
-Des référentiels validés par la Haute Autorité de santé (HAS) déterminent désormais, pour 14 situations de rééducation, le nombre de séances de masso-kinésithérapie remboursables sans accord préalable. Pour la prise en charge postopératoire du SCC, des lourdeurs administratives viennent nous faire obstacle. Le plus gros problème est que notre système de santé ne nous reconnaît même pas comme étant un intervenant permettant d'aider ces patients. De plus, d'après la HAS « la rééducation n'est pas nécessaire » post-opératoire ou pré-opératoire.
-
-Vérifions grâce à pubmed :
-
-Dans une étude prospective de Rozmaryn et al (1998), le nombre de mains opérées a diminué de manière statistiquement significative, chez les patients ayant eu une attelle de repos, des anti-inflammatoires, et des exercices de Totten et Hunter (43% d'opérés 4 mois après traitement) comparé à des patients traités quasiment par le même protocole hormis les exercices de Totten et Hunter (71.2% d'opérés).
-
-Dans leur étude contrôlée randomisée, Tal-Akabi et al montrent que les patients ayant participé aux groupes expérimentaux ont moins tendance à se tourner vers la chirurgie. Le groupe expérimental reçoit comme traitement des manœuvres de neuroglissements de type Totten&Hunter.
-
-Une étude plus récente s'est intéressée directement au taux de conversion lié à la rééducation (Lewis et al 2020). Le taux de conversion est le pourcentage de patients qui ne sont pas opérés alors qu'ils étaient sur liste d'attente en vue d'une opération.
-
-Alors que le traitement administré par les kinésithérapeutes lors de cette étude n'est pas le meilleur qui a été évalué sur ces dernières années et que l'adhérence du groupe expérimental est très médiocre voir mauvaise, **41% des patients du groupe expérimental n'ont plus eu besoin de se faire opérer** alors que seul 20% du groupe contrôle n'ont pas eu besoin de se faire opérer.
-
-Dans l'étude de Hamzeh et al 2020, aucun patient n'a eu besoin de recourir à la chirurgie et cela même un an après la fin de leur étude interventionnelle.
-
-Que conclure ? La kiné est utile pour diminuer le taux de personnes ayant besoin de se faire opérer du SCC, mais lorsque l'atteinte est sévère le traitement conservateur semble être peu efficace. Or les neuropathies sont des atteintes évolutives, il semblerait donc que plus la prise en charge est précoce, plus on peut avoir un impact significatif afin de diminuer le nombre de personnes ayant besoin de se faire opérer.
-
-## ET SI LA KINÉSITHÉRAPIE ÉTAIT MEILLEURE QUE LA CHIRURGIE ?
-
-Ne vous inquiétez pas les chirurgiens auront encore du travail, ils sont utiles pour pleins de choses, mais si les recommandations se basent sur les études bien menées, ils auront sûrement des opérations plus stimulantes que des libération de nerf médian.
-
-Voilà ce que disent **TOUTES LES ÉTUDES** comparant le traitement chirurgical au traitement conservateur bien mené pour la prise en charge du SCC.
-
-Les 2 premières études incluent chacune une centaine (100/120) de patients répartis en deux groupes équivalents, ont été menées par Fernandez De Las Penas (FDLP) et al. 2015 puis De Las Penas et al 2017. Ces études comparent la prise en charge par kinésithérapie à une prise en charge chirurgicale. Ces deux études ont une bonne qualité méthodologique notée à 8/10 selon l'échelle PEDro.
-
-L'étude montre après 1 mois de traitement par thérapie manuelle, une amélioration statistiquement significative et une supériorité statistiquement significative, par rapport au groupe contrôle ayant reçu le traitement chirurgical, sur la fonction, la sévérité des symptômes et la force de préhension. Les résultats restent supérieurs de manière statistiquement significative pour le groupe expérimental jusqu'à 3 mois.
-
-Le traitement manuel semble donc aussi efficace et les résultats plus rapides que le traitement chirurgical pour la prise en charge du SCC non sévère chez une population féminine.
-
-### Qu'est-ce que cela donne sur le long terme ?
-
-L'étude de De Las Penas et al 2020 a répondu à cette question, elle est la continuité de l'étude de 2015. Malgré les 3 ans de suivi sans traitement manuel par un kinésithérapeute, les bénéfices ressentis obtenus pendant l'étude sont maintenus sur le long terme.
-
-CE traitement de kinésithérapie semble au moins aussi efficace que la chirurgie dans la prise en charge des patients ayant un SCC.
-
-Au vu de la balance bénéfice/risque, la chirurgie n'est pas la solution la plus recommandée en première intention. On peut dire que l'opération est complémentaire à la kinésithérapie et non l'inverse.
-
+    contentPath: "blog-posts/syndrome-canal-carpien-parcours-soin.md"
 Ces dernières données montrent que le traitement effectué par les kinésithérapeutes est au moins aussi efficace que le traitement chirurgical, pas plus efficace. Cependant il manque l'analyse de l'aspect économique.
 
 Fernandez De Las Penas a encore une fois effectué une étude sur le SCC et cette fois-ci il a analysé et comparé le coût d'un traitement conservateur et d'un traitement chirurgical.

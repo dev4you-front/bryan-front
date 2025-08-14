@@ -6,6 +6,9 @@ import remarkGfm from "remark-gfm";
 import rehypeRaw from "rehype-raw";
 import Image from "next/image";
 import SectionWrapper from "@/app/components/SectionWrapper";
+import fs from 'fs';
+import path from 'path';
+import matter from 'gray-matter';
 
 interface BlogArticlePageProps {
   params: {
@@ -26,6 +29,19 @@ export default async function BlogArticlePage({ params }: BlogArticlePageProps) 
   );
 
   if (!article) {
+    notFound();
+  }
+
+  // Charger le contenu du fichier Markdown
+  const contentPath = path.join(process.cwd(), 'src/data', article.contentPath);
+  let content = '';
+  
+  try {
+    const fileContent = fs.readFileSync(contentPath, 'utf8');
+    const { content: markdownContent } = matter(fileContent);
+    content = markdownContent;
+  } catch (error) {
+    console.error('Erreur lors du chargement du contenu:', error);
     notFound();
   }
 
@@ -57,7 +73,7 @@ export default async function BlogArticlePage({ params }: BlogArticlePageProps) 
             remarkPlugins={[remarkGfm]}
             rehypePlugins={[rehypeRaw]}
           >
-            {article.content}
+            {content}
           </ReactMarkdown>
         </div>
 
