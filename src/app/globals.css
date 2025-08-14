@@ -37,8 +37,8 @@ body {
 /* Carousel buttons and bullets to mimic Twig styles */
 .custom-swiper-arrow {
   top: 50% !important;
-  width: 64px !important;
-  height: 64px !important;
+  width: 48px !important;
+  height: 48px !important;
   background: transparent !important;
   color: var(--color-brandviolet) !important;
   border-radius: 9999px !important;
@@ -46,7 +46,7 @@ body {
   display: flex !important;
   align-items: center;
   justify-content: center;
-  font-size: 3.2rem !important;
+  font-size: 2.4rem !important;
   font-weight: 900;
   z-index: 10;
   border: none !important;
