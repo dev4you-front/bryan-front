@@ -46,4 +46,13 @@ export const blogArticles: Article[] = [
     link: "/blog/lesions-ischio-jambiers",
     contentPath: 'blog-posts/lesions-ischio-jambiers.md',
   },
+  {
+    title: "Les lésions aiguës des ischio-jambiers : comprendre et optimiser la prise en charge",
+    image: "https://www.kinefact.com/wp-content/uploads/2020/07/og-image-07.jpg",
+    excerpt: "Lors de la première partie, nous avons exploré quelques problématiques liées aux prescriptions médicales en France, le haut taux de récurrence, d'incidence et de prévalence. Maintenant passons à la suite et entrons dans le vif du sujet avec les subtilités de la prise en charge.",
+    date: "2020-08-07",
+    author: "Bryan Littré",
+    link: "/blog/lesions-ischio-jambiers-prise-en-charge",
+    contentPath: 'blog-posts/lesions-ischio-jambiers-prise-en-charge.md',
+  },
 ];
