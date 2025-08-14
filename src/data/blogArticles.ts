@@ -293,7 +293,7 @@ Voici la fin de la première partie, permettant de mettre un socle commun pour l
 `,
   },
   {
-    title: "Syndrome du canal carpien, pourquoi sommes-nous négligés du parcours de soin ? (Partie 2/3)",
+    title: "Syndrome du canal carpien, pourquoi sommes-nous négligés du parcours de soin ? 2/3",
     image: "https://www.kinefact.com/wp-content/uploads/2021/01/tumblr_o16n2kBlpX1ta3qyvo1_1280.jpg",
     excerpt: "Dans cette deuxième partie, Bryan Littré explore les enjeux économiques et sanitaires du syndrome du canal carpien, analyse les différences entre les systèmes de santé français et anglais, et questionne la place des kinésithérapeutes dans le parcours de soin.",
     date: "2021-02-19",
