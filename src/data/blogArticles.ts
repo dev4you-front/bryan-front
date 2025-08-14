@@ -2,187 +2,169 @@ import { Article } from "@/types";
 
 export const blogArticles: Article[] = [
   {
-    title: "La biomécanique des étirements ?",
-    image: "https://www.kinefact.com/wp-content/uploads/2019/08/stretching-498256_1920-300x200.jpg",
-    excerpt: "Bryan LITTRE, après un article couronné de succès sur l'examen des douleurs neuropathiques, revient nous étonner avec une nouvelle publication sur les étirements. Son premier billet, lu par plus de 6000 personnes sur notre blog, permettait de mettre au clair un sujet complexe, et nul doute qu'à la lecture de cet article vous trouverez de nouvelles perles de connaissances.",
-    date: "2019-09-18",
+    title: "En fait, comment ça marche un étirement ?",
+    image: "https://www.kinefact.com/wp-content/uploads/2019/10/cat-814952_1920.jpg",
+    excerpt: "Dans l'article précédent, Bryan Littre nous a présenté les différentes théories pouvant expliquer les gains obtenus par les diverses techniques d'étirement, en s'appuyant notamment sur les travaux de Moltubakk. Dans l'article du jour, on va regarder comment la littérature peut nous aider à trancher en faveur de l'une ou de l'autre. En conclusion, Bryan raconte comment la connaissance de ces données très théoriques a un réel impact sur sa pratique.",
+    date: "2019-10-04",
     author: "Bryan Littré",
-    link: "/blog/la-biomecanique-des-etirements",
+    link: "/blog/comment-ca-marche-un-etirement",
     content: `
-      <div class="entry-content">
-        <div class="pf-content">
-          <h1 style="text-align: center;"><span style="font-family: Calibri, serif;"><span style="font-size: xx-large;">La biomécanique des étirements ?</span></span></h1>
-          <p><img decoding="async" class=" wp-image-600 alignleft" style="font-family: Calibri, serif;" src="https://www.kinefact.com/wp-content/uploads/2019/08/stretching-498256_1920-300x200.jpg" alt="Femme en difficulté pour s'étirer" width="321" height="214" srcset="https://www.kinefact.com/wp-content/uploads/2019/08/stretching-498256_1920-300x200.jpg 300w, https://www.kinefact.com/wp-content/uploads/2019/08/stretching-498256_1920-768x512.jpg 768w, https://www.kinefact.com/wp-content/uploads/2019/08/stretching-498256_1920-1024x683.jpg 1024w, https://www.kinefact.com/wp-content/uploads/2019/08/stretching-498256_1920.jpg 1920w" sizes="(max-width: 321px) 100vw, 321px"></p>
-          <p><span style="font-size: 10pt;"><b style="font-family: Calibri, serif;">Aide à la relecture&nbsp;: Benjamin Heng, Anthony Halimi, Robin Vervaeke, Elsa Steinbach</b></span></p>
-          <p style="text-align: justify;"><em>Bryan LITTRE, après un article couronné de succès sur l'examen des douleurs neuropathiques, revient nous étonner avec une nouvelle publication sur les étirements. Son premier billet, lu par plus de 6000 personnes sur notre blog, permettait de mettre au clair un sujet complexe, et nul doute qu'à la lecture de cet article vous trouverez de nouvelles perles de connaissances. </em></p>
-          <p style="text-align: justify;"><em>Bonne lecture.</em></p>
-          <hr>
-          <p style="text-align: justify;"><span style="font-family: georgia, palatino, serif;">Voici l'histoire de quelques patients que j'ai pu voir sur ces deux dernières années.</span></p>
-          <ul style="text-align: justify;">
-          <li><span style="font-family: georgia, palatino, serif;">Mme B1 était une ancienne athlète en Gymnastique Rythmique (GRS) qui, suite à un accident, déclencha un Syndrome Douloureux Régional Complexe à son genou. Ne vous inquiétez pas pour elle, elle va mieux depuis et a même repris le surf !</span></li>
-          </ul>
-          <p style="padding-left: 40px; text-align: justify;">Cependant une chose intrigante dans cette histoire devrait vous intéresser. Lorsqu'elle s'est blessée à ses 15 ans, elle m'a raconté qu'elle ne savait pas faire les trois grands écarts. Aujourd'hui, à 18 ans alors qu'elle n'a pu faire <strong>aucun</strong> entrainement et n'a pas réalisé d'étirements depuis 3 ans, elle m'a dit pouvoir en réaliser au moins deux sans difficulté et le troisième presque totalement. Cette période de 3 ans correspond pourtant à la période où elle avait son SDRC.</p>
-          <ul style="text-align: justify;">
-          <li><span style="font-family: georgia, palatino, serif;">Une autre patiente Mme B2, suite à un traumatisme récent et une longue immobilisation de plus de 4 semaines, se retrouvait avec un genou très douloureux et très peu mobile. Mme B2 n'arrivait pas à plier son genou à plus de 80°, d'abord à cause de la douleur, puis par sensation de réel blocage. Après une technique «&nbsp;magique&nbsp;» (qui s'appelle l'exercice physique intense), elle a gagné environ 20° (à vue d'œil). Elle ressentait moins de raideur durant la flexion, et un blocage n'apparaissant qu'en toute fin d'amplitude articulaire. J'ai également d'autres exemples au cabinet qui m'ont permis, grâce au mouvement imaginé (imagerie motrice) ou parfois&nbsp; grâce à la thérapie miroir, de retrouver une&nbsp; plus grande amplitude avec moins de douleur.</span></li>
-          </ul>
-          <ul style="text-align: justify;">
-          <li><span style="font-family: georgia, palatino, serif;">Un dernier patient Mr DS, 28ans, atteint de paralysie cérébrale depuis la naissance, vient me voir au cabinet suite à un problème au genou. La prise en charge de ce genou se termina rapidement, mais il restait encore quelques séances. Nous les avons donc utilisées afin d'améliorer sa qualité de vie, à sa demande. Il voulait gagner en amplitude articulaire afin de pouvoir marcher plus vite, ou courir. Je me suis donc mis à l'étirer en m'aidant de tout mon poids (90kg) comme un gros bourrin, dans le but de gagner de l'amplitude en dorsiflexion de cheville, extension de genou (ischio-jambiers) et adduction (adducteurs). Croyez-le ou non, mais en 2 semaines, il m'avait déjà signalé une amélioration au niveau de ses sensations dans la vie courante, et pouvait désormais poser le talon au sol (ce qui n'avait pas été possible depuis des années). </span></li>
-          </ul>
-          <p style="padding-left: 40px; text-align: justify;"><span style="font-family: georgia, palatino, serif;">Je ne crois pas que ce soit en 4 fois 45 minutes de séances comprenant des étirements de tout le corps et quelques exercices qui ont permis d'allonger ses tissus. Je ne pense pas être assez fort pour cela. En plus, il avait déjà effectué beaucoup de séances d'étirements étant jeune, mais cela ne l'avait pas empêché d'avoir besoin de différentes ténotomies (Achilles, Adducteurs). Par contre, nos séances semblent avoir amélioré sa condition de manière observable et objectivable (dorsiflexion de cheville, SLUMP actif) Afin d'étirer le mollet de ce patient, j'avais pris comme option une position en décubitus ventral, son genou fléchi à 90°. Je posais alors mes avant-bras sur son pied et me servais de mon poids de corps afin de l'amener vers la dorsiflexion. Cette manœuvre, qui était perçue comme douloureuse les premières séances, ne l'était plus quelques semaines après.</span></p>
-          <p style="text-align: justify;"><img loading="lazy" decoding="async" class="wp-image-604 aligncenter" src="https://www.kinefact.com/wp-content/uploads/2019/09/bryan-waht-300x248.jpg" alt="" width="342" height="283" srcset="https://www.kinefact.com/wp-content/uploads/2019/09/bryan-waht-300x248.jpg 300w, https://www.kinefact.com/wp-content/uploads/2019/09/bryan-waht-768x635.jpg 768w, https://www.kinefact.com/wp-content/uploads/2019/09/bryan-waht.jpg 898w" sizes="auto, (max-width: 342px) 100vw, 342px"></p>
-          <p style="text-align: justify;"><span style="font-family: georgia, palatino, serif;">Quels concepts théoriques à propos des étirements pourraient expliquer que cette patiente B1 parvienne à réaliser des mouvements qui ne sont accessibles dans l'imaginaire collectif que grâce à des étirements longs, fastidieux et intenses ? </span></p>
-          <p style="text-align: justify;"><span style="font-family: georgia, palatino, serif;">Quels éléments expliqueraient qu'elle atteigne le stade ultime de souplesse sans travail ?</span></p>
-          <p style="text-align: justify;"><span style="font-family: georgia, palatino, serif;"> Quel(s) effet(s) de mes techniques pourrai(en)t expliquer l'amélioration de l'état de Mr DS ?</span></p>
-          <p style="text-align: justify;">Peu importe la raison pour laquelle vous faites des étirements : le but de ce billet n'est pas de vous dire quoi faire dans vos cabinets. Le but de ce billet est d'analyser à travers la littérature ce qui pourrait soutenir leur utilisation. Quelles théories testables pourraient expliquer certaines de nos observations cliniques : <em>quand « je mets en course externe » le membre du patient, l'amplitude articulaire disponible peut se retrouver augmentée.</em></p>
-          <p style="text-align: justify;">Que ce soient des étirements statiques, dynamiques, les contractés relâchés … Ils sont tous analysés dans la littérature. <span style="font-family: georgia, palatino, serif;">Ce billet va tenter de répondre à toutes ces questions en s'appuyant sur la littérature en question.</span></p>
-          <p style="text-align: justify;"><span style="font-family: georgia, palatino, serif;">Avant de décrire les deux plus grandes théories actuelles et les problématiques autour de ces théories, il s'impose un récapitulatif des termes liés au sujet des étirements.</span></p>
-          <p style="text-align: justify;">Le terme «&nbsp;<strong>flexibility</strong>&nbsp;» signifie <strong>souplesse</strong> en français.</p>
-          <p style="text-align: justify;"><span style="font-family: georgia, palatino, serif;">«&nbsp;<em>La souplesse est cette capacité et qualité qu'a un être vivant de pouvoir exécuter des mouvements de grande amplitude articulaire par lui-même, ou sous l'influence d'une force extérieure </em>» selon Weineck. La souplesse n'implique pas forcément une déformation du matériau analysé, ou une modification de ses propriétés rhéologiques ou mécaniques.</span></p>
-          <p style="text-align: justify;">Le terme de souplesse est donc plus approprié pour nous français car il n'est pas fermé, et permet d'inclure toutes sortes d'éléments, laissant une probabilité non nulle à certaines théories d'exister sans en mettre une plus en avant. Il appartient donc à la recherche de mettre en avant ces facteurs. La flexibilité n'est pas à confondre avec l'extensibilité.</p>
-          <p style="text-align: justify;"><span style="font-family: georgia, palatino, serif;"><em>L<a href="https://www.cnrtl.fr/definition/extensible">'<strong>extensibilité</strong></a>&nbsp;est la qualité et la propriété qu'ont certains corps d'être extensibles. C'est à dire qui peuvent s'étendre ou être étendu.</em> Ils peuvent être susceptibles d'allongement par addition d'éléments identiques ou ont la possibilité d'être rallongés. L'extensibilité implique donc forcément une modification du matériau étudié.</span></p>
-          <p style="text-align: justify;"><span style="font-family: georgia, palatino, serif;"><em>La <strong>mécanosensibilité neurale</strong> est un sens lié à la perception de la contrainte mécanique subie par le tissu neural. Dit simplement, c'est le système d'alerte du nerf, concernant les sollicitations mécaniques.</em> Il peut être appelé «&nbsp;tolérance à l'étirement&nbsp;» (Coppieter 2016&nbsp;; Schmid et coll. 2018). Si vous voulez en savoir plus sur la mécanosensibilité neurale, nous en avons déjà parlé dans <a href="https://www.kinefact.com/douleurs-neuropathiques-et-neurodynamique/les-meilleurs-elements-diagnostiques-des-neuropathies/">un ancien post.</a></span></p>
-          <p style="text-align: justify;"><span style="font-family: georgia, palatino, serif;">La mécanosensibilité neurale est le phénomène pouvant expliquer en partie les diminutions d'amplitude articulaire supportables liées à certaines positions (lors d'un SLUMP ou d'un SLR), chez les gens sains ou ayant des névralgies. La mécanosensibilité neurale peut être vue comme le système d'alerte intrinsèque au système nerveux périphérique, modulé par les stimulations chimiques et mécaniques.</span></p>
-          <p style="text-align: justify;"><span style="font-family: georgia, palatino, serif;">Voici deux des théories les plus diffusées, tentant d'expliquer le gain d'amplitude après des positions en allongement de membre : </span></p>
-          <ul style="text-align: justify;">
-          <li><span style="font-family: georgia, palatino, serif;"><span style="color: #0070c0;"><span style="color: #0070c0; font-family: georgia, palatino, serif;"><b>Théorie</b></span><span style="font-family: georgia, palatino, serif; color: #0070c0;"><b>&nbsp;neuro-sensorielle&nbsp;</b></span></span><span style="font-family: georgia, palatino, serif;">: Cette théorie impliquerait des modifications du système nerveux, que ce soit dans la tolérance à l'étirement, à la douleur, ou dans la modification du réflexe myotatique. (Moltubalkk 2019)</span></span></li>
-          </ul>
-          <ul style="text-align: justify;">
-          <li><span style="font-family: georgia, palatino, serif;"><strong><span style="color: #0070c0;">Théorie mécanique&nbsp;</span>:</strong> Cette théorie implique des modifications du complexe muscle-tendon au travers de leurs propriétés visco-élastiques, suite à des contraintes tensiles. Que ce soit de part la longueur des fascicules, l'angle de pennation des fibres musculaires, la longueur du tendon au repos, la composition en collagène des tissus … Cela implique également une notion de temps, et de modification des propriétés visco-élastiques du tissu étudié : plus on en fait, plus le tissu est extensible. (Moltubakk 2019)</span></li>
-          </ul>
-          <p style="text-align: justify;"><span style="font-family: georgia, palatino, serif;"><br>
-          Ces théories ne sont pas forcément concurrentes et peuvent coexister. Un élément essentiel à ne pas oublier, c'est que la biomécanique permet de réfuter les théories mécaniques. </span></p>
-          <p style="text-align: justify;"><span style="font-family: georgia, palatino, serif;">De nombreuses études ont montré que le lien entre biomécanique et clinique n'était pas aussi simple qu'on pouvait le penser, comme le fait qu'il existe peu ou pas de lien entre posture et douleur, ou l'existence d'anomalies à l'imagerie médicale pourtant asymptomatiques pour les patients. Nous en avions déjà parlé<a href="https://www.kinefact.com/raisonnement-clinique/les-mythes-et-mauvaises-conceptions-en-kinesitherapie/"> ici</a>.</span></p>
-          <p style="text-align: justify;"><span style="font-family: georgia, palatino, serif;">Au sein de la multitude de critères de jugement possibles, en existe –t-il des plus pertinents&nbsp;?</span></p>
-          <p style="text-align: justify;"><span style="font-size: 18pt;"><strong>OUI</strong> </span></p>
-          <p style="text-align: justify;">Seule l'étude de l'architecture du complexe muscle-tendon semble pertinente afin de vérifier si il s'est produit une action mécanique ayant une répercussion sur les propriétés du tissu. Cela passe par l'imagerie médicale (l'échographie ou l'IRM), en étudiant par exemple la longueur des fascicules, parfois au travers de l'angulation de ces derniers (angle de pennation). De plus, on aura du mal à différencier ces éléments si l'architecture musculaire est dépendante de l'activité myoélectrique du muscle.</p>
-          <p style="text-align: justify;">La « raideur musculaire » n'est pas un critère de jugement pertinent. En effet, les contractions musculaires liées à une stimulation nerveuse ne peuvent être exclues (« muscle stiffness » par le calcul du module d'élasticité grâce à l'élastrographe). Il en est de même pour la mesure du couple de force à un angle donné (« peak torque angle »). Tout d'abord, parce que la modification de la raideur peut être liée à une augmentation de la tolérance à l'étirement (théorie neuro-sensorielle), indiquant que le complexe muscle-tendon peut tolérer une tension passive plus importante après l'intervention. Cette modification pourrait également être due à un changement des propriétés mécaniques du complexe musculo-tendineux (par exemple, la diminution de la rigidité des tissus) ou de sa géométrie (par exemple. l'augmentation de la longueur des fascicules)</p>
-          <p style="text-align: justify;"><span style="font-family: georgia, palatino, serif;"><br>
-          L'amplitude articulaire (Range of Motion : ROM) n'est pas adaptée, car elle ne permet pas de trancher quant à l'implication des théories sur les études. <strong>Cependant, nous sommes sûrs d'une chose : faire des assouplissements permet d'obtenir un gain d'amplitude.</strong></span></p>
-          <p style="text-align: justify;">Concernant la théorie neuro-sensorielle, l'ENMG serait pertinent afin d'évaluer uniquement l'existence d'un changement au sein du réflexe myotatique. Il permettrait également de vérifier l'état contractile du muscle étudié tout le long d'un étirement. Ce critère ne permet malheureusement pas d'analyser la tolérance à l'étirement.</p>
-          <p style="text-align: justify;"><span style="font-family: georgia, palatino, serif;"><br>
-          Afin d'étayer ce propos, intéressons-nous à quelques études. La revue de Bonser, Hancock et coll. a proposé la problématique : « <i>Dans une population active, quel-est l'effet de la mobilisation neurodynamique par rapport à l'étirement ou la facilitation proprioceptive neuromusculaire (PNF ou contracté relâché) ? »<br>
-          </i>Celle-ci a pu extraire trois études, 1 comparative et 2 essais contrôlés randomisés. Si je me base sur ses critères pour faire une revue en 2019, une dernière étude vient étoffer les données existantes. Voici ce qui ressort selon chaque étude :<i> </i></span></p>
-          <ul style="text-align: justify;">
-          <li><span style="font-family: georgia, palatino, serif;">Pour Castellote-Caballero et al, il y a une supériorité des manœuvres neurodynamiques comparativement à un étirement statique concernant l'amplitude articulaire des membres inférieurs (souplesse des ischio-jambiers). Cette étude était la plus rigoureuse méthodologiquement ainsi que celle ayant la puissance statistique la plus importante. Cela est lié en partie au nombre important de patients présents au sein de l'étude.</span></li>
-          <li><span style="font-family: georgia, palatino, serif;">Pour Pagare et al, il n'y a aucune différence concernant le gain d'amplitude entre les manœuvres neurodynamiques et l'étirement statique.</span></li>
-          <li><span style="font-family: georgia, palatino, serif;">Pour Vidhi et al, c'est le mystère. Cette étude comparative (qui est la moins rigoureuse méthodologiquement) a comparé les manœuvres neurodynamiques au contracté relâché. Entre les conclusions de l'étude et ce que l'on trouve dans les tableaux il y a un gra<span style="font-size: 14pt;">a</span><span style="font-size: 18pt;">a<span style="font-size: 14pt;">a</span></span>and écart. Ils annoncent que le contracté relâché est meilleur alors que les chiffres au sein des résultats sont en faveur des manœuvres neurodynamiques. Il m'est donc impossible de conclure concernant cette étude. </span><span style="font-family: georgia, palatino, serif; font-size: 12pt;">Je me demande d'ailleurs ce que quelqu'un d'autre pourrait conclure de cette étude sans demander les résultats directement à l'équipe en question.</span></li>
-          <li><span style="font-family: georgia, palatino, serif;">Une dernière étude peut venir se greffer à cette revue, celle de Adel Rashad Amed et al 2016. Les auteurs observent un gain d'amplitude articulaire au sein des deux groupes, avec une supériorité statistiquement significative pour le groupe recevant les mobilisations neurodynamiques, comparativement au groupe recevant l'étirement statique. Mais la différence est seulement de 4°.</span></li>
-          </ul>
-          <p style="text-align: justify;"><span style="font-family: georgia, palatino, serif;">Il existe donc des preuves de grade B, que les neuro-glissements semblent au moins aussi performants que les techniques d'étirements traditionnelles afin d'obtenir un gain d'amplitude articulaire. Les patients manquant de souplesse au niveau des ischio-jambiers pourraient donc bénéficier de ces manœuvres à visée de gain d'amplitude articulaire.</span></p>
-          <p style="text-align: justify;"><img loading="lazy" decoding="async" class=" wp-image-588 alignright" style="color: #1d2129; font-family: georgia, palatino, serif;" src="https://www.kinefact.com/wp-content/uploads/2019/08/fluage-300x126.png" alt="" width="412" height="173" srcset="https://www.kinefact.com/wp-content/uploads/2019/08/fluage-300x126.png 300w, https://www.kinefact.com/wp-content/uploads/2019/08/fluage.png 566w" sizes="auto, (max-width: 412px) 100vw, 412px"></p>
-          <p style="text-align: justify;"><span style="color: #1d2129; font-family: georgia, palatino, serif;">La neurodynamique étant fortement liée à la tolérance à l'étirement, il est très peu probable que des modifications tissulaires puissent&nbsp;s'opérer avec car la stimulation sur le tissu musculaire en fin d'amplitude active est très (trop) courte. La première limite semble être le système nerveux et si il devait y avoir un effet de fluage, ce ne se passerait pas avec ce genre de stimulations. </span></p>
-          <p style="text-align: justify;"><span style="font-family: georgia, palatino, serif;"><span style="color: #1d2129;">Le gain est-il donc plus lié à une adaptation du système nerveux, ou à une adaptation du système nerveux couplé à la modification des propriétés mécaniques du complexe muscle/tendon ?</span></span></p>
-          <p style="text-align: justify;">Les études sur les animaux indiquent que les muscles sont très adaptables. On observe un gain de l'extensibilité (gain de longueur sur les tissus) en réponse à l'étirement. Toutefois, les essais récents portant sur des sujets sains qui ont été réalisés, indiquent que l'analyse in-vivo ne ne reflète pas l'analyse in-vitro des muscles de petits animaux ou d'humains. (Bjorklund et colL. 2001 ; Folpp et coll. 2006 ; Harvey et coll. 2006 ; Refshauge et coll. 2006)</p>
-          <p style="text-align: justify;"><span style="font-family: georgia, palatino, serif;">Pour nous aider dans l'avancée de cette réflexion, nous allons nous servir d'excellents papiers récents : le premier est la thèse de Marie Moltubakk menée en 2019, le deuxième est une revue systématique avec méta-analyse menée par Freitas et coll. en 2018.</span></p>
-          <p style="text-align: justify;"><span style="font-family: georgia, palatino, serif;">La thèse de M.Moltubakk se base sur 4 articles et études qu'elle a mené avec son équipe.</span></p>
-          <p style="text-align: justify;"><span style="font-family: georgia, palatino, serif;">Voici ce que l'on peut extraire de ces données, ainsi qu'une synthèse d'analyse&nbsp;: </span></p>
-          <blockquote><p><strong><span style="font-family: georgia, palatino, serif;"><span lang="en-US"><br>
-          </span></span></strong><span style="font-family: georgia, palatino, serif;"><span style="font-size: 14pt;"><span style="color: #0070c0;"><span lang="en-US">I. Moltubakk, M. M., Eriksrud, O., Paulsen, G., Seynnes, O. R., &amp; Bojsen-Moller, J. (2016).</span></span></span></span></p>
-          <p><span style="font-size: 14pt;"><strong><span style="color: #0070c0; font-family: georgia, palatino, serif;"><span lang="en-US">Hamstrings functional properties in athletes with high musculo-skeletal flexibility.</span></span></strong></span></p>
-          <p><span style="font-size: 14pt;"><strong><span style="font-family: georgia, palatino, serif;"><span style="color: #0070c0;"><span lang="en-US"><i>Scandinavian Journal of Medicine and Science in Sports, 26</i></span></span><span style="color: #0070c0;"><span lang="en-US">, 659-665.</span></span></span></strong></span></p></blockquote>
-          <p style="text-align: justify;"><span style="font-family: georgia, palatino, serif;">Le premier article a pour but de comparer les propriétés mécaniques et contractiles du complexe muscle-tendon au sein des muscles ischio-jambiers, en passif et en actif, entre une population de danseuses et un groupe contrôle. Voici ce qu'ils arrivent à observer : </span></p>
-          <ul style="text-align: justify;">
-          <li><span style="font-family: georgia, palatino, serif;">Une plus grande flexibilité au sein de la population de danseuses (score de Beighton)</span></li>
-          <li><span style="font-family: georgia, palatino, serif;">Une résistance moins importante à l'étirement passif lors de l'extension du genou pour le groupe expérimental</span></li>
-          <li><span style="font-family: georgia, palatino, serif;">La résistance passive en fin d'extension de genou est similaire pour les deux groupes</span></li>
-          <li><span style="font-family: georgia, palatino, serif;">L'analyse de la force active et de la résistance passive en extension tend à mettre en évidence une amplitude fonctionnelle plus importante concernant le groupe expérimental. La force active peut-être élevée durant une plus large amplitude articulaire. </span></li>
-          </ul>
-          <blockquote><p><span style="color: #0070c0; font-family: georgia, palatino, serif; font-size: 14pt;"><span lang="en-US">II. Moltubakk, M. M., Magulas, M. M., Villars, F. O., Seynnes, O. R., &amp; Bojsen-Moller, J.</span></span></p>
-          <p><strong><span style="color: #0070c0; font-family: georgia, palatino, serif; font-size: 14pt;"><span lang="en-US"> (2018). Specialized properties of the triceps surae muscle-tendon unit in professional </span></span></strong><strong><span style="font-family: georgia, palatino, serif; font-size: 14pt;"><span style="color: #0070c0;"><span lang="en-US">ballet dancers. </span></span></span></strong></p>
-          <p><strong><span style="font-family: georgia, palatino, serif; font-size: 14pt;"><span style="color: #0070c0;"><span lang="en-US"><i>Scandinavian Journal of Medicine and Science in Sports</i></span></span><span style="color: #0070c0;"><span lang="en-US">. </span></span><span style="color: #0070c0;">2018 May 3.</span></span></strong></p></blockquote>
-          <p style="text-align: justify;"><span style="font-family: georgia, palatino, serif;">Le deuxième article a pour but de vérifier s'il existe des différences de propriétés neuromusculaires entre une population pratiquant des étirements régulièrement sur plusieurs années et une autre n'en pratiquant pas.</span></p>
-          <p style="text-align: justify;"><span style="font-family: georgia, palatino, serif;">Ce papier nous permet de mettre en évidence que lorsque l'on compare 2 groupes, l'un contenant des danseurs de ballets (expérimental), et des gens issus de la population active ne faisant pas d'étirements réguliers (contrôle), nous observons : </span></p>
-          <ul style="text-align: justify;">
-          <li><span style="font-family: georgia, palatino, serif;">Une amplitude de cheville plus importante et moins de douleurs ressenties en fin d'amplitude pour le groupe de danseurs de ballet</span></li>
-          <li><span style="font-family: georgia, palatino, serif;">Une longueur et une épaisseur plus importantes des fascicules des muscles gastrocnémiens pour le groupe expérimental, que cela soit au repos ou à l'étirement</span></li>
-          <li><span style="font-family: georgia, palatino, serif;">L'angle de pennation des muscles semble identique au sein des deux populations ciblées</span></li>
-          <li><span style="font-family: georgia, palatino, serif;">Les danseurs tolèrent plus facilement l'étirement lent et passif, cependant en fin d'amplitude, la force passive mesurée et la rigidité sont similaires au sein des muscles des deux groupes (« passive torque and passive joint stiffness ») </span></li>
-          <li><span style="font-family: georgia, palatino, serif;">Tout le long du mouvement d'étirement en passif, on observe une résistance plus importante pour le groupe contrôle (passive torque)</span></li>
-          <li><span style="font-family: georgia, palatino, serif;">Une activité myo-électrique plus faible chez les danseurs que dans le groupe contrôle lors d'un étirement passif</span></li>
-          <li><span style="font-family: georgia, palatino, serif;">La rigidité tendineuse, mesurée à l'élastographe, semble diminuée chez le groupe de danseurs comparativement au groupe contrôle</span></li>
-          </ul>
-          <blockquote><p><span style="color: #0070c0; font-family: georgia, palatino, serif; font-size: 14pt;"><span lang="en-US">III. Moltubakk, M. M., Villars, F. O., Magulas, M. M., Magnusson S. P., Seynnes, O. R., &amp; </span></span><span style="color: #0070c0; font-family: georgia, palatino, serif; font-size: 14pt;"><span lang="en-US">Bojsen-Moller, J. </span></span></p>
-          <p><strong><span style="color: #0070c0; font-family: georgia, palatino, serif; font-size: 14pt;"><span lang="en-US">Altered triceps surae muscle-tendon properties after 6 months of </span></span><span style="color: #0070c0; font-family: georgia, palatino, serif; font-size: 14pt;">unilateral stretching. </span></strong></p></blockquote>
-          <p style="text-align: justify;"><span style="font-family: georgia, palatino, serif;">La troisième expérience est une étude comparative, évaluant l'effet de 6 mois d'étirements unilatéraux du segment jambier postérieur, ainsi que la propriété du complexe muscle-tendon.</span></p>
-          <p style="text-align: justify;"><span style="font-family: georgia, palatino, serif;">Après 24 semaines d'un protocole d'étirements statiques sur une seule jambe (groupe expérimental) Le groupe contrôle est constitué des jambes opposées <u>et ne subit aucune intervention</u>. Les étirements sont reproduits un minimum de 4 fois une minute par jour&nbsp;pour le groupe expérimental : </span></p>
-          <ul style="text-align: justify;">
-          <li><span style="font-family: georgia, palatino, serif;">Suite à l'intervention, on observe une augmentation de l'amplitude de mouvement au sein des deux groupes (majorée dans le groupe expérimental) </span></li>
-          <li><span style="font-family: georgia, palatino, serif;">Aucune modification de la longueur des fascicules des gastrocnemiens médiaux n'est observée en position neutre, aucune modification de la raideur ou de la taille du tendon achilléen (insertion avec les gastrocnémiens) </span></li>
-          <li><span style="font-family: georgia, palatino, serif;">La douleur perçue durant l'étirement passif n'est pas modifiée en fin d'amplitude mais elle l'est durant le mouvement.</span></li>
-          <li><span style="font-family: georgia, palatino, serif;">La force isométrique et concentrique des muscles est restée inchangée peu importe&nbsp;l'angulation de la cheville.</span></li>
-          <li><span style="font-family: georgia, palatino, serif;">Les forces de tension passive semblent diminuées le long du mouvement de dorsiflexion après l'intervention au sein du groupe expérimental.</span></li>
-          <li><span style="font-family: georgia, palatino, serif;">Il est observé une augmentation de l'élongation des fascicules des gastrocnémiens en fin d'amplitude de dorsiflexion<b>, </b><u><b>AU SEIN DES DEUX GROUPES</b></u>, sans différence entre les groupes, après l'intervention.</span></li>
-          </ul>
-          <ul style="text-align: justify;">
-          <li><span style="font-family: georgia, palatino, serif;">En position de dorsiflexion après une stimulation passive, il est observé une augmentation de la longueur du tendon d'Achille (insertion gastrocnémiens et soléaire) au sein des deux groupes avec cependant une supériorité statistiquement significative au sein du groupe expérimental.</span></li>
-          <li><span style="font-family: georgia, palatino, serif;">Une augmentation de l'élongation des fascicules du muscle soléaire pour le groupe expérimental comparativement au groupe contrôle qui n'observe aucune modification après intervention (fin d'amplitude de dorsiflexion)</span></li>
-          </ul>
-          <blockquote><p><span style="font-size: 14pt;"><span style="color: #0070c0; font-family: georgia, palatino, serif;">IV. Moltubakk, M. M., Svensson, R. B., Magnusson S. P., Suetta, C., Raastad, T., Seynnes, O. </span><span style="color: #0070c0; font-family: georgia, palatino, serif;"><span lang="en-US">R., &amp; Bojsen-Moller, J. </span></span></span></p>
-          <p><strong><span style="font-size: 14pt;"><span style="color: #0070c0; font-family: georgia, palatino, serif;"><span lang="en-US">Effects of 6-month stretching training on collagen content of </span></span><span style="color: #0070c0; font-family: georgia, palatino, serif;">the human soleus muscle. </span></span></strong></p></blockquote>
-          <p style="text-align: justify;"><span style="font-family: georgia, palatino, serif;">Ce dernier article est une étude comparative ayant pour but d'évaluer la composition en collagène (tissu conjonctif) au sein des muscles avant puis après une intervention de 6 mois d'étirements réalisés uniquement sur le groupe expérimental. Ce programme est administré sur une jambe, l'autre servant de groupe contrôle : </span></p>
-          <ul style="text-align: justify;">
-          <li><span style="font-family: georgia, palatino, serif;">On observe une amélioration de l'amplitude de la cheville en dorsiflexion pour les deux groupes.</span></li>
-          <li><span style="font-family: georgia, palatino, serif;">L'intensité de la douleur perçue par les sujets semble diminuée du début de l'étirement jusqu'à un certain point.</span></li>
-          <li><span style="font-family: georgia, palatino, serif;">Aucune modification des propriétés morphologiques du tendon d'Achille ou des fascicules des gastrocnemiens n'est observée au sein des deux groupes.</span></li>
-          <li><span style="font-family: georgia, palatino, serif;">Le contenu intra-musculaire en collagène du soléaire ne semble pas être modifié après 24 semaines d'étirements, alors que l'amplitude de mouvement et la résistance passive à l'étirement sont modifiées.</span></li>
-          </ul>
-          <p style="text-align: justify;"><span style="font-family: georgia, palatino, serif;">Récapitulons ainsi ce que ces études ont pu mettre en avant dans les conditions expérimentales décrites : </span></p>
-          <p style="padding-left: 40px; text-align: justify;"><span style="font-family: georgia, palatino, serif;"><span style="color: #0000ff;"><strong>1.</strong> </span>L'amplitude de dorsiflexion de la cheville et de flexion de la hanche étaient plus importantes chez les danseurs de ballet ou gymnastes avec des années d'entraînement d'étirement par rapport aux groupes contrôles. L'amplitude de dorsiflexion de la cheville et d'extension du genou ont augmenté après 8 semaines d'étirement.</span></p>
-          <p style="padding-left: 40px; text-align: justify;"><span style="font-family: georgia, palatino, serif;"><strong><span style="color: #0000ff;">2.</span> </strong>La résistance passive tout le long du mouvement était plus faible chez les gymnastes que chez le groupe contrôle pour l'extension du genou ainsi que la dorsiflexion de la cheville.</span></p>
-          <p style="text-align: justify;"><span style="font-family: georgia, palatino, serif;">La résistance passive de l'articulation de la cheville en position neutre de dorsiflexion – mais pas à l'extension du genou- a été réduite après 24 semaines d'étirement. </span></p>
-          <p style="text-align: justify;"><span style="font-family: georgia, palatino, serif;">La résistance passive en position maximale de l'articulation était similaire entre les danseurs et les groupes témoins, mais a augmenté chez les sujets qui ont subi 24 semaines d'étirements.</span></p>
-          <p style="padding-left: 40px; text-align: justify;"><span style="font-family: georgia, palatino, serif;"><strong><span style="color: #0000ff;">3.</span> </strong>Les amplitudes de l'EMG des triceps suraux à un angle articulaire donné pour la dorsiflexion passive étaient les suivantes&nbsp;: </span></p>
-          <ul style="text-align: justify;">
-          <li><span style="font-family: georgia, palatino, serif;">Plus faibles chez les danseurs de ballet que chez les témoins </span></li>
-          <li><span style="font-family: georgia, palatino, serif;">Les amplitudes de l'EMG ont été réduites chez les sujets ayant subi 24 semaines d'étirements, pour les deux jambes, dont une n'ayant pas subi d'étirements.</span></li>
-          </ul>
-          <p style="padding-left: 40px; text-align: justify;"><span style="font-family: georgia, palatino, serif;"><strong><span style="color: #0000ff;">4.</span></strong> Les danseurs de ballet ont montré une plus grande élongation du muscle gastrocnémien par rapport au groupe contrôle, mais la contribution du muscle par rapport au tendon à l'allongement total du complexe muscle-tendon n'était pas différente du groupe contrôle. </span></p>
-          <p style="text-align: justify;"><span style="font-family: georgia, palatino, serif;">Après 24 semaines d'étirement, l'allongement du muscle et du tendon a augmenté, avec une contribution relative accrue du tendon d'Achille, tant à l'insertion du gastrocnémien qu'au niveau du soléaire.</span></p>
-          <p style="padding-left: 40px; text-align: justify;"><span style="font-family: georgia, palatino, serif;"><strong><span style="color: #0000ff;">5.</span> </strong>Les longueurs de repos des faisceaux musculaires et du tendon d'Achille (insertion des gastrocnémiens) étaient plus étendues pour les danseurs de ballet par rapport au groupe contrôle, mais ni l'architecture musculaire, ni la teneur en collagène intramusculaire, ni la longueur du tendon d'Achille n'ont changé pendant ou après les 24 semaines d'étirements.</span></p>
-          <p style="padding-left: 40px; text-align: justify;"><span style="font-family: georgia, palatino, serif;"><strong><span style="color: #0000ff;">6.</span> </strong>Les étirements semblent impliquer des adaptations neurales qui, sur une période de 24 semaines, ont contribué à des changements bilatéraux dans l'amplitude de dorsiflexion de la cheville, également des propriétés de la dorsiflexion passive (tension passive, amplitude EMG, faisceau, allongement musculaire et tendineux), d'allongement du tendon et de tension passive dans une position neutre donnée (à rappeler qu'une seule jambe subissait des étirements).</span></p>
-          <p style="text-align: justify;"><span style="font-family: Calibri, serif;"><span style="font-family: georgia, palatino, serif;">«&nbsp;Si j'ai choisi d'analyser et de parler des études de Moltubakk, c'est parce que les conditions (protocoles) d'expérimentations sont assez claires et précises pour permettre à de futures équipes de répliquer les études, que les outils d'évaluations font partie des meilleurs au vue des avancées technologiques, et que le temps de traitement est assez long pour mettre en évidence un potentiel effet lié au temps de traitement (permettant potentiellement un effet de fluage). Ces données sont à replacer dans le contexte des autres données existantes sur le sujet.&nbsp;»</span><br>
-          </span></p>
-          <p style="text-align: center;"><a href="https://www.kinefact.com/physiologie/biomecanique-des-etirements-partie-ii/">Vous pouvez lire la partie II ici</a>.</p>
-          <p>&nbsp;</p>
-          <hr>
-          <p><strong><span style="font-family: arial, helvetica, sans-serif; font-size: 12pt;">Bibliographie&nbsp;: </span></strong></p>
-          <p><span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: small;"><span lang="en-US">Michel Coppieters. Validity of neurodynamics tests. </span></span><span style="font-size: small;">Congrès IFOMPT 4-8 Juillet 2016 . Glasgow, Ecosse. </span><span style="font-size: small;"><span lang="en-US">6 Juillet 2016</span></span></span></p>
-          <p><span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: small;"><span lang="en-US">Schmid, Annina B., Louise Hailey, and Brigitte Tampin. «&nbsp;Entrapment neuropathies: challenging common beliefs with novel evidence.&nbsp;» </span></span><span style="font-size: small;"><span lang="en-US"><i>journal of orthopaedic &amp; sports physical therapy</i></span></span><span style="font-size: small;"><span lang="en-US"> 48.2 (2018): 58-62.</span></span></span></p>
-          <p><span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: small;"><span lang="en-US">Hancock, Christy, et al. «&nbsp;Changes in hamstring range of motion following proprioceptive neuromuscular facilitation stretching compared with static stretching: a critically appraised topic.&nbsp;» </span></span><span style="font-size: small;"><span lang="en-US"><i>International Journal of Athletic Therapy and Training</i></span></span><span style="font-size: small;"><span lang="en-US"> 21.5 (2016): 1-7.</span></span></span></p>
-          <p><span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: small;"><span lang="en-US">Castellote-Caballero, Yolanda, et al. «&nbsp;Immediate effects of neurodynamic sliding versus muscle stretching on hamstring flexibility in subjects with short hamstring syndrome.&nbsp;» </span></span><span style="font-size: small;"><span lang="en-US"><i>Journal of sports medicine</i></span></span><span style="font-size: small;"><span lang="en-US"> 2014 (2014).</span></span></span></p>
-          <p><span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: small;"><span lang="en-US">Pagare, Venus K., et al. «&nbsp;Effect of neurodynamic sliding technique versus static stretching on hamstring flexibility in football players with short hamstring syndrome.&nbsp;» </span></span><span style="font-size: small;"><span lang="en-US"><i>Journal of Musculoskeletal Research</i></span></span><span style="font-size: small;"><span lang="en-US"> 17.02 (2014): 1450009.</span></span></span></p>
-          <p><span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: small;"><span lang="en-US">Vidhi, Shah, et al. «&nbsp;Comparison of PNF technique with NDS technique for hamstrings tightness in asymptomatic subjects.&nbsp;» </span></span><span style="font-size: small;"><span lang="en-US"><i>Indian Journal of Physiotherapy and Occupational Therapy</i></span></span><span style="font-size: small;"><span lang="en-US"> 8.3 (2014): 158.</span></span></span></p>
-          <p><span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: small;"><span lang="en-US">Ahmed, Adel Rashad, and Ahmed Fathy Samhan. «&nbsp;Short term effects of neurodynamic stretching and static stretching techniques on hamstring muscle flexibility in healthy male subjects.&nbsp;» </span></span><span style="font-size: small;"><span lang="en-US"><i>Int J Med Res Heal Sci</i></span></span><span style="font-size: small;"><span lang="en-US"> 5.5 (2016): 36-41.</span></span></span></p>
-          <p><span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: small;"><span lang="en-US">Björklund, Martin, Jern Hamberg, and Albert G. Crenshaw. «&nbsp;Sensory adaptation after a 2-week stretching regimen of the rectus femoris muscle.&nbsp;» </span></span><span style="font-size: small;"><span lang="en-US"><i>Archives of physical medicine and rehabilitation</i></span></span><span style="font-size: small;"><span lang="en-US"> 82.9 (2001): 1245-1250.</span></span></span></p>
-          <p><span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: small;"><span lang="en-US">Folpp, Hollie, et al. «&nbsp;Can apparent increases in muscle extensibility with regular stretch be explained by changes in tolerance to stretch?.&nbsp;» </span></span><span style="font-size: small;"><span lang="en-US"><i>Australian Journal of Physiotherapy</i></span></span><span style="font-size: small;"><span lang="en-US"> 52.1 (2006): 45-50.</span></span></span></p>
-          <p><span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: small;"><span lang="en-US">Harvey, Lisa, et al. «&nbsp;Twelve weeks of nightly stretch does not reduce thumb web-space contractures in people with a neurological condition: a randomised controlled trial.&nbsp;» </span></span><span style="font-size: small;"><span lang="en-US"><i>Australian Journal of Physiotherapy</i></span></span><span style="font-size: small;"><span lang="en-US"> 52.4 (2006): 251-258. </span></span></span></p>
-          <p><span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: small;"><span lang="en-US">Refshauge, Kathryn M., et al. «&nbsp;Night splinting does not increase ankle range of motion in people with Charcot-Marie-Tooth disease: a randomised, cross-over trial.&nbsp;» </span></span><span style="font-size: small;"><span lang="en-US"><i>Australian Journal of Physiotherapy</i></span></span><span style="font-size: small;"><span lang="en-US"> 52.3 (2006): 193-199.</span></span></span></p>
-          <p><span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: small;"><span lang="en-US">Moltubakk, Marie Margrete Hveem. «&nbsp;Effects of long-term stretching training on muscle-tendon morphology, mechanics and function.&nbsp;» (2019).</span></span></span></p>
-          <p><span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: small;"><span lang="en-US">Freitas, Sandro R., et al. «&nbsp;Can chronic stretching change the muscle‐tendon mechanical properties? A review.&nbsp;» </span></span><span style="font-size: small;"><span lang="en-US"><i>Scandinavian journal of medicine &amp; science in sports</i></span></span><span style="font-size: small;"><span lang="en-US"> 28.3 (2018): 794-806.</span></span></span></p>
-          <p><span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: small;"><span lang="en-US">Itoi, Eiji, Horng-Chaung Hsu, and Kai-Nan An. «&nbsp;Biomechanical investigation of the glenohumeral joint.&nbsp;» </span></span><span style="font-size: small;"><span lang="en-US"><i>Journal of Shoulder and Elbow Surgery</i></span></span><span style="font-size: small;"><span lang="en-US"> 5.5 (1996): 407-424.</span></span></span></p>
-          <p><span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: small;"><span lang="en-US">Miller, B. F., Olesen, J. L., Hansen, M., Dossing, S., Crameri, R. M., Welling, R. J. et al. </span></span><span style="font-size: small;">(2005). </span><span style="font-size: small;"><span lang="en-US">Coordinated collagen and muscle protein synthesis in human patella tendon and quadriceps muscle after exercise. </span></span><span style="font-size: small;"><span lang="en-US"><i>J.Physiol, 567, </i></span></span><span style="font-size: small;"><span lang="en-US">1021-1033.</span></span></span></p>
-          <p><span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: small;"><span lang="en-US">Holm, L., van, H. G., Rose, A. J., Miller, B. F., Doessing, S., Richter, E. A. et al. </span></span><span style="font-size: small;">(2010). </span><span style="font-size: small;"><span lang="en-US">Contraction intensity and feeding affect collagen and myofibrillar protein synthesis rates differently in human skeletal muscle. </span></span><span style="font-size: small;"><span lang="en-US"><i>Am.J.Physiol Endocrinol.Metab, 298, </i></span></span><span style="font-size: small;"><span lang="en-US">E257-E269.</span></span></span></p>
-          <p><span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: small;"><span lang="en-US">Crameri, R. M., Langberg, H., Teisner, B., Magnusson, P., Schroder, H. D., Olesen, J. L. et al. (2004). Enhanced procollagen processing in skeletal muscle after a single bout of eccentric loading in humans. </span></span><span style="font-size: small;"><span lang="en-US"><i>Matrix Biology, 23, </i></span></span><span style="font-size: small;"><span lang="en-US">259-264.</span></span></span></p>
-          <p><span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: small;"><span lang="en-US">Potier TG, Alexander CM, Seynnes OR. Effects of eccentric strength training on biceps femoris muscle architecture and knee joint range of movement. Eur J Appl Physiol 2009: 105: 939–944.</span></span></span></p>
-          <p><span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: small;"><span lang="en-US">Sharifnezhad A, Marzilger R, Arampatzis A. Effects of load magnitude, muscle length and velocity during eccentric chronic loading on the longitudinal growth of the vastus lateralis muscle. J Exp Biol 2014: 217: 2726–2733.</span></span></span></p>
-          <p><span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: small;"><span lang="en-US">McMahon GE, Morse CI, Burden A, Winwood K, Onambele GL. Impact of range of motion during ecologically valid resistance training protocols on</span></span></span></p>
-          <p><span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: small;"><span lang="en-US">muscle size, subcutaneous fat, and strength. J Strength Cond Res 2014: 28: 245–255.</span></span></span></p>
-          <p><span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: small;"><span lang="en-US">Støve, Morten Pallisgaard, Rogerio Pessoto Hirata, and Thorvaldur Skuli Palsson. «&nbsp;Muscle stretching–the potential role of endogenous pain inhibitory modulation on stretch tolerance.&nbsp;» </span></span><span style="font-size: small;"><i>Scandinavian journal of pain</i></span><span style="font-size: small;"> 19.2 (2019): 415-422.</span></span></p>
-        </div>
-      </div>
-    `
+# En fait, comment ça marche un étirement ?
+
+**Aide à la relecture : Benjamin Heng, Anthony Halimi, Robin Vervaeke, Elsa Steinbach**
+
+*Dans [l'article précédent](https://www.kinefact.com/physiologie/biomecanique-des-etirements/), Bryan Littre nous a présenté les différentes théories pouvant expliquer les gains obtenus par les diverses techniques d'étirement, en s'appuyant notamment sur les travaux de Moltubakk. Dans l'article du jour, on va regarder comment la littérature peut nous aider à trancher en faveur de l'une ou de l'autre. En conclusion, Bryan raconte comment la connaissance de ces données très théoriques a un réel impact sur sa pratique.*
+
+---
+
+La meilleure chose à faire est si possible d'observer ce que disent les dernières revues systématiques sur le sujet. Cela tombe bien car une revue récente (de 2018) faite par Freitas et ses collaborateurs explore l'effet des étirements sur les paramètres évalués par l'équipe de Moltubakk.
+
+Cette revue comporte 26 essais comparatifs , où l'intervention du groupe expérimental correspondait à des étirements (peu importe la modalité) de plus de deux semaines.
+
+Certaines nuances sont à apporter afin d'obtenir une meilleure compréhension de cette revue :
+
+> De nombreux auteurs s'accordent pour dire qu'il y a une probabilité forte que l'effet des étirements soit également dépendant du groupe musculo-tendineux étudié et du temps de mise en œuvre du traitement.
+>
+> Les outils de mesure de l'amplitude articulaire peuvent avoir une marge d'erreur non négligeable, certaines données provenant de l'élastographe ou de l'échographe sont parfois inutilisables et souvent les auteurs le signalent en expliquant pourquoi ils ont dû exclure certains patients.
+>
+> Les modalités d'étirements (statique, balistique ou autre) varient également selon les études.
+
+---
+
+Les conclusions de l'équipe de Freitas suite à cette revue restent cohérentes avec les résultats des études menées par Moltubakk :
+
+- On observe une augmentation de la tolérance à l'étirement au sein des populations que nous étirons
+- L'angle de pennation des fascicules semble inchangé malgré l'augmentation d'amplitude articulaire
+- La taille des fascicules en position anatomique semble inchangée après l'intervention
+- Nous ne pouvons dire s'il existe une modification de la raideur du tissu tendineux après intervention. Elle augmente selon certaines études et diminue selon d'autres
+- La résistance passive mesurée durant les mouvements ne semble pas modifiée.
+
+Leur conclusion finale est la suivante : *« Les interventions d'étirement d'une durée de 3 à 8 semaines ne semblent pas modifier les propriétés du muscle ou du tendon, bien qu'elles augmentent l'extensibilité et la tolérance à une force de traction supérieure. Les adaptations aux protocoles d'étirements chroniques de moins de 8 semaines semblent se produire principalement au niveau sensoriel. »*
+
+Cette conclusion semble se faire pour toutes les modalités d'étirements. De plus, les modalités analysées semblent plus contraignantes et intenses que des étirements qui pourraient être réalisés par nos patients lors de nos séances. Par conséquent, sans de nouvelles preuves (mais en faut il encore ?), nous ne pouvons pas à ce jour continuer à affirmer que les étirements semblent agir en allongeant la fibre musculaire, que l'amplitude articulaire se gagne grâce à une modification des fascias, à la modification du collagène, ou à des modifications macroscopiques de la morphologie ou de la propriété musculaire/tendineuse.
+
+<img decoding="async" class="alignright" style="font-family: georgia, palatino, serif;" src="https://www.kinefact.com/wp-content/uploads/photo-gallery/Infographie_7_faits_sur_les_fascias_(2).png?bwg=1537700644" width="426" height="603">
+
+À noter, au sujet des fascias, qu'un [excellent billet](http://www.lecranien.org/blog/page/fascia-deformations.html?) a été fait par Marco Gabutti. Il traite d'une autre croyance répandue (et que je partageais !) : il faudrait plus de 852kg afin de déformer le tissu du fascia plantaire. Ceci n'est pas plus correct que les idées reçues sur l'étirement et je vous laisse vous intéresser à ces travaux si ce sujet vous intéresse.
+
+Yvan Sonjon avait également traduit une infographie de Physio meets Science sur le sujet, qui passe en revue les différentes choses que nous pouvons affirmer sur les fascias (les plus observateurs retrouveront la revue de Chaudhry, que critique pourtant l'article en lien au dessus. Les maths ont visiblement trompé tout le monde !) :
+
+Si vous pensez que la limitation est liée aux ligaments ou à la capsule, sachez qu'il semblerait qu'il faudrait environ 683kg/cm3 de force afin que puisse apparaître une déformation plastique de la capsule de l'articulation gléno-humérale (Itoi et coll. 1996).
+
+Je prends ces résultats avec des pincettes, car je n'ai pas les bases nécessaires en mathématiques et physique des matériaux permettant d'analyser en profondeur cet article, mais Marco pourra nous détromper si nécessaire!
+
+Si vous voulez agir sur les tissus musculo-tendineux, d'après les données de la littérature il semblerait qu'il soit plus pertinent de réaliser des exercices physiques à haute intensité. Des études antérieures ont démontré une augmentation de synthèse intramusculaire de collagène en réponse à une charge (entraînement musculaire) (Miller et al., 2005 ; Holm et coll. 2010 ; Crameri et coll. 2004 ; Heinemeier et coll. 2007).
+
+Quelques données existent et montrent que le renforcement musculaire augmente la longueur des fascicules musculaires :
+
+- Pour le biceps fémoral avec exercice excentrique (Potier et coll. 2009)
+- Pour le vaste latéral avec exercices de renforcement à haute vitesse (Sharifnezhad et coll.2014)
+- Une meilleure augmentation de la longueur des fascicules lors d'un renforcement utilisant une grande amplitude de mouvement (McMahon et coll. 2014)
+
+Les étirements ne semblent pas (ou très peu) agir sur la morphologie ou les capacités d'allongement du complexe muscle-tendon.
+
+La théorie neurosensorielle en revanche, semble expliquer les modifications d'amplitude d'une jambe n'ayant subi aucune intervention. Cela pourrait sûrement passer par une augmentation du seuil de tolérance à l'étirement.
+
+**OK cool Bryan, mais as-tu des données en faveur de la théorie neurosensorielle ?**
+
+L'excellente étude de Støve et coll. 2019 est là pour illustrer cette théorie. Le but de leur étude contrôlée randomisée, a été d'analyser si un stimulus nociceptif pouvait permettre de modifier l'amplitude articulaire, et donc s'il pouvait y avoir un rôle de la modulation par inhibition endogène de la douleur (« endogenous pain inhibitory modulation ») sur l'amplitude articulaire de sujets sains.
+
+- Au départ de l'étude, 2 groupes de 17 hommes ayant les mêmes caractéristiques sur tous les critères de jugements étudiés.
+- Les deux groupes subissent le même protocole d'étirements des muscles ischio-jambiers
+- Le groupe expérimental (pain group) devait immerger sa main dans de l'eau froide entre 1° et -4° C, après le protocole d'étirements, on appellera cette phase la **phase froide**.
+- 3 mesures seront prises, avant le protocole d'étirement, juste après, puis après que le groupe expérimental ai plongé sa main dans de l'eau froide.
+
+Ce qu'ils ont observé à travers l'analyse intra-groupe, un gain statistiquement significatif entre la deuxième mesure (post-étirements) et après la phase froide. Par contre, aucune différence n'est retrouvée pour le groupe contrôle. Une différence statistiquement significative a également été retrouvée concernant la résistance passive pour le groupe expérimental entre la deuxième mesure et la phase froide, alors que à nouveau, aucune différence n'est à observer pour le groupe contrôle.
+
+Concernant la comparaison inter-groupe, on observe une différence statistiquement significative en faveur du groupe expérimental uniquement après la phase froide concernant l'amplitude articulaire disponible. Aucune autre différence sur les paramètres étudiés n'est à noter.
+
+<video class="wp-video-shortcode" width="576" height="304" loop autoplay preload="metadata" src="https://www.kinefact.com/wp-content/uploads/2019/09/EAvvfw2.mp4">
+  <source type="video/mp4" src="https://www.kinefact.com/wp-content/uploads/2019/09/EAvvfw2.mp4">
+  <a href="https://www.kinefact.com/wp-content/uploads/2019/09/EAvvfw2.mp4">https://www.kinefact.com/wp-content/uploads/2019/09/EAvvfw2.mp4</a>
+</video>
+
+Les principales conclusions de cette étude montrent qu'en engageant l'inhibition endogène nociceptive après l'étirement, on obtient une différence statistiquement significative inter-groupe concernant l'augmentation de l'amplitude de mouvement de l'extension passive du genou et une modification intra-groupe sur la résistance passive mesurée en fin d'amplitude. Cependant nous n'observons pas de modification apparente de l'activité musculaire.
+
+Bishop & George (2017) ont montré que l'amplitude du mouvement était associée à une sensibilité moyenne à la douleur ce qui indique que la perception sensorielle peut être un mécanisme important pendant l'étirement. Toutefois, ils n'ont pas été en mesure d'exclure d'éventuels changements au sein de l'activité musculaire en raison d'une absence d'électromyogramme. Les résultats actuels corroborent les constatations antérieures indiquant qu'une augmentation de la tolérance à l'étirement à la suite d'un étirement n'est pas liée à une réduction de l'activité musculaire, impliquant des mécanismes autres que les mécanismes intrinsèques liés aux propriétés mécaniques du complexe muscle-tendon.
+
+Ces données peuvent impliquer que l'augmentation de l'amplitude passive sans douleur que l'on voit ici est liée à un déplacement vers le haut du seuil de tolérance à l'étirement. Les résultats actuels indiquent donc que la douleur perçue joue un rôle important dans l'amplitude des mouvements à la suite d'un étirement.
+
+Du coup la balance penche clairement en faveur d'une adaptation du système nerveux que du système musculo-tendineux, sans pour autant valider toutes les idées de la théorie neurosensorielle. Nous serions plus dans une modification du seuil de tolérance à l'étirement que dans une modification du réflexe myotatique.
+
+<img loading="lazy" decoding="async" class="aligncenter wp-image-669 size-large" src="https://www.kinefact.com/wp-content/uploads/2019/10/Implications-pratiques.1-1024x512.png" alt="Implications pratiques" width="1024" height="512" srcset="https://www.kinefact.com/wp-content/uploads/2019/10/Implications-pratiques.1.png 1024w, https://www.kinefact.com/wp-content/uploads/2019/10/Implications-pratiques.1-300x150.png 300w, https://www.kinefact.com/wp-content/uploads/2019/10/Implications-pratiques.1-768x384.png 768w" sizes="auto, (max-width: 1024px) 100vw, 1024px">
+
+Si l'effet des étirements sur la performance sportive ou autre vous intéresse je vous recommande l'[excellent billet de Paul Ingraham](https://www.painscience.com/articles/stretching.php?fbclid=IwAR0W_nHpRLlNPqcmeAatY-Y4EuGL9s_0YPbnj3nSI92-Dvi4EJ_GqPSAVXA), qui résume l'effet réel ou non des étirements ; leur inefficacité comme intervention préventive contre les blessures, leur impact négatif ou nul sur la performance sportive, comme le fait que certains muscles que les gens s'obstinent à vouloir étirer ne le sont anatomiquement pas …
+
+Ainsi si vous aimez vous étirer, continuer de le faire, en tant qu'élément de votre routine d'exercice par exemple ! Mais ne passez peut-être pas un temps excessivement long sur ces manœuvres si votre activité physique ne vous le demande pas, en tout cas pas au détriment des exercices de renforcement. Les exercices de renforcement sont importants pour préparer le corps au sport et à l'activité, et sont plus efficaces que les étirements pour réduire les risques de blessures.
+
+J'espère que ce travail permettra à quelques étudiants ou diplômés de questionner leurs savoirs et surtout les théories qui sous-tendent certaines thérapies (Trigger Point, Thérapie Manuelle, Magnétisme, Dry Needling, Tape, Acupuncture, Massage, Exercices, Éducation aux neurosciences de la douleur …).
+
+Pourquoi est-ce important de réfléchir sur les théories qui sous-tendent nos pratiques ? Voici un exemple de discussion que j'ai eu avec certains de mes étudiants sur la justification de deux pratiques j'utilise en priorité au cabinet, que sont l'éducation et l'exercice physique.
+
+Beaucoup de mes étudiants pensaient que l'éducation avait surtout pour but de diminuer la douleur des gens. Cependant, un de mes stagiaires, en parlant avec un de mes patients en fin de soin, a pu voir l'intérêt pour le patient d'avoir une information claire sur son problème ainsi que des connaissances en neurosciences de la douleur : cela avait aidé concrètement ce patient à relativiser et supprimer les émotions négatives liées à ses douleurs (catastrophisme, anxiété, kinésiophobie), lui permettant de se prendre en main en comprenant mieux les situations qui pouvaient déclencher ses symptômes. Même s'il avait aussi mal parfois, il ne ressentait plus la crainte liée à sa douleur, cela avait amélioré la relation thérapeutique, et lui avait permis de fixer des objectifs cohérents en lien avec sa situation.
+
+Ce patient faisant 1,95 m et 90 kg, j'ai aussi posé la question à ce stagiaire : « pour quelle raison penses-tu que j'ai fait faire des exercices à Mr B ? »
+
+Selon mon stagiaire c'était pour :
+
+- Gagner en force
+- Gain en stabilité
+- Améliorer le « Contrôle Moteur »
+
+Voici la liste de réponses que j'ai pu lui donner sur ce qui selon moi justifiait de réaliser des exercices chez ce patient, patient qui avait des abdos saillants, qui allait à la salle de musculation quotidiennement et avait une musculature plus importante que beaucoup de sportifs de haut niveau :
+
+- Lutter contre la kinésiophobie et l'anxiété en montrant au patient qu'il pouvait réaliser des tâches complexes qu'il n'osait pas réaliser
+- Aider à désensibiliser le système nerveux (grâce à l'EIH : Exercice induce hypoalgesia)
+- Optimiser la cicatrisation ou la capacité d'absorber des contraintes pour un tissu grâce à l'aide de la mécano-transduction
+- Donner au patient de nouvelles options afin de réaliser les mouvements
+- Améliorer les capacités cardio-vasculaires
+- Lutter contre le déconditionnement
+- En antalgie, car au sein de la littérature scientifique, c'est l'un des traitements le plus efficaces sur la douleur. Ce patient n'avait ni un problème de force, ni de contrôle moteur (D'ailleurs, qu'est-ce que c'est un trouble de contrôle moteur ?) ni un problème de stabilité. Du coup, pensez-vous qu'il aurait-été pertinent de mettre dans la tête du patient qu'il était instable ou pas assez fort ?
+
+Certains diront que ce n'est pas utile d'aller aussi loin dans les détails, mais selon moi cela permet de pouvoir transmettre des connaissances les plus proches du réel, et avec le moins de croyances possibles. Cela permet de nous professionnaliser.
+
+J'espère que ce billet vous a appris quelque chose, vous a intéressés et surtout, restez critiques.
+
+<img loading="lazy" decoding="async" class="size-medium aligncenter" src="https://media.giphy.com/media/5VjhqGfoCAnni/giphy.gif" width="480" height="264">
+
+---
+
+**Bibliographie :**
+
+- Michel Coppieters. Validity of neurodynamics tests. Congrès IFOMPT 4-8 Juillet 2016 . Glasgow, Ecosse. 6 Juillet 2016
+- Schmid, Annina B., Louise Hailey, and Brigitte Tampin. « Entrapment neuropathies: challenging common beliefs with novel evidence. » *journal of orthopaedic & sports physical therapy* 48.2 (2018): 58-62.
+- Hancock, Christy, et al. « Changes in hamstring range of motion following proprioceptive neuromuscular facilitation stretching compared with static stretching: a critically appraised topic. » *International Journal of Athletic Therapy and Training* 21.5 (2016): 1-7.
+- Castellote-Caballero, Yolanda, et al. « Immediate effects of neurodynamic sliding versus muscle stretching on hamstring flexibility in subjects with short hamstring syndrome. » *Journal of sports medicine* 2014 (2014).
+- Pagare, Venus K., et al. « Effect of neurodynamic sliding technique versus static stretching on hamstring flexibility in football players with short hamstring syndrome. » *Journal of Musculoskeletal Research* 17.02 (2014): 1450009.
+- Vidhi, Shah, et al. « Comparison of PNF technique with NDS technique for hamstrings tightness in asymptomatic subjects. » *Indian Journal of Physiotherapy and Occupational Therapy* 8.3 (2014): 158.
+- Ahmed, Adel Rashad, and Ahmed Fathy Samhan. « Short term effects of neurodynamic stretching and static stretching techniques on hamstring muscle flexibility in healthy male subjects. » *Int J Med Res Heal Sci* 5.5 (2016): 36-41.
+- Björklund, Martin, Jern Hamberg, and Albert G. Crenshaw. « Sensory adaptation after a 2-week stretching regimen of the rectus femoris muscle. » *Archives of physical medicine and rehabilitation* 82.9 (2001): 1245-1250.
+- Folpp, Hollie, et al. « Can apparent increases in muscle extensibility with regular stretch be explained by changes in tolerance to stretch?. » *Australian Journal of Physiotherapy* 52.1 (2006): 45-50.
+- Harvey, Lisa, et al. « Twelve weeks of nightly stretch does not reduce thumb web-space contractures in people with a neurological condition: a randomised controlled trial. » *Australian Journal of Physiotherapy* 52.4 (2006): 251-258.
+- Refshauge, Kathryn M., et al. « Night splinting does not increase ankle range of motion in people with Charcot-Marie-Tooth disease: a randomised, cross-over trial. » *Australian Journal of Physiotherapy* 52.3 (2006): 193-199.
+- Moltubakk, Marie Margrete Hveem. « Effects of long-term stretching training on muscle-tendon morphology, mechanics and function. » (2019).
+- Freitas, Sandro R., et al. « Can chronic stretching change the muscle‐tendon mechanical properties? A review. » *Scandinavian journal of medicine & science in sports* 28.3 (2018): 794-806.
+- Itoi, Eiji, Horng-Chaung Hsu, and Kai-Nan An. « Biomechanical investigation of the glenohumeral joint. » *Journal of Shoulder and Elbow Surgery* 5.5 (1996): 407-424.
+- Miller, B. F., Olesen, J. L., Hansen, M., Dossing, S., Crameri, R. M., Welling, R. J. et al. (2005). Coordinated collagen and muscle protein synthesis in human patella tendon and quadriceps muscle after exercise. *J.Physiol, 567*, 1021-1033.
+- Holm, L., van, H. G., Rose, A. J., Miller, B. F., Doessing, S., Richter, E. A. et al. (2010). Contraction intensity and feeding affect collagen and myofibrillar protein synthesis rates differently in human skeletal muscle. *Am.J.Physiol Endocrinol.Metab, 298*, E257-E269.
+- Crameri, R. M., Langberg, H., Teisner, B., Magnusson, P., Schroder, H. D., Olesen, J. L. et al. (2004). Enhanced procollagen processing in skeletal muscle after a single bout of eccentric loading in humans. *Matrix Biology, 23*, 259-264.
+- Potier TG, Alexander CM, Seynnes OR. Effects of eccentric strength training on biceps femoris muscle architecture and knee joint range of movement. Eur J Appl Physiol 2009: 105: 939–944.
+- Sharifnezhad A, Marzilger R, Arampatzis A. Effects of load magnitude, muscle length and velocity during eccentric chronic loading on the vastus lateralis muscle. J Exp Biol 2014: 217: 2726–2733.
+- McMahon GE, Morse CI, Burden A, Winwood K, Onambele GL. Impact of range of motion during ecologically valid resistance training protocols on muscle size, subcutaneous fat, and strength. J Strength Cond Res 2014: 28: 245–255.
+- Støve, Morten Pallisgaard, Rogerio Pessoto Hirata, and Thorvaldur Skuli Palsson. « Muscle stretching–the potential role of endogenous pain inhibitory modulation on stretch tolerance. » *Scandinavian journal of pain* 19.2 (2019): 415-422.
+`,
   },
   {
     title: "Syndrome du canal carpien, pourquoi sommes-nous négligés du parcours de soin ?",
     image: "https://www.kinefact.com/wp-content/uploads/2021/01/grossesse-4-remedes-naturels-contre-le-syndrome-du-canal-carpien-quand-on-est-enceinte.jpeg",
-    excerpt: "Le syndrome du canal carpien est une atteinte autour de laquelle beaucoup de croyances existent, au même titre que la plupart des névralgies. Cette série d'articles fait une mise à jour détaillée autour du syndrome du canal carpien (SCC) basée sur la littérature scientifique.",
+    excerpt: "Avez-vous remarqué ce titre aguicheur ? Malheureusement il est véridique. Le syndrome du canal carpien est une atteinte autour de laquelle beaucoup de croyances existent, au même titre que la plupart des névralgies. Cette série d'articles fait une mise à jour détaillée autour du syndrome du canal carpien.",
     date: "2021-02-13",
     author: "Bryan Littré",
     link: "/blog/syndrome-canal-carpien-bases-comprehension",
     content: `
 # Syndrome du canal carpien, pourquoi sommes-nous négligés du parcours de soin ?
 
-Par Bryan Littré, remerciements et aide à la relecture : **Marguerite Dontenwille, Robin Vervaeke, Marie Akrich, Antoine Massuleau, Benjamin Heng**
+**Par Bryan Littré, remerciements et aide à la relecture :** Marguerite Dontenwille, Robin Vervaeke, Marie Akrich, Antoine Massuleau, Benjamin Heng
 
 Avez-vous remarqué ce titre aguicheur ? Malheureusement il est véridique. Le syndrome du canal carpien est une atteinte autour de laquelle beaucoup de croyances existent, au même titre que la plupart des névralgies. J'ai pu m'en rendre compte durant l'élaboration de mon mémoire de fin d'étude de kiné qui a mené à cette publication :
 
@@ -218,13 +200,13 @@ La simple notion de syndrome est problématique car fourre-tout. A la fois elle 
 
 Explorons les notions de **maladie**, **syndrome** et **symptôme** à travers l'épistémologie afin de comprendre toute la subtilité du propos. Nous avons donc besoin de définitions.
 
-L'épistémologie est une branche de la philosophie qui a pour objet l'étude critique des postulats, conclusions et méthodes d'une science particulière, considérée du point de vue de son évolution afin d'en déterminer l'origine logique, la valeur et la portée scientifique et philosophique (cf. philosophie des sciences, empirisme logique).
+L'épistémologie est une branche de la philosophie qui a pour objet l'étude critique des postulats, conclusions et méthodes d'une science particulière, considérée du point de vue de son évolution afin d'en déterminer l'origine logique, la valeur et la portée scientifique et philosophique (cf. philosophie* des sciences, empirisme* logique).
 
-**Diagnostic :** l'origine étymologique du mot "*diagnostic*" nous vient du grec DIA – « séparément » et GIGNOSKEIN « savoir, percevoir, penser, juger »
+Diagnostic : l'origine étymologique du mot "*diagnostic*" nous vient du grec DIA – « séparément » et GIGNOSKEIN « savoir, percevoir, penser, juger »
 
 Un diagnostic, c'est donc l'art d'identifier une maladie d'après ses signes, ses symptômes. Cela peut être définie également comme une conclusion, généralement prospective, faisant suite à l'examen analytique d'une situation souvent jugée critique ou complexe.
 
-**Qu'est ce qu'un symptôme ?** Un symptôme est la manifestation spontanée d'un état ou d'une maladie permettant de la déceler, qui est perçue subjectivement par le sujet ou constatée objectivement par un observateur.
+Qu'est ce qu'un symptôme ? Un symptôme est la manifestation spontanée d'un état ou d'une maladie permettant de la déceler, qui est perçue subjectivement par le sujet ou constatée objectivement par un observateur.
 
 Je vous propose un petit exemple :
 
@@ -238,17 +220,17 @@ Je vous propose un petit exemple :
 
 Sont les symptômes de l'hypoglycémie. Cependant, pour une même atteinte / maladie, les signes et symptômes peuvent totalement devenir différents selon la durée de l'atteinte et selon le niveau d'atteinte. Par exemple lorsque l'hypoglycémie perdure, une neuroglucopénie peut être observée.
 
-**La neuroglucopénie :** elle peut produire une variété d'effets et symptômes survenant pour un seuil glycémique inférieur à 0,50 gl·-1 : sensation de malaise avec asthénie importante, troubles de la concentration intellectuelle, sensation de dérobement des jambes, paresthésie des extrémités, céphalées, impressions vertigineuses, troubles psychiatriques, multiples et trompeurs (confusion aiguë, agitation, troubles de l'humeur et du comportement, état pseudo-ébrieux…), troubles neurologiques sévères (crises convulsives généralisées ou localisées), troubles moteurs déficitaires, troubles visuels à type de diplopie ou de vision trouble.
+La neuroglucopénie : elle peut produire une variété d'effets et symptômes survenant pour un seuil glycémique inférieur à 0,50 gl·-1 : sensation de malaise avec asthénie importante, troubles de la concentration intellectuelle, sensation de dérobement des jambes, paresthésie des extrémités, céphalées, impressions vertigineuses, troubles psychiatriques, multiples et trompeurs (confusion aiguë, agitation, troubles de l'humeur et du comportement, état pseudo-ébrieux…), troubles neurologiques sévères (crises convulsives généralisées ou localisées), troubles moteurs déficitaires, troubles visuels à type de diplopie ou de vision trouble.
 
 L'hypoglycémie sévère durable (glycémie inférieure à 0,20 gl·-1 pendant plus de deux heures) peut induire une nécrose cellulaire responsable de séquelles.
 
-Certains médicaments produisent une hypoglycémie, c'est notamment le cas des médicaments anti-diabétiques, comme l'insuline et certains antidiabétiques oraux chez les sujets diabétiques. D'autres médicaments peuvent être mis en cause, comme l'aspirine (essentiellement chez le nourrisson et le petit enfant, à très forte dose), anti-inflammatoires non stéroïdiens, et quinidine.
+Certains médicaments produisent une hypoglycémie, c'est notamment le cas des médicaments anti- diabétiques, comme l'insuline et certains antidiabétiques oraux chez les sujets diabétiques. D'autres médicaments peuvent être mis en cause, comme l'aspirine (essentiellement chez le nourrisson et le petit enfant, à très forte dose), anti-inflammatoires non stéroïdiens, et quinidine.
 
 Les hypoglycémies ont plusieurs catégories de causes : soit un excès d'insuline ; soit un défaut de production de glucose. L'excès d'insuline peut être endogène, lié à un surdosage, le plus souvent tumoral, par une tumeur du pancréas, l'insulinome, une tumeur rare, moins d'un cas pour un million d'individus par an. L'hypoglycémie se rapproche de ce que l'on nomme un syndrome.
 
-[Hypoglycémie — Wikipédia](https://fr.wikipedia.org/wiki/Hypoglyc%C3%A9mie)
+[Hypoglycémie — Wikipédia (wikipedia.org)](https://fr.wikipedia.org/wiki/Hypoglyc%C3%A9mie)
 
-J'espère que vous vous rendez bien compte que pour traiter une hypoglycémie par tumeur du pancréas, ou une parce que Jean-Michel JeNeDéjeunePas fait un petit malaise dans le RER B à 8h04, ne se règlent pas de la même manière ? Bah c'est pareil pour le « syndrome » du canal carpien.
+J'espère que vous vous rendez bien compte que pour traiter une hypoglycémie par tumeur du pancréas , ou une parce que Jean-Michel JeNeDéjeunePas fait un petit malaise dans le RER B à 8h04, ne se règlent pas de la même manière ? Bah c'est pareil pour le « syndrome » du canal carpien.
 
 La subtilité la plus importante pour nous reste la distinction entre syndrome et maladie.
 
@@ -256,27 +238,27 @@ La subtilité la plus importante pour nous reste la distinction entre syndrome e
 
 MÉD., PATHOL. Ensemble de signes, de symptômes, de modifications morphologiques, fonctionnelles ou biochimiques de l'organisme, d'apparence parfois disparate mais formant une entité reconnaissable qui, sans présager obligatoirement des causes de ces manifestations, permettent d'orienter le diagnostic.
 
-*Source : https://www.cnrtl.fr/definition/syndrome*
+*https://www.cnrtl.fr/definition/syndrome*
 
 ### Maladie
 
 [Chez l'homme] Altération de l'état de santé se manifestant par un ensemble de signes et de symptômes perceptibles directement ou non, correspondant à des troubles généraux ou localisés, fonctionnels ou lésionnels, dus à des causes internes ou externes et comportant une évolution.
 
-*Source : https://www.cnrtl.fr/definition/maladie*
+*https://www.cnrtl.fr/definition/maladie#*
 
 Pour partir sur de bonnes bases, il est nécessaire de connaître la signification première de ces deux termes, afin de mieux comprendre ce qui se cache derrière. La maladie est une altération ou un trouble d'un organisme vivant. Elle est forcément pathologique. Le syndrome, lui, est un ensemble de symptômes ou de signes cliniques, peut-être pathogène ou non, contrairement à la maladie qui l'est obligatoirement.
 
 Le patient peut présenter ces symptômes lorsqu'il a une maladie, ou bien lorsqu'il présente des écarts par rapport à la norme. Une maladie est un état pathologique, qui peut avoir plusieurs symptômes. Un syndrome est assez imprécis pour pouvoir intégrer plusieurs diagnostics plus ou moins précis. Et c'est là toute la différence entre les deux termes. Néanmoins, beaucoup de maladies portent le nom de syndrome, comme on peut le voir plus bas. Le syndrome peut aussi être le signe d'une maladie. D'autres fois, il peut être la conséquence.
 
-<img src="https://www.kinefact.com/wp-content/uploads/2021/01/1-e1611870736468-300x112.png" alt="Schéma syndrome méningé" width="370" height="138">
+<img src="https://www.kinefact.com/wp-content/uploads/2021/01/1-e1611870736468.png" alt="Syndrome méningé" width="370" height="138">
 
 Dans l'exemple ci-dessus, on voit que l'association céphalées + vomissements + raideur de la nuque + photophobie constitue un syndrome méningé traduisant l'irritation des méninges (plus précisément l'inflammation de l'espace sous-arachnoïdien). Le médecin pratique alors une ponction du liquide céphalo-rachidien qui va l'orienter vers la maladie en cause : hémorragie méningée si le liquide contient du sang, méningite purulente si le liquide est trouble, etc.
 
 Le diagnostic d'une maladie est donc bien différent du syndrome qui est rattaché à elle. Les étapes du raisonnement clinique ne sont pas les mêmes. N'oublions pas non plus qu'un diagnostic est évolutif et que selon les recherches actuelles, les diagnostics établis peuvent devenir obsolètes. Comme le montre l'évolution de la définition de « l'homosexualité », qui a été considérée comme une **MALADIE PSYCHIATRIQUE jusqu'en 1974 aux USA et 1992 en France**
 
-*Sources :*
-- *http://www.slate.fr/story/41351/homosexualite-maladie*
-- *BRIKI, Malick. Psychiatrie et homosexualité. Presses Univ. Franche-Comté, 2009.*
+*http://www.slate.fr/story/41351/homosexualite-maladie*
+
+*BRIKI, Malick. Psychiatrie et homosexualité. Presses Univ. Franche-Comté, 2009.*
 
 <video width="480" height="266" loop autoplay muted>
   <source src="https://www.kinefact.com/wp-content/uploads/2021/01/giphy-4.mp4" type="video/mp4">
@@ -286,7 +268,7 @@ Les diagnostics peuvent se préciser uniquement s'ils se détachent des autres a
 
 Le diagnostic différentiel est une méthode permettant de différencier une maladie parmi d'autres qui présentent des symptômes proches ou similaires. Ce processus vise à établir un diagnostic plus sûr via une approche méthodique qui prend en considération tant les éléments permettant d'exclure une maladie que ceux permettant de la confirmer. Le diagnostic différentiel peut aboutir à plusieurs hypothèses impossibles à départager à un instant donné, mais qui seront infirmées ou confirmées au cours du temps ou à l'aide d'examens complémentaires.
 
-*Source : http://www.chu-rouen.fr/page/diagnostic-differentiel*
+*http://www.chu-rouen.fr/page/diagnostic-differentiel*
 
 Le SYNDROME du canal carpien (SCC) est donc un label, s'exprimant cliniquement d'une manière +/- distincte mais pouvant intégrer une population hétérogène. Ce label a des impacts sociologiques, de reconnaissance, permet de pouvoir ajuster des traitements et d'obtenir un pronostic, des démarches administratives ou des thérapeutiques plus efficaces.
 
@@ -294,174 +276,22 @@ Le syndrome du canal carpien n'est donc pas forcément une mononeuropathie compr
 
 Les définitions de l'incidence et de la prévalence vont nous être utiles pour la suite voici donc leur définition classiquement admise :
 
-- **L'incidence** mesure le nombre de nouveaux cas d'une maladie pendant une période de référence, souvent un an. De manière plus précise, l'incidence est la proportion des individus atteints par une maladie donnée par référence au nombre total de sujets présents dans la population étudiée, non malades au début de l'étude, et cela pendant une période donnée.
+- L'incidence mesure le nombre de nouveaux cas d'une maladie pendant une période de référence, souvent un an. De manière plus précise, l'incidence est la proportion des individus atteints par une maladie donnée par référence au nombre total de sujets présents dans la population étudiée, non malades au début de l'étude, et cela pendant une période donnée.
+- La prévalence est une mesure de l'état de santé d'une population à un instant donné, pour un problème sanitaire donné. Tout comme un sondage d'opinion, c'est une photographie instantanée, qui ne vaut que pour l'instant étudié. La prévalence d'une affection est calculée en rapportant à la population globale le nombre de malades présents dans cette population, qu'il s'agisse de nouveaux ou d'anciens cas. La prévalence est une proportion, en règle générale exprimée par un pourcentage. C'est un rapport du nombre de cas d'un trouble morbide à l'effectif total d'une population, sans distinction entre les cas nouveaux et les cas anciens, à un moment ou pendant une période donnée.
 
-- **La prévalence** est une mesure de l'état de santé d'une population à un instant donné, pour un problème sanitaire donné. Tout comme un sondage d'opinion, c'est une photographie instantanée, qui ne vaut que pour l'instant étudié. La prévalence d'une affection est calculée en rapportant à la population globale le nombre de malades présents dans cette population, qu'il s'agisse de nouveaux ou d'anciens cas. La prévalence est une proportion, en règle générale exprimée par un pourcentage. C'est un rapport du nombre de cas d'un trouble morbide à l'effectif total d'une population, sans distinction entre les cas nouveaux et les cas anciens, à un moment ou pendant une période donnée.
+*https://fr.wikipedia.org/wiki/Incidence_(%C3%A9pid%C3%A9miologie)*
 
-*Sources :*
-- *https://fr.wikipedia.org/wiki/Incidence_(épidémiologie)*
-- *https://fr.wikipedia.org/wiki/Prévalence*
-- *https://www.vocabulaire-medical.fr/encyclopedie/226-frequence-incidence-occurrence-prevalence*
+*https://fr.wikipedia.org/wiki/Pr%C3%A9valence*
 
-<img src="https://www.kinefact.com/wp-content/uploads/2021/01/unnamed-1-300x202.jpg" alt="Graphique incidence prévalence" width="413" height="278">
+*https://www.vocabulaire-medical.fr/encyclopedie/226-frequence-incidence-occurrence-prevalence*
+
+<img src="https://www.kinefact.com/wp-content/uploads/2021/01/unnamed-1.jpg" alt="Incidence et prévalence" width="413" height="278">
 
 Voici la fin de la première partie, permettant de mettre un socle commun pour la suite. Les articles 2 puis 3 explorerons avec finesse les données acquises sur le SCC ainsi que son traitement optimal en kinésithérapie. Sommes-nous légitimes à prendre en charge cette atteinte ?
 
-POUR LA PARTIE 2 cliquez [**ICI**](https://www.kinefact.com/?p=2108&preview=true)
-`
+**POUR LA PARTIE 2** cliquez [ICI](https://www.kinefact.com/?p=2108&preview=true)
+`,
   },
-  {
-    title: "En fait, comment ça marche un étirement ?",
-    image: "https://www.kinefact.com/wp-content/uploads/2019/10/cat-814952_1920.jpg",
-    excerpt: "Dans l'article précédent, Bryan Littre nous a présenté les différentes théories pouvant expliquer les gains obtenus par les diverses techniques d'étirement, en s'appuyant notamment sur les travaux de Moltubakk. Dans l'article du jour, on va regarder comment la littérature peut nous aider à trancher en faveur de l'une ou de l'autre. En conclusion, Bryan raconte comment la connaissance de ces données très théoriques a un réel impact sur sa pratique.",
-    date: "2019-10-04",
-    author: "Bryan Littré",
-    link: "/blog/comment-ca-marche-un-etirement",
-    content: `# En fait, comment ça marche un étirement ?
-
-**Aide à la relecture : Benjamin Heng, Anthony Halimi, Robin Vervaeke, Elsa Steinbach**
-
-*Dans [l'article précédent](https://www.kinefact.com/physiologie/biomecanique-des-etirements/), Bryan Littre nous a présenté les différentes théories pouvant expliquer les gains obtenus par les diverses techniques d'étirement, en s'appuyant notamment sur les travaux de Moltubakk. Dans l'article du jour, on va regarder comment la littérature peut nous aider à trancher en faveur de l'une ou de l'autre. En conclusion, Bryan raconte comment la connaissance de ces données très théoriques a un réel impact sur sa pratique.*
-
----
-
-La meilleure chose à faire est si possible d'observer ce que disent les dernières revues systématiques sur le sujet. Cela tombe bien car une revue récente (de 2018) faite par Freitas et ses collaborateurs explore l'effet des étirements sur les paramètres évalués par l'équipe de Moltubakk.
-
-Cette revue comporte 26 essais comparatifs, où l'intervention du groupe expérimental correspondait à des étirements (peu importe la modalité) de plus de deux semaines.
-
-Certaines nuances sont à apporter afin d'obtenir une meilleure compréhension de cette revue :
-
-> De nombreux auteurs s'accordent pour dire qu'il y a une probabilité forte que l'effet des étirements soit également dépendant du groupe musculo-tendineux étudié et du temps de mise en œuvre du traitement.
->
-> Les outils de mesure de l'amplitude articulaire peuvent avoir une marge d'erreur non négligeable, certaines données provenant de l'élastographe ou de l'échographe sont parfois inutilisables et souvent les auteurs le signalent en expliquant pourquoi ils ont dû exclure certains patients.
->
-> Les modalités d'étirements (statique, balistique ou autre) varient également selon les études.
-
----
-
-Les conclusions de l'équipe de Freitas suite à cette revue restent cohérentes avec les résultats des études menées par Moltubakk :
-
-- On observe une augmentation de la tolérance à l'étirement au sein des populations que nous étirons
-- L'angle de pennation des fascicules semble inchangé malgré l'augmentation d'amplitude articulaire
-- La taille des fascicules en position anatomique semble inchangée après l'intervention
-- Nous ne pouvons dire s'il existe une modification de la raideur du tissu tendineux après intervention. Elle augmente selon certaines études et diminue selon d'autres
-- La résistance passive mesurée durant les mouvements ne semble pas modifiée.
-
-Leur conclusion finale est la suivante : *« Les interventions d'étirement d'une durée de 3 à 8 semaines ne semblent pas modifier les propriétés du muscle ou du tendon, bien qu'elles augmentent l'extensibilité et la tolérance à une force de traction supérieure. Les adaptations aux protocoles d'étirements chroniques de moins de 8 semaines semblent se produire principalement au niveau sensoriel. »*
-
-Cette conclusion semble se faire pour toutes les modalités d'étirements. De plus, les modalités analysées semblent plus contraignantes et intenses que des étirements qui pourraient être réalisés par nos patients lors de nos séances. Par conséquent, sans de nouvelles preuves (mais en faut il encore ?), nous ne pouvons pas à ce jour continuer à affirmer que les étirements semblent agir en allongeant la fibre musculaire, que l'amplitude articulaire se gagne grâce à une modification des fascias, à la modification du collagène, ou à des modifications macroscopiques de la morphologie ou de la propriété musculaire/tendineuse.
-
-<img src="https://www.kinefact.com/wp-content/uploads/photo-gallery/Infographie_7_faits_sur_les_fascias_(2).png?bwg=1537700644" alt="Infographie sur les fascias" width="426" height="603" style="float: right; margin-left: 20px;">
-
-À noter, au sujet des fascias, qu'un [excellent billet](http://www.lecranien.org/blog/page/fascia-deformations.html?) a été fait par Marco Gabutti. Il traite d'une autre croyance répandue (et que je partageais !) : il faudrait plus de 852kg afin de déformer le tissu du fascia plantaire. Ceci n'est pas plus correct que les idées reçues sur l'étirement et je vous laisse vous intéresser à ces travaux si ce sujet vous intéresse.
-
-Yvan Sonjon avait également traduit une infographie de Physio meets Science sur le sujet, qui passe en revue les différentes choses que nous pouvons affirmer sur les fascias (les plus observateurs retrouveront la revue de Chaudhry, que critique pourtant l'article en lien au dessus. Les maths ont visiblement trompé tout le monde !) :
-
-Si vous pensez que la limitation est liée aux ligaments ou à la capsule, sachez qu'il semblerait qu'il faudrait environ 683kg/cm3 de force afin que puisse apparaître une déformation plastique de la capsule de l'articulation gléno-humérale (Itoi et coll. 1996).
-
-Je prends ces résultats avec des pincettes, car je n'ai pas les bases nécessaires en mathématiques et physique des matériaux permettant d'analyser en profondeur cet article, mais Marco pourra nous détromper si nécessaire!
-
-Si vous voulez agir sur les tissus musculo-tendineux, d'après les données de la littérature il semblerait qu'il soit plus pertinent de réaliser des exercices physiques à haute intensité. Des études antérieures ont démontré une augmentation de synthèse intramusculaire de collagène en réponse à une charge (entraînement musculaire) (Miller et al., 2005 ; Holm et coll. 2010 ; Crameri et coll. 2004 ; Heinemeier et coll. 2007).
-
-Quelques données existent et montrent que le renforcement musculaire augmente la longueur des fascicules musculaires :
-
-- Pour le biceps fémoral avec exercice excentrique (Potier et coll. 2009)
-- Pour le vaste latéral avec exercices de renforcement à haute vitesse (Sharifnezhad et coll.2014)
-- Une meilleure augmentation de la longueur des fascicules lors d'un renforcement utilisant une grande amplitude de mouvement (McMahon et coll. 2014)
-
-Les étirements ne semblent pas (ou très peu) agir sur la morphologie ou les capacités d'allongement du complexe muscle-tendon.
-
-La théorie neurosensorielle en revanche, semble expliquer les modifications d'amplitude d'une jambe n'ayant subi aucune intervention. Cela pourrait sûrement passer par une augmentation du seuil de tolérance à l'étirement.
-
-**OK cool Bryan, mais as-tu des données en faveur de la théorie neurosensorielle ?**
-
-L'excellente étude de Støve et coll. 2019 est là pour illustrer cette théorie. Le but de leur étude contrôlée randomisée, a été d'analyser si un stimulus nociceptif pouvait permettre de modifier l'amplitude articulaire, et donc s'il pouvait y avoir un rôle de la modulation par inhibition endogène de la douleur (« endogenous pain inhibitory modulation ») sur l'amplitude articulaire de sujets sains.
-
-- Au départ de l'étude, 2 groupes de 17 hommes ayant les mêmes caractéristiques sur tous les critères de jugements étudiés.
-- Les deux groupes subissent le même protocole d'étirements des muscles ischio-jambiers
-- Le groupe expérimental (pain group) devait immerger sa main dans de l'eau froide entre 1° et -4° C, après le protocole d'étirements, on appellera cette phase la **phase froide**.
-- 3 mesures seront prises, avant le protocole d'étirement, juste après, puis après que le groupe expérimental ai plongé sa main dans de l'eau froide.
-
-Ce qu'ils ont observé à travers l'analyse intra-groupe, un gain statistiquement significatif entre la deuxième mesure (post-étirements) et après la phase froide. Par contre, aucune différence n'est retrouvée pour le groupe contrôle. Une différence statistiquement significative a également été retrouvée concernant la résistance passive pour le groupe expérimental entre la deuxième mesure et la phase froide, alors que à nouveau, aucune différence n'est à observer pour le groupe contrôle.
-
-Concernant la comparaison inter-groupe, on observe une différence statistiquement significative en faveur du groupe expérimental uniquement après la phase froide concernant l'amplitude articulaire disponible. Aucune autre différence sur les paramètres étudiés n'est à noter.
-
-<div style="text-align: center; margin: 20px 0;">
-<video width="576" height="304" controls loop>
-  <source src="https://www.kinefact.com/wp-content/uploads/2019/09/EAvvfw2.mp4" type="video/mp4">
-  Votre navigateur ne supporte pas la lecture de vidéos.
-</video>
-</div>
-
-Les principales conclusions de cette étude montrent qu'en engageant l'inhibition endogène nociceptive après l'étirement, on obtient une différence statistiquement significative inter-groupe concernant l'augmentation de l'amplitude de mouvement de l'extension passive du genou et une modification intra-groupe sur la résistance passive mesurée en fin d'amplitude. Cependant nous n'observons pas de modification apparente de l'activité musculaire.
-
-Bishop & George (2017) ont montré que l'amplitude du mouvement était associée à une sensibilité moyenne à la douleur ce qui indique que la perception sensorielle peut être un mécanisme important pendant l'étirement. Toutefois, ils n'ont pas été en mesure d'exclure d'éventuels changements au sein de l'activité musculaire en raison d'une absence d'électromyogramme. Les résultats actuels corroborent les constatations antérieures indiquant qu'une augmentation de la tolérance à l'étirement à la suite d'un étirement n'est pas liée à une réduction de l'activité musculaire, impliquant des mécanismes autres que les mécanismes intrinsèques liés aux propriétés mécaniques du complexe muscle-tendon.
-
-Ces données peuvent impliquer que l'augmentation de l'amplitude passive sans douleur que l'on voit ici est liée à un déplacement vers le haut du seuil de tolérance à l'étirement. Les résultats actuels indiquent donc que la douleur perçue joue un rôle important dans l'amplitude des mouvements à la suite d'un étirement.
-
-Du coup la balance penche clairement en faveur d'une adaptation du système nerveux que du système musculo-tendineux, sans pour autant valider toutes les idées de la théorie neurosensorielle. Nous serions plus dans une modification du seuil de tolérance à l'étirement que dans une modification du réflexe myotatique.
-
-<img src="https://www.kinefact.com/wp-content/uploads/2019/10/Implications-pratiques.1-1024x512.png" alt="Implications pratiques" style="display: block; margin: 20px auto; max-width: 100%;">
-
-Si l'effet des étirements sur la performance sportive ou autre vous intéresse je vous recommande l'[excellent billet de Paul Ingraham](https://www.painscience.com/articles/stretching.php?fbclid=IwAR0W_nHpRLlNPqcmeAatY-Y4EuGL9s_0YPbnj3nSI92-Dvi4EJ_GqPSAVXA), qui résume l'effet réel ou non des étirements ; leur inefficacité comme intervention préventive contre les blessures, leur impact négatif ou nul sur la performance sportive, comme le fait que certains muscles que les gens s'obstinent à vouloir étirer ne le sont anatomiquement pas …
-
-Ainsi si vous aimez vous étirer, continuer de le faire, en tant qu'élément de votre routine d'exercice par exemple ! Mais ne passez peut-être pas un temps excessivement long sur ces manœuvres si votre activité physique ne vous le demande pas, en tout cas pas au détriment des exercices de renforcement. Les exercices de renforcement sont importants pour préparer le corps au sport et à l'activité, et sont plus efficaces que les étirements pour réduire les risques de blessures.
-
-J'espère que ce travail permettra à quelques étudiants ou diplômés de questionner leurs savoirs et surtout les théories qui sous-tendent certaines thérapies (Trigger Point, Thérapie Manuelle, Magnétisme, Dry Needling, Tape, Acupuncture, Massage, Exercices, Éducation aux neurosciences de la douleur …).
-
-Pourquoi est-ce important de réfléchir sur les théories qui sous-tendent nos pratiques ? Voici un exemple de discussion que j'ai eu avec certains de mes étudiants sur la justification de deux pratiques j'utilise en priorité au cabinet, que sont l'éducation et l'exercice physique.
-
-Beaucoup de mes étudiants pensaient que l'éducation avait surtout pour but de diminuer la douleur des gens. Cependant, un de mes stagiaires, en parlant avec un de mes patients en fin de soin, a pu voir l'intérêt pour le patient d'avoir une information claire sur son problème ainsi que des connaissances en neurosciences de la douleur : cela avait aidé concrètement ce patient à relativiser et supprimer les émotions négatives liées à ses douleurs (catastrophisme, anxiété, kinésiophobie), lui permettant de se prendre en main en comprenant mieux les situations qui pouvaient déclencher ses symptômes. Même s'il avait aussi mal parfois, il ne ressentait plus la crainte liée à sa douleur, cela avait amélioré la relation thérapeutique, et lui avait permis de fixer des objectifs cohérents en lien avec sa situation.
-
-Ce patient faisant 1,95 m et 90 kg, j'ai aussi posé la question à ce stagiaire : « pour quelle raison penses-tu que j'ai fait faire des exercices à Mr B ? »
-
-Selon mon stagiaire c'était pour :
-
-- Gagner en force
-- Gain en stabilité
-- Améliorer le « Contrôle Moteur »
-
-Voici la liste de réponses que j'ai pu lui donner sur ce qui selon moi justifiait de réaliser des exercices chez ce patient, patient qui avait des abdos saillants, qui allait à la salle de musculation quotidiennement et avait une musculature plus importante que beaucoup de sportifs de haut niveau :
-
-- Lutter contre la kinésiophobie et l'anxiété en montrant au patient qu'il pouvait réaliser des tâches complexes qu'il n'osait pas réaliser
-- Aider à désensibiliser le système nerveux (grâce à l'EIH : Exercice induce hypoalgesia)
-- Optimiser la cicatrisation ou la capacité d'absorber des contraintes pour un tissu grâce à l'aide de la mécano-transduction
-- Donner au patient de nouvelles options afin de réaliser les mouvements
-- Améliorer les capacités cardio-vasculaires
-- Lutter contre le déconditionnement
-- En antalgie, car au sein de la littérature scientifique, c'est l'un des traitements les plus efficaces sur la douleur. Ce patient n'avait ni un problème de force, ni de contrôle moteur (D'ailleurs, qu'est-ce que c'est un trouble de contrôle moteur ?) ni un problème de stabilité. Du coup, pensez-vous qu'il aurait-été pertinent de mettre dans la tête du patient qu'il était instable ou pas assez fort ?
-
-Certains diront que ce n'est pas utile d'aller aussi loin dans les détails, mais selon moi cela permet de pouvoir transmettre des connaissances les plus proches du réel, et avec le moins de croyances possibles. Cela permet de nous professionnaliser.
-
-J'espère que ce billet vous a appris quelque chose, vous a intéressés et surtout, restez critiques.
-
-<img src="https://media.giphy.com/media/5VjhqGfoCAnni/giphy.gif" alt="GIF de fin" style="display: block; margin: 20px auto;" width="480" height="264">
-
----
-
-## Bibliographie
-
-- Michel Coppieters. Validity of neurodynamics tests. Congrès IFOMPT 4-8 Juillet 2016 . Glasgow, Ecosse. 6 Juillet 2016
-- Schmid, Annina B., Louise Hailey, and Brigitte Tampin. « Entrapment neuropathies: challenging common beliefs with novel evidence. » *journal of orthopaedic & sports physical therapy* 48.2 (2018): 58-62.
-- Hancock, Christy, et al. « Changes in hamstring range of motion following proprioceptive neuromuscular facilitation stretching compared with static stretching: a critically appraised topic. » *International Journal of Athletic Therapy and Training* 21.5 (2016): 1-7.
-- Castellote-Caballero, Yolanda, et al. « Immediate effects of neurodynamic sliding versus muscle stretching on hamstring flexibility in subjects with short hamstring syndrome. » *Journal of sports medicine* 2014 (2014).
-- Pagare, Venus K., et al. « Effect of neurodynamic sliding technique versus static stretching on hamstring flexibility in football players with short hamstring syndrome. » *Journal of Musculoskeletal Research* 17.02 (2014): 1450009.
-- Vidhi, Shah, et al. « Comparison of PNF technique with NDS technique for hamstrings tightness in asymptomatic subjects. » *Indian Journal of Physiotherapy and Occupational Therapy* 8.3 (2014): 158.
-- Ahmed, Adel Rashad, and Ahmed Fathy Samhan. « Short term effects of neurodynamic stretching and static stretching techniques on hamstring muscle flexibility in healthy male subjects. » *Int J Med Res Heal Sci* 5.5 (2016): 36-41.
-- Björklund, Martin, Jern Hamberg, and Albert G. Crenshaw. « Sensory adaptation after a 2-week stretching regimen of the rectus femoris muscle. » *Archives of physical medicine and rehabilitation* 82.9 (2001): 1245-1250.
-- Folpp, Hollie, et al. « Can apparent increases in muscle extensibility with regular stretch be explained by changes in tolerance to stretch?. » *Australian Journal of Physiotherapy* 52.1 (2006): 45-50.
-- Harvey, Lisa, et al. « Twelve weeks of nightly stretch does not reduce thumb web-space contractures in people with a neurological condition: a randomised controlled trial. » *Australian Journal of Physiotherapy* 52.4 (2006): 251-258.
-- Refshauge, Kathryn M., et al. « Night splinting does not increase ankle range of motion in people with Charcot-Marie-Tooth disease: a randomised, cross-over trial. » *Australian Journal of Physiotherapy* 52.3 (2006): 193-199.
-- Moltubakk, Marie Margrete Hveem. « Effects of long-term stretching training on muscle-tendon morphology, mechanics and function. » (2019).
-- Freitas, Sandro R., et al. « Can chronic stretching change the muscle‐tendon mechanical properties? A review. » *Scandinavian journal of medicine & science in sports* 28.3 (2018): 794-806.
-- Itoi, Eiji, Horng-Chaung Hsu, and Kai-Nan An. « Biomechanical investigation of the glenohumeral joint. » *Journal of Shoulder and Elbow Surgery* 5.5 (1996): 407-424.
-- Miller, B. F., Olesen, J. L., Hansen, M., Dossing, S., Crameri, R. M., Welling, R. J. et al. (2005). Coordinated collagen and muscle protein synthesis in human patella tendon and quadriceps muscle after exercise. *J.Physiol, 567*, 1021-1033.
-- Holm, L., van, H. G., Rose, A. J., Miller, B. F., Doessing, S., Richter, E. A. et al. (2010). Contraction intensity and feeding affect collagen and myofibrillar protein synthesis rates differently in human skeletal muscle. *Am.J.Physiol Endocrinol.Metab, 298*, E257-E269.
-- Crameri, R. M., Langberg, H., Teisner, B., Magnusson, P., Schroder, H. D., Olesen, J. L. et al. (2004). Enhanced procollagen processing in skeletal muscle after a single bout of eccentric loading in humans. *Matrix Biology, 23*, 259-264.
-- Potier TG, Alexander CM, Seynnes OR. Effects of eccentric strength training on biceps femoris muscle architecture and knee joint range of movement. Eur J Appl Physiol 2009: 105: 939–944.
-- Sharifnezhad A, Marzilger R, Arampatzis A. Effects of load magnitude, muscle length and velocity during eccentric chronic loading on the longitudinal growth of the vastus lateralis muscle. J Exp Biol 2014: 217: 2726–2733.
-- McMahon GE, Morse CI, Burden A, Winwood K, Onambele GL. Impact of range of motion during ecologically valid resistance training protocols on muscle size, subcutaneous fat, and strength. J Strength Cond Res 2014: 28: 245–255.
-- Støve, Morten Pallisgaard, Rogerio Pessoto Hirata, and Thorvaldur Skuli Palsson. « Muscle stretching–the potential role of endogenous pain inhibitory modulation on stretch tolerance. » *Scandinavian journal of pain* 19.2 (2019): 415-422.`
   {
     title: "Syndrome du canal carpien, pourquoi sommes-nous négligés du parcours de soin ? (Partie 2/3)",
     image: "https://www.kinefact.com/wp-content/uploads/2021/01/tumblr_o16n2kBlpX1ta3qyvo1_1280.jpg",
@@ -547,7 +377,7 @@ De ce fait, certains auteurs et chercheurs émettent un doute justifiable quant 
 
 Voici dans les tableaux ci-dessous, les différences histologiques observées lors de biopsies chez des patients atteints de SCC selon leur pathologie sous-jacente.
 
-<img src="https://www.kinefact.com/wp-content/uploads/2021/01/6-e1611872590593.png" alt="Tableau histologique 1" width="300" height="68"> <img src="https://www.kinefact.com/wp-content/uploads/2021/01/7-e1611872621327.png" alt="Tableau histologique 2" width="431" height="233">
+<img src="https://www.kinefact.com/wp-content/uploads/2021/01/6-e1611872590593.png" alt="Différences histologiques 1" width="300" height="68"> <img src="https://www.kinefact.com/wp-content/uploads/2021/01/7-e1611872621327.png" alt="Différences histologiques 2" width="431" height="233">
 
 *TAŞER, Figen, DEĞER, Ayşe Nur, et DEĞER, Hakkı. Comparative histopathological evaluation of patients with diabetes, hypothyroidism and idiopathic carpal tunnel syndrome. 2017.*
 
@@ -560,7 +390,6 @@ Voici dans les tableaux ci-dessous, les différences histologiques observées lo
 <video width="480" height="662" loop autoplay muted>
   <source src="https://www.kinefact.com/wp-content/uploads/2021/01/giphy-26.mp4" type="video/mp4">
 </video>
-
 
 De ces observations et suite à des biopsies, on observe qu'une partie de la population semble avoir des prédispositions à avoir des troubles vasculaires et nerveux. Par exemple, l'analyse des nerfs interosseux postérieurs chez des patients diabétiques ayant un SCC avec ou sans polyneuropathies, ainsi que chez des patients ayant un SCC idiopathique, comparativement à un groupe contrôle n'ayant pas de SCC (Thomsen et al en 2009) :
 
@@ -776,5 +605,4 @@ Les connaissances actuelles concernant les mononeuropathies compressives, nous m
 **POUR LA PARTIE 3** cliquez [ICI](https://www.kinefact.com/?p=2202&preview=true)
 `,
   },
-  }
 ];
