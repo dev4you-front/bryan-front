@@ -27,5 +27,5 @@ export default function ClientFormattedDate({ date, format = 'full' }: ClientFor
     }
   }, [date, format]);
 
-  return <span>{formattedDate}</span>;
+  return <span suppressHydrationWarning>{formattedDate}</span>;
 }
