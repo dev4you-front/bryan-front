@@ -5,7 +5,23 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
-  --brandviolet: #9c27b0;
+}
+
+/* Tailwind v4 inline theme (supported in this template). If your setup warns, it's safe to ignore. */
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+
+  /* Brand colors ported from Symfony Tailwind config */
+  --color-brandblack: #18181b;
+  --color-brandgray: #232323;
+  --color-brandwhite: #ffffff;
+  --color-brandviolet: #9c27b0;
+  --color-brandlavande: #9575cd;
+  --color-brandgraylight: #e5e7eb;
+  --color-light-gray: #E0E0E0;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -54,8 +70,7 @@ footer .separator { border-top: 1px solid rgba(156, 39, 176, 0.2); }
 }
 
 .article-content blockquote {
-  border-left: 4px solid var(--brandviolet);
-  @apply bg-gray-50 p-4 my-6 italic;
+  @apply border-l-4 border-brandviolet bg-gray-50 p-4 my-6 italic;
 }
 
 .article-content blockquote p {
@@ -63,8 +78,7 @@ footer .separator { border-top: 1px solid rgba(156, 39, 176, 0.2); }
 }
 
 .article-content a {
-  color: var(--brandviolet);
-  @apply hover:text-purple-600 underline transition;
+  @apply text-brandviolet hover:text-purple-600 underline transition;
 }
 
 .article-content img {

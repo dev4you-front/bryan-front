@@ -10,6 +10,13 @@ module.exports = {
       colors: {
         background: 'var(--background)',
         foreground: 'var(--foreground)',
+        brandblack: '#18181b',
+        brandgray: '#232323',
+        brandwhite: '#ffffff',
+        brandviolet: '#9c27b0',
+        brandlavande: '#9575cd',
+        brandgraylight: '#e5e7eb',
+        'light-gray': '#E0E0E0',
       },
     },
   },
