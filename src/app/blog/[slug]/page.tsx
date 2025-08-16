@@ -10,11 +10,9 @@ import fs from 'fs';
 import path from 'path';
 import matter from 'gray-matter';
 
-interface BlogArticlePageProps {
-  params: {
-    slug: string;
-  };
-}
+type Props = {
+  params: Promise<{ slug: string }>;
+};
 
 export async function generateStaticParams() {
   return blogArticles.map((article) => ({
@@ -22,7 +20,7 @@ export async function generateStaticParams() {
   }));
 }
 
-export default async function BlogArticlePage({ params }: BlogArticlePageProps) {
+export default async function BlogArticlePage({ params }: Props) {
   const resolvedParams = await params;
   const article = blogArticles.find(
     (a) => a.link === `/blog/${resolvedParams.slug}`

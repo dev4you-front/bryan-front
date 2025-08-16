@@ -5,11 +5,9 @@ import PhysiomapsSection from "@/app/components/PhysiomapsSection";
 import ConfCarousel from "@/app/components/ConfCarousel";
 import SectionWrapper from "@/app/components/SectionWrapper";
 
-interface FormationPageProps {
-  params: {
-    type: string;
-  };
-}
+type Props = {
+  params: Promise<{ type: string }>;
+};
 
 export async function generateStaticParams() {
   return [
@@ -19,7 +17,7 @@ export async function generateStaticParams() {
   ];
 }
 
-export default async function FormationPage({ params }: FormationPageProps) {
+export default async function FormationPage({ params }: Props) {
   const resolvedParams = await params;
   const { type } = resolvedParams;
   
