@@ -1,5 +1,4 @@
 import { Formation } from "@/types";
-import Image from "next/image";
 
 interface FormationSectionProps {
   formation: Formation;
