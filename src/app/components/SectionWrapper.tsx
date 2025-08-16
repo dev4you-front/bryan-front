@@ -5,13 +5,15 @@ interface SectionWrapperProps {
   maxWidth?: 'sm' | 'md' | 'lg' | 'xl' | '2xl' | '3xl' | '4xl' | '5xl' | '6xl' | '7xl';
   spacing?: 'sm' | 'md' | 'lg' | 'xl';
   className?: string;
+  id?: string;
 }
 
 export default function SectionWrapper({ 
   children, 
   maxWidth = '5xl', 
   spacing = 'xl',
-  className = '' 
+  className = '',
+  id
 }: SectionWrapperProps) {
   const maxWidthClasses = {
     'sm': 'max-w-sm',
@@ -34,7 +36,7 @@ export default function SectionWrapper({
   };
 
   return (
-    <section className={`py-12 bg-light-gray ${className}`}>
+    <section id={id} className={`py-12 bg-light-gray ${className}`}>
       <div className={`${maxWidthClasses[maxWidth]} mx-auto px-6 ${spacingClasses[spacing]}`}>
         {children}
       </div>
