@@ -9,7 +9,7 @@ export default function Home() {
       {/* Full-bleed hero (same rendu que body_top Twig) */}
       <section className="relative bg-white overflow-hidden w-screen left-1/2 right-1/2 -ml-[50vw] -mr-[50vw]">
         <div className="max-w-7xl mx-auto relative z-10">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center min-h-[80vh] px-6 pb-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center min-h-[80vh] px-6 py-8">
             <div className="text-center md:text-left space-y-6">
               <h1 className="text-4xl md:text-6xl font-extrabold text-gray-900 uppercase tracking-tight">Bryan Littré</h1>
               <p className="text-xl md:text-2xl text-brandviolet font-semibold mt-4">Physiotherapeute • Formateur • Conférencier</p>
@@ -26,10 +26,10 @@ export default function Home() {
                     className="w-full h-full object-cover"
                     controls
                     autoPlay
+                    muted
                     loop
                     preload="metadata"
                     poster="/images/formation_neuro.jpeg"
-                    volume={0.5}
                   >
                     <source src="/video/video_accueil.mp4" type="video/mp4" />
                     Votre navigateur ne supporte pas la lecture de vidéos.
