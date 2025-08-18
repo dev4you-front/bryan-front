@@ -26,10 +26,10 @@ export default function Home() {
                     className="w-full h-full object-cover"
                     controls
                     autoPlay
-                    muted
                     loop
                     preload="metadata"
                     poster="/images/formation_neuro.jpeg"
+                    volume={0.5}
                   >
                     <source src="/video/video_accueil.mp4" type="video/mp4" />
                     Votre navigateur ne supporte pas la lecture de vidéos.
