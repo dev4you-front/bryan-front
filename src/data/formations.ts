@@ -1,12 +1,11 @@
-import { Formation, ConfItem } from "@/types";
+import { Formation, ConfItem, FormationsData, PhysiomapsSection } from "@/types";
 
-export const formationsData = {
+export const formationsData: FormationsData = {
   sport: {
     formations: [
       {
         title: "Comment prendre en charge les lésions des ischio-jambiers",
         description: "Formation avec conférences et podcast sur les pathologies sportives des ischio-jambiers.",
-        video: undefined,
         videos: [
           {
             src: "https://www.youtube.com/embed/QPdA4npgKck",
@@ -22,7 +21,7 @@ export const formationsData = {
           },
         ],
       },
-    ] as Formation[],
+    ],
   },
   neuro: {
     formations: [
@@ -31,16 +30,15 @@ export const formationsData = {
         description: "Pour enfin savoir faire un VRAI bilan neuro mais surtout savoir quoi en faire.",
         video: "https://www.youtube.com/embed/VVLn86-t-Sg",
       },
-    ] as Formation[],
+    ],
   },
   vasculaire: {
     formations: [
       {
         title: "Troubles vasculaires : Trier pour savoir quand traiter !",
         description: "Formation accessible en e-learning sur la plate-forme Physio-learning. Actuellement : V2.",
-        video: "", // Vidéo maintenant gérée par le carrousel
       },
-    ] as Formation[],
+    ],
     videos: [
       {
         src: "https://www.youtube.com/embed/wJkIQ_0tExc",
@@ -50,11 +48,11 @@ export const formationsData = {
         src: "https://www.youtube.com/embed/O0bjv3zgy2Q",
         title: "Bryan LITTRE et Matthieu GONZALES BANDRES - Les blessures en course et réflexion autour d'une étude",
       },
-    ] as ConfItem[],
+    ],
   },
 };
 
-export const physiomapsSection = {
+export const physiomapsSection: PhysiomapsSection = {
   title: "Formations interactives Physiomaps",
   description: "Accédez à mes formations neurologiques interactives sur Physiomaps",
   url: "https://physiomaps.com/?no_header=true",

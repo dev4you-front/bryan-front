@@ -38,7 +38,7 @@ export default async function FormationTypePage({ params }: Props) {
     <SectionWrapper maxWidth="7xl" id="formations">
       {formations.map((formation, index) => (
         <FormationSection key={index} formation={formation}>
-          {/* Carrousel pour les formations avec des vidéos */}
+          {/* Carrousel pour les formations avec des vidéos (ex: ischio-jambiers) */}
           {formation.videos && (
             <ConfCarousel items={formation.videos} />
           )}
