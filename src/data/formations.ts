@@ -41,12 +41,16 @@ export const formationsData: FormationsData = {
     ],
     videos: [
       {
-        src: "https://www.youtube.com/embed/wJkIQ_0tExc",
-        title: "Troubles vasculaires : Trier pour savoir quand traiter ! - Nouvelle présentation",
+        src: "/video/video_vascu_bryan_olivia.mp4",
+        title: "Troubles vasculaires avec Bryan et Olivia",
       },
       {
-        src: "https://www.youtube.com/embed/O0bjv3zgy2Q",
-        title: "Bryan LITTRE et Matthieu GONZALES BANDRES - Les blessures en course et réflexion autour d'une étude",
+        src: "https://www.youtube.com/embed/wJkIQ_0tExc",
+        title: "Troubles vasculaires : Trier pour savoir quand traiter !",
+      },
+      {
+        src: "https://www.youtube.com/embed/dAsUCdMmZNc?start=2833",
+        title: "Formation troubles vasculaires - Partie avancée",
       },
     ],
   },
