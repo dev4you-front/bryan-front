@@ -6,7 +6,21 @@ export const formationsData = {
       {
         title: "Comment prendre en charge les lésions des ischio-jambiers",
         description: "Formation avec conférences et podcast sur les pathologies sportives des ischio-jambiers.",
-        video: "https://www.youtube.com/embed/QPdA4npgKck",
+        video: "",
+        videos: [
+          {
+            src: "https://www.youtube.com/embed/QPdA4npgKck",
+            title: "Comment prendre en charge les lésions des ischio-jambiers",
+          },
+          {
+            src: "https://www.youtube.com/embed/VVLn86-t-Sg",
+            title: "Troubles neurologiques en musculo-squelettique",
+          },
+          {
+            src: "https://www.youtube.com/embed/E4kTrmriU64",
+            title: "Bryan LITTRE - La douleur chronique",
+          },
+        ],
       },
     ] as Formation[],
   },
