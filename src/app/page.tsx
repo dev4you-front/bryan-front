@@ -1,32 +1,11 @@
 import ConfCarousel from "./components/ConfCarousel";
 import PhysiomapsSection from "./components/PhysiomapsSection";
 import SectionWrapper from "./components/SectionWrapper";
-import { ConfItem } from "@/types";
 import Image from "next/image";
 
 export default function Home() {
-  const items: ConfItem[] = [
-    {
-      src: "https://www.youtube-nocookie.com/embed/O0bjv3zgy2Q",
-      title:
-        "Bryan LITTRE et Matthieu GONZALES BANDRES - Les blessures en course et réflexion autour d'une étude",
-    },
-    {
-      src: "https://www.youtube-nocookie.com/embed/VVLn86-t-Sg",
-      title: "Récidives dans le sport : à qui la faute ? Bryan LITTRÉ // Conférence SPO",
-    },
-    {
-      src: "https://www.youtube-nocookie.com/embed/E4kTrmriU64",
-      title:
-        "Gaetan HENRY et Bryan LITTRE - Retour au sport et lésions sportives du membre inférieur. CIFEPK 2022",
-    },
-    {
-      src: "https://www.youtube-nocookie.com/embed/QPdA4npgKck",
-      title: "Bryan Littré, Kiné du sport - Comment ne plus se BLESSER aux ISCHIOS",
-    },
-  ];
   return (
-    <div className="space-y-12">
+    <div>
       {/* Full-bleed hero (same rendu que body_top Twig) */}
       <section className="relative bg-white overflow-hidden w-screen left-1/2 right-1/2 -ml-[50vw] -mr-[50vw]">
         <div className="max-w-7xl mx-auto relative z-10">
@@ -71,12 +50,6 @@ export default function Home() {
           </svg>
         </div>
       </section>
-
-      <SectionWrapper maxWidth="7xl" id="formations">
-        <h2 className="text-center text-2xl md:text-3xl font-extrabold text-gray-900 mb-8 uppercase tracking-wide">Conférences et broadcast</h2>
-        {/* Carousel */}
-        <ConfCarousel items={items} />
-      </SectionWrapper>
     </div>
   );
 }
