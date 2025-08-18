@@ -1,3 +1,5 @@
+"use client";
+
 import { blogArticles } from "@/data/blogArticles";
 import { useState, useMemo } from "react";
 import ClientFormattedDate from "@/app/components/ClientFormattedDate";
@@ -109,5 +111,3 @@ export default function Blog() {
     </SectionWrapper>
   );
 }
-
-"use client";
