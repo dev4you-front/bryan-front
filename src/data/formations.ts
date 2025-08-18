@@ -6,7 +6,7 @@ export const formationsData = {
       {
         title: "Comment prendre en charge les lésions des ischio-jambiers",
         description: "Formation avec conférences et podcast sur les pathologies sportives des ischio-jambiers.",
-        video: "",
+        video: undefined,
         videos: [
           {
             src: "https://www.youtube.com/embed/QPdA4npgKck",
