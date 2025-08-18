@@ -1,100 +1,61 @@
-"use client";
+import { Formation, ConfItem } from "@/types";
 
-import { useState } from "react";
-import { ConfItem } from "@/types";
+export const formationsData = {
+  sport: {
+    formations: [
+      {
+        title: "Comment prendre en charge les lésions des ischio-jambiers",
+        description: "Formation avec conférences et podcast sur les pathologies sportives des ischio-jambiers.",
+        video: undefined,
+        videos: [
+          {
+            src: "https://www.youtube.com/embed/QPdA4npgKck",
+            title: "Comment prendre en charge les lésions des ischio-jambiers",
+          },
+          {
+            src: "https://www.youtube.com/embed/VVLn86-t-Sg",
+            title: "Troubles neurologiques en musculo-squelettique",
+          },
+          {
+            src: "https://www.youtube.com/embed/E4kTrmriU64",
+            title: "Bryan LITTRE - La douleur chronique",
+          },
+        ],
+      },
+    ] as Formation[],
+  },
+  neuro: {
+    formations: [
+      {
+        title: "Troubles neurologiques en musculo-squelettique",
+        description: "Pour enfin savoir faire un VRAI bilan neuro mais surtout savoir quoi en faire.",
+        video: "https://www.youtube.com/embed/VVLn86-t-Sg",
+      },
+    ] as Formation[],
+  },
+  vasculaire: {
+    formations: [
+      {
+        title: "Troubles vasculaires : Trier pour savoir quand traiter !",
+        description: "Formation accessible en e-learning sur la plate-forme Physio-learning. Actuellement : V2.",
+        video: "", // Vidéo maintenant gérée par le carrousel
+      },
+    ] as Formation[],
+    videos: [
+      {
+        src: "https://www.youtube.com/embed/wJkIQ_0tExc",
+        title: "Troubles vasculaires : Trier pour savoir quand traiter ! - Nouvelle présentation",
+      },
+      {
+        src: "https://www.youtube.com/embed/O0bjv3zgy2Q",
+        title: "Bryan LITTRE et Matthieu GONZALES BANDRES - Les blessures en course et réflexion autour d'une étude",
+      },
+    ] as ConfItem[],
+  },
+};
 
-interface ConfCarouselProps {
-  items: ConfItem[];
-}
-
-export default function ConfCarousel({ items }: ConfCarouselProps) {
-  const [index, setIndex] = useState(0);
-
-  const goPrev = (): void => setIndex((i: number) => (i - 1 + items.length) % items.length);
-  const goNext = (): void => setIndex((i: number) => (i + 1) % items.length);
-
-  return (
-    <div className="w-full my-12">
-      {/* Desktop: flèches à l'extérieur */}
-      <div className="hidden md:block relative">
-        <button
-          aria-label="Précédent"
-          className="absolute left-0 top-1/3 -translate-y-1/2 z-20 w-12 h-12 bg-transparent text-brandviolet rounded-full flex items-center justify-center text-2xl font-black border-none transition-colors hover:text-purple-600"
-          onClick={goPrev}
-        >
-          <div className="w-3 h-3 border-t-2 border-r-2 border-brandgray transform -rotate-135"></div>
-        </button>
-        
-        <div className="w-full mx-auto px-12">
-          <div className="flex flex-col items-center">
-            <div className="w-full aspect-video rounded-xl shadow mb-4 overflow-hidden">
-              <iframe
-                src={items[index]?.src}
-                title={items[index]?.title}
-                className="w-full h-full"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              />
-            </div>
-            <p className="text-gray-700 text-center mt-6">{items[index]?.title}</p>
-          </div>
-        </div>
-        
-        <button
-          aria-label="Suivant"
-          className="absolute right-0 top-1/3 -translate-y-1/2 z-20 w-12 h-12 bg-transparent text-brandviolet rounded-full flex items-center justify-center text-2xl font-black border-none transition-colors hover:text-purple-600"
-          onClick={goNext}
-        >
-          <div className="w-3 h-3 border-t-2 border-r-2 border-brandgray transform rotate-45"></div>
-        </button>
-      </div>
-
-      {/* Mobile/Tablette: flèches en dessous */}
-      <div className="md:hidden">
-        <div className="flex flex-col items-center">
-          <div className="w-full aspect-video rounded-xl shadow mb-4 overflow-hidden">
-            <iframe
-              src={items[index]?.src}
-              title={items[index]?.title}
-              className="w-full h-full"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            />
-          </div>
-          <p className="text-gray-700 text-center mt-6">{items[index]?.title}</p>
-          
-          {/* Flèches de navigation mobile */}
-          <div className="flex items-center justify-center gap-8 mt-6">
-            <button
-              aria-label="Précédent"
-              className="relative w-12 h-12 bg-transparent text-brandviolet rounded-full flex items-center justify-center text-2xl font-black border-none transition-colors hover:text-purple-600"
-              onClick={goPrev}
-            >
-              <div className="w-3 h-3 border-t-2 border-r-2 border-brandgray transform -rotate-135"></div>
-            </button>
-            <button
-              aria-label="Suivant"
-              className="relative w-12 h-12 bg-transparent text-brandviolet rounded-full flex items-center justify-center text-2xl font-black border-none transition-colors hover:text-purple-600"
-              onClick={goNext}
-            >
-              <div className="w-3 h-3 border-t-2 border-r-2 border-brandgray transform rotate-45"></div>
-            </button>
-          </div>
-        </div>
-      </div>
-
-      {/* Pagination commune */}
-      <div className="flex justify-center gap-4 mt-6">
-        {items.map((_, i) => (
-          <button
-            key={i}
-            aria-label={`Aller à la slide ${i + 1}`}
-            className={`w-4 h-4 rounded-full border-2 border-brandviolet transition-colors ${
-              i === index ? "bg-brandviolet" : "bg-brandgraylight"
-            }`}
-            onClick={(): void => setIndex(i)}
-          />
-        ))}
-      </div>
-    </div>
-  );
-}
-
+export const physiomapsSection = {
+  title: "Formations interactives Physiomaps",
+  description: "Accédez à mes formations neurologiques interactives sur Physiomaps",
+  url: "https://physiomaps.com/?no_header=true",
+};
