@@ -13,6 +13,7 @@ export interface Article {
   author: string;
   link: string;
   contentPath: string;
+  category?: string;
 }
 
 export interface Formation {

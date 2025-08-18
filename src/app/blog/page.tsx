@@ -1,17 +1,69 @@
 import { blogArticles } from "@/data/blogArticles";
+import { useState, useMemo } from "react";
 import ClientFormattedDate from "@/app/components/ClientFormattedDate";
 import Image from "next/image";
 import SectionWrapper from "@/app/components/SectionWrapper";
 
 export default function Blog() {
+  const categories = ["NeuroVascu", "Sport", "Autres"];
+  const [activeCategory, setActiveCategory] = useState<string>("NeuroVascu");
+
+  // Regrouper les articles par catégorie
+  const articlesByCategory = useMemo(() => {
+    const grouped: Record<string, typeof blogArticles> = {
+      NeuroVascu: [],
+      Sport: [],
+      Autres: []
+    };
+
+    blogArticles.forEach(article => {
+      const category = article.category || "Autres";
+      if (grouped[category]) {
+        grouped[category].push(article);
+      } else {
+        grouped["Autres"].push(article);
+      }
+    });
+
+    return grouped;
+  }, []);
+
+  // Articles filtrés selon la catégorie active
+  const filteredArticles = useMemo(() => {
+    return articlesByCategory[activeCategory] || [];
+  }, [articlesByCategory, activeCategory]);
+
   return (
     <SectionWrapper>
       <div className="bg-white rounded-2xl shadow-lg p-8">
         <h2 className="text-center text-3xl md:text-4xl font-extrabold text-gray-900 mb-6 uppercase tracking-wide">
           Mes Articles
         </h2>
+        
+        {/* Navigation par catégories */}
+        <div className="flex flex-wrap justify-center gap-2 mb-8">
+          {categories.map((category) => (
+            <button
+              key={category}
+              onClick={() => setActiveCategory(category)}
+              className={`px-6 py-3 rounded-lg font-semibold text-sm transition-all duration-200 ${
+                activeCategory === category
+                  ? "bg-brandviolet text-white shadow-lg transform scale-105"
+                  : "bg-gray-100 text-gray-700 hover:bg-gray-200 hover:text-gray-900"
+              }`}
+            >
+              {category}
+              <span className="ml-2 text-xs opacity-75">
+                ({articlesByCategory[category]?.length || 0})
+              </span>
+            </button>
+          ))}
+        </div>
+
+        {/* Articles de la catégorie sélectionnée */}
+        {filteredArticles.length > 0 ? (
         <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-          {blogArticles.map((a, idx: number) => (
+            {filteredArticles.map((a, idx: number) => (
             <article key={idx} className="bg-white rounded-xl shadow-md border border-gray-100 overflow-hidden flex flex-col transform transition duration-300 hover:scale-[1.02] hover:shadow-xl hover:border-brandviolet/20">
               <div className="relative overflow-hidden">
                 <Image 
@@ -42,8 +94,20 @@ export default function Blog() {
             </article>
           ))}
         </div>
+        ) : (
+          <div className="text-center py-12">
+            <div className="text-gray-400 mb-4">
+              <svg className="w-16 h-16 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+              </svg>
+            </div>
+            <h3 className="text-xl font-semibold text-gray-600 mb-2">Aucun article dans cette catégorie</h3>
+            <p className="text-gray-500">Les articles de la catégorie "{activeCategory}" seront bientôt disponibles.</p>
+          </div>
+        )}
       </div>
     </SectionWrapper>
   );
 }
 
+"use client";

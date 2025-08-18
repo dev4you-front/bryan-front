@@ -9,6 +9,7 @@ export const blogArticles: Article[] = [
     author: "Benjamin HENG",
     link: "/blog/comment-marche-etirement",
     contentPath: 'blog-posts/comment-marche-etirement.md',
+    category: "Sport",
   },
   {
     title: "Syndrome du canal carpien, quelques bases de compréhension. 1/3",
@@ -18,6 +19,7 @@ export const blogArticles: Article[] = [
     author: "Bryan Littré",
     link: "/blog/syndrome-canal-carpien-bases-comprehension",
     contentPath: 'blog-posts/syndrome-canal-carpien-bases-comprehension.md',
+    category: "NeuroVascu",
   },
   {
     title: "Syndrome du canal carpien, pourquoi sommes-nous négligés du parcours de soin ? 2/3",
@@ -27,6 +29,7 @@ export const blogArticles: Article[] = [
     author: "Bryan Littré",
     link: "/blog/syndrome-canal-carpien-neglige-parcours-soin",
     contentPath: 'blog-posts/syndrome-canal-carpien-neglige-parcours-soin.md',
+    category: "NeuroVascu",
   },
   {
     title: "Le syndrome du canal carpien : régler au mieux le problème. 3/3",
@@ -36,6 +39,7 @@ export const blogArticles: Article[] = [
     author: "Bryan Littré",
     link: "/blog/syndrome-canal-carpien-parcours-soin",
     contentPath: 'blog-posts/syndrome-canal-carpien-parcours-soin.md',
+    category: "NeuroVascu",
   },
   {
     title: "Les lésions aiguës des ischio-jambiers : un problème dont il faut s'occuper",
@@ -45,6 +49,7 @@ export const blogArticles: Article[] = [
     author: "Bryan Littré",
     link: "/blog/lesions-ischio-jambiers",
     contentPath: 'blog-posts/lesions-ischio-jambiers.md',
+    category: "Sport",
   },
   {
     title: "Les lésions aiguës des ischio-jambiers : comprendre et optimiser la prise en charge",
@@ -54,5 +59,6 @@ export const blogArticles: Article[] = [
     author: "Bryan Littré",
     link: "/blog/lesions-ischio-jambiers-prise-en-charge",
     contentPath: 'blog-posts/lesions-ischio-jambiers-prise-en-charge.md',
+    category: "Sport",
   },
 ];
