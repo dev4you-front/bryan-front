@@ -9,7 +9,7 @@ export default function Home() {
       {/* Full-bleed hero (same rendu que body_top Twig) */}
       <section className="relative bg-white overflow-hidden w-screen left-1/2 right-1/2 -ml-[50vw] -mr-[50vw]">
         <div className="max-w-7xl mx-auto relative z-10">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center min-h-[60vh] px-6 py-4">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center min-h-[80vh] px-6 py-8">
             <div className="text-center md:text-left space-y-6">
               <h1 className="text-4xl md:text-6xl font-extrabold text-gray-900 uppercase tracking-tight">Bryan Littré</h1>
               <p className="text-xl md:text-2xl text-brandviolet font-semibold mt-4">Physiotherapeute • Formateur • Conférencier</p>
@@ -20,35 +20,22 @@ export default function Home() {
               </div>
             </div>
             <div className="relative">
-              <div className="relative w-full max-w-4xl mx-auto">
-                <div className="aspect-video rounded-xl overflow-hidden shadow-2xl bg-gray-900 transform rotate-1 hover:rotate-0 transition-transform duration-500">
-                  <video 
-                    className="w-full h-full object-cover"
-                    controls
-                    autoPlay
-                    loop
-                    preload="metadata"
-                    poster="/images/formation_neuro.jpeg"
-                    ref={(video) => {
-                      if (video) {
-                        video.volume = 0.5;
-                      }
-                    }}
-                  >
-                    <source src="/video/video_accueil.mp4" type="video/mp4" />
-                    Votre navigateur ne supporte pas la lecture de vidéos.
-                  </video>
-                </div>
-                
-                {/* Overlay décoratif */}
-                <div className="absolute -bottom-4 -right-4 w-24 h-24 bg-brandviolet rounded-full opacity-20 blur-xl"></div>
-                <div className="absolute -top-4 -left-4 w-16 h-16 bg-brandviolet rounded-full opacity-30 blur-lg"></div>
+              <div className="aspect-square rounded-2xl overflow-hidden shadow-2xl transform rotate-3 hover:rotate-0 transition-transform duration-500">
+                <Image 
+                  src="/images/formation_neuro.jpeg" 
+                  alt="Bryan Littré" 
+                  width={600}
+                  height={600}
+                  className="w-full h-full object-cover"
+                  priority
+                />
               </div>
+              <div className="absolute -bottom-6 -right-6 w-32 h-32 bg-brandviolet rounded-full opacity-20"></div>
             </div>
           </div>
         </div>
         {/* Wave to grey, inside white section to avoid black gap */}
-        <div className="mt-2">
+        <div className="mt-4">
           <svg viewBox="0 0 1440 100" xmlns="http://www.w3.org/2000/svg" className="w-full">
             <defs>
               <linearGradient id="sw-gradient-0-home" x1="0" x2="0" y1="1" y2="0">
@@ -64,28 +51,30 @@ export default function Home() {
       <SectionWrapper maxWidth="6xl" className="bg-light-gray">
         <div className="text-center">
           <h2 className="text-3xl md:text-4xl font-extrabold text-gray-900 mb-6 uppercase tracking-wide">
-            Ma formation en neurologie
+            Découvrez mon approche
           </h2>
           <p className="text-lg text-gray-700 mb-8 max-w-3xl mx-auto">
-            Découvrez ma formation spécialisée en troubles neurologiques en musculo-squelettique, 
-            pour une approche complète et scientifique de la prise en charge.
+            Une présentation de ma méthodologie et de mon expertise en physiothérapie, 
+            alliant recherche scientifique et pratique clinique pour une prise en charge optimale.
           </p>
           
           {/* Conteneur vidéo responsive */}
           <div className="relative w-full max-w-4xl mx-auto">
-            <div className="aspect-square rounded-2xl overflow-hidden shadow-2xl transform rotate-3 hover:rotate-0 transition-transform duration-500">
-              <Image 
-                src="/images/formation_neuro.jpeg" 
-                alt="Formation neurologie Bryan Littré" 
-                width={600}
-                height={600}
+            <div className="aspect-video rounded-xl overflow-hidden shadow-2xl bg-gray-900">
+              <video 
                 className="w-full h-full object-cover"
-                priority
-              />
+                controls
+                preload="metadata"
+                poster="/images/formation_neuro.jpeg"
+              >
+                <source src="/video/video_accueil.mp4" type="video/mp4" />
+                Votre navigateur ne supporte pas la lecture de vidéos.
+              </video>
             </div>
             
             {/* Overlay décoratif */}
-            <div className="absolute -bottom-6 -right-6 w-32 h-32 bg-brandviolet rounded-full opacity-20"></div>
+            <div className="absolute -bottom-4 -right-4 w-24 h-24 bg-brandviolet rounded-full opacity-20 blur-xl"></div>
+            <div className="absolute -top-4 -left-4 w-16 h-16 bg-brandviolet rounded-full opacity-30 blur-lg"></div>
           </div>
         </div>
       </SectionWrapper>
