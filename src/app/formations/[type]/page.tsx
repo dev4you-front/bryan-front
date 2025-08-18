@@ -1,65 +1,62 @@
-import { Formation, ConfItem } from "@/types";
+import { notFound } from "next/navigation";
+import { formationsData, physiomapsSection } from "@/data/formations";
+import ConfCarousel from "@/app/components/ConfCarousel";
+import FormationSection from "@/app/components/FormationSection";
+import PhysiomapsSection from "@/app/components/PhysiomapsSection";
+import SectionWrapper from "@/app/components/SectionWrapper";
 
-export const formationsData = {
-  sport: {
-    formations: [
-      {
-        title: "Comment prendre en charge les lésions des ischio-jambiers",
-        description: "Formation avec conférences et podcast sur les pathologies sportives des ischio-jambiers.",
-        video: "",
-        videos: [
-          {
-            src: "https://www.youtube.com/embed/QPdA4npgKck",
-            title: "Comment prendre en charge les lésions des ischio-jambiers",
-          },
-          {
-            src: "https://www.youtube.com/embed/VVLn86-t-Sg",
-            title: "Troubles neurologiques en musculo-squelettique",
-          },
-          {
-            src: "https://www.youtube.com/embed/E4kTrmriU64",
-            title: "Bryan LITTRE - La douleur chronique",
-          },
-        ],
-      },
-    ] as Formation[],
-  },
-  neuro: {
-    formations: [
-      {
-        title: "Troubles neurologiques en musculo-squelettique",
-        description: "Pour enfin savoir faire un VRAI bilan neuro mais surtout savoir quoi en faire.",
-        video: "https://www.youtube.com/embed/VVLn86-t-Sg",
-      },
-    ] as Formation[],
-  },
-  vasculaire: {
-    formations: [
-      {
-        title: "Troubles vasculaires : Trier pour savoir quand traiter !",
-        description: "Formation accessible en e-learning sur la plate-forme Physio-learning. Actuellement : V2.",
-        video: "", // Vidéo maintenant gérée par le carrousel
-      },
-    ] as Formation[],
-    videos: [
-      {
-        src: "https://www.youtube.com/embed/wJkIQ_0tExc",
-          {/* Carrousel pour la formation ischio-jambiers */}
+type Props = {
+  params: Promise<{ type: string }>;
+};
+
+export async function generateStaticParams() {
+  return [
+    { type: 'sport' },
+    { type: 'neuro' },
+    { type: 'vasculaire' },
+  ];
+}
+
+export default async function FormationTypePage({ params }: Props) {
+  const resolvedParams = await params;
+  const { type } = resolvedParams;
+
+  if (!['sport', 'neuro', 'vasculaire'].includes(type)) {
+    notFound();
+  }
+
+  const data = formationsData[type as keyof typeof formationsData];
+  
+  if (!data) {
+    notFound();
+  }
+
+  const { formations } = data;
+  const videos = 'videos' in data ? data.videos : undefined;
+
+  return (
+    <SectionWrapper maxWidth="7xl" id="formations">
+      {formations.map((formation, index) => (
+        <FormationSection key={index} formation={formation}>
+          {/* Carrousel pour les formations avec des vidéos */}
           {formation.videos && (
             <ConfCarousel items={formation.videos} />
           )}
-        title: "Troubles vasculaires : Trier pour savoir quand traiter ! - Nouvelle présentation",
-      },
-      {
-        src: "https://www.youtube.com/embed/O0bjv3zgy2Q",
-        title: "Bryan LITTRE et Matthieu GONZALES BANDRES - Les blessures en course et réflexion autour d'une étude",
-      },
-    ] as ConfItem[],
-  },
-};
+        </FormationSection>
+      ))}
 
-export const physiomapsSection = {
-  title: "Formations interactives Physiomaps",
-  description: "Accédez à mes formations neurologiques interactives sur Physiomaps",
-  url: "https://physiomaps.com/?no_header=true",
-};
+      {/* Carrousel pour les vidéos de la section (ex: vasculaire) */}
+      {videos && (
+        <div className="bg-white rounded-2xl shadow-lg p-8">
+          <h2 className="text-center text-3xl md:text-4xl font-extrabold text-gray-900 mb-6 uppercase tracking-wide">
+            Conférences et Présentations
+          </h2>
+          <ConfCarousel items={videos} />
+        </div>
+      )}
+
+      {/* Section Physiomaps pour la formation neuro */}
+      {type === 'neuro' && <PhysiomapsSection />}
+    </SectionWrapper>
+  );
+}
