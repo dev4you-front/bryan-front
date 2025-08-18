@@ -1,3 +1,4 @@
+```typescript
 import React, { useState } from 'react';
 import { ConfItem } from '@/types';
 
@@ -110,3 +111,4 @@ const ConfCarousel: React.FC<ConfCarouselProps> = ({ items }) => {
 };
 
 export default ConfCarousel;
+```
