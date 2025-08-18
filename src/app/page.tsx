@@ -48,37 +48,6 @@ export default function Home() {
       </section>
 
       {/* Section Vidéo */}
-      <SectionWrapper maxWidth="6xl" className="bg-light-gray">
-        <div className="text-center">
-          <h2 className="text-3xl md:text-4xl font-extrabold text-gray-900 mb-6 uppercase tracking-wide">
-            Découvrez mon approche
-          </h2>
-          <p className="text-lg text-gray-700 mb-8 max-w-3xl mx-auto">
-            Une présentation de ma méthodologie et de mon expertise en physiothérapie, 
-            alliant recherche scientifique et pratique clinique pour une prise en charge optimale.
-          </p>
-          
-          {/* Conteneur vidéo responsive */}
-          <div className="relative w-full max-w-4xl mx-auto">
-            <div className="aspect-video rounded-xl overflow-hidden shadow-2xl bg-gray-900">
-              <video 
-                className="w-full h-full object-cover"
-                controls
-                preload="metadata"
-                poster="/images/formation_neuro.jpeg"
-              >
-                <source src="/video/video_accueil.mp4" type="video/mp4" />
-                Votre navigateur ne supporte pas la lecture de vidéos.
-              </video>
-            </div>
-            
-            {/* Overlay décoratif */}
-            <div className="absolute -bottom-4 -right-4 w-24 h-24 bg-brandviolet rounded-full opacity-20 blur-xl"></div>
-            <div className="absolute -top-4 -left-4 w-16 h-16 bg-brandviolet rounded-full opacity-30 blur-lg"></div>
-          </div>
-        </div>
-      </SectionWrapper>
-
       {/* Section Physiomaps */}
       <SectionWrapper maxWidth="7xl" className="bg-light-gray">
         <PhysiomapsSection />
