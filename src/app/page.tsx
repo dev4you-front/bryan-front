@@ -57,16 +57,18 @@ export default function Home() {
                     Suis le sur Instagram c'est là qu'il donne les informations.
                   </span>
                 </p>
+                
+                <div className="text-center">
+                  <a 
+                    href="https://www.instagram.com/bryanlittre/" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="inline-block bg-brandviolet text-white font-bold px-8 py-3 rounded-lg shadow-lg hover:bg-purple-600 hover:shadow-xl transition-all duration-300 text-lg uppercase tracking-wider transform hover:scale-105"
+                  >
+                    Instagram
+                  </a>
+                </div>
               </div>
-              
-              <a 
-                href="https://www.instagram.com/bryanlittre/" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="inline-block bg-brandviolet text-white font-bold px-8 py-3 rounded-lg shadow-lg hover:bg-purple-600 hover:shadow-xl transition-all duration-300 text-lg uppercase tracking-wider transform hover:scale-105"
-              >
-                Instagram
-              </a>
             </div>
             <div className="relative">
               <div className="aspect-square rounded-2xl overflow-hidden shadow-2xl transform rotate-3 hover:rotate-0 transition-transform duration-500">
