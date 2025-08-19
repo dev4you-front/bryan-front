@@ -8,13 +8,18 @@ export default function Home() {
   return (
     <div>
       {/* Hero vidéo immersif */}
-      <section className="relative h-screen w-screen overflow-hidden left-1/2 right-1/2 -ml-[50vw] -mr-[50vw]">
+      <section className="relative h-screen w-screen overflow-hidden left-1/2 right-1/2 -ml-[50vw] -mr-[50vw] -mt-24">
         {/* Vidéo en arrière-plan */}
         <div className="absolute inset-0 w-full h-full">
-          <ConfCarousel items={[{
-            src: "/video/video_accueil.mp4",
-            title: "Vidéo d'accueil Bryan Littré"
-          }]} />
+          <video
+            src="/video/video_accueil.mp4"
+            className="w-full h-full object-cover"
+            controls
+            preload="metadata"
+            autoPlay
+            loop
+            muted
+          />
         </div>
         
         {/* Superposition sombre pour améliorer la lisibilité */}
