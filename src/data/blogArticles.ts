@@ -6,7 +6,7 @@ export const blogArticles: Article[] = [
     image: "https://www.kinefact.com/wp-content/uploads/2019/10/cat-814952_1920.jpg",
     excerpt: "Dans l'article précédent, Bryan Littre nous a présenté les différentes théories pouvant expliquer les gains obtenus par les diverses techniques d'étirement, en s'appuyant notamment sur les travaux de Moltubakk. Dans l'article du jour, on va regarder comment la littérature peut nous aider à trancher en faveur de l'une ou de l'autre.",
     date: "2019-10-04",
-    author: "Benjamin HENG",
+    author: "Bryan Littre",
     link: "/blog/comment-marche-etirement",
     contentPath: 'blog-posts/comment-marche-etirement.md',
     category: "Sport",
