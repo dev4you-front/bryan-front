@@ -38,8 +38,8 @@ export const formationsData: FormationsData = {
         title: "Troubles vasculaires : Trier pour savoir quand traiter !",
         description: "Formation accessible en e-learning sur la plate-forme Physio-learning. Actuellement : V2.",
       },
-    ], 
-    videos: [
+    ],
+    // videos: [ // Commented out to remove the video carousel
       {
         src: "/video/video_vascu_bryan_olivia.mp4",
         title: "Troubles vasculaires avec Bryan et Olivia",
@@ -52,7 +52,7 @@ export const formationsData: FormationsData = {
         src: "https://www.youtube.com/embed/dAsUCdMmZNc?start=2833",
         title: "Formation troubles vasculaires - Partie avancée",
       },
-    ],
+    ], // End of commented out videos
   },
 };
 
