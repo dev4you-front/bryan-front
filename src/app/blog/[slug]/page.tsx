@@ -45,7 +45,7 @@ export default async function BlogArticlePage({ params }: Props) {
 
   return (
     <SectionWrapper maxWidth="7xl">
-      <div className="bg-white rounded-2xl shadow-lg p-8">
+      <div className="bg-white rounded-2xl shadow-lg p-4 sm:p-6 md:p-8">
         {/* En-tête de l'article */}
         <div className="mb-8">
           <h1 className="text-3xl md:text-4xl font-extrabold text-gray-900 mb-4 leading-tight">
