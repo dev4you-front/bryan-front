@@ -2,7 +2,6 @@ import { notFound } from "next/navigation";
 import { formationsData, physiomapsSection } from "@/data/formations";
 import ConfCarousel from "@/app/components/ConfCarousel";
 import FormationSection from "@/app/components/FormationSection";
-import PhysiomapsSection from "@/app/components/PhysiomapsSection";
 import SectionWrapper from "@/app/components/SectionWrapper";
 
 type Props = {
@@ -43,9 +42,6 @@ export default async function FormationTypePage({ params }: Props) {
           )}
         </FormationSection>
       ))}
-
-      {/* Section Physiomaps pour la formation neuro */}
-      {type === 'neuro' && <PhysiomapsSection />}
     </SectionWrapper>
   );
 }
