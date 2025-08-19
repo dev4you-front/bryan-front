@@ -1,6 +1,7 @@
 import ConfCarousel from "./components/ConfCarousel";
 import PhysiomapsSection from "./components/PhysiomapsSection";
 import SectionWrapper from "./components/SectionWrapper";
+import { ConfItem } from "@/types";
 import Image from "next/image";
 
 export default function Home() {
@@ -47,7 +48,20 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Section Vidéo */}
+      {/* Section Vidéo Accueil */}
+      <SectionWrapper maxWidth="7xl" className="bg-white">
+        {/* Définir les éléments du carrousel pour la vidéo d'accueil */}
+        {/* Le composant ConfCarousel gère déjà la lecture automatique et le volume pour les vidéos MP4 */}
+        <ConfCarousel
+          items={[
+            {
+              src: "https://stackblitz.com/storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBCTkJNdFFFPSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--6a289919af1b46b0fc8601e932bca197db49d0d2//video_accueil.mp4",
+              title: "Vidéo d'accueil",
+            },
+          ]}
+        />
+      </SectionWrapper>
+
       {/* Section Physiomaps */}
       <SectionWrapper maxWidth="7xl" className="bg-light-gray">
         <PhysiomapsSection />
