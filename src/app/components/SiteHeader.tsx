@@ -7,6 +7,7 @@ import { classNames } from "@/utils/helpers";
 
 export default function SiteHeader() {
   const pathname = usePathname();
+  const isHomePage = pathname === "/";
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const dropdownRef = useRef<HTMLDivElement>(null);
@@ -85,9 +86,17 @@ export default function SiteHeader() {
   const isFormationActive = formationLinks.some(link => pathname === link.href);
 
   return (
-    <header className="bg-brandgray text-brandwhite pt-8">
+    <header className={classNames(
+      "text-brandwhite",
+      isHomePage 
+        ? "bg-transparent absolute top-0 left-0 right-0 z-50 pt-8" 
+        : "bg-brandgray pt-8"
+    )}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <nav className="flex justify-between items-center mb-8 relative">
+        <nav className={classNames(
+          "flex justify-between items-center relative",
+          isHomePage ? "mb-0" : "mb-8"
+        )}>
           {/* Logo - masqué sur mobile */}
           <Link href="/" className="hidden md:block text-2xl font-bold tracking-widest text-brandviolet uppercase">
             Bryan Littré
@@ -219,24 +228,28 @@ export default function SiteHeader() {
           </div>
         )}
 
-        <h1 className="text-4xl md:text-5xl font-extrabold mb-4 tracking-tight uppercase text-brandwhite drop-shadow-lg">
-          {headerTitle}
-        </h1>
+        {!isHomePage && (
+          <h1 className="text-4xl md:text-5xl font-extrabold mb-4 tracking-tight uppercase text-brandwhite drop-shadow-lg">
+            {headerTitle}
+          </h1>
+        )}
       </div>
-      <div className="mt-4">
-        <svg viewBox="0 0 1440 100" xmlns="http://www.w3.org/2000/svg" className="w-full">
-          <defs>
-            <linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0">
-              <stop stopColor={waveColor} offset="0%"></stop>
-            </linearGradient>
-          </defs>
-          <path
-            stroke="none"
-            fill="url(#sw-gradient-0)"
-            d="M0,40 C320,20 420,80 640,60 C860,40 960,20 1180,40 C1400,60 1400,40 1440,40 L1440,100 L0,100 Z"
-          ></path>
-        </svg>
-      </div>
+      {!isHomePage && (
+        <div className="mt-4">
+          <svg viewBox="0 0 1440 100" xmlns="http://www.w3.org/2000/svg" className="w-full">
+            <defs>
+              <linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0">
+                <stop stopColor={waveColor} offset="0%"></stop>
+              </linearGradient>
+            </defs>
+            <path
+              stroke="none"
+              fill="url(#sw-gradient-0)"
+              d="M0,40 C320,20 420,80 640,60 C860,40 960,20 1180,40 C1400,60 1400,40 1440,40 L1440,100 L0,100 Z"
+            ></path>
+          </svg>
+        </div>
+      )}
     </header>
   );
 }

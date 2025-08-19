@@ -64,6 +64,8 @@ export default function ConfCarousel({ items }: ConfCarouselProps) {
               controls
               preload="metadata"
               autoPlay
+              loop
+              muted
             />
           ) : (
             <iframe

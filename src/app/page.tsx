@@ -7,16 +7,45 @@ import Image from "next/image";
 export default function Home() {
   return (
     <div>
+      {/* Hero vidéo immersif */}
+      <section className="relative h-screen w-screen overflow-hidden left-1/2 right-1/2 -ml-[50vw] -mr-[50vw]">
+        {/* Vidéo en arrière-plan */}
+        <div className="absolute inset-0 w-full h-full">
+          <ConfCarousel items={[{
+            src: "/video/video_accueil.mp4",
+            title: "Vidéo d'accueil Bryan Littré"
+          }]} />
+        </div>
+        
+        {/* Superposition sombre pour améliorer la lisibilité */}
+        <div className="absolute inset-0 bg-black/40 z-10"></div>
+        
+        {/* Contenu textuel superposé */}
+        <div className="absolute inset-0 z-20 flex flex-col items-center justify-center text-white text-center px-6">
+          <div className="pt-20">
+            <h1 className="text-4xl md:text-6xl font-extrabold uppercase tracking-tight mb-4 drop-shadow-lg">
+              Bryan Littré
+            </h1>
+            <p className="text-xl md:text-2xl text-brandviolet font-semibold mb-8 drop-shadow-lg">
+              Physiotherapeute • Formateur • Conférencier
+            </p>
+            <a 
+              href="#formations" 
+              className="inline-block bg-brandviolet text-white font-bold px-8 py-3 rounded-lg shadow hover:bg-purple-600 transition text-lg uppercase tracking-wider"
+            >
+              Découvrir les formations
+            </a>
+          </div>
+        </div>
+      </section>
+
       {/* Full-bleed hero (same rendu que body_top Twig) */}
-      <section className="relative bg-white overflow-hidden w-screen left-1/2 right-1/2 -ml-[50vw] -mr-[50vw]">
+      <section className="relative bg-white overflow-hidden w-screen left-1/2 right-1/2 -ml-[50vw] -mr-[50vw] mt-0">
         <div className="max-w-7xl mx-auto relative z-10">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center min-h-[80vh] px-6 py-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center px-6 py-16">
             <div className="text-center md:text-left space-y-6">
-              <h1 className="text-4xl md:text-6xl font-extrabold text-gray-900 uppercase tracking-tight">Bryan Littré</h1>
-              <p className="text-xl md:text-2xl text-brandviolet font-semibold mt-4">Physiotherapeute • Formateur • Conférencier</p>
               <p className="text-lg text-gray-800 leading-relaxed mt-6">À travers formations et conférences, Bryan Littré diffuse son expertise en physiothérapie sportive et ainsi que les affections neuromusculosquelettiques. Sa méthodologie articule connaissances scientifiques et applications pratiques, visant l'amélioration continue des pratiques professionnelles.</p>
               <div className="flex flex-col md:flex-row gap-4 justify-center md:justify-start mt-8">
-                <a href="#formations" className="inline-block bg-brandviolet text-white font-bold px-8 py-3 rounded-lg shadow hover:bg-purple-600 transition text-lg uppercase tracking-wider">Découvrir les formations</a>
                 <a href="https://www.instagram.com/bryanlittre/" target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 bg-white text-gray-900 font-bold px-8 py-3 rounded-lg shadow hover:bg-gray-50 transition">@bryanlittre</a>
               </div>
             </div>
