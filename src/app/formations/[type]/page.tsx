@@ -36,7 +36,7 @@ export default async function FormationTypePage({ params }: Props) {
   const titleMap = {
     sport: "Comment prendre en charge correctement les lésions des ischio-jambiers ?",
     neuro: "Troubles neurologiques en musculo-squelettique : Réussir ses bilans et savoir quoi en faire",  
-    vasculaire: "Mes Formations Vasculaires"
+    vasculaire: "Troubles vasculaires : Apprendre à trier pour savoir traiter !"
   };
 
   const pageTitle = titleMap[type as keyof typeof titleMap];
