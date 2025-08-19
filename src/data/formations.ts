@@ -4,7 +4,7 @@ export const formationsData: FormationsData = {
   sport: {
     formations: [
       {
-        title: "Comment prendre en charge les lésions des ischio-jambiers",
+        title: "Comment prendre en charge correctement les lésions des ischio-jambiers ?",
         videos: [
           {
             src: "https://www.youtube.com/embed/QPdA4npgKck",
