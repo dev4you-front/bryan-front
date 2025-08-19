@@ -6,9 +6,9 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div>
-      {/* Hero vidéo full-screen */}
-      <section className="relative h-screen w-screen left-1/2 right-1/2 -ml-[50vw] -mr-[50vw] overflow-hidden">
+    <div className="relative">
+      {/* Hero vidéo full-screen intégré */}
+      <section className="relative h-screen w-full overflow-hidden -mt-[1px]">
         <div className="absolute inset-0">
           <ConfCarousel
             items={[
@@ -22,8 +22,8 @@ export default function Home() {
         <div className="absolute inset-0 bg-black opacity-50"></div>
       </section>
 
-      {/* Full-bleed hero (same rendu que body_top Twig) */}
-      <section className="relative bg-white overflow-hidden w-screen left-1/2 right-1/2 -ml-[50vw] -mr-[50vw] py-12">
+      {/* Section de contenu principal */}
+      <section className="relative bg-white overflow-hidden w-screen left-1/2 right-1/2 -ml-[50vw] -mr-[50vw] py-12 -mt-[1px]">
         <div className="max-w-7xl mx-auto relative z-10">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center px-6 py-8">
             <div className="text-center md:text-left space-y-6">
