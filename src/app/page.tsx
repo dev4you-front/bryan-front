@@ -25,20 +25,12 @@ export default function Home() {
           <video
             ref={videoRef}
             src="/video/video_accueil.mp4"
-            className="w-full h-full object-cover"
+            className="w-full h-full object-cover brightness-75"
             controls
             preload="metadata"
             autoPlay
             loop
           />
-        </div>
-        
-        {/* Superposition sombre pour améliorer la lisibilité */}
-        <div className="absolute inset-0 bg-black/40 z-10"></div>
-        
-        {/* Contenu textuel superposé */}
-        <div className="absolute inset-0 z-20 flex flex-col items-center justify-center text-white text-center px-6">
-          {/* Contenu vidéo sans texte pour l'instant */}
         </div>
       </section>
 
