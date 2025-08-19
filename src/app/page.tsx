@@ -9,14 +9,28 @@ export default function Home() {
       {/* Full-bleed hero (same rendu que body_top Twig) */}
       <section className="relative bg-white overflow-hidden w-screen left-1/2 right-1/2 -ml-[50vw] -mr-[50vw]">
         <div className="max-w-7xl mx-auto relative z-10">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center min-h-[80vh] px-6 py-8">
-            <div className="text-center md:text-left space-y-6">
-              <h1 className="text-4xl md:text-6xl font-extrabold text-gray-900 uppercase tracking-tight">Bryan Littré</h1>
-              <p className="text-xl md:text-2xl text-brandviolet font-semibold mt-4">Physiotherapeute • Formateur • Conférencier</p>
-              <p className="text-lg text-gray-800 leading-relaxed mt-6">À travers formations et conférences, Bryan Littré diffuse son expertise en physiothérapie sportive et ainsi que les affections neuromusculosquelettiques. Sa méthodologie articule connaissances scientifiques et applications pratiques, visant l'amélioration continue des pratiques professionnelles.</p>
-              <div className="flex flex-col md:flex-row gap-4 justify-center md:justify-start mt-8">
-                <a href="#formations" className="inline-block bg-brandviolet text-white font-bold px-8 py-3 rounded-lg shadow hover:bg-purple-600 transition text-lg uppercase tracking-wider">Découvrir les formations</a>
-                <a href="https://www.instagram.com/bryanlittre/" target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 bg-white text-gray-900 font-bold px-8 py-3 rounded-lg shadow hover:bg-gray-50 transition">@bryanlittre</a>
+          {/* Section texte principale en haut */}
+          <div className="text-center py-8 px-6">
+            <h1 className="text-4xl md:text-6xl font-extrabold text-gray-900 uppercase tracking-tight mb-4">Bryan Littré</h1>
+            <p className="text-xl md:text-2xl text-brandviolet font-semibold mb-6">Physiotherapeute • Formateur • Conférencier</p>
+            <div className="max-w-3xl mx-auto">
+              <p className="text-lg text-gray-800 leading-relaxed">À travers formations et conférences, Bryan Littré diffuse son expertise en physiothérapie sportive et ainsi que les affections neuromusculosquelettiques. Sa méthodologie articule connaissances scientifiques et applications pratiques, visant l'amélioration continue des pratiques professionnelles.</p>
+            </div>
+          </div>
+
+          {/* Section média avec vidéo et photo */}
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center px-6 py-8">
+            <div className="relative">
+              <div className="aspect-video rounded-2xl overflow-hidden shadow-2xl">
+                <video 
+                  src="/video/video_accueil.mp4"
+                  className="w-full h-full object-cover"
+                  controls
+                  loop
+                  autoPlay
+                  muted
+                  preload="metadata"
+                />
               </div>
             </div>
             <div className="relative">
@@ -32,6 +46,12 @@ export default function Home() {
               </div>
               <div className="absolute -bottom-6 -right-6 w-32 h-32 bg-brandviolet rounded-full opacity-20"></div>
             </div>
+          </div>
+
+          {/* Section boutons d'action */}
+          <div className="flex flex-col md:flex-row gap-4 justify-center mt-8 pb-8 px-6">
+            <a href="#formations" className="inline-block bg-brandviolet text-white font-bold px-8 py-3 rounded-lg shadow hover:bg-purple-600 transition text-lg uppercase tracking-wider">Découvrir les formations</a>
+            <a href="https://www.instagram.com/bryanlittre/" target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 bg-white text-gray-900 font-bold px-8 py-3 rounded-lg shadow hover:bg-gray-50 transition">@bryanlittre</a>
           </div>
         </div>
         {/* Wave to grey, inside white section to avoid black gap */}
