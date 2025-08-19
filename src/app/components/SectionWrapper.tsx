@@ -37,7 +37,7 @@ export default function SectionWrapper({
 
   return (
     <section id={id} className={`py-12 bg-light-gray ${className}`}>
-      <div className={`${maxWidthClasses[maxWidth]} mx-auto px-6 ${spacingClasses[spacing]}`}>
+      <div className={`${maxWidthClasses[maxWidth]} mx-auto px-4 sm:px-6 ${spacingClasses[spacing]}`}>
         {children}
       </div>
     </section>
