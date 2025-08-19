@@ -34,7 +34,7 @@ export default async function FormationTypePage({ params }: Props) {
 
   // Mapping des types vers des titres descriptifs
   const titleMap = {
-    sport: "Mes Formations Sportives",
+    sport: "Comment prendre en charge correctement les lésions des ischio-jambiers ?",
     neuro: "Mes Formations Neurologiques", 
     vasculaire: "Mes Formations Vasculaires"
   };
