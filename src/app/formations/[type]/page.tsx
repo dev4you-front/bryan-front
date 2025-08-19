@@ -32,7 +32,6 @@ export default async function FormationTypePage({ params }: Props) {
   }
 
   const { formations } = data;
-  const videos = 'videos' in data ? data.videos : undefined;
 
   return (
     <SectionWrapper maxWidth="7xl" id="formations">
@@ -44,26 +43,6 @@ export default async function FormationTypePage({ params }: Props) {
           )}
         </FormationSection>
       ))}
-
-      {/* Carrousel pour les vidéos de la section (ex: vasculaire) */}
-      {videos && (
-        <div className="bg-white rounded-2xl shadow-lg p-8">
-          <h2 className="text-center text-3xl md:text-4xl font-extrabold text-gray-900 mb-6 uppercase tracking-wide">
-            Troubles vasculaires : Apprendre à trier pour savoir traiter ! 
-          </h2>
-          <ConfCarousel items={videos} />
-          <div className="mt-8 text-center">
-            <a
-              href="https://physio-learning.com/courses/formation-troubles-vasculaires/"
-              className="inline-block bg-brandviolet text-white font-bold px-8 py-3 rounded-lg shadow hover:bg-purple-600 transition text-lg uppercase tracking-wider"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Accéder à la formation
-            </a>
-          </div>
-        </div>
-      )}
 
       {/* Section Physiomaps pour la formation neuro */}
       {type === 'neuro' && <PhysiomapsSection />}
