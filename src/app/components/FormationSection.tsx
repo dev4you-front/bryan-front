@@ -31,13 +31,23 @@ export default function FormationSection({ formation, children }: FormationSecti
       </div>
       
       <div className="mt-8 text-center">
-        <a
-          href="https://physio-learning.com/courses/formation-troubles-vasculaires/"
-          className="inline-block bg-brandviolet text-white font-bold px-8 py-3 rounded-lg shadow hover:bg-purple-600 transition text-lg uppercase tracking-wider"
-          target="_blank"
+    {/* Call-to-action avec design mis en avant */}
+    <div className="bg-gradient-to-r from-purple-50 to-pink-50 border-l-4 border-brandviolet rounded-lg p-6 mt-8 shadow-sm">
+      <p className="text-lg font-medium text-gray-800 mb-4 text-center">
+        Tu veux savoir la date, l'heure et l'endroit de sa prochaine formation ? 
+        <span className="block mt-2 text-brandviolet font-semibold">
+          Suis le sur Instagram c'est là qu'il donne les informations.
+        </span>
+      </p>
+      
+      <div className="text-center">
+        <a 
+          href="https://www.instagram.com/bryanlittre/" 
+          target="_blank" 
           rel="noopener noreferrer"
+          className="inline-block bg-brandviolet text-white font-bold px-6 py-2 rounded-lg shadow-lg hover:bg-purple-600 hover:shadow-xl transition-all duration-300 text-base uppercase tracking-wider transform hover:scale-105"
         >
-          Accéder à la formation
+          Instagram
         </a>
       </div>
     </div>
