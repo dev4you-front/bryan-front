@@ -52,6 +52,16 @@ export default async function FormationTypePage({ params }: Props) {
             Troubles vasculaires : Apprendre à trier pour savoir traiter ! 
           </h2>
           <ConfCarousel items={videos} />
+          <div className="mt-8 text-center">
+            <a
+              href="https://physio-learning.com/courses/formation-troubles-vasculaires/"
+              className="inline-block bg-brandviolet text-white font-bold px-8 py-3 rounded-lg shadow hover:bg-purple-600 transition text-lg uppercase tracking-wider"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Accéder à la formation
+            </a>
+          </div>
         </div>
       )}
 
