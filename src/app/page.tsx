@@ -1,3 +1,6 @@
+"use client";
+
+import { useRef, useEffect } from "react";
 import ConfCarousel from "./components/ConfCarousel";
 import PhysiomapsSection from "./components/PhysiomapsSection";
 import SectionWrapper from "./components/SectionWrapper";
@@ -5,6 +8,14 @@ import { ConfItem } from "@/types";
 import Image from "next/image";
 
 export default function Home() {
+  const videoRef = useRef<HTMLVideoElement>(null);
+
+  useEffect(() => {
+    if (videoRef.current) {
+      videoRef.current.volume = 0.5; // Définit le volume à 50%
+    }
+  }, []);
+
   return (
     <div>
       {/* Hero vidéo immersif */}
@@ -12,13 +23,13 @@ export default function Home() {
         {/* Vidéo en arrière-plan */}
         <div className="absolute inset-0 w-full h-full">
           <video
+            ref={videoRef}
             src="/video/video_accueil.mp4"
             className="w-full h-full object-cover"
             controls
             preload="metadata"
             autoPlay
             loop
-            muted
           />
         </div>
         
