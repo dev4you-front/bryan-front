@@ -61,7 +61,7 @@ export const formationsData: FormationsData = {
   vasculaire: {
     formations: [ 
       {
-        title: "Troubles vasculaires : Apprendre à trier pour savoir traiter !",
+       // title: "Troubles vasculaires : Apprendre à trier pour savoir traiter !",
         description: "Critères de tri, signaux d’alarme et stratégies de prise en charge en troubles vasculaires.",
         videos: [
           {
