@@ -55,7 +55,7 @@ export default function Home() {
         <ConfCarousel
           items={[
             {
-              src: "https://stackblitz.com/storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBCTkJNdFFFPSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--6a289919af1b46b0fc8601e932bca197db49d0d2//video_accueil.mp4",
+              src: "/video/video_accueil.mp4",
               title: "Vidéo d'accueil", 
             },
           ]}
