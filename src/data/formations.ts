@@ -1,4 +1,4 @@
-import { Formation, ConfItem, FormationsData, PhysiomapsSection } from "@/types";
+import { FormationsData, PhysiomapsSection } from "@/types";
 
 export const formationsData: FormationsData = {
   sport: {
