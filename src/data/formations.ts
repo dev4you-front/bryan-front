@@ -35,7 +35,6 @@ export const formationsData: FormationsData = {
     formations: [ 
       {
         title: "Troubles vasculaires : Apprendre à trier pour savoir traiter !",
-        description: "Formation accessible en e-learning sur la plate-forme Physio-learning. Actuellement : V2.",
         videos: [
           {
             src: "/video/video_vascu_bryan_olivia.mp4",
