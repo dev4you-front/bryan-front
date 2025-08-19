@@ -29,7 +29,8 @@ export default function Home() {
               src="/images/photo_banniere_desktop.png"
               alt="Bannière Bryan Littré"
               fill
-              className="object-cover object-top brightness-75"
+              className="object-cover brightness-75"
+              style={{ objectPosition: 'center top' }}
               priority
             />
             {/* Bouton play superposé */}
