@@ -54,6 +54,8 @@ export default function ConfCarousel({ items }: ConfCarouselProps) {
               className="w-full h-full object-cover"
               controls
               preload="metadata"
+              autoPlay
+              volume={0.5}
             />
           ) : (
             <iframe
