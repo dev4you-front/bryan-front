@@ -18,10 +18,6 @@ module.exports = {
         brandgraylight: '#e5e7eb',
         'light-gray': '#E0E0E0',
       },
-      boxShadow: {
-        'violet-md': '0 4px 6px -1px rgba(156, 39, 176, 0.1), 0 2px 4px -1px rgba(156, 39, 176, 0.06)',
-        'violet-xl': '0 20px 25px -5px rgba(156, 39, 176, 0.15), 0 10px 10px -5px rgba(156, 39, 176, 0.1)',
-      },
     },
   },
   plugins: [],
