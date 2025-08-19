@@ -34,10 +34,7 @@ export const formationsData: FormationsData = {
   },
   vasculaire: {
     formations: [ 
-      {
-        title: "Troubles vasculaires : Trier pour savoir quand traiter !",
-        description: "Formation accessible en e-learning sur la plate-forme Physio-learning. Actuellement : V2.",
-      },
+
     ], 
     videos: [ // Commented out to remove the video carousel
       {
