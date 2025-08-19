@@ -84,6 +84,6 @@ export const formationsData: FormationsData = {
 
 export const physiomapsSection: PhysiomapsSection = {
   title: "Formations interactives Physiomaps",
-  description: "Accédez à mes formations neurologiques interactives sur Physiomaps",
+ // description: "Accédez à mes formations neurologiques interactives sur Physiomaps",
   url: "https://physiomaps.com/?no_header=true",
 };
