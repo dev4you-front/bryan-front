@@ -1,6 +1,6 @@
 "use client";
 
-import { useRef, useEffect, useState } from "react";
+import { useRef, useEffect } from "react";
 import ConfCarousel from "./components/ConfCarousel";
 import PhysiomapsSection from "./components/PhysiomapsSection";
 import SectionWrapper from "./components/SectionWrapper";
@@ -9,20 +9,12 @@ import Image from "next/image";
 
 export default function Home() {
   const videoRef = useRef<HTMLVideoElement>(null);
-  const [isMuted, setIsMuted] = useState(false);
 
   useEffect(() => {
     if (videoRef.current) {
       videoRef.current.volume = 0.5; // Définit le volume à 50%
     }
   }, []);
-
-  const toggleMute = () => {
-    if (videoRef.current) {
-      videoRef.current.muted = !videoRef.current.muted;
-      setIsMuted(videoRef.current.muted);
-    }
-  };
 
   return (
     <div>
@@ -32,33 +24,14 @@ export default function Home() {
         <div className="absolute inset-0 w-full h-full">
           <video
             ref={videoRef}
-            src="/video/video_accueil2.mp4"
+            src="/video/video_accueil.mp4"
             className="w-full h-full object-cover brightness-75"
+            controls
             preload="metadata"
             autoPlay
             loop
           />
         </div>
-        
-        {/* Bouton mute/unmute */}
-        <button
-          onClick={toggleMute}
-          className="absolute top-6 right-6 z-20 bg-black/50 hover:bg-black/70 text-white p-3 rounded-full transition-all duration-200"
-          aria-label={isMuted ? "Activer le son" : "Couper le son"}
-        >
-          {isMuted ? (
-            // Icône son coupé
-            <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z" clipRule="evenodd" />
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 14l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2" />
-            </svg>
-          ) : (
-            // Icône son activé
-            <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z" />
-            </svg>
-          )}
-        </button>
       </section>
 
       {/* Full-bleed hero (same rendu que body_top Twig) */}
