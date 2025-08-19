@@ -26,7 +26,7 @@ export const formationsData: FormationsData = {
   neuro: {
     formations: [
       {
-        title: "Troubles neurologiques en musculo-squelettique : Réussir ses bilans et savoir quoi en faire",
+        //title: "Troubles neurologiques en musculo-squelettique : Réussir ses bilans et savoir quoi en faire",
         description: "Méthodologie de bilan neuro MSK et application clinique étape par étape.",
 
         videos: [
@@ -61,7 +61,7 @@ export const formationsData: FormationsData = {
   vasculaire: {
     formations: [ 
       {
-        //title: "Troubles vasculaires : Apprendre à trier pour savoir traiter !",
+        title: "Troubles vasculaires : Apprendre à trier pour savoir traiter !",
         description: "Critères de tri, signaux d’alarme et stratégies de prise en charge en troubles vasculaires.",
         videos: [
           {
