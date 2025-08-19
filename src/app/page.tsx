@@ -53,7 +53,7 @@ export default function Home() {
               <div className="bg-gradient-to-r from-purple-50 to-pink-50 rounded-2xl p-6 text-center border-l-4 border-brandviolet shadow-sm">
                 <p className="text-lg font-medium text-gray-800 mb-4 italic">
                   💡 Tu veux savoir la date et l'endroit de ma prochaine formation ?<br />
-                  <span className="text-brandviolet font-semibold">Suis moi sur Instagram</span> c'est là que je donne les informations.
+                  <span className="text-brandviolet font-semibold">Suis moi sur Instagram c'est là que je donne les informations.
                 </p>
                 <a 
                   href="https://www.instagram.com/bryanlittre/" 
