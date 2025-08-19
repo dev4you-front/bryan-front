@@ -48,20 +48,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Section Vidéo Accueil */}
-      <SectionWrapper maxWidth="7xl" className="bg-white">
-        {/* Définir les éléments du carrousel pour la vidéo d'accueil */}
-        {/* Le composant ConfCarousel gère déjà la lecture automatique et le volume pour les vidéos MP4 */}
-        <ConfCarousel
-          items={[
-            {
-              src: "/video/video_accueil.mp4",
-              title: "Vidéo d'accueil", 
-            },
-          ]}
-        />
-      </SectionWrapper>
-
       {/* Section Physiomaps */}
       <SectionWrapper maxWidth="7xl" className="bg-light-gray">
         <PhysiomapsSection />
