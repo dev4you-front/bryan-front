@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from 'react';
+import { useState, useRef, useEffect } from 'react';
 import { ConfItem } from '@/types';
 
 interface ConfCarouselProps {
@@ -9,6 +9,7 @@ interface ConfCarouselProps {
 
 export default function ConfCarousel({ items }: ConfCarouselProps) {
   const [currentIndex, setCurrentIndex] = useState(0);
+  const videoRef = useRef<HTMLVideoElement>(null);
 
   const nextSlide = () => {
     setCurrentIndex((prevIndex) => (prevIndex + 1) % items.length);
@@ -25,6 +26,13 @@ export default function ConfCarousel({ items }: ConfCarouselProps) {
   const isLocalVideo = (src: string): boolean => {
     return src.endsWith('.mp4') || src.endsWith('.webm') || src.endsWith('.ogg');
   };
+
+  // Définir le volume à 50% quand la vidéo change ou se charge
+  useEffect(() => {
+    if (videoRef.current && isLocalVideo(items[currentIndex].src)) {
+      videoRef.current.volume = 0.5;
+    }
+  }, [currentIndex, items]);
 
   if (!items || items.length === 0) {
     return null;
@@ -49,13 +57,13 @@ export default function ConfCarousel({ items }: ConfCarouselProps) {
         <div className="w-full rounded-xl shadow aspect-video overflow-hidden bg-black">
           {isLocalVideo(items[currentIndex].src) ? (
             <video
+              ref={videoRef}
               src={items[currentIndex].src}
               title={items[currentIndex].title}
               className="w-full h-full object-cover"
               controls
               preload="metadata"
               autoPlay
-              volume={0.5}
             />
           ) : (
             <iframe
