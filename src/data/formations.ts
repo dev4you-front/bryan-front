@@ -27,7 +27,32 @@ export const formationsData: FormationsData = {
       {
         title: "Troubles neurologiques en musculo-squelettique : Réussir ses bilans et savoir quoi en faire",
 
-        video: "https://www.youtube.com/embed/VVLn86-t-Sg",
+        videos: [
+          {
+            src: "https://www.youtube.com/embed/3zUh9YdN9MU",
+            title: "Troubles neurologiques en musculo-squelettique : Réussir ses bilans et savoir quoi en faire - Partie 1",
+          },
+          {
+            src: "https://www.youtube.com/embed/BdSFGH50mC0",
+            title: "Troubles neurologiques en musculo-squelettique : Réussir ses bilans et savoir quoi en faire - Partie 2",
+          },
+          {
+            src: "https://www.youtube.com/embed/68jl8g9OP10?start=764",
+            title: "Troubles neurologiques en musculo-squelettique : Réussir ses bilans et savoir quoi en faire - Partie 3",
+          },
+          {
+            src: "https://www.youtube.com/embed/BBPKLrgUiJY",
+            title: "Troubles neurologiques en musculo-squelettique : Réussir ses bilans et savoir quoi en faire - Partie 4",
+          },
+          {
+            src: "https://www.youtube.com/embed/NGuEx26DybM?start=2402",
+            title: "Troubles neurologiques en musculo-squelettique : Réussir ses bilans et savoir quoi en faire - Partie 5",
+          },
+          {
+            src: "https://www.youtube.com/embed/Xl3fjP2xnOw",
+            title: "Troubles neurologiques en musculo-squelettique : Réussir ses bilans et savoir quoi en faire - Partie 6",
+          },
+        ],
       },
     ],
   },
