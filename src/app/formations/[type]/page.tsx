@@ -1,5 +1,5 @@
 import { notFound } from "next/navigation";
-import { formationsData, physiomapsSection } from "@/data/formations";
+import { formationsData } from "@/data/formations";
 import ConfCarousel from "@/app/components/ConfCarousel";
 import FormationSection from "@/app/components/FormationSection";
 import SectionWrapper from "@/app/components/SectionWrapper";
