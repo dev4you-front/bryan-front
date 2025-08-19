@@ -49,14 +49,13 @@ export default function Home() {
               </div>
               <p className="text-lg text-gray-800 leading-relaxed mb-6">À travers formations et conférences, Bryan Littré diffuse son expertise en physiothérapie sportive et ainsi que les affections neuromusculosquelettiques. Sa méthodologie articule connaissances scientifiques et applications pratiques, visant l'amélioration continue des pratiques professionnelles.</p>
               <a 
-                href="#formations" 
+                href="https://www.instagram.com/bryanlittre/" 
+                target="_blank" 
+                rel="noopener noreferrer"
                 className="inline-block bg-brandviolet text-white font-bold px-8 py-3 rounded-lg shadow hover:bg-purple-600 transition text-lg uppercase tracking-wider mb-6"
               >
-                Découvrir les formations
+                Suivez-moi pour les prochaines formations
               </a>
-              <div className="flex flex-col md:flex-row gap-4 justify-center md:justify-start mt-8">
-                <a href="https://www.instagram.com/bryanlittre/" target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 bg-white text-gray-900 font-bold px-8 py-3 rounded-lg shadow hover:bg-gray-50 transition">@bryanlittre</a>
-              </div>
             </div>
             <div className="relative">
               <div className="aspect-square rounded-2xl overflow-hidden shadow-2xl transform rotate-3 hover:rotate-0 transition-transform duration-500">
