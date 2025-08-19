@@ -39,20 +39,7 @@ export const formationsData: FormationsData = {
         description: "Formation accessible en e-learning sur la plate-forme Physio-learning. Actuellement : V2.",
       },
     ],
-    videos: [ // Commented out to remove the video carousel
-      {
-        src: "/video/video_vascu_bryan_olivia.mp4",
-        title: "Troubles vasculaires avec Bryan et Olivia",
-      },
-      {
-        src: "https://www.youtube.com/embed/wJkIQ_0tExc",
-        title: "Troubles vasculaires : Trier pour savoir quand traiter !",
-      },
-      {
-        src: "https://www.youtube.com/embed/dAsUCdMmZNc?start=2833",
-        title: "Formation troubles vasculaires - Partie avancée",
-      },
-    ], // End of commented out videos
+
   },
 };
 
