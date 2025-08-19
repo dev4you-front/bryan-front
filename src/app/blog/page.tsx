@@ -66,7 +66,7 @@ export default function Blog() {
         {filteredArticles.length > 0 ? (
         <div className="grid gap-3 sm:gap-4 md:gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
             {filteredArticles.map((a, idx: number) => (
-            <article key={idx} className="bg-white rounded-xl shadow-md border border-gray-100 overflow-hidden flex flex-col transform transition duration-300 hover:scale-[1.02] hover:shadow-xl hover:border-brandviolet/20 w-full">
+            <article key={idx} className="bg-white rounded-xl shadow-violet-md border border-gray-200 overflow-hidden flex flex-col transform transition duration-300 hover:scale-[1.02] hover:shadow-violet-xl hover:border-brandviolet/30 w-full">
               <div className="relative overflow-hidden">
                 <Image 
                   src={a.image} 
