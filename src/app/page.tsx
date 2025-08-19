@@ -47,32 +47,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Section Vidéo d'accueil */}
-      <SectionWrapper maxWidth="7xl" className="bg-light-gray">
-        <div className="bg-white rounded-2xl shadow-lg p-8">
-          <h2 className="text-center text-3xl md:text-4xl font-extrabold text-gray-900 mb-6 uppercase tracking-wide">
-            Présentation
-          </h2>
-          <div className="w-full max-w-4xl mx-auto">
-            <div className="w-full rounded-xl shadow aspect-video overflow-hidden bg-black">
-              <video
-                src="/video/video_accueil.mp4"
-                className="w-full h-full object-cover"
-                controls
-                autoPlay
-                muted={false}
-                preload="metadata"
-                ref={(video) => {
-                  if (video) {
-                    video.volume = 0.5;
-                  }
-                }}
-              />
-            </div>
-          </div>
-        </div>
-      </SectionWrapper>
-
+      {/* Section Vidéo */}
       {/* Section Physiomaps */}
       <SectionWrapper maxWidth="7xl" className="bg-light-gray">
         <PhysiomapsSection />
