@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <div className="relative">
       {/* Hero vidéo full-screen intégré */}
-      <section className="relative h-screen w-full overflow-hidden -mt-[1px]">
+      <section className="relative h-screen w-full overflow-hidden pt-[80px]">
         <div className="absolute inset-0">
           <ConfCarousel
             items={[
