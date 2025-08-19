@@ -1,3 +1,5 @@
+"use client";
+
 import { Formation } from "@/types";
 
 interface FormationSectionProps {
