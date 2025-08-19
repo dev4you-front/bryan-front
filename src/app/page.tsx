@@ -48,12 +48,22 @@ export default function Home() {
                 </p>
               </div>
               <p className="text-lg text-gray-800 leading-relaxed mb-6">À travers formations et conférences, Bryan Littré diffuse son expertise en physiothérapie sportive et ainsi que les affections neuromusculosquelettiques. Sa méthodologie articule connaissances scientifiques et applications pratiques, visant l'amélioration continue des pratiques professionnelles.</p>
-              <p className="text-base text-gray-700 leading-relaxed mb-4">Tu veux savoir la date et l'endroit de ma prochaine formation ? Suis moi sur Instagram c'est là que je donne les informations.</p>
+              
+              {/* Call-to-action avec design mis en avant */}
+              <div className="bg-gradient-to-r from-purple-50 to-pink-50 border-l-4 border-brandviolet rounded-lg p-6 mb-6 shadow-sm">
+                <p className="text-lg font-medium text-gray-800 mb-4">
+                  Tu veux savoir la date et l'endroit de ma prochaine formation ? 
+                  <span className="block mt-2 text-brandviolet font-semibold">
+                    Suis moi sur Instagram c'est là que je donne les informations.
+                  </span>
+                </p>
+              </div>
+              
               <a 
                 href="https://www.instagram.com/bryanlittre/" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="inline-block bg-brandviolet text-white font-bold px-8 py-3 rounded-lg shadow hover:bg-purple-600 transition text-lg uppercase tracking-wider"
+                className="inline-block bg-brandviolet text-white font-bold px-8 py-3 rounded-lg shadow-lg hover:bg-purple-600 hover:shadow-xl transition-all duration-300 text-lg uppercase tracking-wider transform hover:scale-105"
               >
                 Instagram
               </a>
