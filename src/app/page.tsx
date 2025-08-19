@@ -1,12 +1,13 @@
 "use client";
 
-import { useRef, useEffect } from "react";
+import { useRef, useEffect, useState } from "react";
 import PhysiomapsSection from "./components/PhysiomapsSection";
 import SectionWrapper from "./components/SectionWrapper";
 import Image from "next/image";
 
 export default function Home() {
   const videoRef = useRef<HTMLVideoElement>(null);
+  const [showVideo, setShowVideo] = useState(false);
 
   useEffect(() => {
     if (videoRef.current) {
@@ -14,22 +15,59 @@ export default function Home() {
     }
   }, []);
 
+  const handlePlayVideo = () => {
+    setShowVideo(true);
+  };
   return (
     <div>
       {/* Hero vidéo immersif */}
       <section className="relative h-screen w-screen overflow-hidden left-1/2 right-1/2 -ml-[50vw] -mr-[50vw] -mt-24">
-        {/* Vidéo en arrière-plan */}
-        <div className="absolute inset-0 w-full h-full">
-          <video
-            ref={videoRef}
-            src="/video/video_accueil.mp4"
-            className="w-full h-full object-cover brightness-75"
-            controls
-            preload="metadata"
-            autoPlay
-            loop
-          />
-        </div>
+        {!showVideo ? (
+          /* Bannière image avec bouton play */
+          <div className="relative w-full h-full">
+            <Image
+              src="/images/photo_banniere_desktop.png"
+              alt="Bannière Bryan Littré"
+              fill
+              className="object-cover brightness-75"
+              priority
+            />
+            {/* Bouton play superposé */}
+            <div className="absolute inset-0 flex items-center justify-center">
+              <button
+                onClick={handlePlayVideo}
+                className="group relative bg-white/20 backdrop-blur-sm hover:bg-white/30 rounded-full p-8 transition-all duration-300 hover:scale-110 shadow-2xl"
+                aria-label="Lancer la vidéo"
+              >
+                {/* Icône play */}
+                <div className="w-16 h-16 flex items-center justify-center">
+                  <svg
+                    className="w-12 h-12 text-white ml-1 group-hover:text-brandviolet transition-colors duration-300"
+                    fill="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path d="M8 5v14l11-7z" />
+                  </svg>
+                </div>
+                {/* Effet de pulsation */}
+                <div className="absolute inset-0 rounded-full bg-white/10 animate-ping"></div>
+              </button>
+            </div>
+          </div>
+        ) : (
+          /* Vidéo en arrière-plan */
+          <div className="absolute inset-0 w-full h-full">
+            <video
+              ref={videoRef}
+              src="/video/video_accueil.mp4"
+              className="w-full h-full object-cover brightness-75"
+              controls
+              preload="metadata"
+              autoPlay
+              loop
+            />
+          </div>
+        )}
       </section>
 
       {/* Full-bleed hero (same rendu que body_top Twig) */}
