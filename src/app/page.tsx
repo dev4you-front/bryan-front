@@ -51,7 +51,7 @@ export default function Home() {
               
               {/* Call-to-action avec design mis en avant */}
               <div className="bg-gradient-to-r from-purple-50 to-pink-50 border-l-4 border-brandviolet rounded-lg p-6 mb-6 shadow-sm">
-                <p className="text-lg font-medium text-gray-800 mb-4">
+                <p className="text-lg font-medium text-gray-800 mb-4 text-center">
                   Tu veux savoir la date, l'heure et l'endroit de sa prochaine formation ? 
                   <span className="block mt-2 text-brandviolet font-semibold">
                     Suis le sur Instagram c'est là qu'il donne les informations.
@@ -63,7 +63,7 @@ export default function Home() {
                     href="https://www.instagram.com/bryanlittre/" 
                     target="_blank" 
                     rel="noopener noreferrer"
-                    className="inline-block bg-brandviolet text-white font-bold px-8 py-3 rounded-lg shadow-lg hover:bg-purple-600 hover:shadow-xl transition-all duration-300 text-lg uppercase tracking-wider transform hover:scale-105"
+                    className="inline-block bg-brandviolet text-white font-bold px-6 py-2 rounded-lg shadow-lg hover:bg-purple-600 hover:shadow-xl transition-all duration-300 text-base uppercase tracking-wider transform hover:scale-105"
                   >
                     Instagram
                   </a>
