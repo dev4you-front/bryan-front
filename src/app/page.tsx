@@ -1,10 +1,8 @@
 "use client";
 
 import { useRef, useEffect } from "react";
-import ConfCarousel from "./components/ConfCarousel";
 import PhysiomapsSection from "./components/PhysiomapsSection";
 import SectionWrapper from "./components/SectionWrapper";
-import { ConfItem } from "@/types";
 import Image from "next/image";
 
 export default function Home() {
