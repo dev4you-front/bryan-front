@@ -52,9 +52,9 @@ export default function Home() {
               {/* Call-to-action avec design mis en avant */}
               <div className="bg-gradient-to-r from-purple-50 to-pink-50 border-l-4 border-brandviolet rounded-lg p-6 mb-6 shadow-sm">
                 <p className="text-lg font-medium text-gray-800 mb-4">
-                  Tu veux savoir la date et l'endroit de ma prochaine formation ? 
+                  Tu veux savoir la date, l'heure et l'endroit de sa prochaine formation ? 
                   <span className="block mt-2 text-brandviolet font-semibold">
-                    Suis moi sur Instagram c'est là que je donne les informations.
+                    Suis le sur Instagram c'est là qu'il donne les informations.
                   </span>
                 </p>
               </div>
