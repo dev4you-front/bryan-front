@@ -20,15 +20,6 @@ export default function Home() {
           />
         </div>
         <div className="absolute inset-0 bg-black opacity-50"></div>
-        <div className="relative z-10 flex items-center justify-center h-full text-white text-center px-6">
-          <div className="space-y-6">
-            <h1 className="text-4xl md:text-6xl font-extrabold uppercase tracking-tight">Bryan Littré</h1>
-            <p className="text-xl md:text-2xl font-semibold">Physiotherapeute • Formateur • Conférencier</p>
-            <div className="mt-8">
-              <a href="#formations" className="inline-block bg-brandviolet text-white font-bold px-8 py-3 rounded-lg shadow hover:bg-purple-600 transition text-lg uppercase tracking-wider">Découvrir les formations</a>
-            </div>
-          </div>
-        </div>
       </section>
 
       {/* Full-bleed hero (same rendu que body_top Twig) */}
@@ -36,6 +27,11 @@ export default function Home() {
         <div className="max-w-7xl mx-auto relative z-10">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center px-6 py-8">
             <div className="text-center md:text-left space-y-6">
+              <h1 className="text-4xl md:text-6xl font-extrabold uppercase tracking-tight text-gray-900">Bryan Littré</h1>
+              <p className="text-xl md:text-2xl font-semibold text-gray-700">Physiotherapeute • Formateur • Conférencier</p>
+              <div className="mt-8">
+                <a href="#formations" className="inline-block bg-brandviolet text-white font-bold px-8 py-3 rounded-lg shadow hover:bg-purple-600 transition text-lg uppercase tracking-wider">Découvrir les formations</a>
+              </div>
               <p className="text-lg text-gray-800 leading-relaxed mt-6">À travers formations et conférences, Bryan Littré diffuse son expertise en physiothérapie sportive et ainsi que les affections neuromusculosquelettiques. Sa méthodologie articule connaissances scientifiques et applications pratiques, visant l'amélioration continue des pratiques professionnelles.</p>
               <div className="flex flex-col md:flex-row gap-4 justify-center md:justify-start mt-8">
                 <a href="https://www.instagram.com/bryanlittre/" target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 bg-white text-gray-900 font-bold px-8 py-3 rounded-lg shadow hover:bg-gray-50 transition">@bryanlittre</a>
