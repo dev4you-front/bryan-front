@@ -38,9 +38,9 @@ export default function Blog() {
   return (
     <SectionWrapper>
       <div className="bg-white rounded-2xl shadow-lg p-8">
-        <h2 className="text-center text-3xl md:text-4xl font-extrabold text-gray-900 mb-6 uppercase tracking-wide">
+        <h1 className="text-center text-3xl md:text-4xl font-extrabold text-gray-900 mb-6 uppercase tracking-wide">
           Mes Articles
-        </h2>
+        </h1>
         
         {/* Navigation par catégories */}
         <div className="flex flex-wrap justify-center gap-2 mb-8">

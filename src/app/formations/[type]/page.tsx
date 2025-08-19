@@ -32,8 +32,20 @@ export default async function FormationTypePage({ params }: Props) {
 
   const { formations } = data;
 
+  // Mapping des types vers des titres descriptifs
+  const titleMap = {
+    sport: "Mes Formations Sportives",
+    neuro: "Mes Formations Neurologiques", 
+    vasculaire: "Mes Formations Vasculaires"
+  };
+
+  const pageTitle = titleMap[type as keyof typeof titleMap];
+
   return (
     <SectionWrapper maxWidth="7xl" id="formations">
+      <h1 className="text-center text-3xl md:text-4xl font-extrabold text-gray-900 mb-8 uppercase tracking-wide">
+        {pageTitle}
+      </h1>
       {formations.map((formation, index) => (
         <FormationSection key={index} formation={formation}>
           {/* Carrousel pour les formations avec des vidéos (ex: ischio-jambiers) */}

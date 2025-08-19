@@ -229,9 +229,9 @@ export default function SiteHeader() {
         )}
 
         {!isHomePage && (
-          <h1 className="text-4xl md:text-5xl font-extrabold mb-4 tracking-tight uppercase text-brandwhite drop-shadow-lg">
+          <div className="text-4xl md:text-5xl font-extrabold mb-4 tracking-tight uppercase text-brandwhite drop-shadow-lg">
             {headerTitle}
-          </h1>
+          </div>
         )}
       </div>
       {!isHomePage && (
