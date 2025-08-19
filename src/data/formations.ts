@@ -26,7 +26,7 @@ export const formationsData: FormationsData = {
     formations: [
       {
         title: "Troubles neurologiques en musculo-squelettique",
-        description: "Pour enfin savoir faire un VRAI bilan neuro mais surtout savoir quoi en faire.",
+
         video: "https://www.youtube.com/embed/VVLn86-t-Sg",
       },
     ],
