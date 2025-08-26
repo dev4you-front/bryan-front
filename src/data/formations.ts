@@ -4,7 +4,7 @@ export const formationsData: FormationsData = {
   sport: {
     formations: [
       {
-        title: "Comment prendre en charge correctement les lésions des ischio-jambiers ?",
+        title: "",
         description: "Approche pratique et fondée sur les preuves pour la prise en charge des lésions des ischio-jambiers.",
         videos: [
           {
@@ -26,7 +26,7 @@ export const formationsData: FormationsData = {
   neuro: {
     formations: [
       {
-        title: "Troubles neurologiques en musculo-squelettique : Réussir ses bilans et savoir quoi en faire",
+        title: "",
         description: "Méthodologie de bilan neuro MSK et application clinique étape par étape.",
 
         videos: [
@@ -61,7 +61,7 @@ export const formationsData: FormationsData = {
   vasculaire: {
     formations: [ 
       {
-        title: "Troubles vasculaires : Apprendre à trier pour savoir traiter !",
+        title: "",
         description: "Critères de tri, signaux d’alarme et stratégies de prise en charge en troubles vasculaires.",
         videos: [
           {

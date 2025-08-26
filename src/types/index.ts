@@ -16,7 +16,7 @@ export interface ConfItem {
 }
 
 export interface Formation {
-  title: string;
+  title?: string;
   description: string;
   video?: string;
   videos?: ConfItem[];
