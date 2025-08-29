@@ -2,6 +2,16 @@ import { Article } from "@/types";
 
 export const blogArticles: Article[] = [
   {
+    title: "Biomécanique des étirements – Partie I",
+    image: "https://www.kinefact.com/wp-content/uploads/2019/08/stretching-498256_1920.jpg",
+    excerpt: "Bryan LITTRE, après un article couronné de succès sur l’examen des douleurs neuropathiques, revient nous étonner avec une nouvelle publication sur les étirements. Son premier billet, lu par plus de 6000 personnes sur notre blog, permettait de mettre au clair un sujet complexe, et nul doute qu’à la lecture de cet article vous trouverez de nouvelles perles de connaissances.",
+    date: "2019-09-18",
+    author: "Bryan Littre",
+    link: "/blog/biomecanique-etirements-partie-1",
+    contentPath: 'blog-posts/biomecanique-etirements-partie-1.md',
+    category: "Sport",
+  },
+  {
     title: "Biomécanique des étirements – Partie II",
     image: "https://www.kinefact.com/wp-content/uploads/2019/10/cat-814952_1920.jpg",
     excerpt: "Dans l'article précédent, Bryan Littre nous a présenté les différentes théories pouvant expliquer les gains obtenus par les diverses techniques d'étirement, en s'appuyant notamment sur les travaux de Moltubakk. Dans l'article du jour, on va regarder comment la littérature peut nous aider à trancher en faveur de l'une ou de l'autre.",
