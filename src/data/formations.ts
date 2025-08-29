@@ -9,7 +9,7 @@ export const formationsData: FormationsData = {
         videos: [
           {
             src: "https://www.youtube.com/embed/QPdA4npgKck",
-            title: "Comment prendre en charge les lésions des ischio-jambiers",
+            title: "Comment ne plus se BLESSER aux ISCHIOS",
           },
           {
             src: "https://www.youtube.com/embed/VVLn86-t-Sg",
