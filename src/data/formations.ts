@@ -48,11 +48,11 @@ export const formationsData: FormationsData = {
           },
           {
             src: "https://www.youtube.com/embed/NGuEx26DybM?start=2402",
-            title: "Troubles neurologiques en musculo-squelettique : Réussir ses bilans et savoir quoi en faire - Partie 5",
+            title: "Ischémies transitoires des nerfs - Interview avec Bryan Littré Partie 1",
           },
           {
             src: "https://www.youtube.com/embed/Xl3fjP2xnOw",
-            title: "Troubles neurologiques en musculo-squelettique : Réussir ses bilans et savoir quoi en faire - Partie 6",
+            title: "Ischémies transitoires des nerfs - Interview avec Bryan Littré Partie 2",
           },
         ],
       },
