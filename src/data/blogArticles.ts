@@ -23,7 +23,7 @@ export const blogArticles: Article[] = [
   },
   {
     title: "Syndrome du canal carpien, pourquoi sommes-nous négligés du parcours de soin ? 2/3",
-    image: "https://www.kinefact.com/wp-content/uploads/2021/01/consultation-1024x512.jpg",
+    image: "https://www.kinefact.com/wp-content/uploads/2021/01/tumblr_o16n2kBlpX1ta3qyvo1_1280.jpg",
     excerpt: "Maintenant, nous entrons dans le vif du sujet. Nous allons parler gros sous et crise sanitaire. Les soins pris en charge pour le SCC représentent 2 milliards de dollars dépensés par an depuis 2006 aux USA.",
     date: "2021-02-19",
     author: "Bryan Littré",
