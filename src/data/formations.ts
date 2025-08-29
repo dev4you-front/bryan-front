@@ -44,7 +44,7 @@ export const formationsData: FormationsData = {
           },
           {
             src: "https://www.youtube.com/embed/BBPKLrgUiJY",
-            title: "Troubles neurologiques en musculo-squelettique : Réussir ses bilans et savoir quoi en faire - Partie 4",
+            title: "Le syndrome du piriforme : Exercice pour mieux raisonner -  Conférence au CIFEPK 2022 avec Bryan LITTRE ",
           },
           {
             src: "https://www.youtube.com/embed/NGuEx26DybM?start=2402",
