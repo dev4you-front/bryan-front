@@ -13,7 +13,7 @@ export const blogArticles: Article[] = [
   },
   {
     title: "Syndrome du canal carpien, quelques bases de compréhension. 1/3",
-    image: "https://www.kinefact.com/wp-content/uploads/2021/01/IRM-cerveau-1024x512.jpg",
+    image: "https://www.kinefact.com/wp-content/uploads/2021/01/grossesse-4-remedes-naturels-contre-le-syndrome-du-canal-carpien-quand-on-est-enceinte.jpeg",
     excerpt: "Le syndrome du canal carpien est une atteinte autour de laquelle beaucoup de croyances existent, au même titre que la plupart des névralgies. Cette série d'articles fait une mise à jour détaillée autour du syndrome du canal carpien (SCC) basée sur la littérature scientifique.",
     date: "2021-02-13",
     author: "Bryan Littré",
