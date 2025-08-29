@@ -36,7 +36,7 @@ export const formationsData: FormationsData = {
           },
           {
             src: "https://www.youtube.com/embed/BdSFGH50mC0",
-            title: "Troubles neurologiques en musculo-squelettique : Réussir ses bilans et savoir quoi en faire - Partie 2",
+            title: "La claudication intermittente expliquée par Bryan LITTRE",
           },
           {
             src: "https://www.youtube.com/embed/68jl8g9OP10?start=764",
