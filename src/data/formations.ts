@@ -9,7 +9,7 @@ export const formationsData: FormationsData = {
         videos: [
           {
             src: "https://www.youtube.com/embed/QPdA4npgKck",
-            title: "Comment ne plus se BLESSER aux ISCHIOS - Bryan Littré, Kiné du sport",
+            title: "Comment ne plus se BLESSER aux ISCHIOS - Interview avec Bryan Littré, Kiné du sport",
           },
           {
             src: "https://www.youtube.com/embed/VVLn86-t-Sg",
