@@ -128,4 +128,4 @@
 
 <p style="text-align: justify;">Voici la fin de la première partie, permettant de mettre un socle commun pour la suite. Les articles 2 puis 3 explorerons avec finesse les données acquises sur le SCC ainsi que son traitement optimal en kinésithérapie. Sommes-nous légitimes à prendre en charge cette atteinte ?</p>
 
-<p style="text-align: justify;">POUR LA PARTIE 2 cliquez <span style="color: #0000ff;"><strong><a style="color: #0000ff;" href="https://www.kinefact.com/?p=2108&amp;preview=true">ICI</a></strong></span></p>
+<p>POUR LA PARTIE 2 cliquez <span style="color: #0000ff;"><strong><a style="color: #0000ff;" href="/blog/syndrome-canal-carpien-neglige-parcours-soin">ICI</a></strong></span></p>
