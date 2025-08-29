@@ -22,16 +22,6 @@ export const blogArticles: Article[] = [
     category: "Sport",
   },
   {
-    title: "Les lésions aiguës des ischio-jambiers (3/4) : quels exercices pour mon patient et comment décider du retour au sport ?",
-    image: "https://www.kinefact.com/wp-content/uploads/2020/07/svend-steensgaard1.jpg",
-    excerpt: "Dans cette troisième partie sur quatre, nous allons tenter d'explorer ensemble comment et pourquoi intégrer des exercices (et lesquels) dans cette prise en charge où le repos complet n'est PAS conseillé et où la phase de retour au sport est plus qu'essentielle.",
-    date: "2020-08-10",
-    author: "Bryan Littré",
-    link: "/blog/lesions-ischio-jambiers-exercices-retour-sport",
-    contentPath: 'blog-posts/lesions-ischio-jambiers-exercices-retour-sport.md',
-    category: "Sport",
-  },
-  {
     title: "Syndrome du canal carpien, quelques bases de compréhension. 1/3",
     image: "https://www.kinefact.com/wp-content/uploads/2021/01/grossesse-4-remedes-naturels-contre-le-syndrome-du-canal-carpien-quand-on-est-enceinte.jpeg",
     excerpt: "Le syndrome du canal carpien est une atteinte autour de laquelle beaucoup de croyances existent, au même titre que la plupart des névralgies. Cette série d'articles fait une mise à jour détaillée autour du syndrome du canal carpien (SCC) basée sur la littérature scientifique.",
@@ -79,6 +69,16 @@ export const blogArticles: Article[] = [
     author: "Bryan Littré",
     link: "/blog/lesions-ischio-jambiers-prise-en-charge",
     contentPath: 'blog-posts/lesions-ischio-jambiers-prise-en-charge.md',
+    category: "Sport",
+  },
+  {
+    title: "Les lésions aiguës des ischio-jambiers (3/4) : quels exercices pour mon patient et comment décider du retour au sport ?",
+    image: "https://www.kinefact.com/wp-content/uploads/2020/07/svend-steensgaard1.jpg",
+    excerpt: "Dans cette troisième partie sur quatre, nous allons tenter d'explorer ensemble comment et pourquoi intégrer des exercices (et lesquels) dans cette prise en charge où le repos complet n'est PAS conseillé et où la phase de retour au sport est plus qu'essentielle.",
+    date: "2020-08-10",
+    author: "Bryan Littré",
+    link: "/blog/lesions-ischio-jambiers-exercices-retour-sport",
+    contentPath: 'blog-posts/lesions-ischio-jambiers-exercices-retour-sport.md',
     category: "Sport",
   },
   {
