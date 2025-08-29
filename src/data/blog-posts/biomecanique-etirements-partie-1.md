@@ -1,6 +1,6 @@
 # La biomécanique des étirements ?
 
-<p><img decoding="async" class=" wp-image-600 alignleft" style="font-family: Calibri, serif;" src="https://www.kinefact.com/wp-content/uploads/2019/08/stretching-498256_1920-300x200.jpg" alt="Femme en difficulté pour s'étirer" width="321" height="214" srcset="https://www.kinefact.com/wp-content/uploads/2019/08/stretching-498256_1920-300x200.jpg 300w, https://www.kinefact.com/wp-content/uploads/2019/08/stretching-498256_1920-768x512.jpg 768w, https://www.kinefact.com/wp-content/uploads/2019/08/stretching-498256_1920-1024x683.jpg 1024w, https://www.kinefact.com/wp-content/uploads/2019/08/stretching-498256_1920.jpg 1920w" sizes="(max-width: 321px) 100vw, 321px"></p>
+
 
 <p style="font-size: 10pt;"><b style="font-family: Calibri, serif;">Aide à la relecture : Benjamin Heng, Anthony Halimi, Robin Vervaeke, Elsa Steinbach</b></p>
 
