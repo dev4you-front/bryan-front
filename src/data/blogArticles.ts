@@ -81,4 +81,14 @@ export const blogArticles: Article[] = [
     contentPath: 'blog-posts/lesions-ischio-jambiers-prise-en-charge.md',
     category: "Sport",
   },
+  {
+    title: "Les lésions aigües des ischio-jambiers (4/4) : prévenir plutôt que guérir",
+    image: "https://www.kinefact.com/wp-content/uploads/2020/07/prevention.jpg",
+    excerpt: "Quatrième et dernière partie s'intéressant à la pathologie la plus fréquente dans le sport. Que signifie la prévention ? Est-elle efficace ? Si oui, de combien ? Si non, quels sont les obstacles ? Quelques réflexions liées au management des blessures du sportifs sont également explorées.",
+    date: "2020-08-19",
+    author: "Bryan Littré",
+    link: "/blog/lesions-ischio-jambiers-prevenir-plutot-que-guerir",
+    contentPath: 'blog-posts/lesions-ischio-jambiers-prevenir-plutot-que-guerir.md',
+    category: "Sport",
+  },
 ];
