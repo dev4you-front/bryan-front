@@ -17,7 +17,7 @@ export const formationsData: FormationsData = {
           },
           {
             src: "https://www.youtube.com/embed/E4kTrmriU64",
-            title: "Bryan LITTRE - La douleur chronique",
+            title: "Retour au sport et lésions sportives du membre inférieur - Conférence au CIFEPK 2022 avec Gaetan HENRY et Bryan LITTRE ",
           },
         ],
       },
