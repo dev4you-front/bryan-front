@@ -93,7 +93,7 @@
 <p style="text-align: justify;"><span style="font-weight: 400;">De ces observations et suite à des biopsies, on observe qu'une partie de la population semble avoir des prédispositions à avoir des troubles vasculaires et nerveux. Par exemple, l'analyse des nerfs interosseux postérieurs chez des patients diabétiques ayant un SCC avec ou sans polyneuropathies, ainsi que chez des patients ayant un SCC idiopathique, comparativement à un groupe contrôle n'ayant pas de SCC (Thomsen et al en 2009) :</span></p>
 
 <ul style="text-align: justify;">
-<li><span style="font-weight: 400;">- Des différences dans la densité des fibres myélinisées </span></li>
+<li><span style="font-weight: 400;">- Desr différences dans la densité des fibres myélinisées </span></li>
 <li><span style="font-weight: 400;">- Des différences dans la densité des capillaires sanguins </span></li>
 </ul>
 
