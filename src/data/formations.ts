@@ -32,7 +32,7 @@ export const formationsData: FormationsData = {
         videos: [
           {
             src: "https://www.youtube.com/embed/3zUh9YdN9MU",
-            title: "Troubles neurologiques en musculo-squelettique : Réussir ses bilans et savoir quoi en faire - Partie 1",
+            title: "Ischémie transitoire de nerf. Exemple par la myélopathie cervicale - Formation donnée par Par Bryan LITTRE",
           },
           {
             src: "https://www.youtube.com/embed/BdSFGH50mC0",
