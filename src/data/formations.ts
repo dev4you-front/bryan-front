@@ -13,7 +13,7 @@ export const formationsData: FormationsData = {
           },
           {
             src: "https://www.youtube.com/embed/VVLn86-t-Sg",
-            title: "Récidives dans le sport : à qui la faute ? - Conférence avec Bryan Littré",
+            title: "Récidives dans le sport : à qui la faute ? - Conférence SPO avec Bryan Littré",
           },
           {
             src: "https://www.youtube.com/embed/E4kTrmriU64",
