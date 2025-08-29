@@ -8,6 +8,10 @@ export const formationsData: FormationsData = {
         description: "Approche pratique et fondée sur les preuves pour la prise en charge des lésions des ischio-jambiers.",
         videos: [
           {
+            src: "/video/teasing_sport.mp4",
+            title: "Petit teasing sympa' de la formation. N'hésite pas a scroll pour voir du concret",
+          },
+          {
             src: "https://www.youtube.com/embed/QPdA4npgKck",
             title: "Comment ne plus se BLESSER aux ISCHIOS - Interview avec Bryan Littré",
           },
