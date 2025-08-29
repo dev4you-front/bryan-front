@@ -1,7 +1,6 @@
 # Syndrome du canal carpien, pourquoi sommes-nous négligés du parcours de soin ?
 
-
-<p><span style="font-weight: 400;">Par Bryan Littré, remerciements et aide à la relecture : </span><b>Marguerite Dontenwille, Robin Vervaeke, Marie Akrich, Antoine Massuleau, Benjamin Heng</b></p>
+<p style="text-align: justify;"><span style="font-weight: 400;">Par Bryan Littré, remerciements et aide à la relecture : </span><b>Marguerite Dontenwille, Robin Vervaeke, Marie Akrich, Antoine Massuleau, Benjamin Heng</b></p>
 
 <p style="text-align: justify;"><span style="font-size: 18pt; color: #00ccff;"><strong>Un tryptique d'enjeux : sociétal, économique et sanitaire</strong></span></p>
 
