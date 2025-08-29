@@ -66,11 +66,11 @@ export const formationsData: FormationsData = {
         videos: [
           {
             src: "/video/video_vascu_bryan_olivia.mp4",
-            title: "Troubles vasculaires avec Bryan et Olivia",
+            title: "Teasing et explication de la formation Cardiovasculaire",
           },
           {
             src: "https://www.youtube.com/embed/wJkIQ_0tExc",
-            title: "Troubles vasculaires : Trier pour savoir quand traiter !",
+            title: "Triage vasculaire et accès direct - Explication de Bryan Littré et Olivia Ferrand",
           },
           {
             src: "https://www.youtube.com/embed/dAsUCdMmZNc?start=2833",
