@@ -40,7 +40,7 @@ export const formationsData: FormationsData = {
           },
           {
             src: "https://www.youtube.com/embed/68jl8g9OP10?start=764",
-            title: "Troubles neurologiques en musculo-squelettique : Réussir ses bilans et savoir quoi en faire - Partie 3",
+            title: "Troubles neuro vasculaires : fausses croyances et anecdotes - Interview avec Bryan Littré",
           },
           {
             src: "https://www.youtube.com/embed/BBPKLrgUiJY",
