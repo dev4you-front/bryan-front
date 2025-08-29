@@ -74,7 +74,7 @@ export const formationsData: FormationsData = {
           },
           {
             src: "https://www.youtube.com/embed/dAsUCdMmZNc?start=2833",
-            title: "Formation troubles vasculaires - Partie avancée",
+            title: "Etes-vous prêts pour l’accès direct ? Le triage que vous faites déjà - Conférence CIFEPK 2024 avec Bryan Littré",
           },
         ],
       },
