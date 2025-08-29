@@ -83,10 +83,10 @@
 <p style="text-align: justify;"><span style="font-family: georgia, palatino, serif;">Afin d'étayer ce propos, intéressons-nous à quelques études. La revue de Bonser, Hancock et coll. a proposé la problématique : « <i>Dans une population active, quel-est l'effet de la mobilisation neurodynamique par rapport à l'étirement ou la facilitation proprioceptive neuromusculaire (PNF ou contracté relâché) ? »</i>Celle-ci a pu extraire trois études, 1 comparative et 2 essais contrôlés randomisés. Si je me base sur ses critères pour faire une revue en 2019, une dernière étude vient étoffer les données existantes. Voici ce qui ressort selon chaque étude :</span></p>
 
 <ul style="text-align: justify;">
-<li><span style="font-family: georgia, palatino, serif;">Pour Castellote-Caballero et al, il y a une supériorité des manœuvres neurodynamiques comparativement à un étirement statique concernant l'amplitude articulaire des membres inférieurs (souplesse des ischio-jambiers). Cette étude était la plus rigoureuse méthodologiquement ainsi que celle ayant la puissance statistique la plus importante. Cela est lié en partie au nombre important de patients présents au sein de l'étude.</span></li>
-<li><span style="font-family: georgia, palatino, serif;">Pour Pagare et al, il n'y a aucune différence concernant le gain d'amplitude entre les manœuvres neurodynamiques et l'étirement statique.</span></li>
-<li><span style="font-family: georgia, palatino, serif;">Pour Vidhi et al, c'est le mystère. Cette étude comparative (qui est la moins rigoureuse méthodologiquement) a comparé les manœuvres neurodynamiques au contracté relâché. Entre les conclusions de l'étude et ce que l'on trouve dans les tableaux il y a un gra<span style="font-size: 14pt;">a</span><span style="font-size: 18pt;">a<span style="font-size: 14pt;">a</span></span>and écart. Ils annoncent que le contracté relâché est meilleur alors que les chiffres au sein des résultats sont en faveur des manœuvres neurodynamiques. Il m'est donc impossible de conclure concernant cette étude. </span><span style="font-family: georgia, palatino, serif; font-size: 12pt;">Je me demande d'ailleurs ce que quelqu'un d'autre pourrait conclure de cette étude sans demander les résultats directement à l'équipe en question.</span></li>
-<li><span style="font-family: georgia, palatino, serif;">Une dernière étude peut venir se greffer à cette revue, celle de Adel Rashad Amed et al 2016. Les auteurs observent un gain d'amplitude articulaire au sein des deux groupes, avec une supériorité statistiquement significative pour le groupe recevant les mobilisations neurodynamiques, comparativement au groupe recevant l'étirement statique. Mais la différence est seulement de 4°.</span></li>
+<li><span style="font-family: georgia, palatino, serif;">- Pour Castellote-Caballero et al, il y a une supériorité des manœuvres neurodynamiques comparativement à un étirement statique concernant l'amplitude articulaire des membres inférieurs (souplesse des ischio-jambiers). Cette étude était la plus rigoureuse méthodologiquement ainsi que celle ayant la puissance statistique la plus importante. Cela est lié en partie au nombre important de patients présents au sein de l'étude.</span></li>
+<li><span style="font-family: georgia, palatino, serif;">- Pour Pagare et al, il n'y a aucune différence concernant le gain d'amplitude entre les manœuvres neurodynamiques et l'étirement statique.</span></li>
+<li><span style="font-family: georgia, palatino, serif;">- Pour Vidhi et al, c'est le mystère. Cette étude comparative (qui est la moins rigoureuse méthodologiquement) a comparé les manœuvres neurodynamiques au contracté relâché. Entre les conclusions de l'étude et ce que l'on trouve dans les tableaux il y a un gra<span style="font-size: 14pt;">a</span><span style="font-size: 18pt;">a<span style="font-size: 14pt;">a</span></span>and écart. Ils annoncent que le contracté relâché est meilleur alors que les chiffres au sein des résultats sont en faveur des manœuvres neurodynamiques. Il m'est donc impossible de conclure concernant cette étude. </span><span style="font-family: georgia, palatino, serif; font-size: 12pt;">Je me demande d'ailleurs ce que quelqu'un d'autre pourrait conclure de cette étude sans demander les résultats directement à l'équipe en question.</span></li>
+<li><span style="font-family: georgia, palatino, serif;">- Une dernière étude peut venir se greffer à cette revue, celle de Adel Rashad Amed et al 2016. Les auteurs observent un gain d'amplitude articulaire au sein des deux groupes, avec une supériorité statistiquement significative pour le groupe recevant les mobilisations neurodynamiques, comparativement au groupe recevant l'étirement statique. Mais la différence est seulement de 4°.</span></li>
 </ul>
 
 <p style="text-align: justify;"><span style="font-family: georgia, palatino, serif;">Il existe donc des preuves de grade B, que les neuro-glissements semblent au moins aussi performants que les techniques d'étirements traditionnelles afin d'obtenir un gain d'amplitude articulaire. Les patients manquant de souplesse au niveau des ischio-jambiers pourraient donc bénéficier de ces manœuvres à visée de gain d'amplitude articulaire.</span></p>
@@ -112,10 +112,10 @@
 <p style="text-align: justify;"><span style="font-family: georgia, palatino, serif;">Le premier article a pour but de comparer les propriétés mécaniques et contractiles du complexe muscle-tendon au sein des muscles ischio-jambiers, en passif et en actif, entre une population de danseuses et un groupe contrôle. Voici ce qu'ils arrivent à observer : </span></p>
 
 <ul style="text-align: justify;">
-<li><span style="font-family: georgia, palatino, serif;">Une plus grande flexibilité au sein de la population de danseuses (score de Beighton)</span></li>
-<li><span style="font-family: georgia, palatino, serif;">Une résistance moins importante à l'étirement passif lors de l'extension du genou pour le groupe expérimental</span></li>
-<li><span style="font-family: georgia, palatino, serif;">La résistance passive en fin d'extension de genou est similaire pour les deux groupes</span></li>
-<li><span style="font-family: georgia, palatino, serif;">L'analyse de la force active et de la résistance passive en extension tend à mettre en évidence une amplitude fonctionnelle plus importante concernant le groupe expérimental. La force active peut-être élevée durant une plus large amplitude articulaire. </span></li>
+<li><span style="font-family: georgia, palatino, serif;">- Une plus grande flexibilité au sein de la population de danseuses (score de Beighton)</span></li>
+<li><span style="font-family: georgia, palatino, serif;">- Une résistance moins importante à l'étirement passif lors de l'extension du genou pour le groupe expérimental</span></li>
+<li><span style="font-family: georgia, palatino, serif;">- La résistance passive en fin d'extension de genou est similaire pour les deux groupes</span></li>
+<li><span style="font-family: georgia, palatino, serif;">- L'analyse de la force active et de la résistance passive en extension tend à mettre en évidence une amplitude fonctionnelle plus importante concernant le groupe expérimental. La force active peut-être élevée durant une plus large amplitude articulaire. </span></li>
 </ul>
 
 <blockquote><p><span style="color: #0070c0; font-family: georgia, palatino, serif; font-size: 14pt;"><span lang="en-US">II. Moltubakk, M. M., Magulas, M. M., Villars, F. O., Seynnes, O. R., & Bojsen-Moller, J.</span></span></p>
@@ -127,13 +127,13 @@
 <p style="text-align: justify;"><span style="font-family: georgia, palatino, serif;">Ce papier nous permet de mettre en évidence que lorsque l'on compare 2 groupes, l'un contenant des danseurs de ballets (expérimental), et des gens issus de la population active ne faisant pas d'étirements réguliers (contrôle), nous observons : </span></p>
 
 <ul style="text-align: justify;">
-<li><span style="font-family: georgia, palatino, serif;">Une amplitude de cheville plus importante et moins de douleurs ressenties en fin d'amplitude pour le groupe de danseurs de ballet</span></li>
-<li><span style="font-family: georgia, palatino, serif;">Une longueur et une épaisseur plus importantes des fascicules des muscles gastrocnémiens pour le groupe expérimental, que cela soit au repos ou à l'étirement</span></li>
-<li><span style="font-family: georgia, palatino, serif;">L'angle de pennation des muscles semble identique au sein des deux populations ciblées</span></li>
-<li><span style="font-family: georgia, palatino, serif;">Les danseurs tolèrent plus facilement l'étirement lent et passif, cependant en fin d'amplitude, la force passive mesurée et la rigidité sont similaires au sein des muscles des deux groupes (« passive torque and passive joint stiffness ») </span></li>
-<li><span style="font-family: georgia, palatino, serif;">Tout le long du mouvement d'étirement en passif, on observe une résistance plus importante pour le groupe contrôle (passive torque)</span></li>
-<li><span style="font-family: georgia, palatino, serif;">Une activité myo-électrique plus faible chez les danseurs que dans le groupe contrôle lors d'un étirement passif</span></li>
-<li><span style="font-family: georgia, palatino, serif;">La rigidité tendineuse, mesurée à l'élastographe, semble diminuée chez le groupe de danseurs comparativement au groupe contrôle</span></li>
+<li><span style="font-family: georgia, palatino, serif;">- Une amplitude de cheville plus importante et moins de douleurs ressenties en fin d'amplitude pour le groupe de danseurs de ballet</span></li>
+<li><span style="font-family: georgia, palatino, serif;">- Une longueur et une épaisseur plus importantes des fascicules des muscles gastrocnémiens pour le groupe expérimental, que cela soit au repos ou à l'étirement</span></li>
+<li><span style="font-family: georgia, palatino, serif;">- L'angle de pennation des muscles semble identique au sein des deux populations ciblées</span></li>
+<li><span style="font-family: georgia, palatino, serif;">- Les danseurs tolèrent plus facilement l'étirement lent et passif, cependant en fin d'amplitude, la force passive mesurée et la rigidité sont similaires au sein des muscles des deux groupes (« passive torque and passive joint stiffness ») </span></li>
+<li><span style="font-family: georgia, palatino, serif;">- Tout le long du mouvement d'étirement en passif, on observe une résistance plus importante pour le groupe contrôle (passive torque)</span></li>
+<li><span style="font-family: georgia, palatino, serif;">- Une activité myo-électrique plus faible chez les danseurs que dans le groupe contrôle lors d'un étirement passif</span></li>
+<li><span style="font-family: georgia, palatino, serif;">- La rigidité tendineuse, mesurée à l'élastographe, semble diminuée chez le groupe de danseurs comparativement au groupe contrôle</span></li>
 </ul>
 
 <blockquote><p><span style="color: #0070c0; font-family: georgia, palatino, serif; font-size: 14pt;"><span lang="en-US">III. Moltubakk, M. M., Villars, F. O., Magulas, M. M., Magnusson S. P., Seynnes, O. R., & </span></span><span style="color: #0070c0; font-family: georgia, palatino, serif; font-size: 14pt;"><span lang="en-US">Bojsen-Moller, J. </span></span></p>
@@ -144,17 +144,17 @@
 <p style="text-align: justify;"><span style="font-family: georgia, palatino, serif;">Après 24 semaines d'un protocole d'étirements statiques sur une seule jambe (groupe expérimental) Le groupe contrôle est constitué des jambes opposées <u>et ne subit aucune intervention</u>. Les étirements sont reproduits un minimum de 4 fois une minute par jour pour le groupe expérimental : </span></p>
 
 <ul style="text-align: justify;">
-<li><span style="font-family: georgia, palatino, serif;">Suite à l'intervention, on observe une augmentation de l'amplitude de mouvement au sein des deux groupes (majorée dans le groupe expérimental) </span></li>
-<li><span style="font-family: georgia, palatino, serif;">Aucune modification de la longueur des fascicules des gastrocnemiens médiaux n'est observée en position neutre, aucune modification de la raideur ou de la taille du tendon achilléen (insertion avec les gastrocnémiens) </span></li>
-<li><span style="font-family: georgia, palatino, serif;">La douleur perçue durant l'étirement passif n'est pas modifiée en fin d'amplitude mais elle l'est durant le mouvement.</span></li>
-<li><span style="font-family: georgia, palatino, serif;">La force isométrique et concentrique des muscles est restée inchangée peu importe l'angulation de la cheville.</span></li>
-<li><span style="font-family: georgia, palatino, serif;">Les forces de tension passive semblent diminuées le long du mouvement de dorsiflexion après l'intervention au sein du groupe expérimental.</span></li>
-<li><span style="font-family: georgia, palatino, serif;">Il est observé une augmentation de l'élongation des fascicules des gastrocnémiens en fin d'amplitude de dorsiflexion<b>, </b><u><b>AU SEIN DES DEUX GROUPES</b></u>, sans différence entre les groupes, après l'intervention.</span></li>
+<li><span style="font-family: georgia, palatino, serif;">- Suite à l'intervention, on observe une augmentation de l'amplitude de mouvement au sein des deux groupes (majorée dans le groupe expérimental) </span></li>
+<li><span style="font-family: georgia, palatino, serif;">- Aucune modification de la longueur des fascicules des gastrocnemiens médiaux n'est observée en position neutre, aucune modification de la raideur ou de la taille du tendon achilléen (insertion avec les gastrocnémiens) </span></li>
+<li><span style="font-family: georgia, palatino, serif;">- La douleur perçue durant l'étirement passif n'est pas modifiée en fin d'amplitude mais elle l'est durant le mouvement.</span></li>
+<li><span style="font-family: georgia, palatino, serif;">- La force isométrique et concentrique des muscles est restée inchangée peu importe l'angulation de la cheville.</span></li>
+<li><span style="font-family: georgia, palatino, serif;">- Les forces de tension passive semblent diminuées le long du mouvement de dorsiflexion après l'intervention au sein du groupe expérimental.</span></li>
+<li><span style="font-family: georgia, palatino, serif;">- Il est observé une augmentation de l'élongation des fascicules des gastrocnémiens en fin d'amplitude de dorsiflexion<b>, </b><u><b>AU SEIN DES DEUX GROUPES</b></u>, sans différence entre les groupes, après l'intervention.</span></li>
 </ul>
 
 <ul style="text-align: justify;">
-<li><span style="font-family: georgia, palatino, serif;">En position de dorsiflexion après une stimulation passive, il est observé une augmentation de la longueur du tendon d'Achille (insertion gastrocnémiens et soléaire) au sein des deux groupes avec cependant une supériorité statistiquement significative au sein du groupe expérimental.</span></li>
-<li><span style="font-family: georgia, palatino, serif;">Une augmentation de l'élongation des fascicules du muscle soléaire pour le groupe expérimental comparativement au groupe contrôle qui n'observe aucune modification après intervention (fin d'amplitude de dorsiflexion)</span></li>
+<li><span style="font-family: georgia, palatino, serif;">- En position de dorsiflexion après une stimulation passive, il est observé une augmentation de la longueur du tendon d'Achille (insertion gastrocnémiens et soléaire) au sein des deux groupes avec cependant une supériorité statistiquement significative au sein du groupe expérimental.</span></li>
+<li><span style="font-family: georgia, palatino, serif;">- Une augmentation de l'élongation des fascicules du muscle soléaire pour le groupe expérimental comparativement au groupe contrôle qui n'observe aucune modification après intervention (fin d'amplitude de dorsiflexion)</span></li>
 </ul>
 
 <blockquote><p><span style="font-size: 14pt;"><span style="color: #0070c0; font-family: georgia, palatino, serif;">IV. Moltubakk, M. M., Svensson, R. B., Magnusson S. P., Suetta, C., Raastad, T., Seynnes, O. </span><span style="color: #0070c0; font-family: georgia, palatino, serif;"><span lang="en-US">R., & Bojsen-Moller, J. </span></span></span></p>
@@ -163,10 +163,10 @@
 <p style="text-align: justify;"><span style="font-family: georgia, palatino, serif;">Ce dernier article est une étude comparative ayant pour but d'évaluer la composition en collagène (tissu conjonctif) au sein des muscles avant puis après une intervention de 6 mois d'étirements réalisés uniquement sur le groupe expérimental. Ce programme est administré sur une jambe, l'autre servant de groupe contrôle : </span></p>
 
 <ul style="text-align: justify;">
-<li><span style="font-family: georgia, palatino, serif;">On observe une amélioration de l'amplitude de la cheville en dorsiflexion pour les deux groupes.</span></li>
-<li><span style="font-family: georgia, palatino, serif;">L'intensité de la douleur perçue par les sujets semble diminuée du début de l'étirement jusqu'à un certain point.</span></li>
-<li><span style="font-family: georgia, palatino, serif;">Aucune modification des propriétés morphologiques du tendon d'Achille ou des fascicules des gastrocnémiens n'est observée au sein des deux groupes.</span></li>
-<li><span style="font-family: georgia, palatino, serif;">Le contenu intra-musculaire en collagène du soléaire ne semble pas être modifié après 24 semaines d'étirements, alors que l'amplitude de mouvement et la résistance passive à l'étirement sont modifiées.</span></li>
+<li><span style="font-family: georgia, palatino, serif;">- On observe une amélioration de l'amplitude de la cheville en dorsiflexion pour les deux groupes.</span></li>
+<li><span style="font-family: georgia, palatino, serif;">- L'intensité de la douleur perçue par les sujets semble diminuée du début de l'étirement jusqu'à un certain point.</span></li>
+<li><span style="font-family: georgia, palatino, serif;">- Aucune modification des propriétés morphologiques du tendon d'Achille ou des fascicules des gastrocnémiens n'est observée au sein des deux groupes.</span></li>
+<li><span style="font-family: georgia, palatino, serif;">- Le contenu intra-musculaire en collagène du soléaire ne semble pas être modifié après 24 semaines d'étirements, alors que l'amplitude de mouvement et la résistance passive à l'étirement sont modifiées.</span></li>
 </ul>
 
 <p style="text-align: justify;"><span style="font-family: georgia, palatino, serif;">Récapitulons ainsi ce que ces études ont pu mettre en avant dans les conditions expérimentales décrites : </span></p>
@@ -182,8 +182,8 @@
 <p style="padding-left: 40px; text-align: justify;"><span style="font-family: georgia, palatino, serif;"><strong><span style="color: #0000ff;">3.</span> </strong>Les amplitudes de l'EMG des triceps suraux à un angle articulaire donné pour la dorsiflexion passive étaient les suivantes : </span></p>
 
 <ul style="text-align: justify;">
-<li><span style="font-family: georgia, palatino, serif;">Plus faibles chez les danseurs de ballet que chez les témoins </span></li>
-<li><span style="font-family: georgia, palatino, serif;">Les amplitudes de l'EMG ont été réduites chez les sujets ayant subi 24 semaines d'étirements, pour les deux jambes, dont une n'ayant pas subi d'étirements.</span></li>
+<li><span style="font-family: georgia, palatino, serif;">- Plus faibles chez les danseurs de ballet que chez les témoins </span></li>
+<li><span style="font-family: georgia, palatino, serif;">- Les amplitudes de l'EMG ont été réduites chez les sujets ayant subi 24 semaines d'étirements, pour les deux jambes, dont une n'ayant pas subi d'étirements.</span></li>
 </ul>
 
 <p style="padding-left: 40px; text-align: justify;"><span style="font-family: georgia, palatino, serif;"><strong><span style="color: #0000ff;">4.</span></strong> Les danseurs de ballet ont montré une plus grande élongation du muscle gastrocnémien par rapport au groupe contrôle, mais la contribution du muscle par rapport au tendon à l'allongement total du complexe muscle-tendon n'était pas différente du groupe contrôle. </span></p>
