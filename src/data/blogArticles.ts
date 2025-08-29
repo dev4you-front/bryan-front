@@ -3,7 +3,7 @@ import { Article } from "@/types";
 export const blogArticles: Article[] = [
   {
     title: "Biomécanique des étirements – Partie II",
-    image: "https://www.kinefact.com/wp-content/uploads/2019/10/cat-814952_1920.jpg",
+    image: "https://images.pexels.com/photos/841130/pexels-photo-841130.jpeg",
     excerpt: "Dans l'article précédent, Bryan Littre nous a présenté les différentes théories pouvant expliquer les gains obtenus par les diverses techniques d'étirement, en s'appuyant notamment sur les travaux de Moltubakk. Dans l'article du jour, on va regarder comment la littérature peut nous aider à trancher en faveur de l'une ou de l'autre.",
     date: "2019-10-04",
     author: "Bryan Littre",
@@ -13,7 +13,7 @@ export const blogArticles: Article[] = [
   },
   {
     title: "Syndrome du canal carpien, quelques bases de compréhension. 1/3",
-    image: "https://www.kinefact.com/wp-content/uploads/2021/01/grossesse-4-remedes-naturels-contre-le-syndrome-du-canal-carpien-quand-on-est-enceinte.jpeg",
+    image: "https://images.pexels.com/photos/4226119/pexels-photo-4226119.jpeg",
     excerpt: "Le syndrome du canal carpien est une atteinte autour de laquelle beaucoup de croyances existent, au même titre que la plupart des névralgies. Cette série d'articles fait une mise à jour détaillée autour du syndrome du canal carpien (SCC) basée sur la littérature scientifique.",
     date: "2021-02-13",
     author: "Bryan Littré",
@@ -23,7 +23,7 @@ export const blogArticles: Article[] = [
   },
   {
     title: "Syndrome du canal carpien, pourquoi sommes-nous négligés du parcours de soin ? 2/3",
-    image: "https://www.kinefact.com/wp-content/uploads/2021/01/tumblr_o16n2kBlpX1ta3qyvo1_1280.jpg",
+    image: "https://images.pexels.com/photos/7176026/pexels-photo-7176026.jpeg",
     excerpt: "Maintenant, nous entrons dans le vif du sujet. Nous allons parler gros sous et crise sanitaire. Les soins pris en charge pour le SCC représentent 2 milliards de dollars dépensés par an depuis 2006 aux USA.",
     date: "2021-02-19",
     author: "Bryan Littré",
@@ -33,7 +33,7 @@ export const blogArticles: Article[] = [
   },
   {
     title: "Le syndrome du canal carpien : régler au mieux le problème. 3/3",
-    image: "https://www.kinefact.com/wp-content/uploads/2021/01/canal-carpien.png",
+    image: "https://images.pexels.com/photos/4386466/pexels-photo-4386466.jpeg",
     excerpt: "Par Bryan Littré, remerciements et aide à la relecture : Marguerite Dontenwille, Robin Vervaeke, Marie Akrich, Antoine Massuleau, Benjamin Heng",
     date: "2024-05-27",
     author: "Bryan Littré",
@@ -43,7 +43,7 @@ export const blogArticles: Article[] = [
   },
   {
     title: "Les lésions aiguës des ischio-jambiers : un problème dont il faut s'occuper",
-    image: "https://www.kinefact.com/wp-content/uploads/2020/07/usp_nfl__washington_redskins_at_philadelphia_eagle_59932360-scaled.jpg",
+    image: "https://images.pexels.com/photos/416778/pexels-photo-416778.jpeg",
     excerpt: "Cette série d'articles a été élaborée pendant le confinement (ça peut avoir du bon). Le but de ce travail est d'apporter des éléments de la littérature sur une pathologie courante, évaluée comme étant la blessure la plus fréquente dans de nombreux sports.",
     date: "2020-08-01",
     author: "Bryan Littré",
@@ -53,7 +53,7 @@ export const blogArticles: Article[] = [
   },
   {
     title: "Les lésions aiguës des ischio-jambiers : comprendre et optimiser la prise en charge",
-    image: "https://www.kinefact.com/wp-content/uploads/2020/07/og-image-07.jpg",
+    image: "https://images.pexels.com/photos/3279209/pexels-photo-3279209.jpeg",
     excerpt: "Lors de la première partie, nous avons exploré quelques problématiques liées aux prescriptions médicales en France, le haut taux de récurrence, d'incidence et de prévalence. Maintenant passons à la suite et entrons dans le vif du sujet avec les subtilités de la prise en charge.",
     date: "2020-08-07",
     author: "Bryan Littré",
