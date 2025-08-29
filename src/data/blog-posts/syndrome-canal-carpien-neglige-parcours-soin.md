@@ -20,10 +20,10 @@
 <p style="text-align: justify;"><span style="font-weight: 400;">Les coûts relatifs sont en grande partie liés aux arrêts de travail et à la prise en charge chirurgicale (GHM6 et GHM761).</span></p>
 
 <ul style="text-align: justify;">
-<li><span style="font-weight: 400;">Le nombre de nouveaux cas par an est estimé à 0,3% de la population. (200 000 personnes par an )</span></li>
-<li><span style="font-weight: 400;">On note une forte hausse de cette incidence depuis les années 90.</span></li>
-<li><span style="font-weight: 400;">Il touche plus les femmes que les hommes. On estime actuellement à 141 000 le nombre d'interventions réalisées pour 127 000 patients opérés par an. (2014) Donc 141 000 interventions pour 200 000 nouveaux cas par an. </span></li>
-<li><span style="font-weight: 400;">Le syndrome du canal carpien est la 2e pathologie reconnue en maladie professionnelle (après les pathologies de la coiffe des rotateurs) avec, pour le régime général de la sécurité sociale, 12 792 reconnaissances en maladie professionnelle ayant donné lieu à une première indemnisation en 2017. Cependant, la sous-déclaration en maladie professionnelle a été estimée en 2011 à 60 %.</span></li>
+<li><span style="font-weight: 400;">- Le nombre de nouveaux cas par an est estimé à 0,3% de la population. (200 000 personnes par an )</span></li>
+<li><span style="font-weight: 400;">- On note une forte hausse de cette incidence depuis les années 90.</span></li>
+<li><span style="font-weight: 400;">- Il touche plus les femmes que les hommes. On estime actuellement à 141 000 le nombre d'interventions réalisées pour 127 000 patients opérés par an. (2014) Donc 141 000 interventions pour 200 000 nouveaux cas par an. </span></li>
+<li><span style="font-weight: 400;">- Le syndrome du canal carpien est la 2e pathologie reconnue en maladie professionnelle (après les pathologies de la coiffe des rotateurs) avec, pour le régime général de la sécurité sociale, 12 792 reconnaissances en maladie professionnelle ayant donné lieu à une première indemnisation en 2017. Cependant, la sous-déclaration en maladie professionnelle a été estimée en 2011 à 60 %.</span></li>
 </ul>
 <p style="text-align: justify;"><span style="font-weight: 400; font-size: 8pt; color: #0000ff;">http://www.moncanalcarpien.org/1_3_epidemiologie.html</span></p>
 <p style="text-align: justify;"><span style="font-weight: 400; font-size: 8pt; color: #0000ff;">https://www.ameli.fr/assure/sante/themes/syndrome-canal-carpien/comprendre-syndrome-canal-carpien#:~:text=Le%20syndrome%20du%20canal%20carpien%20est%20fr%C3%A9quent,entre%2060%20et%2070%20ans.</span></p>
