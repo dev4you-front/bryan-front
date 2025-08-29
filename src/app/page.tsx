@@ -25,11 +25,22 @@ export default function Home() {
         {!showVideo ? (
           /* Bannière image avec bouton play */
           <div className="relative w-full h-full">
+            {/* Image desktop - visible à partir de md (tablette et plus) */}
             <Image
               src="/images/photo_banniere_desktop.png"
               alt="Bannière Bryan Littré"
               fill
-              className="object-cover object-top brightness-75"
+              className="object-cover brightness-75 hidden md:block"
+              style={{ objectPosition: 'center top' }}
+              priority
+            />
+            {/* Image mobile/tablette - visible uniquement sur mobile et petite tablette */}
+            <Image
+              src="/images/photo_banniere_tel.jpg"
+              alt="Bannière Bryan Littré"
+              fill
+              className="object-cover brightness-75 md:hidden"
+              style={{ objectPosition: 'center top' }}
               priority
             />
             {/* Bouton play superposé */}
