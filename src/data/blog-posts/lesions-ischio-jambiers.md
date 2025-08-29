@@ -75,10 +75,12 @@
 <li><span style="font-weight: 400;">On est peut-être un peu négligés non ? </span></li>
 </ul>
 
-<video width="480" height="278" controls loop autoplay muted style="max-width: 100%; height: auto;">
-  <source src="https://www.kinefact.com/wp-content/uploads/2020/07/giphy-ertz.mp4" type="video/mp4">
-  Votre navigateur ne supporte pas la lecture de vidéos.
+<div style="width: 480px;" class="wp-video">
+<video class="wp-video-shortcode" width="480" height="278" loop="1" autoplay="1" preload="metadata" controls>
+<source type="video/mp4" src="https://www.kinefact.com/wp-content/uploads/2020/07/giphy-ertz.mp4">
+<a href="https://www.kinefact.com/wp-content/uploads/2020/07/giphy-ertz.mp4">https://www.kinefact.com/wp-content/uploads/2020/07/giphy-ertz.mp4</a>
 </video>
+</div>
 
 <p style="text-align: justify;"><span style="font-weight: 400;">De ce fait, il est de notre devoir de propager un discours cohérent aux prescripteurs composé de ce qui se fait de mieux à ce jour à l'international et pour le bien-être des patients atteints de ces affections. </span></p>
 
@@ -104,10 +106,12 @@
 
 <p style="text-align: justify;"><span style="font-weight: 400;">Ces termes semblent donc regrouper plusieurs entités différentes pouvant répondre différemment à la contrainte selon le tissu lésé, mais le terme le plus adapté serait "lésion aiguë myo-collagénique" des ischio-jambiers si nous devions parler entre professionnels. Je trouve ce terme trop long et lourd à la lecture, j'espère que vous ne m'en voudrez pas que je parles de lésions aux ischio-jambiers (IJ)</span></p>
 
-<video width="480" height="480" controls loop autoplay muted style="max-width: 100%; height: auto;">
-  <source src="https://www.kinefact.com/wp-content/uploads/2020/07/giphy-wink.mp4" type="video/mp4">
-  Votre navigateur ne supporte pas la lecture de vidéos.
+<div style="width: 480px;" class="wp-video">
+<video class="wp-video-shortcode" width="480" height="480" loop="1" autoplay="1" preload="auto" controls>
+<source type="video/mp4" src="https://www.kinefact.com/wp-content/uploads/2020/07/giphy-wink.mp4">
+<a href="https://www.kinefact.com/wp-content/uploads/2020/07/giphy-wink.mp4">https://www.kinefact.com/wp-content/uploads/2020/07/giphy-wink.mp4</a>
 </video>
+</div>
 
 <p style="text-align: justify;"><span style="font-size: 14pt; color: #3366ff;"><b>IMPACT SPORTIF ET FINANCIER</b></span></p>
 
@@ -151,10 +155,12 @@
 
 <p style="text-align: justify;"><span style="font-weight: 400;">Si vous voulez renégocier vos salaires dites juste aux clubs et fédérations qu'on fait gagner des sous, ou du moins on diminue les pertes financières et sportives.</span></p>
 
-<video width="480" height="264" controls loop autoplay muted style="max-width: 100%; height: auto;">
-  <source src="https://www.kinefact.com/wp-content/uploads/2020/07/giphy-smart.mp4" type="video/mp4">
-  Votre navigateur ne supporte pas la lecture de vidéos.
+<div style="width: 480px;" class="wp-video">
+<video class="wp-video-shortcode" width="480" height="264" loop="1" autoplay="1" preload="auto" controls>
+<source type="video/mp4" src="https://www.kinefact.com/wp-content/uploads/2020/07/giphy-smart.mp4">
+<a href="https://www.kinefact.com/wp-content/uploads/2020/07/giphy-smart.mp4">https://www.kinefact.com/wp-content/uploads/2020/07/giphy-smart.mp4</a>
 </video>
+</div>
 
 <p style="text-align: justify;"><span style="font-size: 14pt; color: #3366ff;"><b>LE PATIENT TYPE</b></span></p>
 
@@ -166,10 +172,12 @@
 
 <p style="text-align: justify;"><span style="font-weight: 400;">Le premier le « </span><i><span style="font-weight: 400;">stretching type/overstretching</span></i><span style="font-weight: 400;"> », par coup de pied « </span><i><span style="font-weight: 400;">kicking</span></i><span style="font-weight: 400;"> » ou étirement lent « </span><i><span style="font-weight: 400;">slow stretching</span></i><span style="font-weight: 400;"> » </span></p>
 
-<video width="294" height="240" controls loop style="max-width: 100%; height: auto;">
-  <source src="https://www.kinefact.com/wp-content/uploads/2020/07/claquage-du-siecle-pour-un-danseur.mp4" type="video/mp4">
-  Votre navigateur ne supporte pas la lecture de vidéos.
+<div style="width: 294px;" class="wp-video">
+<video class="wp-video-shortcode" width="294" height="240" loop="1" preload="auto" controls>
+<source type="video/mp4" src="https://www.kinefact.com/wp-content/uploads/2020/07/claquage-du-siecle-pour-un-danseur.mp4">
+<a href="https://www.kinefact.com/wp-content/uploads/2020/07/claquage-du-siecle-pour-un-danseur.mp4">https://www.kinefact.com/wp-content/uploads/2020/07/claquage-du-siecle-pour-un-danseur.mp4</a>
 </video>
+</div>
 
 <p style="text-align: justify;"><span style="font-weight: 400;">(Avez-vous entendu la détonation ?)</span></p>
 
@@ -197,17 +205,21 @@
 
 <p style="text-align: justify;"><span style="font-weight: 400;">Le second mécanisme lésionnel est le « </span><i><span style="font-weight: 400;">sprinting type</span></i><span style="font-weight: 400;"> »</span></p>
 
-<video width="480" height="270" controls loop autoplay muted style="max-width: 100%; height: auto;">
-  <source src="https://www.kinefact.com/wp-content/uploads/2020/07/giphy-injury.mp4" type="video/mp4">
-  Votre navigateur ne supporte pas la lecture de vidéos.
+<div style="width: 480px;" class="wp-video">
+<video class="wp-video-shortcode" width="480" height="270" loop="1" autoplay="1" preload="auto" controls>
+<source type="video/mp4" src="https://www.kinefact.com/wp-content/uploads/2020/07/giphy-injury.mp4">
+<a href="https://www.kinefact.com/wp-content/uploads/2020/07/giphy-injury.mp4">https://www.kinefact.com/wp-content/uploads/2020/07/giphy-injury.mp4</a>
 </video>
+</div>
 
 <p style="text-align: justify;"><span style="font-weight: 400;">Ce mécanisme est le plus fréquent engendrant des lésions aux IJ :</span></p>
 
-<video width="700" height="394" controls loop style="max-width: 100%; height: auto;">
-  <source src="https://www.kinefact.com/wp-content/uploads/2020/08/Usain-Bolt-se-blesse-en-pleine-course-durant-son-dernier-4x100m-Hommes.mp4" type="video/mp4">
-  Votre navigateur ne supporte pas la lecture de vidéos.
+<div style="width: 1280px;" class="wp-video">
+<video class="wp-video-shortcode" width="1280" height="720" loop="1" preload="auto" controls style="max-width: 700px; height: auto;">
+<source type="video/mp4" src="https://www.kinefact.com/wp-content/uploads/2020/08/Usain-Bolt-se-blesse-en-pleine-course-durant-son-dernier-4x100m-Hommes.mp4">
+<a href="https://www.kinefact.com/wp-content/uploads/2020/08/Usain-Bolt-se-blesse-en-pleine-course-durant-son-dernier-4x100m-Hommes.mp4">https://www.kinefact.com/wp-content/uploads/2020/08/Usain-Bolt-se-blesse-en-pleine-course-durant-son-dernier-4x100m-Hommes.mp4</a>
 </video>
+</div>
 
 <p style="text-align: justify;"><span style="font-weight: 400; color: #3366ff; font-size: 8pt;">LIU, Hui, GARRETT, William E., MOORMAN, Claude T., et al. Injury rate, mechanism, and risk factors of hamstring strain injuries in sports: a review of the literature. Journal of Sport and Health Science, 2012, vol. 1, no 2, p. 92-101.</span></p>
 
@@ -342,7 +354,7 @@
 
 <p style="text-align: justify;"><span style="font-weight: 400; color: #3366ff; font-size: 8pt;">IRGER, Markus, WILLINGER, Lukas, LACHETA, Lucca, et al. Proximal hamstring tendon avulsion injuries occur predominately in middle-aged patients with distinct gender differences: epidemiologic analysis of 263 surgically treated cases. Knee Surgery, Sports Traumatology, Arthroscopy, 2019, p. 1-9.</span></p>
 
-<p style="text-align: justify;"><span style="font-weight: 400;">Concernant la prise en charge de ce type d'atteinte, les protocoles post-opératoires divergent grandement. Nous retrouvons par exemple 13/21 études incluant un temps de décharge à l'aide de béquilles pour le membre opéré (donc 8/21 en charge post-op immédiate). Ce temps post-opératoire variait entre 2 semaines (4/13) et 6 semaines (9/13).   12 études sur les 21 comportaient dans leur protocole la mise en place d'attelles de genou articulées, alors que 3 autres proposaient une orthèse hanche/genou.</span></p>
+<p style="text-align: justify;"><span style="font-weight: 400;">Concernant la prise en charge de ce type d'atteinte, les protocoles post-opératoires divergent grandement. Nous retrouvons par exemple 13/21 études incluant un temps de décharge à l'aide de béquilles pour le membre opéré (donc 8/21 en charge post-op immédiate). Ce temps post-opératoire variait entre 2 semaines (4/13) et 6 semaines (9/13).  12 études sur les 21 comportaient dans leur protocole la mise en place d'attelles de genou articulées, alors que 3 autres proposaient une orthèse hanche/genou.</span></p>
 
 <p style="text-align: justify;"><span style="font-weight: 400; font-size: 8pt; color: #3366ff;">COUGHLIN, Ryan P., KAY, Jeffrey, SHANMUGARAJ, Ajaykumar, et al. Return to Sport After Surgical Management of Proximal Hamstring Avulsions: A Systematic Review and Meta-analysis. Clinical journal of sport medicine: official journal of the Canadian Academy of Sport Medicine, 2018.</span></p>
 
@@ -385,7 +397,7 @@
 
 <p style="text-align: justify;"><span style="font-weight: 400;">Au vu de la qualité méthodologique retrouvée au sein de cette étude, les conclusions et résultats doivent être pris avec précaution. Parmi les faiblesses de cette étude, nous retrouvons: le fait qu'elle soit rétrospective, le temps de retour au sport qui n'a pas été évalué, ni le niveau de sport retrouvé, le faible nombre de patients. De plus, il pourrait y avoir un biais dans la sélection des patients du groupe « chronique » du fait de leur plus grande sédentarité avant l'intervention, la multiplicité des critères de jugement peut amener à une inflation du risque alpha (voir ce qu'est l'inflation du risque alpha avec l'infographie de</span> <i><span style="font-weight: 400;">Le temps d'un lapin</span></i><span style="font-weight: 400;">)</span></p>
 
-<p style="text-align: justify;"><img loading="lazy" decoding="async" class="alignnone wp-image-1634 " src="https://www.kinefact.com/wp-content/uploads/2020/07/Partie_2-e1594303780309-300x230.png" alt="" width="402" height="308" srcset="https://www.kinefact.com/wp-content/uploads/2020/07/Partie_2-e1594303780309-300x230.png 300w, https://www.kinefact.com/wp-content/uploads/2020/07/Partie_2-e1594303780309.png 348w" sizes="auto, (max-width: 402px) 100vw, 402px">  <img loading="lazy" decoding="async" class="alignnone wp-image-1639 " src="https://www.kinefact.com/wp-content/uploads/2020/07/biais-2-e1594304258445-300x258.png" alt="" width="402" height="346" srcset="https://www.kinefact.com/wp-content/uploads/2020/07/biais-2-e1594304258445-300x258.png 300w, https://www.kinefact.com/wp-content/uploads/2020/07/biais-2-e1594304258445-768x661.png 768w, https://www.kinefact.com/wp-content/uploads/2020/07/biais-2-e1594304258445.png 892w" sizes="auto, (max-width: 402px) 100vw, 402px"></p>
+<p style="text-align: justify;"><img loading="lazy" decoding="async" class="alignnone wp-image-1634 " src="https://www.kinefact.com/wp-content/uploads/2020/07/Partie_2-e1594303780309-300x230.png" alt="" width="402" height="308" srcset="https://www.kinefact.com/wp-content/uploads/2020/07/Partie_2-e1594303780309-300x230.png 300w, https://www.kinefact.com/wp-content/uploads/2020/07/Partie_2-e1594303780309.png 348w" sizes="auto, (max-width: 402px) 100vw, 402px"> <img loading="lazy" decoding="async" class="alignnone wp-image-1639 " src="https://www.kinefact.com/wp-content/uploads/2020/07/biais-2-e1594304258445-300x258.png" alt="" width="402" height="346" srcset="https://www.kinefact.com/wp-content/uploads/2020/07/biais-2-e1594304258445-300x258.png 300w, https://www.kinefact.com/wp-content/uploads/2020/07/biais-2-e1594304258445-768x661.png 768w, https://www.kinefact.com/wp-content/uploads/2020/07/biais-2-e1594304258445.png 892w" sizes="auto, (max-width: 402px) 100vw, 402px"></p>
 
 <p style="text-align: justify;"><span style="font-weight: 400;">MAIS cette étude vient étayer le fait que nous ne sommes pas plus dangereux en autorisant l'appui complet en sortie de bloc, et qu'il ne semble pas nécessaire de porter une attelle non plus. Cela  reste est en accord avec le corpus de données disponibles sur le sujet.</span></p>
 
@@ -467,10 +479,12 @@
 
 <p style="text-align: justify;"><span style="font-weight: 400;">Ces manœuvres sont recommandées afin de faire le suivi de nos patients et peuvent nous aider à évaluer leur évolution.</span></p>
 
-<video width="640" height="352" controls style="max-width: 100%; height: auto;">
-  <source src="https://www.kinefact.com/wp-content/uploads/2020/07/Hamstring.-Player-ready-to-return-to-play-Initial-and-follow-up-examination-guide-youMpgun.com_.mp4" type="video/mp4">
-  Votre navigateur ne supporte pas la lecture de vidéos.
+<div style="width: 640px;" class="wp-video">
+<video class="wp-video-shortcode" width="640" height="352" preload="metadata" controls>
+<source type="video/mp4" src="https://www.kinefact.com/wp-content/uploads/2020/07/Hamstring.-Player-ready-to-return-to-play-Initial-and-follow-up-examination-guide-youMpgun.com_.mp4">
+<a href="https://www.kinefact.com/wp-content/uploads/2020/07/Hamstring.-Player-ready-to-return-to-play-Initial-and-follow-up-examination-guide-youMpgun.com_.mp4">https://www.kinefact.com/wp-content/uploads/2020/07/Hamstring.-Player-ready-to-return-to-play-Initial-and-follow-up-examination-guide-youMpgun.com_.mp4</a>
 </video>
+</div>
 
 <p style="text-align: justify;"><img loading="lazy" decoding="async" class="alignnone wp-image-1630 size-medium" src="https://www.kinefact.com/wp-content/uploads/2020/07/predict-e1594303335869-300x227.png" alt="" width="300" height="227" srcset="https://www.kinefact.com/wp-content/uploads/2020/07/predict-e1594303335869-300x227.png 300w, https://www.kinefact.com/wp-content/uploads/2020/07/predict-e1594303335869.png 656w" sizes="auto, (max-width: 300px) 100vw, 300px"></p>
 
@@ -554,7 +568,9 @@
 
 <p style="text-align: justify;">Merci d'avoir tenu jusque la fin de cet article et à la prochaine pour une analyse plus poussée concernant la prise en charge de la lésion aux IJ.</p>
 
-<video width="480" height="292" controls loop autoplay muted style="max-width: 100%; height: auto;">
-  <source src="https://www.kinefact.com/wp-content/uploads/2020/07/giphy-merci.mp4" type="video/mp4">
-  Votre navigateur ne supporte pas la lecture de vidéos.
+<div style="width: 480px;" class="wp-video">
+<video class="wp-video-shortcode" width="480" height="292" loop="1" autoplay="1" preload="auto" controls>
+<source type="video/mp4" src="https://www.kinefact.com/wp-content/uploads/2020/07/giphy-merci.mp4">
+<a href="https://www.kinefact.com/wp-content/uploads/2020/07/giphy-merci.mp4">https://www.kinefact.com/wp-content/uploads/2020/07/giphy-merci.mp4</a>
 </video>
+</div>
