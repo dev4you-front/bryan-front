@@ -196,7 +196,7 @@
 
 <p style="text-align: justify;"><span style="font-family: Calibri, serif;"><span style="font-family: georgia, palatino, serif;">« Si j'ai choisi d'analyser et de parler des études de Moltubakk, c'est parce que les conditions (protocoles) d'expérimentations sont assez claires et précises pour permettre à de futures équipes de répliquer les études, que les outils d'évaluations font partie des meilleurs au vue des avancées technologiques, et que le temps de traitement est assez long pour mettre en évidence un potentiel effet lié au temps de traitement (permettant potentiellement un effet de fluage). Ces données sont à replacer dans le contexte des autres données existantes sur le sujet. »</span></span></p>
 
-<p style="text-align: center;"><a href="https://www.kinefact.com/physiologie/biomecanique-des-etirements-partie-ii/">Vous pouvez lire la partie II ici</a>.</p>
+<p style="text-align: center;"><a href="https://bryanlittre.com/blog/comment-marche-etirement/">Vous pouvez lire la partie II ici</a>.</p>
 
 <hr>
 
