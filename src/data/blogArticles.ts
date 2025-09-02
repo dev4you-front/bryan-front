@@ -2,6 +2,16 @@ import { Article } from "@/types";
 
 export const blogArticles: Article[] = [
   {
+    title: "Biomécanique des étirements – Partie I",
+    image: "https://www.kinefact.com/wp-content/uploads/2019/08/stretching-498256_1920.jpg",
+    excerpt: "Bryan LITTRE, après un article couronné de succès sur l’examen des douleurs neuropathiques, revient nous étonner avec une nouvelle publication sur les étirements. Son premier billet, lu par plus de 6000 personnes sur notre blog, permettait de mettre au clair un sujet complexe, et nul doute qu’à la lecture de cet article vous trouverez de nouvelles perles de connaissances.",
+    date: "2019-09-18",
+    author: "Bryan Littre",
+    link: "/blog/biomecanique-etirements-partie-1",
+    contentPath: 'blog-posts/biomecanique-etirements-partie-1.md',
+    category: "Sport",
+  },
+  {
     title: "Biomécanique des étirements – Partie II",
     image: "https://www.kinefact.com/wp-content/uploads/2019/10/cat-814952_1920.jpg",
     excerpt: "Dans l'article précédent, Bryan Littre nous a présenté les différentes théories pouvant expliquer les gains obtenus par les diverses techniques d'étirement, en s'appuyant notamment sur les travaux de Moltubakk. Dans l'article du jour, on va regarder comment la littérature peut nous aider à trancher en faveur de l'une ou de l'autre.",
@@ -42,7 +52,7 @@ export const blogArticles: Article[] = [
     category: "NeuroVascu",
   },
   {
-    title: "Les lésions aiguës des ischio-jambiers : un problème dont il faut s'occuper",
+    title: "Les lésions aiguës des ischio-jambiers (1/4) : un problème dont il faut s'occuper",
     image: "https://www.kinefact.com/wp-content/uploads/2020/07/usp_nfl__washington_redskins_at_philadelphia_eagle_59932360-scaled.jpg",
     excerpt: "Cette série d'articles a été élaborée pendant le confinement (ça peut avoir du bon). Le but de ce travail est d'apporter des éléments de la littérature sur une pathologie courante, évaluée comme étant la blessure la plus fréquente dans de nombreux sports.",
     date: "2020-08-01",
@@ -52,13 +62,33 @@ export const blogArticles: Article[] = [
     category: "Sport",
   },
   {
-    title: "Les lésions aiguës des ischio-jambiers : comprendre et optimiser la prise en charge",
+    title: "Les lésions aiguës des ischio-jambiers (2/4) : comprendre et optimiser la prise en charge",
     image: "https://www.kinefact.com/wp-content/uploads/2020/07/og-image-07.jpg",
     excerpt: "Lors de la première partie, nous avons exploré quelques problématiques liées aux prescriptions médicales en France, le haut taux de récurrence, d'incidence et de prévalence. Maintenant passons à la suite et entrons dans le vif du sujet avec les subtilités de la prise en charge.",
     date: "2020-08-07",
     author: "Bryan Littré",
     link: "/blog/lesions-ischio-jambiers-prise-en-charge",
     contentPath: 'blog-posts/lesions-ischio-jambiers-prise-en-charge.md',
+    category: "Sport",
+  },
+  {
+    title: "Les lésions aiguës des ischio-jambiers (3/4) : quels exercices pour mon patient et comment décider du retour au sport ?",
+    image: "https://www.kinefact.com/wp-content/uploads/2020/07/svend-steensgaard1.jpg",
+    excerpt: "Dans cette troisième partie sur quatre, nous allons tenter d'explorer ensemble comment et pourquoi intégrer des exercices (et lesquels) dans cette prise en charge où le repos complet n'est PAS conseillé et où la phase de retour au sport est plus qu'essentielle.",
+    date: "2020-08-10",
+    author: "Bryan Littré",
+    link: "/blog/lesions-ischio-jambiers-exercices-retour-sport",
+    contentPath: 'blog-posts/lesions-ischio-jambiers-exercices-retour-sport.md',
+    category: "Sport",
+  },
+  {
+    title: "Les lésions aigües des ischio-jambiers (4/4) : prévenir plutôt que guérir",
+    image: "https://www.kinefact.com/wp-content/uploads/2020/07/prevention.jpg",
+    excerpt: "Quatrième et dernière partie s'intéressant à la pathologie la plus fréquente dans le sport. Que signifie la prévention ? Est-elle efficace ? Si oui, de combien ? Si non, quels sont les obstacles ? Quelques réflexions liées au management des blessures du sportifs sont également explorées.",
+    date: "2020-08-19",
+    author: "Bryan Littré",
+    link: "/blog/lesions-ischio-jambiers-prevenir-plutot-que-guerir",
+    contentPath: 'blog-posts/lesions-ischio-jambiers-prevenir-plutot-que-guerir.md',
     category: "Sport",
   },
 ];

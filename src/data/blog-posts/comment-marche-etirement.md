@@ -102,21 +102,21 @@
 <p style="text-align: justify;"><span style="font-family: georgia, palatino, serif;"> Selon mon stagiaire c'était pour :</span></p>
 
 <ul style="text-align: justify;">
-<li><span style="font-family: georgia, palatino, serif;">Gagner en force</span></li>
-<li><span style="font-family: georgia, palatino, serif;"> Gain en stabilité</span></li>
-<li><span style="font-family: georgia, palatino, serif;">Améliorer le « Contrôle Moteur » </span></li>
+<li><span style="font-family: georgia, palatino, serif;">- Gagner en force</span></li>
+<li><span style="font-family: georgia, palatino, serif;"> - Gain en stabilité</span></li>
+<li><span style="font-family: georgia, palatino, serif;">- Améliorer le « Contrôle Moteur » </span></li>
 </ul>
 
 <p style="text-align: justify;"><span style="font-family: georgia, palatino, serif;">Voici la liste de réponses que j'ai pu lui donner sur ce qui selon moi justifiait de réaliser des exercices chez ce patient, patient qui avait des abdos saillants, qui allait à la salle de musculation quotidiennement et avait une musculature plus importante que beaucoup de sportifs de haut niveau : </span></p>
 
 <ul style="text-align: justify;">
-<li><span style="font-family: georgia, palatino, serif;">Lutter contre la kinésiophobie et l'anxiété en montrant au patient qu'il pouvait réaliser des tâches complexes qu'il n'osait pas réaliser</span></li>
-<li><span style="font-family: georgia, palatino, serif;">Aider à désensibiliser le système nerveux (grâce à l'EIH : Exercice induce hypoalgesia) </span></li>
-<li><span style="font-family: georgia, palatino, serif;">Optimiser la cicatrisation ou la capacité d'absorber des contraintes pour un tissu grâce à l'aide de la mécano-transduction </span></li>
-<li><span style="font-family: georgia, palatino, serif;">Donner au patient de nouvelles options afin de réaliser les mouvements </span></li>
-<li><span style="font-family: georgia, palatino, serif;">Améliorer les capacités cardio-vasculaires</span></li>
-<li><span style="font-family: georgia, palatino, serif;">Lutter contre le déconditionnement</span></li>
-<li><span style="font-family: georgia, palatino, serif;"><span style="font-family: georgia, palatino, serif;">En antalgie, car au sein de la littérature scientifique, c'est l'un des traitements les plus efficaces sur la douleur. </span>Ce patient n'avait ni un problème de force, ni de contrôle moteur (D'ailleurs, qu'est-ce que c'est un trouble de contrôle moteur ?) ni un problème de stabilité. Du coup, pensez-vous qu'il aurait-été pertinent de mettre dans la tête du patient qu'il était instable ou pas assez fort ?</span></li>
+<li><span style="font-family: georgia, palatino, serif;">- Lutter contre la kinésiophobie et l'anxiété en montrant au patient qu'il pouvait réaliser des tâches complexes qu'il n'osait pas réaliser</span></li>
+<li><span style="font-family: georgia, palatino, serif;">- Aider à désensibiliser le système nerveux (grâce à l'EIH : Exercice induce hypoalgesia) </span></li>
+<li><span style="font-family: georgia, palatino, serif;">- Optimiser la cicatrisation ou la capacité d'absorber des contraintes pour un tissu grâce à l'aide de la mécano-transduction </span></li>
+<li><span style="font-family: georgia, palatino, serif;">- Donner au patient de nouvelles options afin de réaliser les mouvements </span></li>
+<li><span style="font-family: georgia, palatino, serif;">- Améliorer les capacités cardio-vasculaires</span></li>
+<li><span style="font-family: georgia, palatino, serif;">- Lutter contre le déconditionnement</span></li>
+<li><span style="font-family: georgia, palatino, serif;"><span style="font-family: georgia, palatino, serif;">- En antalgie, car au sein de la littérature scientifique, c'est l'un des traitements les plus efficaces sur la douleur. </span>Ce patient n'avait ni un problème de force, ni de contrôle moteur (D'ailleurs, qu'est-ce que c'est un trouble de contrôle moteur ?) ni un problème de stabilité. Du coup, pensez-vous qu'il aurait-été pertinent de mettre dans la tête du patient qu'il était instable ou pas assez fort ?</span></li>
 </ul>
 
 <p style="text-align: justify;"><span style="font-family: georgia, palatino, serif;">Certains diront que ce n'est pas utile d'aller aussi loin dans les détails, mais selon moi cela permet de pouvoir transmettre des connaissances les plus proches du réel, et avec le moins de croyances possibles. Cela permet de nous professionnaliser.</span></p>

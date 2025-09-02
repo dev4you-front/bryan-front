@@ -10,11 +10,9 @@ interface FormationSectionProps {
 export default function FormationSection({ formation, children }: FormationSectionProps) {
   return (
     <div className="bg-white rounded-2xl shadow-lg p-8 flex flex-col items-center transform transition duration-300 hover:scale-105 hover:shadow-2xl">
-      {formation.title && formation.title.trim().length > 0 ? (
-        <h2 className="text-center text-3xl md:text-4xl font-extrabold text-gray-900 mb-4 uppercase tracking-wide">
-          {formation.title}
-        </h2>
-      ) : null}
+      <h2 className="text-center text-3xl md:text-4xl font-extrabold text-gray-900 mb-4 uppercase tracking-wide">
+        {formation.title}
+      </h2>
       <p className="text-lg text-gray-700 mb-6 text-center">{formation.description}</p>
       
       {/* Contenu spécifique (vidéo ou carrousel) */}
@@ -25,7 +23,7 @@ export default function FormationSection({ formation, children }: FormationSecti
           <div className="w-full rounded-xl shadow aspect-video overflow-hidden">
             <iframe
               src={formation.video}
-              title={formation.title && formation.title.trim().length > 0 ? formation.title : "video"}
+              title={formation.title}
               className="w-full h-full"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               loading="lazy"

@@ -8,16 +8,20 @@ export const formationsData: FormationsData = {
         description: "Approche pratique et fondée sur les preuves pour la prise en charge des lésions des ischio-jambiers.",
         videos: [
           {
+            src: "/video/teasing_sport.mp4",
+            title: "Petit teasing sympa' de la formation. N'hésite pas a scroll pour voir du concret",
+          },
+          {
             src: "https://www.youtube.com/embed/QPdA4npgKck",
-            title: "Comment prendre en charge les lésions des ischio-jambiers",
+            title: "Comment ne plus se BLESSER aux ISCHIOS - Interview avec Bryan Littré",
           },
           {
             src: "https://www.youtube.com/embed/VVLn86-t-Sg",
-            title: "Troubles neurologiques en musculo-squelettique",
+            title: "Récidives dans le sport : à qui la faute ? - Conférence SPO avec Bryan Littré",
           },
           {
             src: "https://www.youtube.com/embed/E4kTrmriU64",
-            title: "Bryan LITTRE - La douleur chronique",
+            title: "Retour au sport et lésions sportives du membre inférieur - Conférence au CIFEPK 2022 avec Gaetan HENRY et Bryan LITTRE ",
           },
         ],
       },
@@ -32,27 +36,27 @@ export const formationsData: FormationsData = {
         videos: [
           {
             src: "https://www.youtube.com/embed/3zUh9YdN9MU",
-            title: "Troubles neurologiques en musculo-squelettique : Réussir ses bilans et savoir quoi en faire - Partie 1",
+            title: "Ischémie transitoire de nerf. Exemple par la myélopathie cervicale - Formation donnée par Par Bryan LITTRE",
           },
           {
             src: "https://www.youtube.com/embed/BdSFGH50mC0",
-            title: "Troubles neurologiques en musculo-squelettique : Réussir ses bilans et savoir quoi en faire - Partie 2",
+            title: "La claudication intermittente expliquée par Bryan LITTRE",
           },
           {
             src: "https://www.youtube.com/embed/68jl8g9OP10?start=764",
-            title: "Troubles neurologiques en musculo-squelettique : Réussir ses bilans et savoir quoi en faire - Partie 3",
+            title: "Troubles neuro vasculaires : fausses croyances et anecdotes - Interview avec Bryan Littré",
           },
           {
             src: "https://www.youtube.com/embed/BBPKLrgUiJY",
-            title: "Troubles neurologiques en musculo-squelettique : Réussir ses bilans et savoir quoi en faire - Partie 4",
+            title: "Le syndrome du piriforme : Exercice pour mieux raisonner -  Conférence au CIFEPK 2022 avec Bryan LITTRE ",
           },
           {
             src: "https://www.youtube.com/embed/NGuEx26DybM?start=2402",
-            title: "Troubles neurologiques en musculo-squelettique : Réussir ses bilans et savoir quoi en faire - Partie 5",
+            title: "Ischémies transitoires des nerfs - Interview avec Bryan Littré Partie 1",
           },
           {
             src: "https://www.youtube.com/embed/Xl3fjP2xnOw",
-            title: "Troubles neurologiques en musculo-squelettique : Réussir ses bilans et savoir quoi en faire - Partie 6",
+            title: "Ischémies transitoires des nerfs - Interview avec Bryan Littré Partie 2",
           },
         ],
       },
@@ -66,15 +70,15 @@ export const formationsData: FormationsData = {
         videos: [
           {
             src: "/video/video_vascu_bryan_olivia.mp4",
-            title: "Troubles vasculaires avec Bryan et Olivia",
+            title: "Teasing et explication de la formation Cardiovasculaire",
           },
           {
             src: "https://www.youtube.com/embed/wJkIQ_0tExc",
-            title: "Troubles vasculaires : Trier pour savoir quand traiter !",
+            title: "Triage vasculaire et accès direct - Explication de Bryan Littré et Olivia Ferrand",
           },
           {
             src: "https://www.youtube.com/embed/dAsUCdMmZNc?start=2833",
-            title: "Formation troubles vasculaires - Partie avancée",
+            title: "Etes-vous prêts pour l’accès direct ? Le triage que vous faites déjà - Conférence CIFEPK 2024 avec Bryan Littré",
           },
         ],
       },
