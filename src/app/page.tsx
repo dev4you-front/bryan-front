@@ -74,6 +74,8 @@ export default function Home() {
               className="w-full h-full object-cover brightness-75"
               controls
               preload="metadata"
+              autoPlay
+              loop
             />
           </div>
         )}
