@@ -15,6 +15,24 @@ export default function Home() {
     }
   }, []);
 
+  // Play the video as soon as it is displayed
+  useEffect(() => {
+    if (showVideo && videoRef.current) {
+      const playPromise = videoRef.current.play();
+      if (playPromise && typeof playPromise.then === "function") {
+        playPromise.catch(() => {
+          // If autoplay is blocked, try muting then play
+          try {
+            if (videoRef.current) {
+              videoRef.current.muted = true;
+              void videoRef.current.play();
+            }
+          } catch {}
+        });
+      }
+    }
+  }, [showVideo]);
+
   const handlePlayVideo = () => {
     setShowVideo(true);
   };
@@ -72,10 +90,10 @@ export default function Home() {
               ref={videoRef}
               src="/video/video_accueil.mp4"
               className="w-full h-full object-cover brightness-75"
+              autoPlay
+              playsInline
               controls
               preload="metadata"
-              autoPlay
-              loop
             />
           </div>
         )}
