@@ -14,7 +14,7 @@ export async function generateStaticParams() {
     { type: 'neuro' },
     { type: 'vasculaire' },
   ];
-}
+} 
 
 export default async function FormationTypePage({ params }: Props) {
   const resolvedParams = await params;
