@@ -79,30 +79,25 @@ export default async function FormationTypePage({ params }: Props) {
         {pageTitle}
       </h1>
       
-      {/* Affichage conditionnel selon le type de formation */}
-      {type === 'sport' ? (
-        <>
-          {/* Section des prochaines formations pour ce type */}
-          {upcomingFormations.length > 0 && (
-            <UpcomingFormationsList 
-              formations={upcomingFormations}
-              title={`Prochaines formations ${type === 'neuro' ? 'Neuro' : type === 'sport' ? 'Ischio' : type}`}
-              displayMode={type === 'sport' ? 'table' : 'cards'}
-              showFilters={true}
-            />
+      {/* Section des prochaines formations pour ce type */}
+      {upcomingFormations.length > 0 && (
+        <UpcomingFormationsList 
+          formations={upcomingFormations}
+          title={`Prochaines formations ${type === 'neuro' ? 'Neuro' : type === 'sport' ? 'Ischio' : type}`}
+          displayMode={type === 'sport' ? 'table' : 'cards'}
+          showFilters={true}
+        />
+      )}
+      
+      {/* Section des formations avec vidéos et carrousels */}
+      {formations.map((formation, index) => (
+        <FormationSection key={index} formation={formation} ctaConfig={getCtaConfig(type)}>
+          {/* Carrousel pour les formations avec des vidéos */}
+          {formation.videos && (
+            <ConfCarousel items={formation.videos} />
           )}
-          
-          {/* Section des formations avec vidéos et carrousels */}
-          {formations.map((formation, index) => (
-            <FormationSection key={index} formation={formation} ctaConfig={getCtaConfig(type)}>
-              {/* Carrousel pour les formations avec des vidéos */}
-              {formation.videos && (
-                <ConfCarousel items={formation.videos} />
-              )}
-            </FormationSection>
-          ))}
-        </>
-      ) : null}
+        </FormationSection>
+      ))}
     </SectionWrapper>
   );
 }
