@@ -56,10 +56,6 @@ export default function UpcomingFormationsList({
   // Obtenir les pays uniques pour les filtres
   const countries = Array.from(new Set(formations.map(f => f.country)));
   
-  // Obtenir les types uniques pour déterminer si le filtre type est nécessaire
-  const uniqueTypes = Array.from(new Set(formations.map(f => f.type)));
-  const showTypeFilter = uniqueTypes.length > 1;
-  
   // Formater la date
   const formatDate = (dateStr: string, endDateStr?: string) => {
     if (!dateStr) {
@@ -160,23 +156,21 @@ export default function UpcomingFormationsList({
             </select>
           </div>
           
-          {showTypeFilter && (
-            <div className="flex items-center space-x-2">
-              <label htmlFor="type-filter" className="text-sm font-medium text-gray-700">
-                Type :
-              </label>
-              <select
-                id="type-filter"
-                value={selectedType}
-                onChange={(e) => handleFilterChange('type', e.target.value)}
-                className="px-3 py-2 border border-gray-300 rounded-lg text-sm text-gray-900 bg-white focus:ring-2 focus:ring-brandviolet focus:border-transparent"
-              >
-                <option value="all">Tous</option>
-                <option value="neuro">Neuro</option>
-                <option value="sport">Ischio</option>
-              </select>
-            </div>
-          )}
+          <div className="flex items-center space-x-2">
+            <label htmlFor="type-filter" className="text-sm font-medium text-gray-700">
+              Type :
+            </label>
+            <select
+              id="type-filter"
+              value={selectedType}
+              onChange={(e) => handleFilterChange('type', e.target.value)}
+              className="px-3 py-2 border border-gray-300 rounded-lg text-sm text-gray-900 bg-white focus:ring-2 focus:ring-brandviolet focus:border-transparent"
+            >
+              <option value="all">Tous</option>
+              <option value="neuro">Neuro</option>
+              <option value="sport">Ischio</option>
+            </select>
+          </div>
         </div>
       )}
 

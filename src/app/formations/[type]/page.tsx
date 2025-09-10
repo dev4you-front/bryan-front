@@ -4,7 +4,7 @@ import ConfCarousel from "@/app/components/ConfCarousel";
 import FormationSection from "@/app/components/FormationSection";
 import SectionWrapper from "@/app/components/SectionWrapper";
 import UpcomingFormationsList from "@/app/components/UpcomingFormationsList";
-import { getFormationsByType, getUpcomingFormations } from "@/data/upcomingFormations";
+import { getFormationsByType } from "@/data/upcomingFormations";
 
 type Props = {
   params: Promise<{ type: string }>;
@@ -59,14 +59,10 @@ export default async function FormationTypePage({ params }: Props) {
 
   // Obtenir les formations correspondant au type de page
   const getFormationsForType = (formationType: string) => {
-    // Récupérer toutes les formations à venir triées par date
-    const allUpcomingFormations = getUpcomingFormations();
-    
-    // Filtrer par type de formation
     if (formationType === 'sport') {
-      return allUpcomingFormations.filter(formation => formation.type === 'sport');
+      return getFormationsByType('sport');
     } else if (formationType === 'neuro') {
-      return allUpcomingFormations.filter(formation => formation.type === 'neuro');
+      return getFormationsByType('neuro');
     }
     return [];
   };
@@ -79,30 +75,23 @@ export default async function FormationTypePage({ params }: Props) {
         {pageTitle}
       </h1>
       
-      {/* Affichage conditionnel selon le type de formation */}
-      {type === 'sport' ? (
-        <>
-          {/* Section des prochaines formations pour ce type */}
-          {upcomingFormations.length > 0 && (
-            <UpcomingFormationsList 
-              formations={upcomingFormations}
-              title={`Prochaines formations ${type === 'neuro' ? 'Neuro' : type === 'sport' ? 'Ischio' : type}`}
-              displayMode={type === 'sport' ? 'table' : 'cards'}
-              showFilters={true}
-            />
+      {/* Section des prochaines formations pour ce type */}
+      {upcomingFormations.length > 0 && (
+        <UpcomingFormationsList 
+          formations={upcomingFormations}
+          title={`Prochaines formations ${type === 'neuro' ? 'Neuro' : 'Ischio'}`}
+          showFilters={true}
+        />
+      )}
+      
+      {formations.map((formation, index) => (
+        <FormationSection key={index} formation={formation} ctaConfig={getCtaConfig(type)}>
+          {/* Carrousel pour les formations avec des vidéos (ex: ischio-jambiers) */}
+          {formation.videos && (
+            <ConfCarousel items={formation.videos} />
           )}
-          
-          {/* Section des formations avec vidéos et carrousels */}
-          {formations.map((formation, index) => (
-            <FormationSection key={index} formation={formation} ctaConfig={getCtaConfig(type)}>
-              {/* Carrousel pour les formations avec des vidéos */}
-              {formation.videos && (
-                <ConfCarousel items={formation.videos} />
-              )}
-            </FormationSection>
-          ))}
-        </>
-      ) : null}
+        </FormationSection>
+      ))}
     </SectionWrapper>
   );
 }
