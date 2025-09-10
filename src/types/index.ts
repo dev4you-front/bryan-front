@@ -20,6 +20,7 @@ export interface Formation {
   description: string;
   video?: string;
   videos?: ConfItem[];
+  detailedContent?: string;
 }
 
 export interface Article {
@@ -49,6 +50,9 @@ export interface FormationsData {
   vasculaire: {
     formations: Formation[];
     videos?: ConfItem[];
+  };
+  geriatrie: {
+    formations: Formation[];
   };
 }
 

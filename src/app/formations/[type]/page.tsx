@@ -5,6 +5,9 @@ import FormationSection from "@/app/components/FormationSection";
 import SectionWrapper from "@/app/components/SectionWrapper";
 import UpcomingFormationsList from "@/app/components/UpcomingFormationsList";
 import { getFormationsByType, getUpcomingFormations } from "@/data/upcomingFormations";
+import ReactMarkdown from "react-markdown";
+import remarkGfm from "remark-gfm";
+import rehypeRaw from "rehype-raw";
 
 type Props = {
   params: Promise<{ type: string }>;
@@ -15,6 +18,7 @@ export async function generateStaticParams() {
     { type: 'sport' },
     { type: 'neuro' },
     { type: 'vasculaire' },
+    { type: 'geriatrie' },
   ];
 } 
 
@@ -22,7 +26,7 @@ export default async function FormationTypePage({ params }: Props) {
   const resolvedParams = await params;
   const { type } = resolvedParams;
 
-  if (!['sport', 'neuro', 'vasculaire'].includes(type)) {
+  if (!['sport', 'neuro', 'vasculaire', 'geriatrie'].includes(type)) {
     notFound();
   }
 
@@ -38,7 +42,8 @@ export default async function FormationTypePage({ params }: Props) {
   const titleMap = {
     sport: "Comment prendre en charge correctement les lésions des ischio-jambiers ?",
     neuro: "Troubles neurologiques en musculo-squelettique : Réussir ses bilans et savoir quoi en faire",  
-    vasculaire: "Troubles vasculaires : Apprendre à trier pour savoir traiter !"
+    vasculaire: "Troubles vasculaires : Apprendre à trier pour savoir traiter !",
+    geriatrie: "Neurologie et Gériatrie : L'approche déficitaire qui change vos patients et votre pratique"
   };
 
   const pageTitle = titleMap[type as keyof typeof titleMap];
@@ -51,6 +56,14 @@ export default async function FormationTypePage({ params }: Props) {
         subText: "Clique sur le lien ci-dessous c'est là que tout se passe.",
         buttonText: "S'inscrire",
         buttonLink: "https://physio-learning.com/courses/formation-troubles-vasculaires/"
+      };
+    }
+    if (formationType === 'geriatrie') {
+      return {
+        mainText: "Intéressé par cette formation ?",
+        subText: "Découvrez le programme complet et les dates disponibles.",
+        buttonText: "Découvrir la formation",
+        buttonLink: "https://physio-learning.com/courses/neurologie-et-geriatrie/"
       };
     }
     // Pour les autres formations (sport, neuro), on utilise la configuration par défaut
@@ -82,9 +95,22 @@ export default async function FormationTypePage({ params }: Props) {
       {/* Section des formations avec vidéos et carrousels */}
       {formations.map((formation, index) => (
         <FormationSection key={index} formation={formation} ctaConfig={getCtaConfig(type)}>
-          {/* Carrousel pour les formations avec des vidéos */}
-          {formation.videos && (
+          {/* Contenu détaillé pour la formation gériatrie */}
+          {type === 'geriatrie' && formation.detailedContent ? (
+            <div className="w-full max-w-4xl prose prose-lg max-w-none">
+              <ReactMarkdown
+                remarkPlugins={[remarkGfm]}
+                rehypePlugins={[rehypeRaw]}
+                className="text-gray-700"
+              >
+                {formation.detailedContent}
+              </ReactMarkdown>
+            </div>
+          ) : (
+            /* Carrousel pour les formations avec des vidéos */
+            formation.videos && (
             <ConfCarousel items={formation.videos} />
+            )
           )}
         </FormationSection>
       ))}
