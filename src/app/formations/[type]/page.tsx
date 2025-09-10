@@ -7,7 +7,8 @@ import UpcomingFormationsList from "@/app/components/UpcomingFormationsList";
 import { getFormationsByType, getUpcomingFormations } from "@/data/upcomingFormations";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
-import rehypeRaw from "rehype-raw";
+import Accordion from "@/app/components/Accordion";
+import Image from "next/image";
 
 type Props = {
   params: Promise<{ type: string }>;
@@ -98,11 +99,11 @@ export default async function FormationTypePage({ params }: Props) {
           {/* Contenu spécifique selon le type de formation */}
           {type === 'geriatrie' && formation.detailedContent && (
             <div className="w-full max-w-4xl">
+              {/* Introduction */}
               <div className="prose prose-lg max-w-none text-gray-700">
                 <ReactMarkdown
                   remarkPlugins={[remarkGfm]}
                   components={{
-                    // Assurer que les composants sont rendus correctement
                     h2: ({children}) => <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">{children}</h2>,
                     h3: ({children}) => <h3 className="text-xl font-bold text-gray-900 mt-6 mb-3">{children}</h3>,
                     p: ({children}) => <p className="text-gray-700 mb-4 leading-relaxed">{children}</p>,
@@ -115,6 +116,33 @@ export default async function FormationTypePage({ params }: Props) {
                   {formation.detailedContent}
                 </ReactMarkdown>
               </div>
+              
+              {/* Image illustrative */}
+              <div className="my-8 flex justify-center">
+                <div className="relative w-full max-w-2xl">
+                  <Image
+                    src="/images/geria.jpg"
+                    alt="Formation Neurologie et Gériatrie"
+                    width={800}
+                    height={500}
+                    className="w-full h-auto rounded-xl shadow-lg object-cover"
+                    priority
+                  />
+                </div>
+              </div>
+              
+              {/* Contenu en cours de création */}
+              {formation.sections && (
+                <div className="mt-12">
+                  <h2 className="text-3xl font-bold text-gray-900 mb-6 text-center">
+                    Contenu en cours de création
+                  </h2>
+                  <p className="text-lg text-gray-700 mb-8 text-center">
+                    La formation apporte les éléments nécessaires pour mettre en place l'approche déficitaire.
+                  </p>
+                  <Accordion sections={formation.sections} />
+                </div>
+              )}
             </div>
           )}
           

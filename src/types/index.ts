@@ -21,6 +21,10 @@ export interface Formation {
   video?: string;
   videos?: ConfItem[];
   detailedContent?: string;
+  sections?: Array<{
+    title: string;
+    content: string;
+  }>;
 }
 
 export interface Article {
