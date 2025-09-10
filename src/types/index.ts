@@ -51,3 +51,16 @@ export interface FormationsData {
     videos?: ConfItem[];
   };
 }
+
+export interface UpcomingFormation {
+  id: string;
+  date: string;
+  endDate?: string; // Pour les formations sur plusieurs jours
+  city: string;
+  country: string;
+  organizer: string;
+  type: 'neuro' | 'sport';
+  link?: string;
+  isSpecial?: boolean; // Pour marquer les masterclass ou formations spéciales
+  specialLabel?: string; // Label pour les formations spéciales (ex: "MASTERCLASS")
+}
