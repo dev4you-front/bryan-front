@@ -95,22 +95,32 @@ export default async function FormationTypePage({ params }: Props) {
       {/* Section des formations avec vidéos et carrousels */}
       {formations.map((formation, index) => (
         <FormationSection key={index} formation={formation} ctaConfig={getCtaConfig(type)}>
-          {/* Contenu détaillé pour la formation gériatrie */}
-          {type === 'geriatrie' && formation.detailedContent ? (
-            <div className="w-full max-w-4xl prose prose-lg max-w-none">
-              <ReactMarkdown
-                remarkPlugins={[remarkGfm]}
-                rehypePlugins={[rehypeRaw]}
-                className="text-gray-700"
-              >
-                {formation.detailedContent}
-              </ReactMarkdown>
+          {/* Contenu spécifique selon le type de formation */}
+          {type === 'geriatrie' && formation.detailedContent && (
+            <div className="w-full max-w-4xl">
+              <div className="prose prose-lg max-w-none text-gray-700">
+                <ReactMarkdown
+                  remarkPlugins={[remarkGfm]}
+                  components={{
+                    // Assurer que les composants sont rendus correctement
+                    h2: ({children}) => <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">{children}</h2>,
+                    h3: ({children}) => <h3 className="text-xl font-bold text-gray-900 mt-6 mb-3">{children}</h3>,
+                    p: ({children}) => <p className="text-gray-700 mb-4 leading-relaxed">{children}</p>,
+                    ul: ({children}) => <ul className="mb-4 pl-6 list-disc">{children}</ul>,
+                    li: ({children}) => <li className="text-gray-700 mb-2">{children}</li>,
+                    blockquote: ({children}) => <blockquote className="border-l-4 border-brandviolet bg-gray-50 p-4 my-6 italic">{children}</blockquote>,
+                    strong: ({children}) => <strong className="font-bold text-gray-900">{children}</strong>
+                  }}
+                >
+                  {formation.detailedContent}
+                </ReactMarkdown>
+              </div>
             </div>
-          ) : (
-            /* Carrousel pour les formations avec des vidéos */
-            formation.videos && (
+          )}
+          
+          {/* Carrousel pour les autres formations avec des vidéos */}
+          {type !== 'geriatrie' && formation.videos && (
             <ConfCarousel items={formation.videos} />
-            )
           )}
         </FormationSection>
       ))}

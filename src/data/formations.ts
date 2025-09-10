@@ -102,9 +102,9 @@ Ou cette impression qu'il faut tout connaître pour oser commencer ?
 
 **Nous avons voulu proposer une formation pour revenir à l'essentiel :**
 
-– Comprendre ce qui est utile à la rééducation
-– Organiser ses séances avec des outils concrets
-– Oser prendre en charge des patients neuro avec la même logique que pour un sportif.
+- Comprendre ce qui est utile à la rééducation
+- Organiser ses séances avec des outils concrets
+- Oser prendre en charge des patients neuro avec la même logique que pour un sportif.
 
 Car au fond, rééduquer un patient neurologique, **ce n'est pas si différent que rééduquer un sportif** :
 On travaille sur une tâche, on observe la réponse, on ajuste, on profile.
@@ -132,9 +132,9 @@ On attaque dans le vif du sujet : savoir identifier les dysfonctions motrices, s
 
 Exploration des signes :
 
-• Nerfs périphériques
-• Paires crâniennes
-• Signes centraux.
+- Nerfs périphériques
+- Paires crâniennes
+- Signes centraux
 
 Corrélation avec les pathologies diagnostiquées.
 
@@ -154,36 +154,36 @@ Anticiper l'évolution des troubles
 
 **Thèmes abordés :**
 
-• Fatigue (1h), SAOS (30min), spasticité (30min), douleurs neuropathiques (1h)
-• Cognition (2h)
-• Pharmacologie (30min)
-• Sarcopénie et ostéopénies (30min)
-• Risque de chute (2h)
+- Fatigue (1h), SAOS (30min), spasticité (30min), douleurs neuropathiques (1h)
+- Cognition (2h)
+- Pharmacologie (30min)
+- Sarcopénie et ostéopénies (30min)
+- Risque de chute (2h)
 
 ### Partie 5 : Comment organiser les séances & choisir les exercices
 
 **A. Profilage et individualisation**
 
-• Focus & locus
-• Fixation d'objectifs individualisés / avec le patient
-• Communication motivationnelle (TCC)
+- Focus & locus
+- Fixation d'objectifs individualisés / avec le patient
+- Communication motivationnelle (TCC)
 
 **B. Planification des objectifs et dosage**
 
-• Tâche – Réponse – Ajustement – Profilage
-• Grilles pratiques et cas cliniques
+- Tâche – Réponse – Ajustement – Profilage
+- Grilles pratiques et cas cliniques
 
 **C. Choix des exercices par grands objectifs fonctionnels et prévention de chute**
 
-• Mobilité articulaire et souplesse
-• Renforcement musculaire
-• Travail cardio-respiratoire
-• Relevé du sol
-• Équilibre postural
+- Mobilité articulaire et souplesse
+- Renforcement musculaire
+- Travail cardio-respiratoire
+- Relevé du sol
+- Équilibre postural
 
 **D. Exercices cognitifs et moteurs combinés**
 
-• Double tâche
+- Double tâche
         `
       }
     ]
