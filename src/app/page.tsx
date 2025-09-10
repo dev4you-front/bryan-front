@@ -4,6 +4,8 @@ import { useRef, useEffect, useState } from "react";
 import PhysiomapsSection from "./components/PhysiomapsSection";
 import SectionWrapper from "./components/SectionWrapper";
 import Image from "next/image";
+import UpcomingFormationsList from "./components/UpcomingFormationsList";
+import { getUpcomingFormations } from "@/data/upcomingFormations";
 
 export default function Home() {
   const videoRef = useRef<HTMLVideoElement>(null);
@@ -36,6 +38,10 @@ export default function Home() {
   const handlePlayVideo = () => {
     setShowVideo(true);
   };
+
+  // Obtenir les 6 prochaines formations pour la page d'accueil
+  const upcomingFormations = getUpcomingFormations(6);
+
   return (
     <div>
       {/* Hero vidéo immersif */}
@@ -166,6 +172,15 @@ export default function Home() {
       {/* Section Physiomaps */}
       <SectionWrapper maxWidth="7xl" className="bg-light-gray">
         <PhysiomapsSection />
+      </SectionWrapper>
+
+      {/* Section Prochaines formations */}
+      <SectionWrapper maxWidth="7xl" className="bg-light-gray">
+        <UpcomingFormationsList 
+          formations={upcomingFormations}
+          maxDisplay={6}
+          title="Mes prochaines formations"
+        />
       </SectionWrapper>
     </div>
   );

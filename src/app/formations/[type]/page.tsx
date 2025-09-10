@@ -3,6 +3,8 @@ import { formationsData } from "@/data/formations";
 import ConfCarousel from "@/app/components/ConfCarousel";
 import FormationSection from "@/app/components/FormationSection";
 import SectionWrapper from "@/app/components/SectionWrapper";
+import UpcomingFormationsList from "@/app/components/UpcomingFormationsList";
+import { getFormationsByType } from "@/data/upcomingFormations";
 
 type Props = {
   params: Promise<{ type: string }>;
@@ -55,11 +57,33 @@ export default async function FormationTypePage({ params }: Props) {
     return undefined;
   };
 
+  // Obtenir les formations correspondant au type de page
+  const getFormationsForType = (formationType: string) => {
+    if (formationType === 'sport') {
+      return getFormationsByType('sport');
+    } else if (formationType === 'neuro') {
+      return getFormationsByType('neuro');
+    }
+    return [];
+  };
+
+  const upcomingFormations = getFormationsForType(type);
+
   return (
     <SectionWrapper maxWidth="7xl" id="formations">
       <h1 className="text-center text-3xl md:text-4xl font-extrabold text-gray-900 mb-8 uppercase tracking-wide">
         {pageTitle}
       </h1>
+      
+      {/* Section des prochaines formations pour ce type */}
+      {upcomingFormations.length > 0 && (
+        <UpcomingFormationsList 
+          formations={upcomingFormations}
+          title={`Prochaines formations ${type === 'neuro' ? 'Neuro' : 'Ischio'}`}
+          showFilters={true}
+        />
+      )}
+      
       {formations.map((formation, index) => (
         <FormationSection key={index} formation={formation} ctaConfig={getCtaConfig(type)}>
           {/* Carrousel pour les formations avec des vidéos (ex: ischio-jambiers) */}
