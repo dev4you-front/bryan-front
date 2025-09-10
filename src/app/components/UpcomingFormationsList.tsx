@@ -23,6 +23,9 @@ export default function UpcomingFormationsList({
   const [currentPage, setCurrentPage] = useState<number>(1);
   const itemsPerPage = 10;
 
+  // Obtenir les types uniques pour les filtres
+  const uniqueTypes = Array.from(new Set(formations.map(f => f.type)));
+  
   // Filtrer les formations
   const filteredFormations = formations.filter(formation => {
     const countryMatch = selectedCountry === "all" || formation.country === selectedCountry;
@@ -156,21 +159,27 @@ export default function UpcomingFormationsList({
             </select>
           </div>
           
-          <div className="flex items-center space-x-2">
-            <label htmlFor="type-filter" className="text-sm font-medium text-gray-700">
-              Type :
-            </label>
-            <select
-              id="type-filter"
-              value={selectedType}
-              onChange={(e) => handleFilterChange('type', e.target.value)}
-              className="px-3 py-2 border border-gray-300 rounded-lg text-sm text-gray-900 bg-white focus:ring-2 focus:ring-brandviolet focus:border-transparent"
-            >
-              <option value="all">Tous</option>
-              <option value="neuro">Neuro</option>
-              <option value="sport">Ischio</option>
-            </select>
-          </div>
+          {/* Afficher le filtre de type seulement s'il y a plus d'un type */}
+          {uniqueTypes.length > 1 && (
+            <div className="flex items-center space-x-2">
+              <label htmlFor="type-filter" className="text-sm font-medium text-gray-700">
+                Type :
+              </label>
+              <select
+                id="type-filter"
+                value={selectedType}
+                onChange={(e) => handleFilterChange('type', e.target.value)}
+                className="px-3 py-2 border border-gray-300 rounded-lg text-sm text-gray-900 bg-white focus:ring-2 focus:ring-brandviolet focus:border-transparent"
+              >
+                <option value="all">Tous</option>
+                {uniqueTypes.map(type => (
+                  <option key={type} value={type}>
+                    {type === 'neuro' ? 'Neuro' : 'Ischio'}
+                  </option>
+                ))}
+              </select>
+            </div>
+          )}
         </div>
       )}
 
