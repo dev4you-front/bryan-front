@@ -39,20 +39,28 @@ export default function UpcomingFormationsList({
     const date = new Date(dateStr);
     const endDate = endDateStr ? new Date(endDateStr) : null;
     
-    const options: Intl.DateTimeFormatOptions = { 
-      day: 'numeric', 
-      month: 'long'
-    };
+    const year = date.getFullYear();
     
     if (endDate && endDate.getTime() !== date.getTime()) {
+      const startOptions: Intl.DateTimeFormatOptions = { 
+        day: 'numeric', 
+        month: 'long'
+      };
+      
       const endOptions: Intl.DateTimeFormatOptions = { 
         day: 'numeric', 
         month: endDate.getMonth() !== date.getMonth() ? 'long' : undefined
       };
-      return `${date.toLocaleDateString('fr-FR', options)} - ${endDate.toLocaleDateString('fr-FR', endOptions)}`;
+      
+      return `Du ${date.toLocaleDateString('fr-FR', startOptions)} au ${endDate.toLocaleDateString('fr-FR', endOptions)} ${year}`;
     }
     
-    return date.toLocaleDateString('fr-FR', options);
+    const singleOptions: Intl.DateTimeFormatOptions = { 
+      day: 'numeric', 
+      month: 'long'
+    };
+    
+    return `Le ${date.toLocaleDateString('fr-FR', singleOptions)} ${year}`;
   };
 
   // Obtenir l'icône du type de formation
