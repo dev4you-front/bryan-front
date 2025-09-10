@@ -125,6 +125,38 @@ export const upcomingFormations: UpcomingFormation[] = [
     link: "https://rozoformations.fr/"
   },
 
+  // Formations Neuro en France - ShakeUp
+  {
+    id: "neuro-shakeup-mar-25-26",
+    date: "2026-03-25",
+    endDate: "2026-03-26",
+    city: "Paris",
+    country: "France",
+    organizer: "ShakeUp",
+    type: "neuro",
+    link: "https://www.shake-up.org/neuropathiesbryanlittre"
+  },
+  {
+    id: "neuro-shakeup-masterclass-may",
+    date: "2026-05-29",
+    endDate: "2026-05-31",
+    city: "Paris",
+    country: "France",
+    organizer: "ShakeUp",
+    type: "neuro",
+    isSpecial: true,
+    specialLabel: "MASTERCLASS",
+    link: "https://www.shake-up.org/neuropathiesbryanlittre"
+  },
+  {
+    id: "neuro-shakeup-jun-23-24",
+    city: "Lieu à définir",
+    country: "",
+    organizer: "ShakeUp",
+    type: "neuro",
+    link: "https://www.shake-up.org/neuropathiesbryanlittre"
+  },
+
   // Formation Neuro en Martinique - PhysioLearning
   {
     id: "neuro-martinique-feb-28-mar-1",
