@@ -4,7 +4,7 @@ import ConfCarousel from "@/app/components/ConfCarousel";
 import FormationSection from "@/app/components/FormationSection";
 import SectionWrapper from "@/app/components/SectionWrapper";
 import UpcomingFormationsList from "@/app/components/UpcomingFormationsList";
-import { getFormationsByType } from "@/data/upcomingFormations";
+import { getFormationsByType, getUpcomingFormations } from "@/data/upcomingFormations";
 
 type Props = {
   params: Promise<{ type: string }>;
