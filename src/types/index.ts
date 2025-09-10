@@ -50,9 +50,6 @@ export interface FormationsData {
     formations: Formation[];
     videos?: ConfItem[];
   };
-  geriatrie: {
-    formations: Formation[];
-  };
 }
 
 export interface UpcomingFormation {

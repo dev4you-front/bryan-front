@@ -26,7 +26,6 @@ export default function SiteHeader() {
     { href: "/formations/sport", label: "COMMENT PRENDRE EN CHARGE LES LÉSIONS DES ISCHIO-JAMBIERS ?" },
     { href: "/formations/neuro", label: "TROUBLES NEUROLOGIQUES EN MSK : Réussir son bilan pour réussir son traitement" },
     { href: "/formations/vasculaire", label: "TROUBLES VASCULAIRES EN MSK : Trier pour savoir quand traiter" },
-    { href: "/formations/geriatrie", label: "NEUROLOGIE ET GÉRIATRIE : L'approche déficitaire qui change vos patients" },
   ];
 
   const handleMouseEnterDropdown = (): void => {
