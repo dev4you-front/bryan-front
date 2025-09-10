@@ -40,7 +40,7 @@ export default function Home() {
   };
 
   // Obtenir les 6 prochaines formations pour la page d'accueil
-  const upcomingFormations = getUpcomingFormations(6);
+  const upcomingFormations = getUpcomingFormations();
 
   return (
     <div>
