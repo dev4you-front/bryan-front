@@ -7,7 +7,8 @@ import UpcomingFormationsList from "@/app/components/UpcomingFormationsList";
 import { getFormationsByType, getUpcomingFormations } from "@/data/upcomingFormations";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
-import rehypeRaw from "rehype-raw";
+import Accordion from "@/app/components/Accordion";
+import { AccordionSection } from "@/types";
 
 type Props = {
   params: Promise<{ type: string }>;
@@ -96,7 +97,11 @@ export default async function FormationTypePage({ params }: Props) {
       {formations.map((formation, index) => (
         <FormationSection key={index} formation={formation} ctaConfig={getCtaConfig(type)}>
           {/* Contenu spécifique selon le type de formation */}
-          {type === 'geriatrie' && formation.detailedContent && (
+          {type === 'geriatrie' && formation.detailedContent && Array.isArray(formation.detailedContent) ? (
+            <div className="w-full max-w-4xl">
+              <Accordion sections={formation.detailedContent as AccordionSection[]} />
+            </div>
+          ) : type === 'geriatrie' && formation.detailedContent && typeof formation.detailedContent === 'string' ? (
             <div className="w-full max-w-4xl">
               <div className="prose prose-lg max-w-none text-gray-700">
                 <ReactMarkdown
@@ -116,7 +121,7 @@ export default async function FormationTypePage({ params }: Props) {
                 </ReactMarkdown>
               </div>
             </div>
-          )}
+          ) : null}
           
           {/* Carrousel pour les autres formations avec des vidéos */}
           {type !== 'geriatrie' && formation.videos && (

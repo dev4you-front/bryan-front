@@ -20,7 +20,12 @@ export interface Formation {
   description: string;
   video?: string;
   videos?: ConfItem[];
-  detailedContent?: string;
+  detailedContent?: string | AccordionSection[];
+}
+
+export interface AccordionSection {
+  title: string;
+  content: string;
 }
 
 export interface Article {

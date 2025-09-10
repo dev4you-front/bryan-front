@@ -89,10 +89,10 @@ export const formationsData: FormationsData = {
       {
         title: "Neurologie et Gériatrie : L'approche déficitaire qui change vos patients et votre pratique",
         description: "En France, on recense plus de 150 000 nouveaux cas d'AVC par an, et 1 personne sur 5 gardera des séquelles lourdes nécessitant une rééducation spécifique. Près de 900 000 personnes vivent avec la maladie d'Alzheimer aujourd'hui, un chiffre qui devrait doubler d'ici 2050 avec le vieillissement de la population. Les thérapeutes de terrain jouent un rôle majeur dans le dépistage précoce des déficits, l'adaptation des prises en charge et le maintien de l'autonomie des patients.",
-        detailedContent: `
-## Pourquoi une formation sur la neurologie et gériatrie ?
-
-**Tout est parti d'un questionnement :**
+        detailedContent: [
+          {
+            title: "Pourquoi une formation sur la neurologie et gériatrie ?",
+            content: `**Tout est parti d'un questionnement :**
 
 Pourquoi si peu de kinésithérapeutes sont attirés par la rééducation neurologique centrale ?
 
@@ -114,33 +114,29 @@ La vidéo ci-dessous résume notre approche : diagnostic, bilan, contexte, objec
 **Une formation pensée pour les cliniciens, par des cliniciens.**
 
 > Cette formation s'adresse à la fois aux thérapeutes spécialisés en neurologie et à ceux qui ne le sont pas.
-> L'approche est commune à la gériatrie et aux pathologies dégénératives.
+> L'approche est commune à la gériatrie et aux pathologies dégénératives.`
+          },
+          {
+            title: "Partie 1 : Introduction à la prise en charge neurologique globale",
+            content: `Spécificités de la rééducation neurologique en libéral. Place du patient dans la démarche de soins.
 
-## Contenu en cours de création
+Présentation du modèle bio-psycho-social appliqué.`
+          },
+          {
+            title: "Partie 2 : Analyse de la fonction nerveuse",
+            content: `On attaque dans le vif du sujet : savoir identifier les dysfonctions motrices, sensitives et cognitives à partir de tests cliniques.
 
-La formation apporte les éléments nécessaires pour mettre en place l'approche déficitaire.
-
-### Partie 1 : Introduction à la prise en charge neurologique globale
-
-Spécificités de la rééducation neurologique en libéral. Place du patient dans la démarche de soins.
-
-Présentation du modèle bio-psycho-social appliqué.
-
-### Partie 2 : Analyse de la fonction nerveuse
-
-On attaque dans le vif du sujet : savoir identifier les dysfonctions motrices, sensitives et cognitives à partir de tests cliniques.
-
-Exploration des signes :
+**Exploration des signes :**
 
 - Nerfs périphériques
 - Paires crâniennes
 - Signes centraux
 
-Corrélation avec les pathologies diagnostiquées.
-
-### Partie 3 : Troubles neurologiques diagnostiqués
-
-**Présentation clinique synthétique :**
+Corrélation avec les pathologies diagnostiquées.`
+          },
+          {
+            title: "Partie 3 : Troubles neurologiques diagnostiqués",
+            content: `**Présentation clinique synthétique :**
 
 SEP, SLA et myopathie, Guillain-Barré, AVC, Parkinson, Alzheimer, troubles cérébelleux.
 
@@ -148,21 +144,21 @@ SEP, SLA et myopathie, Guillain-Barré, AVC, Parkinson, Alzheimer, troubles cér
 
 Identifier les grandes lignes de rééducation spécifiques à chaque entité, signes cliniques et déficiences spécifiques.
 
-Anticiper l'évolution des troubles
-
-### Partie 4 : Dysfonctions et approche thérapeutique
-
-**Thèmes abordés :**
+Anticiper l'évolution des troubles`
+          },
+          {
+            title: "Partie 4 : Dysfonctions et approche thérapeutique",
+            content: `**Thèmes abordés :**
 
 - Fatigue (1h), SAOS (30min), spasticité (30min), douleurs neuropathiques (1h)
 - Cognition (2h)
 - Pharmacologie (30min)
 - Sarcopénie et ostéopénies (30min)
-- Risque de chute (2h)
-
-### Partie 5 : Comment organiser les séances & choisir les exercices
-
-**A. Profilage et individualisation**
+- Risque de chute (2h)`
+          },
+          {
+            title: "Partie 5 : Comment organiser les séances & choisir les exercices",
+            content: `**A. Profilage et individualisation**
 
 - Focus & locus
 - Fixation d'objectifs individualisés / avec le patient
@@ -183,8 +179,9 @@ Anticiper l'évolution des troubles
 
 **D. Exercices cognitifs et moteurs combinés**
 
-- Double tâche
-        `
+- Double tâche`
+          }
+        ]
       }
     ]
   }
