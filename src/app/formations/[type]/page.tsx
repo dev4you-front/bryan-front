@@ -75,23 +75,39 @@ export default async function FormationTypePage({ params }: Props) {
         {pageTitle}
       </h1>
       
-      {/* Section des prochaines formations pour ce type */}
-      {upcomingFormations.length > 0 && (
-        <UpcomingFormationsList 
-          formations={upcomingFormations}
-          title={`Prochaines formations ${type === 'neuro' ? 'Neuro' : 'Ischio'}`}
-          showFilters={true}
-        />
-      )}
-      
-      {formations.map((formation, index) => (
-        <FormationSection key={index} formation={formation} ctaConfig={getCtaConfig(type)}>
-          {/* Carrousel pour les formations avec des vidéos (ex: ischio-jambiers) */}
-          {formation.videos && (
-            <ConfCarousel items={formation.videos} />
+      {/* Affichage conditionnel selon le type de formation */}
+      {type === 'sport' ? (
+        /* Pour les formations sport (ischio), afficher uniquement le tableau */
+        upcomingFormations.length > 0 && (
+          <UpcomingFormationsList 
+            formations={upcomingFormations}
+            title="Prochaines formations Ischio"
+            displayMode="table"
+            showFilters={true}
+          />
+        )
+      ) : (
+        /* Pour les autres formations (neuro, vasculaire), afficher le format original */
+        <>
+          {/* Section des prochaines formations pour ce type */}
+          {upcomingFormations.length > 0 && (
+            <UpcomingFormationsList 
+              formations={upcomingFormations}
+              title={`Prochaines formations ${type === 'neuro' ? 'Neuro' : type}`}
+              showFilters={true}
+            />
           )}
-        </FormationSection>
-      ))}
+          
+          {formations.map((formation, index) => (
+            <FormationSection key={index} formation={formation} ctaConfig={getCtaConfig(type)}>
+              {/* Carrousel pour les formations avec des vidéos */}
+              {formation.videos && (
+                <ConfCarousel items={formation.videos} />
+              )}
+            </FormationSection>
+          ))}
+        </>
+      )}
     </SectionWrapper>
   );
 }
