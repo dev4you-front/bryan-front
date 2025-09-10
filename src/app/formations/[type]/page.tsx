@@ -59,10 +59,14 @@ export default async function FormationTypePage({ params }: Props) {
 
   // Obtenir les formations correspondant au type de page
   const getFormationsForType = (formationType: string) => {
+    // Récupérer toutes les formations à venir triées par date
+    const allUpcomingFormations = getUpcomingFormations();
+    
+    // Filtrer par type de formation
     if (formationType === 'sport') {
-      return getFormationsByType('sport');
+      return allUpcomingFormations.filter(formation => formation.type === 'sport');
     } else if (formationType === 'neuro') {
-      return getFormationsByType('neuro');
+      return allUpcomingFormations.filter(formation => formation.type === 'neuro');
     }
     return [];
   };
