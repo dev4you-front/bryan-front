@@ -120,7 +120,7 @@ La vidéo ci-dessous résume notre approche : diagnostic, bilan, contexte, objec
         sections: [
           {
             title: "Partie 1 : Introduction à la prise en charge neurologique globale",
-            content: \`Spécificités de la rééducation neurologique en libéral. Place du patient dans la démarche de soins.
+            content: `Spécificités de la rééducation neurologique en libéral. Place du patient dans la démarche de soins.
 
 Présentation du modèle bio-psycho-social appliqué.`
           },
