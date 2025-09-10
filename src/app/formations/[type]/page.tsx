@@ -79,16 +79,6 @@ export default async function FormationTypePage({ params }: Props) {
         {pageTitle}
       </h1>
       
-      {/* Section des prochaines formations pour ce type */}
-      {upcomingFormations.length > 0 && (
-        <UpcomingFormationsList 
-          formations={upcomingFormations}
-          title={`Prochaines formations ${type === 'neuro' ? 'Neuro' : type === 'sport' ? 'Ischio' : type}`}
-          displayMode={type === 'sport' || type === 'neuro' ? 'table' : 'cards'}
-          showFilters={true}
-        />
-      )}
-      
       {/* Section des formations avec vidéos et carrousels */}
       {formations.map((formation, index) => (
         <FormationSection key={index} formation={formation} ctaConfig={getCtaConfig(type)}>
@@ -98,6 +88,16 @@ export default async function FormationTypePage({ params }: Props) {
           )}
         </FormationSection>
       ))}
+      
+      {/* Section des prochaines formations pour ce type */}
+      {upcomingFormations.length > 0 && (
+        <UpcomingFormationsList 
+          formations={upcomingFormations}
+          title={`Prochaines formations ${type === 'neuro' ? 'Neuro' : type === 'sport' ? 'Ischio' : type}`}
+          displayMode={type === 'sport' || type === 'neuro' ? 'table' : 'cards'}
+          showFilters={true}
+        />
+      )}
     </SectionWrapper>
   );
 }
