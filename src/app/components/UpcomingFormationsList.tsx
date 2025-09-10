@@ -8,13 +8,15 @@ interface UpcomingFormationsListProps {
   showFilters?: boolean;
   maxDisplay?: number;
   title?: string;
+  displayMode?: 'cards' | 'table';
 }
 
 export default function UpcomingFormationsList({ 
   formations, 
   showFilters = false, 
   maxDisplay,
-  title = "Prochaines formations"
+  title = "Prochaines formations",
+  displayMode = 'cards'
 }: UpcomingFormationsListProps) {
   const [selectedCountry, setSelectedCountry] = useState<string>("all");
   const [selectedType, setSelectedType] = useState<string>("all");
@@ -150,81 +152,152 @@ export default function UpcomingFormationsList({
         </div>
       )}
 
-      {/* Liste des formations */}
-      <div className="grid gap-4 sm:gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
-        {displayedFormations.map((formation) => (
-          <div
-            key={formation.id}
-            className="bg-gradient-to-br from-gray-50 to-white border border-gray-200 rounded-xl p-6 shadow-sm hover:shadow-md transition-all duration-300 hover:scale-[1.02] relative overflow-hidden"
-          >
-            {/* Badge spécial pour MASTERCLASS */}
-            {formation.isSpecial && (
-              <div className="absolute top-0 right-0 bg-gradient-to-r from-brandviolet to-purple-600 text-white px-3 py-1 text-xs font-bold uppercase tracking-wider transform rotate-12 translate-x-2 -translate-y-1 shadow-lg">
-                {formation.specialLabel}
-              </div>
-            )}
-
-            {/* En-tête avec type et date */}
-            <div className="flex items-start justify-between mb-4">
-              <div className={`inline-flex items-center px-3 py-1 rounded-full text-sm font-medium border ${getTypeBadgeColor(formation.type)}`}>
-                {getTypeIcon(formation.type)}
-                <span className="ml-2 capitalize">
-                  {formation.type === 'neuro' ? 'Neuro' : 'Ischio'}
-                </span>
-              </div>
-              <div className="text-right">
-                <div className="text-lg font-bold text-brandviolet">
-                  {formatDate(formation.date, formation.endDate)}
+      {/* Affichage des formations */}
+      {displayMode === 'table' ? (
+        /* Affichage en tableau */
+        <div className="overflow-x-auto">
+          <table className="w-full bg-white rounded-lg shadow-sm overflow-hidden">
+            <thead className="bg-gray-50">
+              <tr>
+                <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Type</th>
+                <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Date</th>
+                <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Ville</th>
+                <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Organisateur</th>
+                <th className="px-6 py-3 text-center text-xs font-medium text-gray-500 uppercase tracking-wider">Inscription</th>
+              </tr>
+            </thead>
+            <tbody className="divide-y divide-gray-200">
+              {displayedFormations.map((formation, index) => (
+                <tr key={formation.id} className={`hover:bg-gray-50 transition-colors ${index % 2 === 0 ? 'bg-white' : 'bg-gray-25'}`}>
+                  <td className="px-6 py-4 whitespace-nowrap">
+                    <div className="flex items-center">
+                      <div className={`inline-flex items-center px-2 py-1 rounded-full text-xs font-medium ${getTypeBadgeColor(formation.type)}`}>
+                        {getTypeIcon(formation.type)}
+                        <span className="ml-1">
+                          {formation.type === 'neuro' ? 'Neuro' : 'Ischio'}
+                        </span>
+                      </div>
+                      {formation.isSpecial && (
+                        <span className="ml-2 inline-flex items-center px-2 py-1 rounded-full text-xs font-bold bg-gradient-to-r from-brandviolet to-purple-600 text-white">
+                          {formation.specialLabel}
+                        </span>
+                      )}
+                    </div>
+                  </td>
+                  <td className="px-6 py-4 whitespace-nowrap">
+                    <div className="text-sm font-medium text-gray-900">
+                      {formatDate(formation.date, formation.endDate)}
+                    </div>
+                  </td>
+                  <td className="px-6 py-4 whitespace-nowrap">
+                    <div className="text-sm text-gray-900">
+                      <div className="font-medium">{formation.city}</div>
+                      <div className="text-gray-500">({formation.country})</div>
+                    </div>
+                  </td>
+                  <td className="px-6 py-4 whitespace-nowrap">
+                    <div className="text-sm text-gray-900">{formation.organizer}</div>
+                  </td>
+                  <td className="px-6 py-4 whitespace-nowrap text-center">
+                    {formation.link ? (
+                      <a
+                        href={formation.link}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-flex items-center px-3 py-1 border border-transparent text-sm font-medium rounded-md text-white bg-brandviolet hover:bg-purple-600 transition-colors"
+                      >
+                        S'inscrire
+                        <svg className="ml-1 w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                        </svg>
+                      </a>
+                    ) : (
+                      <span className="inline-flex items-center px-3 py-1 text-sm font-medium text-gray-500 bg-gray-100 rounded-md">
+                        Bientôt disponible
+                      </span>
+                    )}
+                  </td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      ) : (
+        /* Affichage en cartes (mode original) */
+        <div className="grid gap-4 sm:gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+          {displayedFormations.map((formation) => (
+            <div
+              key={formation.id}
+              className="bg-gradient-to-br from-gray-50 to-white border border-gray-200 rounded-xl p-6 shadow-sm hover:shadow-md transition-all duration-300 hover:scale-[1.02] relative overflow-hidden"
+            >
+              {/* Badge spécial pour MASTERCLASS */}
+              {formation.isSpecial && (
+                <div className="absolute top-0 right-0 bg-gradient-to-r from-brandviolet to-purple-600 text-white px-3 py-1 text-xs font-bold uppercase tracking-wider transform rotate-12 translate-x-2 -translate-y-1 shadow-lg">
+                  {formation.specialLabel}
                 </div>
-                <div className="text-sm text-gray-500">2026</div>
-              </div>
-            </div>
-
-            {/* Informations de lieu */}
-            <div className="space-y-2 mb-4">
-              <div className="flex items-center text-gray-700">
-                <svg className="w-4 h-4 mr-2 text-brandviolet" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
-                </svg>
-                <span className="font-semibold">{formation.city}</span>
-                <span className="text-gray-500 ml-1">({formation.country})</span>
-              </div>
-              
-              <div className="flex items-center text-gray-600">
-                <svg className="w-4 h-4 mr-2 text-brandviolet" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
-                </svg>
-                <span className="text-sm">{formation.organizer}</span>
-              </div>
-            </div>
-
-            {/* Bouton d'action */}
-            <div className="mt-6">
-              {formation.link ? (
-                <a
-                  href={formation.link}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="w-full inline-flex items-center justify-center bg-brandviolet text-white font-semibold py-2 px-4 rounded-lg hover:bg-purple-600 transition-colors duration-200 text-sm"
-                >
-                  S'inscrire
-                  <svg className="ml-2 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
-                  </svg>
-                </a>
-              ) : (
-                <button
-                  disabled
-                  className="w-full inline-flex items-center justify-center bg-gray-300 text-gray-500 font-semibold py-2 px-4 rounded-lg cursor-not-allowed text-sm"
-                >
-                  Inscription bientôt disponible
-                </button>
               )}
+
+              {/* En-tête avec type et date */}
+              <div className="flex items-start justify-between mb-4">
+                <div className={`inline-flex items-center px-3 py-1 rounded-full text-sm font-medium border ${getTypeBadgeColor(formation.type)}`}>
+                  {getTypeIcon(formation.type)}
+                  <span className="ml-2 capitalize">
+                    {formation.type === 'neuro' ? 'Neuro' : 'Ischio'}
+                  </span>
+                </div>
+                <div className="text-right">
+                  <div className="text-lg font-bold text-brandviolet">
+                    {formatDate(formation.date, formation.endDate)}
+                  </div>
+                </div>
+              </div>
+
+              {/* Informations de lieu */}
+              <div className="space-y-2 mb-4">
+                <div className="flex items-center text-gray-700">
+                  <svg className="w-4 h-4 mr-2 text-brandviolet" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                  </svg>
+                  <span className="font-semibold">{formation.city}</span>
+                  <span className="text-gray-500 ml-1">({formation.country})</span>
+                </div>
+                
+                <div className="flex items-center text-gray-600">
+                  <svg className="w-4 h-4 mr-2 text-brandviolet" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
+                  </svg>
+                  <span className="text-sm">{formation.organizer}</span>
+                </div>
+              </div>
+
+              {/* Bouton d'action */}
+              <div className="mt-6">
+                {formation.link ? (
+                  <a
+                    href={formation.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="w-full inline-flex items-center justify-center bg-brandviolet text-white font-semibold py-2 px-4 rounded-lg hover:bg-purple-600 transition-colors duration-200 text-sm"
+                  >
+                    S'inscrire
+                    <svg className="ml-2 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                    </svg>
+                  </a>
+                ) : (
+                  <button
+                    disabled
+                    className="w-full inline-flex items-center justify-center bg-gray-300 text-gray-500 font-semibold py-2 px-4 rounded-lg cursor-not-allowed text-sm"
+                  >
+                    Inscription bientôt disponible
+                  </button>
+                )}
+              </div>
             </div>
-          </div>
-        ))}
-      </div>
+          ))}
+        </div>
+      )}
 
       {/* Message si plus de formations disponibles */}
       {maxDisplay && filteredFormations.length > maxDisplay && (

@@ -178,8 +178,8 @@ export default function Home() {
       <SectionWrapper maxWidth="7xl" className="bg-light-gray">
         <UpcomingFormationsList 
           formations={upcomingFormations}
-          maxDisplay={6}
           title="Mes prochaines formations"
+          displayMode="table"
         />
       </SectionWrapper>
     </div>
