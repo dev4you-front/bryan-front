@@ -1,7 +1,7 @@
 "use client";
 
 import { UpcomingFormation } from "@/types";
-import { useState } from "react";
+import { useState, useMemo } from "react";
 
 interface UpcomingFormationsListProps {
   formations: UpcomingFormation[];
@@ -20,6 +20,8 @@ export default function UpcomingFormationsList({
 }: UpcomingFormationsListProps) {
   const [selectedCountry, setSelectedCountry] = useState<string>("all");
   const [selectedType, setSelectedType] = useState<string>("all");
+  const [currentPage, setCurrentPage] = useState<number>(1);
+  const itemsPerPage = 10;
 
   // Filtrer les formations
   const filteredFormations = formations.filter(formation => {
@@ -28,10 +30,28 @@ export default function UpcomingFormationsList({
     return countryMatch && typeMatch;
   });
 
-  // Limiter le nombre d'affichage si spécifié
-  const displayedFormations = maxDisplay 
-    ? filteredFormations.slice(0, maxDisplay)
-    : filteredFormations;
+  // Calculer la pagination
+  const totalPages = Math.ceil(filteredFormations.length / itemsPerPage);
+  const startIndex = (currentPage - 1) * itemsPerPage;
+  const endIndex = startIndex + itemsPerPage;
+  
+  // Formations à afficher pour la page actuelle
+  const displayedFormations = useMemo(() => {
+    if (maxDisplay) {
+      return filteredFormations.slice(0, maxDisplay);
+    }
+    return filteredFormations.slice(startIndex, endIndex);
+  }, [filteredFormations, startIndex, endIndex, maxDisplay]);
+
+  // Réinitialiser la page quand les filtres changent
+  const handleFilterChange = (filterType: 'country' | 'type', value: string) => {
+    setCurrentPage(1);
+    if (filterType === 'country') {
+      setSelectedCountry(value);
+    } else {
+      setSelectedType(value);
+    }
+  };
 
   // Obtenir les pays uniques pour les filtres
   const countries = Array.from(new Set(formations.map(f => f.country)));
@@ -124,7 +144,7 @@ export default function UpcomingFormationsList({
             <select
               id="country-filter"
               value={selectedCountry}
-              onChange={(e) => setSelectedCountry(e.target.value)}
+              onChange={(e) => handleFilterChange('country', e.target.value)}
               className="px-3 py-2 border border-gray-300 rounded-lg text-sm focus:ring-2 focus:ring-brandviolet focus:border-transparent"
             >
               <option value="all">Tous</option>
@@ -141,7 +161,7 @@ export default function UpcomingFormationsList({
             <select
               id="type-filter"
               value={selectedType}
-              onChange={(e) => setSelectedType(e.target.value)}
+              onChange={(e) => handleFilterChange('type', e.target.value)}
               className="px-3 py-2 border border-gray-300 rounded-lg text-sm focus:ring-2 focus:ring-brandviolet focus:border-transparent"
             >
               <option value="all">Tous</option>
@@ -149,6 +169,13 @@ export default function UpcomingFormationsList({
               <option value="sport">Ischio</option>
             </select>
           </div>
+        </div>
+      )}
+
+      {/* Informations de pagination */}
+      {!maxDisplay && filteredFormations.length > itemsPerPage && (
+        <div className="mb-4 text-center text-sm text-gray-600">
+          Affichage de {startIndex + 1} à {Math.min(endIndex, filteredFormations.length)} sur {filteredFormations.length} formations
         </div>
       )}
 
@@ -299,7 +326,44 @@ export default function UpcomingFormationsList({
         </div>
       )}
 
-      {/* Message si plus de formations disponibles */}
+      {/* Contrôles de pagination */}
+      {!maxDisplay && totalPages > 1 && (
+        <div className="mt-8 flex items-center justify-center space-x-4">
+          <button
+            onClick={() => setCurrentPage(prev => Math.max(prev - 1, 1))}
+            disabled={currentPage === 1}
+            className="px-4 py-2 text-sm font-medium text-gray-700 bg-white border border-gray-300 rounded-lg hover:bg-gray-50 disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
+          >
+            Précédent
+          </button>
+          
+          <div className="flex items-center space-x-2">
+            {Array.from({ length: totalPages }, (_, i) => i + 1).map((page) => (
+              <button
+                key={page}
+                onClick={() => setCurrentPage(page)}
+                className={`px-3 py-2 text-sm font-medium rounded-lg transition-colors ${
+                  currentPage === page
+                    ? 'bg-brandviolet text-white'
+                    : 'text-gray-700 bg-white border border-gray-300 hover:bg-gray-50'
+                }`}
+              >
+                {page}
+              </button>
+            ))}
+          </div>
+          
+          <button
+            onClick={() => setCurrentPage(prev => Math.min(prev + 1, totalPages))}
+            disabled={currentPage === totalPages}
+            className="px-4 py-2 text-sm font-medium text-gray-700 bg-white border border-gray-300 rounded-lg hover:bg-gray-50 disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
+          >
+            Suivant
+          </button>
+        </div>
+      )}
+
+      {/* Message si plus de formations disponibles (seulement si maxDisplay est utilisé) */}
       {maxDisplay && filteredFormations.length > maxDisplay && (
         <div className="text-center mt-8">
           <p className="text-gray-600 mb-4">

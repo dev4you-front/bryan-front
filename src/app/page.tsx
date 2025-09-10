@@ -180,6 +180,7 @@ export default function Home() {
           formations={upcomingFormations}
           title="Mes prochaines formations"
           displayMode="table"
+          showFilters={true}
         />
       </SectionWrapper>
     </div>
