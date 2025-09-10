@@ -169,19 +169,19 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Section Physiomaps */}
-      <SectionWrapper maxWidth="7xl" className="bg-light-gray">
-        <PhysiomapsSection />
-      </SectionWrapper>
-
       {/* Section Prochaines formations */}
       <SectionWrapper maxWidth="7xl" className="bg-light-gray">
         <UpcomingFormationsList 
           formations={upcomingFormations}
-          title="Mes prochaines formations"
+          title="Mes prochaines formations de 2026"
           displayMode="table"
           showFilters={true}
         />
+      </SectionWrapper>
+
+      {/* Section Physiomaps */}
+      <SectionWrapper maxWidth="7xl" className="bg-light-gray">
+        <PhysiomapsSection />
       </SectionWrapper>
     </div>
   );

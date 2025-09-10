@@ -61,8 +61,6 @@ export default function UpcomingFormationsList({
     const date = new Date(dateStr);
     const endDate = endDateStr ? new Date(endDateStr) : null;
     
-    const year = date.getFullYear();
-    
     if (endDate && endDate.getTime() !== date.getTime()) {
       const startOptions: Intl.DateTimeFormatOptions = { 
         day: 'numeric', 
@@ -74,7 +72,7 @@ export default function UpcomingFormationsList({
         month: endDate.getMonth() !== date.getMonth() ? 'long' : undefined
       };
       
-      return `Du ${date.toLocaleDateString('fr-FR', startOptions)} au ${endDate.toLocaleDateString('fr-FR', endOptions)} ${year}`;
+      return `Du ${date.toLocaleDateString('fr-FR', startOptions)} au ${endDate.toLocaleDateString('fr-FR', endOptions)}`;
     }
     
     const singleOptions: Intl.DateTimeFormatOptions = { 
@@ -82,7 +80,7 @@ export default function UpcomingFormationsList({
       month: 'long'
     };
     
-    return `Le ${date.toLocaleDateString('fr-FR', singleOptions)} ${year}`;
+    return `Le ${date.toLocaleDateString('fr-FR', singleOptions)}`;
   };
 
   // Obtenir l'icône du type de formation
@@ -145,7 +143,7 @@ export default function UpcomingFormationsList({
               id="country-filter"
               value={selectedCountry}
               onChange={(e) => handleFilterChange('country', e.target.value)}
-              className="px-3 py-2 border border-gray-300 rounded-lg text-sm focus:ring-2 focus:ring-brandviolet focus:border-transparent"
+              className="px-3 py-2 border border-gray-300 rounded-lg text-sm text-gray-900 bg-white focus:ring-2 focus:ring-brandviolet focus:border-transparent"
             >
               <option value="all">Tous</option>
               {countries.map(country => (
@@ -162,7 +160,7 @@ export default function UpcomingFormationsList({
               id="type-filter"
               value={selectedType}
               onChange={(e) => handleFilterChange('type', e.target.value)}
-              className="px-3 py-2 border border-gray-300 rounded-lg text-sm focus:ring-2 focus:ring-brandviolet focus:border-transparent"
+              className="px-3 py-2 border border-gray-300 rounded-lg text-sm text-gray-900 bg-white focus:ring-2 focus:ring-brandviolet focus:border-transparent"
             >
               <option value="all">Tous</option>
               <option value="neuro">Neuro</option>
