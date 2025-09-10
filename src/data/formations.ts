@@ -87,7 +87,7 @@ export const formationsData: FormationsData = {
   geriatrie: {
     formations: [
       {
-        title: "Neurologie et Gériatrie : L'approche déficitaire qui change vos patients et votre pratique",
+        title: "",
         description: "En France, on recense plus de 150 000 nouveaux cas d'AVC par an, et 1 personne sur 5 gardera des séquelles lourdes nécessitant une rééducation spécifique. Près de 900 000 personnes vivent avec la maladie d'Alzheimer aujourd'hui, un chiffre qui devrait doubler d'ici 2050 avec le vieillissement de la population. Les thérapeutes de terrain jouent un rôle majeur dans le dépistage précoce des déficits, l'adaptation des prises en charge et le maintien de l'autonomie des patients.",
         detailedContent: [
           {
