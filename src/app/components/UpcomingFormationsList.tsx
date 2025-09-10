@@ -58,6 +58,10 @@ export default function UpcomingFormationsList({
   
   // Formater la date
   const formatDate = (dateStr: string, endDateStr?: string) => {
+    if (!dateStr) {
+      return "Date à définir";
+    }
+    
     const date = new Date(dateStr);
     const endDate = endDateStr ? new Date(endDateStr) : null;
     

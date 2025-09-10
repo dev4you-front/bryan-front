@@ -10,7 +10,7 @@ export const upcomingFormations: UpcomingFormation[] = [
     country: "France",
     organizer: "PhysioLearning",
     type: "neuro",
-    link: "https://physio-learning.com"
+    link: "https://physio-learning.com/courses/formation-troubles-neurologiques-bryan-littre/"
   },
   {
     id: "neuro-physio-learning-jan-27-28",
@@ -20,7 +20,7 @@ export const upcomingFormations: UpcomingFormation[] = [
     country: "France",
     organizer: "PhysioLearning",
     type: "neuro",
-    link: "https://physio-learning.com"
+    link: "https://physio-learning.com/courses/formation-troubles-neurologiques-bryan-littre/"
   },
   {
     id: "neuro-physio-learning-feb-3-4",
@@ -30,7 +30,7 @@ export const upcomingFormations: UpcomingFormation[] = [
     country: "France",
     organizer: "PhysioLearning",
     type: "neuro",
-    link: "https://physio-learning.com"
+    link: "https://physio-learning.com/courses/formation-troubles-neurologiques-bryan-littre/"
   },
   {
     id: "neuro-physio-learning-mar-31-apr-1",
@@ -40,7 +40,7 @@ export const upcomingFormations: UpcomingFormation[] = [
     country: "France",
     organizer: "PhysioLearning",
     type: "neuro",
-    link: "https://physio-learning.com"
+    link: "https://physio-learning.com/courses/formation-troubles-neurologiques-bryan-littre/"
   },
   {
     id: "neuro-physio-learning-apr-28-29",
@@ -50,7 +50,7 @@ export const upcomingFormations: UpcomingFormation[] = [
     country: "France",
     organizer: "PhysioLearning",
     type: "neuro",
-    link: "https://physio-learning.com"
+    link: "https://physio-learning.com/courses/formation-troubles-neurologiques-bryan-littre/"
   },
   {
     id: "neuro-physio-learning-may-5-6",
@@ -60,7 +60,7 @@ export const upcomingFormations: UpcomingFormation[] = [
     country: "France",
     organizer: "PhysioLearning",
     type: "neuro",
-    link: "https://physio-learning.com"
+    link: "https://physio-learning.com/courses/formation-troubles-neurologiques-bryan-littre/"
   },
   {
     id: "neuro-physio-learning-jun-16-17",
@@ -70,7 +70,7 @@ export const upcomingFormations: UpcomingFormation[] = [
     country: "France",
     organizer: "PhysioLearning",
     type: "neuro",
-    link: "https://physio-learning.com"
+    link: "https://physio-learning.com/courses/formation-troubles-neurologiques-bryan-littre/"
   },
   {
     id: "neuro-physio-learning-jul-21-22",
@@ -80,7 +80,7 @@ export const upcomingFormations: UpcomingFormation[] = [
     country: "France",
     organizer: "PhysioLearning",
     type: "neuro",
-    link: "https://physio-learning.com"
+    link: "https://physio-learning.com/courses/formation-troubles-neurologiques-bryan-littre/"
   },
   {
     id: "neuro-physio-learning-jul-28-29",
@@ -90,7 +90,7 @@ export const upcomingFormations: UpcomingFormation[] = [
     country: "France",
     organizer: "PhysioLearning",
     type: "neuro",
-    link: "https://physio-learning.com"
+    link: "https://physio-learning.com/courses/formation-troubles-neurologiques-bryan-littre/"
   },
   {
     id: "neuro-physio-learning-aug-18-19",
@@ -100,7 +100,7 @@ export const upcomingFormations: UpcomingFormation[] = [
     country: "France",
     organizer: "PhysioLearning",
     type: "neuro",
-    link: "https://physio-learning.com"
+    link: "https://physio-learning.com/courses/formation-troubles-neurologiques-bryan-littre/"
   },
 
   // Formations Neuro en France - RozoFormations
@@ -111,7 +111,8 @@ export const upcomingFormations: UpcomingFormation[] = [
     city: "Grenoble",
     country: "France",
     organizer: "RozoFormations",
-    type: "neuro"
+    type: "neuro",
+    link: "https://rozoformations.fr/"
   },
   {
     id: "neuro-rozo-jan-21-22",
@@ -120,7 +121,8 @@ export const upcomingFormations: UpcomingFormation[] = [
     city: "Grenoble",
     country: "France",
     organizer: "RozoFormations",
-    type: "neuro"
+    type: "neuro",
+    link: "https://rozoformations.fr/"
   },
 
   // Formations Neuro en France - ShakeUp
@@ -131,7 +133,8 @@ export const upcomingFormations: UpcomingFormation[] = [
     city: "Paris",
     country: "France",
     organizer: "ShakeUp",
-    type: "neuro"
+    type: "neuro",
+    link: "https://www.shake-up.org/neuropathiesbryanlittre"
   },
   {
     id: "neuro-shakeup-masterclass-may",
@@ -142,27 +145,28 @@ export const upcomingFormations: UpcomingFormation[] = [
     organizer: "ShakeUp",
     type: "neuro",
     isSpecial: true,
-    specialLabel: "MASTERCLASS"
+    specialLabel: "MASTERCLASS",
+    link: "https://www.shake-up.org/neuropathiesbryanlittre"
   },
   {
     id: "neuro-shakeup-jun-23-24",
-    date: "2026-06-23",
-    endDate: "2026-06-24",
-    city: "Paris",
-    country: "France",
+    city: "Lieu à définir",
+    country: "",
     organizer: "ShakeUp",
-    type: "neuro"
+    type: "neuro",
+    link: "https://www.shake-up.org/neuropathiesbryanlittre"
   },
 
-  // Formation Neuro en Martinique
+  // Formation Neuro en Martinique - PhysioLearning
   {
     id: "neuro-martinique-feb-28-mar-1",
     date: "2026-02-28",
     endDate: "2026-03-01",
     city: "Fort-de-France",
     country: "Martinique",
-    organizer: "Organisateur Local",
-    type: "neuro"
+    organizer: "PhysioLearning",
+    type: "neuro",
+    link: "https://physio-learning.com/courses/formation-troubles-neurologiques-bryan-littre/"
   },
 
   // Formations Neuro au Canada - Enosi CA
@@ -173,76 +177,89 @@ export const upcomingFormations: UpcomingFormation[] = [
     city: "Montréal",
     country: "Canada",
     organizer: "Enosi CA",
-    type: "neuro"
+    type: "neuro",
+    link: "https://enosi.ca/formations-continues-en-osteopathie/"
   },
 
-  // Formations Neuro en Suisse - Physport / Reactyv8
-  {
-    id: "neuro-physport-mar-21-22",
-    date: "2026-03-21",
-    endDate: "2026-03-22",
-    city: "Genève",
-    country: "Suisse",
-    organizer: "Physport / Reactyv8",
-    type: "neuro"
-  },
-  {
-    id: "neuro-physport-apr-11-12",
-    date: "2026-04-11",
-    endDate: "2026-04-12",
-    city: "Lausanne",
-    country: "Suisse",
-    organizer: "Physport / Reactyv8",
-    type: "neuro"
-  },
+  // Formations Neuro en Suisse - Physport
   {
     id: "neuro-physport-jun-8-9",
     date: "2026-06-08",
     endDate: "2026-06-09",
     city: "Genève",
     country: "Suisse",
-    organizer: "Physport / Reactyv8",
-    type: "neuro"
+    organizer: "Physport",
+    type: "neuro",
+    link: "https://www.physport.ch/formations/"
   },
 
-  // Formations Neuro en Belgique
+  // Formations Neuro en Suisse - Reactyv8
+  {
+    id: "neuro-reactyv8-aug-8-9",
+    date: "2026-08-08",
+    endDate: "2026-08-09",
+    city: "Chavornay",
+    country: "Suisse",
+    organizer: "Reactyv8",
+    type: "neuro",
+    link: "https://www.reactyv8.ch/produit/bryan-littre-formation-neuro/"
+  },
+
+  // Formations Neuro en Belgique - KymoFormation
   {
     id: "neuro-mons-feb-16",
     date: "2026-02-16",
-    endDate: "2026-02-20", // Semaine du 16 février
+    endDate: "2026-02-20",
     city: "Mons",
     country: "Belgique",
-    organizer: "Université de Mons et KymoFormation",
-    type: "neuro"
+    organizer: "KymoFormation",
+    type: "neuro",
+    link: "https://www.kymo-formation.com/"
   },
 
-  // Formations Ischio (Sport)
-  {
-    id: "sport-ischio-geneve-feb",
-    date: "2026-02-09",
-    endDate: "2026-02-10",
-    city: "Genève",
-    country: "Suisse",
-    organizer: "Bryan Littré",
-    type: "sport"
-  },
+  // Formations Ischio (Sport) - PhysioLearning
   {
     id: "sport-ischio-paris-apr",
     date: "2026-04-21",
     endDate: "2026-04-22",
     city: "Paris",
     country: "France",
-    organizer: "Bryan Littré",
+    organizer: "PhysioLearning",
     type: "sport"
   },
+
+  // Formations Ischio (Sport) - Physport
   {
-    id: "sport-ischio-lausanne-aug",
-    date: "2026-08-08",
-    endDate: "2026-08-09",
-    city: "Lausanne",
+    id: "sport-ischio-geneve-feb",
+    date: "2026-02-09",
+    endDate: "2026-02-10",
+    city: "Genève",
     country: "Suisse",
-    organizer: "Bryan Littré",
-    type: "sport"
+    organizer: "Physport",
+    type: "sport",
+    link: "https://www.physport.ch/formations/"
+  },
+  {
+    id: "sport-ischio-geneve-mar",
+    date: "2026-03-21",
+    endDate: "2026-03-22",
+    city: "Genève",
+    country: "Suisse",
+    organizer: "Physport",
+    type: "sport",
+    link: "https://www.physport.ch/formations/"
+  },
+
+  // Formations Ischio (Sport) - Reactyv8
+  {
+    id: "sport-ischio-chavornay-apr",
+    date: "2026-04-11",
+    endDate: "2026-04-12",
+    city: "Chavornay",
+    country: "Suisse",
+    organizer: "Reactyv8",
+    type: "sport",
+    link: "https://www.reactyv8.ch/produit/bryan-littre-formation-neuro/"
   }
 ];
 
@@ -255,8 +272,13 @@ export const getFormationsByType = (type: 'neuro' | 'sport'): UpcomingFormation[
 export const getUpcomingFormations = (limit?: number): UpcomingFormation[] => {
   const now = new Date();
   const upcoming = upcomingFormations
-    .filter(formation => new Date(formation.date) >= now)
-    .sort((a, b) => new Date(a.date).getTime() - new Date(b.date).getTime());
+    .filter(formation => formation.date ? new Date(formation.date) >= now : true)
+    .sort((a, b) => {
+      if (!a.date && !b.date) return 0;
+      if (!a.date) return 1;
+      if (!b.date) return -1;
+      return new Date(a.date).getTime() - new Date(b.date).getTime();
+    });
   
   return limit ? upcoming.slice(0, limit) : upcoming;
 };
