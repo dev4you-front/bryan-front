@@ -44,7 +44,7 @@ export const formationsData: FormationsData = {
           },
           {
             src: "https://www.youtube.com/embed/68jl8g9OP10?start=764",
-            title: "Troubles neuro vasculaires : fausses croyances et anecdotes - Interview avec Bryan Littré",
+            title: "Troubles neuro vasculaires : fausses croyances et anecdotes - Interview avec Bryan Littré",
           },
           {
             src: "https://www.youtube.com/embed/BBPKLrgUiJY",
@@ -66,7 +66,7 @@ export const formationsData: FormationsData = {
     formations: [ 
       {
         title: "",
-        description: "Critères de tri, signaux d'alarme et stratégies de prise en charge en troubles vasculaires.",
+        description: "Critères de tri, signaux d’alarme et stratégies de prise en charge en troubles vasculaires.",
         videos: [
           {
             src: "/video/video_vascu_bryan_olivia.mp4",
@@ -74,11 +74,11 @@ export const formationsData: FormationsData = {
           },
           {
             src: "https://www.youtube.com/embed/wJkIQ_0tExc",
-            title: "Triage vasculaire et accès direct - Explication de Bryan Littré et Olivia Ferrand",
+            title: "Triage vasculaire et accès direct - Explication de Bryan Littré et Olivia Ferrand",
           },
           {
             src: "https://www.youtube.com/embed/dAsUCdMmZNc?start=2833",
-            title: "Etes-vous prêts pour l'accès direct ? Le triage que vous faites déjà - Conférence CIFEPK 2024 avec Bryan Littré",
+            title: "Etes-vous prêts pour l’accès direct ? Le triage que vous faites déjà - Conférence CIFEPK 2024 avec Bryan Littré",
           },
         ],
       },
@@ -116,29 +116,31 @@ La vidéo ci-dessous résume notre approche : diagnostic, bilan, contexte, objec
 > Cette formation s'adresse à la fois aux thérapeutes spécialisés en neurologie et à ceux qui ne le sont pas.
 > L'approche est commune à la gériatrie et aux pathologies dégénératives.
 
-        `,
-        sections: [
-          {
-            title: "Partie 1 : Introduction à la prise en charge neurologique globale",
-            content: `Spécificités de la rééducation neurologique en libéral. Place du patient dans la démarche de soins.
+## Contenu en cours de création
 
-Présentation du modèle bio-psycho-social appliqué.`
-          },
-          {
-            title: "Partie 2 : Analyse de la fonction nerveuse",
-            content: \`On attaque dans le vif du sujet : savoir identifier les dysfonctions motrices, sensitives et cognitives à partir de tests cliniques.
+La formation apporte les éléments nécessaires pour mettre en place l'approche déficitaire.
 
-**Exploration des signes :**
+### Partie 1 : Introduction à la prise en charge neurologique globale
+
+Spécificités de la rééducation neurologique en libéral. Place du patient dans la démarche de soins.
+
+Présentation du modèle bio-psycho-social appliqué.
+
+### Partie 2 : Analyse de la fonction nerveuse
+
+On attaque dans le vif du sujet : savoir identifier les dysfonctions motrices, sensitives et cognitives à partir de tests cliniques.
+
+Exploration des signes :
 
 - Nerfs périphériques
 - Paires crâniennes
 - Signes centraux
 
-Corrélation avec les pathologies diagnostiquées.`
-          },
-          {
-            title: "Partie 3 : Troubles neurologiques diagnostiqués",
-            content: `**Présentation clinique synthétique :**
+Corrélation avec les pathologies diagnostiquées.
+
+### Partie 3 : Troubles neurologiques diagnostiqués
+
+**Présentation clinique synthétique :**
 
 SEP, SLA et myopathie, Guillain-Barré, AVC, Parkinson, Alzheimer, troubles cérébelleux.
 
@@ -146,21 +148,21 @@ SEP, SLA et myopathie, Guillain-Barré, AVC, Parkinson, Alzheimer, troubles cér
 
 Identifier les grandes lignes de rééducation spécifiques à chaque entité, signes cliniques et déficiences spécifiques.
 
-Anticiper l'évolution des troubles.`
-          },
-          {
-            title: "Partie 4 : Dysfonctions et approche thérapeutique",
-            content: `**Thèmes abordés :**
+Anticiper l'évolution des troubles
+
+### Partie 4 : Dysfonctions et approche thérapeutique
+
+**Thèmes abordés :**
 
 - Fatigue (1h), SAOS (30min), spasticité (30min), douleurs neuropathiques (1h)
 - Cognition (2h)
 - Pharmacologie (30min)
 - Sarcopénie et ostéopénies (30min)
-- Risque de chute (2h)`
-          },
-          {
-            title: "Partie 5 : Comment organiser les séances & choisir les exercices",
-            content: `**A. Profilage et individualisation**
+- Risque de chute (2h)
+
+### Partie 5 : Comment organiser les séances & choisir les exercices
+
+**A. Profilage et individualisation**
 
 - Focus & locus
 - Fixation d'objectifs individualisés / avec le patient
@@ -181,9 +183,8 @@ Anticiper l'évolution des troubles.`
 
 **D. Exercices cognitifs et moteurs combinés**
 
-- Double tâche`
-          }
-        ]
+- Double tâche
+        `
       }
     ]
   }
