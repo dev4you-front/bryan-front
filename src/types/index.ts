@@ -53,6 +53,9 @@ export interface FormationsData {
   geriatrie: {
     formations: Formation[];
   };
+  geriatrie: {
+    formations: Formation[];
+  };
 }
 
 export interface UpcomingFormation {

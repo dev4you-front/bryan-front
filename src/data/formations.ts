@@ -1,89 +1,107 @@
-import { FormationsData, PhysiomapsSection } from "@/types";
+import { notFound } from "next/navigation";
+import { formationsData } from "@/data/formations";
+import ConfCarousel from "@/app/components/ConfCarousel";
+import FormationSection from "@/app/components/FormationSection";
+import SectionWrapper from "@/app/components/SectionWrapper";
+import UpcomingFormationsList from "@/app/components/UpcomingFormationsList";
+import { getFormationsByType, getUpcomingFormations } from "@/data/upcomingFormations";
 
-export const formationsData: FormationsData = {
-  sport: {
-    formations: [
-      {
-        title: "",
-        description: "Approche pratique et fondée sur les preuves pour la prise en charge des lésions des ischio-jambiers.",
-        videos: [
-          {
-            src: "/video/teasing_sport.mp4",
-            title: "Petit teasing sympa' de la formation. N'hésite pas a scroll pour voir du concret",
-          },
-          {
-            src: "https://www.youtube.com/embed/QPdA4npgKck",
-            title: "Comment ne plus se BLESSER aux ISCHIOS - Interview avec Bryan Littré",
-          },
-          {
-            src: "https://www.youtube.com/embed/VVLn86-t-Sg",
-            title: "Récidives dans le sport : à qui la faute ? - Conférence SPO avec Bryan Littré",
-          },
-          {
-            src: "https://www.youtube.com/embed/E4kTrmriU64",
-            title: "Retour au sport et lésions sportives du membre inférieur - Conférence au CIFEPK 2022 avec Gaetan HENRY et Bryan LITTRE ",
-          },
-        ],
-      },
-    ],
-  },
-  neuro: {
-    formations: [
-      {
-        title: "",
-        description: "Méthodologie de bilan neuro MSK et application clinique étape par étape.",
+type Props = {
+  params: Promise<{ type: string }>;
+};
 
-        videos: [
-          {
-            src: "https://www.youtube.com/embed/3zUh9YdN9MU",
-            title: "Ischémie transitoire de nerf. Exemple par la myélopathie cervicale - Formation donnée par Par Bryan LITTRE",
-          },
-          {
-            src: "https://www.youtube.com/embed/BdSFGH50mC0",
-            title: "La claudication intermittente expliquée par Bryan LITTRE",
-          },
-          {
-            src: "https://www.youtube.com/embed/68jl8g9OP10?start=764",
-            title: "Troubles neuro vasculaires : fausses croyances et anecdotes - Interview avec Bryan Littré",
-          },
-          {
-            src: "https://www.youtube.com/embed/BBPKLrgUiJY",
-            title: "Le syndrome du piriforme : Exercice pour mieux raisonner -  Conférence au CIFEPK 2022 avec Bryan LITTRE ",
-          },
-          {
-            src: "https://www.youtube.com/embed/NGuEx26DybM?start=2402",
-            title: "Ischémies transitoires des nerfs - Interview avec Bryan Littré Partie 1",
-          },
-          {
-            src: "https://www.youtube.com/embed/Xl3fjP2xnOw",
-            title: "Ischémies transitoires des nerfs - Interview avec Bryan Littré Partie 2",
-          },
-        ],
-      },
-    ],
-  },
-  vasculaire: {
-    formations: [ 
-      {
-        title: "",
-        description: "Critères de tri, signaux d’alarme et stratégies de prise en charge en troubles vasculaires.",
-        videos: [
-          {
-            src: "/video/video_vascu_bryan_olivia.mp4",
-            title: "Teasing et explication de la formation Cardiovasculaire",
-          },
-          {
-            src: "https://www.youtube.com/embed/wJkIQ_0tExc",
-            title: "Triage vasculaire et accès direct - Explication de Bryan Littré et Olivia Ferrand",
-          },
-          {
-            src: "https://www.youtube.com/embed/dAsUCdMmZNc?start=2833",
-            title: "Etes-vous prêts pour l’accès direct ? Le triage que vous faites déjà - Conférence CIFEPK 2024 avec Bryan Littré",
-          },
-        ],
-      },
-    ], 
-  },
+export async function generateStaticParams() {
+  return [
+    { type: 'sport' },
+    { type: 'neuro' },
+    { type: 'vasculaire' },
+    { type: 'geriatrie' },
+  ];
+} 
+
+export default async function FormationTypePage({ params }: Props) {
+  const resolvedParams = await params;
+  const { type } = resolvedParams;
+
+  if (!['sport', 'neuro', 'vasculaire', 'geriatrie'].includes(type)) {
+    notFound();
+  }
+
+  const data = formationsData[type as keyof typeof formationsData];
+  
+  if (!data) {
+    notFound();
+  }
+
+  const { formations } = data;
+
+  // Mapping des types vers des titres descriptifs
+  const titleMap = {
+    sport: "Comment prendre en charge correctement les lésions des ischio-jambiers ?",
+    neuro: "Troubles neurologiques en musculo-squelettique : Réussir ses bilans et savoir quoi en faire",  
+    vasculaire: "Troubles vasculaires : Apprendre à trier pour savoir traiter !"
+  };
+
+  const pageTitle = titleMap[type as keyof typeof titleMap];
+
+  // Configuration spécifique pour l'appel à l'action selon le type de formation
+  const getCtaConfig = (formationType: string) => {
+    if (formationType === 'vasculaire') {
+      return {
+        mainText: "Tu veux savoir la date, l'heure et l'endroit de sa prochaine formation ?",
+        subText: "Clique sur le lien ci-dessous c'est là que tout se passe.",
+        buttonText: "S'inscrire",
+        buttonLink: "https://physio-learning.com/courses/formation-troubles-vasculaires/"
+      };
+    }
+    // Pour les autres formations (sport, neuro), on utilise la configuration par défaut
+    return undefined;
+  };
+
+  // Obtenir les formations correspondant au type de page
+  const getFormationsForType = (formationType: string) => {
+    // Récupérer toutes les formations à venir triées par date
+    const allUpcomingFormations = getUpcomingFormations();
+    
+    // Filtrer par type de formation
+    if (formationType === 'sport') {
+      return allUpcomingFormations.filter(formation => formation.type === 'sport');
+    } else if (formationType === 'neuro') {
+      return allUpcomingFormations.filter(formation => formation.type === 'neuro');
+    }
+    return [];
+  };
+
+  const upcomingFormations = getFormationsForType(type);
+
+  return (
+    <SectionWrapper maxWidth="7xl" id="formations">
+      <h1 className="text-center text-3xl md:text-4xl font-extrabold text-gray-900 mb-8 uppercase tracking-wide">
+        {pageTitle}
+      </h1>
+      
+      {/* Section des formations avec vidéos et carrousels */}
+      {formations.map((formation, index) => (
+        <FormationSection key={index} formation={formation} ctaConfig={getCtaConfig(type)}>
+          {/* Carrousel pour les formations avec des vidéos */}
+          {formation.videos && (
+            <ConfCarousel items={formation.videos} />
+          )}
+        </FormationSection>
+      ))}
+      
+      {/* Section des prochaines formations pour ce type */}
+      {upcomingFormations.length > 0 && (
+        <UpcomingFormationsList 
+          formations={upcomingFormations}
+          title={`Prochaines formations ${type === 'neuro' ? 'Neuro' : type === 'sport' ? 'Ischio' : type}`}
+          displayMode={type === 'sport' || type === 'neuro' ? 'table' : 'cards'}
+          showFilters={true}
+        />
+      )}
+    </SectionWrapper>
+  );
+}
   geriatrie: {
     formations: [
       {
@@ -92,10 +110,3 @@ export const formationsData: FormationsData = {
       },
     ],
   },
-};
-
-export const physiomapsSection: PhysiomapsSection = {
-  title: "Formations interactives Physiomaps",
-  description: "Accédez à mes formations neurologiques interactives sur Physiomaps",
-  url: "https://physiomaps.com/?no_header=true",
-};
