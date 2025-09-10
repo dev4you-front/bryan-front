@@ -173,7 +173,7 @@ export default function Home() {
       <SectionWrapper maxWidth="7xl" className="bg-light-gray">
         <UpcomingFormationsList 
           formations={upcomingFormations}
-          title="Mes prochaines formations de 2026"
+          title="Mes prochaines formations présentielles de 2026"
           displayMode="table"
           showFilters={true}
         />
