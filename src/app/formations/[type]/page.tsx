@@ -15,6 +15,7 @@ export async function generateStaticParams() {
     { type: 'sport' },
     { type: 'neuro' },
     { type: 'vasculaire' },
+    { type: 'geriatrie' },
   ];
 } 
 
@@ -22,7 +23,7 @@ export default async function FormationTypePage({ params }: Props) {
   const resolvedParams = await params;
   const { type } = resolvedParams;
 
-  if (!['sport', 'neuro', 'vasculaire'].includes(type)) {
+  if (!['sport', 'neuro', 'vasculaire', 'geriatrie'].includes(type)) {
     notFound();
   }
 

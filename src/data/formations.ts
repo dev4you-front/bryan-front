@@ -84,6 +84,14 @@ export const formationsData: FormationsData = {
       },
     ], 
   },
+  geriatrie: {
+    formations: [
+      {
+        title: "",
+        description: "L'approche déficitaire qui change vos patients et votre pratique en neurologie et gériatrie.",
+      },
+    ],
+  },
 };
 
 export const physiomapsSection: PhysiomapsSection = {
