@@ -148,14 +148,6 @@ export const upcomingFormations: UpcomingFormation[] = [
     specialLabel: "MASTERCLASS",
     link: "https://www.shake-up.org/neuropathiesbryanlittre"
   },
-  {
-    id: "neuro-shakeup-jun-23-24",
-    city: "Lieu à définir",
-    country: "",
-    organizer: "ShakeUp",
-    type: "neuro",
-    link: "https://www.shake-up.org/neuropathiesbryanlittre"
-  },
 
   // Formation Neuro en Martinique - PhysioLearning
   {
