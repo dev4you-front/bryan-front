@@ -44,7 +44,7 @@ export const formationsData: FormationsData = {
           },
           {
             src: "https://www.youtube.com/embed/68jl8g9OP10?start=764",
-            title: "Troubles neuro vasculaires : fausses croyances et anecdotes - Interview avec Bryan Littré",
+            title: "Troubles neuro vasculaires : fausses croyances et anecdotes - Interview avec Bryan Littré",
           },
           {
             src: "https://www.youtube.com/embed/BBPKLrgUiJY",
@@ -66,7 +66,7 @@ export const formationsData: FormationsData = {
     formations: [ 
       {
         title: "",
-        description: "Critères de tri, signaux d’alarme et stratégies de prise en charge en troubles vasculaires.",
+        description: "Critères de tri, signaux d'alarme et stratégies de prise en charge en troubles vasculaires.",
         videos: [
           {
             src: "/video/video_vascu_bryan_olivia.mp4",
@@ -74,11 +74,11 @@ export const formationsData: FormationsData = {
           },
           {
             src: "https://www.youtube.com/embed/wJkIQ_0tExc",
-            title: "Triage vasculaire et accès direct - Explication de Bryan Littré et Olivia Ferrand",
+            title: "Triage vasculaire et accès direct - Explication de Bryan Littré et Olivia Ferrand",
           },
           {
             src: "https://www.youtube.com/embed/dAsUCdMmZNc?start=2833",
-            title: "Etes-vous prêts pour l’accès direct ? Le triage que vous faites déjà - Conférence CIFEPK 2024 avec Bryan Littré",
+            title: "Etes-vous prêts pour l'accès direct ? Le triage que vous faites déjà - Conférence CIFEPK 2024 avec Bryan Littré",
           },
         ],
       },
@@ -116,16 +116,17 @@ La vidéo ci-dessous résume notre approche : diagnostic, bilan, contexte, objec
 > Cette formation s'adresse à la fois aux thérapeutes spécialisés en neurologie et à ceux qui ne le sont pas.
 > L'approche est commune à la gériatrie et aux pathologies dégénératives.
 
+        `,
         sections: [
           {
             title: "Partie 1 : Introduction à la prise en charge neurologique globale",
-            content: `Spécificités de la rééducation neurologique en libéral. Place du patient dans la démarche de soins.
+            content: \`Spécificités de la rééducation neurologique en libéral. Place du patient dans la démarche de soins.
 
 Présentation du modèle bio-psycho-social appliqué.`
           },
           {
             title: "Partie 2 : Analyse de la fonction nerveuse",
-            content: `On attaque dans le vif du sujet : savoir identifier les dysfonctions motrices, sensitives et cognitives à partir de tests cliniques.
+            content: \`On attaque dans le vif du sujet : savoir identifier les dysfonctions motrices, sensitives et cognitives à partir de tests cliniques.
 
 **Exploration des signes :**
 
@@ -176,13 +177,13 @@ Anticiper l'évolution des troubles.`
 - Renforcement musculaire
 - Travail cardio-respiratoire
 - Relevé du sol
-- Équilibre postural`
-          }
-        ]
+- Équilibre postural
+
 **D. Exercices cognitifs et moteurs combinés**
 
-- Double tâche
-        `
+- Double tâche`
+          }
+        ]
       }
     ]
   }
