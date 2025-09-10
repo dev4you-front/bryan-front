@@ -84,7 +84,7 @@ export default async function FormationTypePage({ params }: Props) {
         <UpcomingFormationsList 
           formations={upcomingFormations}
           title={`Prochaines formations ${type === 'neuro' ? 'Neuro' : type === 'sport' ? 'Ischio' : type}`}
-          displayMode={type === 'sport' ? 'table' : 'cards'}
+          displayMode={type === 'sport' || type === 'neuro' ? 'table' : 'cards'}
           showFilters={true}
         />
       )}
