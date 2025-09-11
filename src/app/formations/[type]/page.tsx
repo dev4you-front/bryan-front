@@ -98,7 +98,18 @@ export default async function FormationTypePage({ params }: Props) {
         <FormationSection key={index} formation={formation} ctaConfig={getCtaConfig(type)}>
           {/* Contenu spécifique selon le type de formation */}
           {type === 'geriatrie' && formation.detailedContent && Array.isArray(formation.detailedContent) ? (
-            <div className="w-full max-w-4xl">
+            <div className="w-full max-w-4xl space-y-8">
+              {/* Image pour la formation gériatrie */}
+              <div className="flex justify-center">
+                <Image 
+                  src="/images/geria.jpg" 
+                  alt="Formation Neurologie et Gériatrie - Bryan Littré" 
+                  width={600}
+                  height={400}
+                  className="rounded-xl shadow-lg object-cover"
+                  priority
+                />
+              </div>
               <Accordion sections={formation.detailedContent as AccordionSection[]} />
             </div>
           ) : type === 'geriatrie' && formation.detailedContent && typeof formation.detailedContent === 'string' ? (
