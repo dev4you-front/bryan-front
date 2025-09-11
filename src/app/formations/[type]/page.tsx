@@ -9,6 +9,7 @@ import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 import Accordion from "@/app/components/Accordion";
 import { AccordionSection } from "@/types";
+import Image from "next/image";
 
 type Props = {
   params: Promise<{ type: string }>;
