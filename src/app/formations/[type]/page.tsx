@@ -4,7 +4,7 @@ import ConfCarousel from "@/app/components/ConfCarousel";
 import FormationSection from "@/app/components/FormationSection";
 import SectionWrapper from "@/app/components/SectionWrapper";
 import UpcomingFormationsList from "@/app/components/UpcomingFormationsList";
-import { getFormationsByType, getUpcomingFormations } from "@/data/upcomingFormations";
+import { getUpcomingFormations } from "@/data/upcomingFormations";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 import Accordion from "@/app/components/Accordion";
@@ -120,13 +120,13 @@ export default async function FormationTypePage({ params }: Props) {
                   remarkPlugins={[remarkGfm]}
                   components={{
                     // Assurer que les composants sont rendus correctement
-                    h2: ({children}) => <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">{children}</h2>,
-                    h3: ({children}) => <h3 className="text-xl font-bold text-gray-900 mt-6 mb-3">{children}</h3>,
-                    p: ({children}) => <p className="text-gray-700 mb-4 leading-relaxed">{children}</p>,
-                    ul: ({children}) => <ul className="mb-4 pl-6 list-disc">{children}</ul>,
-                    li: ({children}) => <li className="text-gray-700 mb-2">{children}</li>,
-                    blockquote: ({children}) => <blockquote className="border-l-4 border-brandviolet bg-gray-50 p-4 my-6 italic">{children}</blockquote>,
-                    strong: ({children}) => <strong className="font-bold text-gray-900">{children}</strong>
+                    h2: ({children}: {children?: React.ReactNode}) => <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">{children}</h2>,
+                    h3: ({children}: {children?: React.ReactNode}) => <h3 className="text-xl font-bold text-gray-900 mt-6 mb-3">{children}</h3>,
+                    p: ({children}: {children?: React.ReactNode}) => <p className="text-gray-700 mb-4 leading-relaxed">{children}</p>,
+                    ul: ({children}: {children?: React.ReactNode}) => <ul className="mb-4 pl-6 list-disc">{children}</ul>,
+                    li: ({children}: {children?: React.ReactNode}) => <li className="text-gray-700 mb-2">{children}</li>,
+                    blockquote: ({children}: {children?: React.ReactNode}) => <blockquote className="border-l-4 border-brandviolet bg-gray-50 p-4 my-6 italic">{children}</blockquote>,
+                    strong: ({children}: {children?: React.ReactNode}) => <strong className="font-bold text-gray-900">{children}</strong>
                   }}
                 >
                   {formation.detailedContent}

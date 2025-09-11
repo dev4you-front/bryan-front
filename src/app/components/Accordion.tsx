@@ -75,7 +75,7 @@ export default function Accordion({ sections, className = '' }: AccordionProps) 
           >
             {/* En-tête de l'accordéon */}
             <button
-              ref={(el) => (buttonRefs.current[index] = el)}
+              ref={(el) => { buttonRefs.current[index] = el; }}
               id={headerId}
               className="w-full px-6 py-4 text-left bg-gray-50 hover:bg-gray-100 focus:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-brandviolet focus:ring-inset transition-colors duration-200 flex items-center justify-between"
               onClick={() => toggleSection(index)}
@@ -119,28 +119,28 @@ export default function Accordion({ sections, className = '' }: AccordionProps) 
                   <ReactMarkdown
                     remarkPlugins={[remarkGfm]}
                     components={{
-                      h2: ({ children }) => (
+                      h2: ({ children }: { children?: React.ReactNode }) => (
                         <h4 className="text-xl font-bold text-gray-900 mt-6 mb-3">
                           {children}
                         </h4>
                       ),
-                      h3: ({ children }) => (
+                      h3: ({ children }: { children?: React.ReactNode }) => (
                         <h5 className="text-lg font-bold text-gray-900 mt-4 mb-2">
                           {children}
                         </h5>
                       ),
-                      p: ({ children }) => (
+                      p: ({ children }: { children?: React.ReactNode }) => (
                         <p className="text-gray-700 mb-4 leading-relaxed">
                           {children}
                         </p>
                       ),
-                      ul: ({ children }) => (
+                      ul: ({ children }: { children?: React.ReactNode }) => (
                         <ul className="mb-4 pl-6 list-disc">{children}</ul>
                       ),
-                      li: ({ children }) => (
+                      li: ({ children }: { children?: React.ReactNode }) => (
                         <li className="text-gray-700 mb-2">{children}</li>
                       ),
-                      strong: ({ children }) => (
+                      strong: ({ children }: { children?: React.ReactNode }) => (
                         <strong className="font-bold text-gray-900">
                           {children}
                         </strong>
